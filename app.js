@@ -35,17 +35,20 @@ client.on("message", message => {
     else if(message.content.startsWith("!augment")){
         search(message, data.augments, 8)
     }
+    else if(message.content.startsWith("!count")){
+        counting(message, data)
+    }
 
 });
 
-function search(message, selectedCards, trimLength){
+function search(message, selectedCards, sliceLength){
     const cardEmbed = new Discord.MessageEmbed()
     channel = message.channel
     var doCheck = new Boolean(true)
     cardList = []
     cardNames = []
 
-    const args = message.content.slice(trimLength).trim()
+    const args = message.content.slice(sliceLength).trim()
     const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
     const cardName = argsURL.toLowerCase();
 
@@ -90,5 +93,45 @@ function search(message, selectedCards, trimLength){
     }
 }
 
+function counting(message, data){
+    const type = message.content.slice(6).trim()
+    if(type == "units" || type == "unit"){
+        const response = "There are " + data.units.length + " units in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        message.reply(response)
+    }
+    else if(type == "spells" || type == "spell"){
+        const response = "There are " + data.spells.length + " spells in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        message.reply(response)
+    }
+    else if(type == "augments" || type == "augment"){
+        const response = "There are " + data.augments.length + " augments in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        message.reply(response)
+    }
+    else if(type == "champions" || type == "champion"){
+        const response = "There are " + data.champions.length + " champions in Argent Saga"
+        message.reply(response)
+    }
+    else if(type == "spirits" || type == "spirit"){
+        const response = "There are " + data.spirits.length + " spirits in Argent Saga"
+        message.reply(response)
+    }
+    else if(type == "towers" || type == "tower"){
+        const response = "There are " + data.towers.length + " towers in Argent Saga"
+        message.reply(response)
+    }
+    else if(type == "shards" || type == "shard"){
+        tracker = data.shards.length - 2
+        const response = "There are " + tracker + " shards in Argent Saga"
+        message.reply(response)
+    }
+    else if(type == "cards" || type == "card"){
+        const response = "There are " + data.cards.length + " cards in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        message.reply(response)
+    }
+    else{
+        message.reply("Sorry, that is a not a valid card type to count")
+    }
+}
+
 // Log in the bot with the token
-client.login("NzQ1MjU2NzY4MDg2NDc0Nzcy.XzvIcw.mRMOGEX1yJEBC7svjIEwV4KRMAc");
+client.login("***");
