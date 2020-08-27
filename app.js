@@ -16,7 +16,7 @@ client.on("message", message => {
 
     if (message.content.startsWith("!card")){
         const args = message.content.slice(5).trim()
-        const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and");
+        const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
         const cardName = argsURL.toLowerCase();
 
         cardList = []
@@ -67,4 +67,4 @@ client.on("message", message => {
 });
 
 // Log in the bot with the token
-client.login("*****");
+client.login("***");
