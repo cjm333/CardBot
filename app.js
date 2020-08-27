@@ -96,15 +96,15 @@ function search(message, selectedCards, sliceLength){
 function counting(message, data){
     const type = message.content.slice(6).trim()
     if(type == "units" || type == "unit"){
-        const response = "There are " + data.units.length + " units in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        const response = "There are " + data.units.length + " units in Argent Saga"
         message.reply(response)
     }
     else if(type == "spells" || type == "spell"){
-        const response = "There are " + data.spells.length + " spells in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        const response = "There are " + data.spells.length + " spells in Argent Saga"
         message.reply(response)
     }
     else if(type == "augments" || type == "augment"){
-        const response = "There are " + data.augments.length + " augments in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        const response = "There are " + data.augments.length + " augments in Argent Saga"
         message.reply(response)
     }
     else if(type == "champions" || type == "champion"){
@@ -125,7 +125,7 @@ function counting(message, data){
         message.reply(response)
     }
     else if(type == "cards" || type == "card"){
-        const response = "There are " + data.cards.length + " cards in Argent Saga (Reminder: Set 3 is not in this database yet)"
+        const response = "There are " + data.cards.length + " cards in Argent Saga"
         message.reply(response)
     }
     else{
