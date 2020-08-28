@@ -25,7 +25,17 @@
     {"append": "weregarurumon-st2-08", "name": "WereGarurumon (ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08.png", "effect": "", "inheritable": ""},
     {"append": "zudomon-st2-09", "name": "Zudomon (ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09.png", "effect": "", "inheritable": ""},
     {"append": "plesiomon-st2-10", "name": "Plesiomon (ST2-10)", "url": "https://digimon-bucket.s3.amazonaws.com/plesiomon-st2-10.png", "effect": "", "inheritable": ""},
-    {"append": "metalgarurumon-st2-11", "name": "MetalGarurumon (ST2-11)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-st2-11.png", "effect": "", "inheritable": ""}
+    {"append": "metalgarurumon-st2-11", "name": "MetalGarurumon (ST2-11)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-st2-11.png", "effect": "", "inheritable": ""},
+    {"append": "salamon-st3-02", "name": "Salamon (ST3-02)", "url": "https://digimon-bucket.s3.amazonaws.com/salamon-st3-02.png", "effect": "", "inheritable": ""},
+    {"append": "tapirmon-st3-03", "name": "Tapirmon (ST3-03)", "url": "https://digimon-bucket.s3.amazonaws.com/tapirmon-st3-03.png", "effect": "", "inheritable": ""},
+    {"append": "patamon-st3-04", "name": "Patamon (ST3-04)", "url": "https://digimon-bucket.s3.amazonaws.com/patamon-st3-04.png", "effect": "", "inheritable": ""},
+    {"append": "angemon-st3-05", "name": "Angemon (ST3-05)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-st3-05.png", "effect": "", "inheritable": ""},
+    {"append": "gatomon-st3-06", "name": "Gatomon (ST3-06)", "url": "https://digimon-bucket.s3.amazonaws.com/gatomon-st3-06.png", "effect": "", "inheritable": ""},
+    {"append": "unimon-st3-07", "name": "Unimon (ST3-07)", "url": "https://digimon-bucket.s3.amazonaws.com/unimon-st3-07.png", "effect": "", "inheritable": ""},
+    {"append": "magnaangemon-st3-08", "name": "MagnaAngemon (ST3-08)", "url": "https://digimon-bucket.s3.amazonaws.com/magnaangemon-st3-08.png", "effect": "", "inheritable": ""},
+    {"append": "angewomon-st3-09", "name": "Angewomon (ST3-09)", "url": "https://digimon-bucket.s3.amazonaws.com/angewomon-st3-09.png", "effect": "", "inheritable": ""},
+    {"append": "magnadramon-st3-10", "name": "Magnadramon (ST3-10)", "url": "https://digimon-bucket.s3.amazonaws.com/magnadramon-st3-10.png", "effect": "", "inheritable": ""},
+    {"append": "seraphimon-st3-11", "name": "Seraphimon (ST3-11)", "url": "https://digimon-bucket.s3.amazonaws.com/seraphimon-st3-11.png", "effect": "", "inheritable": ""}
 
   ],
   "tamers": [
