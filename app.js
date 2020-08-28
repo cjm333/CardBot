@@ -14,26 +14,17 @@ client.on("message", message => {
     if (message.content.startsWith("!card")){
         search(message, data.cards, 5)
     }
-    else if(message.content.startsWith("!champion")){
-        search(message, data.champions, 9)
+    else if(message.content.startsWith("!digitama")){
+        search(message, data.digitama, 9)
     }
-    else if(message.content.startsWith("!spirit")){
-        search(message, data.spirits, 7)
+    else if(message.content.startsWith("!digimon")){
+        search(message, data.digimon, 8)
     }
-    else if(message.content.startsWith("!tower")){
-        search(message, data.towers, 6)
+    else if(message.content.startsWith("!tamer")){
+        search(message, data.tamers, 7)
     }
-    else if(message.content.startsWith("!shard")){
-        search(message, data.shards, 6)
-    }
-    else if(message.content.startsWith("!unit")){
-        search(message, data.units, 5)
-    }
-    else if(message.content.startsWith("!spell")){
-        search(message, data.spells, 6)
-    }
-    else if(message.content.startsWith("!augment")){
-        search(message, data.augments, 8)
+    else if(message.content.startsWith("!option")){
+        search(message, data.options, 7)
     }
     else if(message.content.startsWith("!count")){
         counting(message, data)
@@ -49,7 +40,7 @@ function search(message, selectedCards, sliceLength){
     cardNames = []
 
     const args = message.content.slice(sliceLength).trim()
-    const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
+    const argsURL = args.replace(/\s/g, "-").replace(/'/g, "")
     const cardName = argsURL.toLowerCase();
 
     for(card of selectedCards){
@@ -65,7 +56,10 @@ function search(message, selectedCards, sliceLength){
                 cardEmbed.setImage(card.url)
                 cardEmbed.setTitle(card.name)
                 cardEmbed.setDescription(card.effect)
-                message.reply(cardEmbed);
+                cardEmbed.setFooter(card.inheritable)
+                message.reply(cardEmbed).then(msg => {
+                    msg.delete({ timeout: 60000 })
+                })
                 doCheck = false
             }
         }
@@ -88,44 +82,34 @@ function search(message, selectedCards, sliceLength){
             cardEmbed.setImage(cardList[0].url)
             cardEmbed.setTitle(cardList[0].name)
             cardEmbed.setDescription(cardList[0].effect)
-            message.reply(cardEmbed);
+            cardEmbed.setFooter(cardList[0].inheritable)
+            message.reply(cardEmbed).then(msg => {
+                msg.delete({ timeout: 60000 })
+            })
         }
     }
 }
 
 function counting(message, data){
     const type = message.content.slice(6).trim()
-    if(type == "units" || type == "unit"){
-        const response = "There are " + data.units.length + " units in Argent Saga"
+    if(type == "digitama"){
+        const response = "There are " + data.digitama.length + " Digitama cards in Digimon TCG 2020"
         message.reply(response)
     }
-    else if(type == "spells" || type == "spell"){
-        const response = "There are " + data.spells.length + " spells in Argent Saga"
+    else if(type == "digimon"){
+        const response = "There are " + data.digimon.length + " Digimon cards in Digimon TCG 2020"
         message.reply(response)
     }
-    else if(type == "augments" || type == "augment"){
-        const response = "There are " + data.augments.length + " augments in Argent Saga"
+    else if(type == "tamers" || type == "tamer"){
+        const response = "There are " + data.tamers.length + " Tamer cards in Digimon TCG 2020"
         message.reply(response)
     }
-    else if(type == "champions" || type == "champion"){
-        const response = "There are " + data.champions.length + " champions in Argent Saga"
-        message.reply(response)
-    }
-    else if(type == "spirits" || type == "spirit"){
-        const response = "There are " + data.spirits.length + " spirits in Argent Saga"
-        message.reply(response)
-    }
-    else if(type == "towers" || type == "tower"){
-        const response = "There are " + data.towers.length + " towers in Argent Saga"
-        message.reply(response)
-    }
-    else if(type == "shards" || type == "shard"){
-        tracker = data.shards.length - 2
-        const response = "There are " + tracker + " shards in Argent Saga"
+    else if(type == "options" || type == "option"){
+        const response = "There are " + data.options.length + " Option cards in Digimon TCG 2020"
         message.reply(response)
     }
     else if(type == "cards" || type == "card"){
-        const response = "There are " + data.cards.length + " cards in Argent Saga"
+        const response = "There are " + data.cards.length + " cards in Digimon TCG 2020"
         message.reply(response)
     }
     else{
