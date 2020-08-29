@@ -156,4 +156,4 @@ function counting(message, data){
 }
 
 // Log in the bot with the token
-client.login("***");
+client.login("NzQ4NzMyNjAyOTA2NTc0OTU5.X0htkw.DgVmm8RZ8WXR91ocfzXk6mxQ3Fg");
