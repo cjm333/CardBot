@@ -78,7 +78,7 @@ function search(message, selectedCards, sliceLength){
     cardNames = []
 
     const args = message.content.slice(sliceLength).trim()
-    const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "")
+    const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "")
     const cardName = argsURL.toLowerCase();
 
     for(card of selectedCards){
@@ -156,4 +156,4 @@ function counting(message, data){
 }
 
 // Log in the bot with the token
-client.login("NzQ4NzMyNjAyOTA2NTc0OTU5.X0htkw.DgVmm8RZ8WXR91ocfzXk6mxQ3Fg");
+client.login("***");
