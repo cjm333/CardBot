@@ -2,6 +2,15 @@
 const Discord = require("discord.js");
 const data = require('./cardList.json');
 
+//Build array of all cards
+allCards = data.champions
+allCards = allCards.concat(data.spirits)
+allCards = allCards.concat(data.towers)
+allCards = allCards.concat(data.shards)
+allCards = allCards.concat(data.units)
+allCards = allCards.concat(data.spells)
+allCards = allCards.concat(data.augments)
+
 // Create new client
 const client = new Discord.Client();
 client.on("ready", () =>{
@@ -12,7 +21,7 @@ client.on("ready", () =>{
 client.on("message", message => {
 
     if (message.content.startsWith("!card")){
-        search(message, data.cards, 5)
+        search(message, allCards, 5)
     }
     else if(message.content.startsWith("!champion")){
         search(message, data.champions, 9)
@@ -37,6 +46,18 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!count")){
         counting(message, data)
+    }
+    else if(message.content.startsWith("!help")){
+        message.reply("Here are a list of commands:\n \
+        !card: `Search all cards`\n \
+        !unit: `Search only units`\n \
+        !spell: `Search only spells`\n \
+        !augment: `Search only augments`\n \
+        !champion: `Search only champions`\n \
+        !spirit: `Search only spirits`\n \
+        !tower: `Search only towers`\n \
+        !shard: `Search only shards`\n \
+        !count: `Get how many cards there are of a type`")
     }
 
 });
@@ -77,9 +98,11 @@ function search(message, selectedCards, sliceLength){
         }
         else if(cardList.length > 1 && cardList.length <= 10){
             message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
+            returnable = ""
             for(name of cardNames){
-                channel.send(name)
+                returnable = returnable.concat(name).concat("\n") 
             }
+            channel.send(returnable)
         }
         else if(cardList.length > 10){
             message.reply("Your search term was too broad. Be a bit more specific")
@@ -125,7 +148,7 @@ function counting(message, data){
         message.reply(response)
     }
     else if(type == "cards" || type == "card"){
-        const response = "There are " + data.cards.length + " cards in Argent Saga"
+        const response = "There are " + allCards.length + " cards in Argent Saga"
         message.reply(response)
     }
     else{
