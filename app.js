@@ -171,10 +171,21 @@ function searchType(message, selectedCards, sliceLength){
     const argsURL = args.replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
     const cardType = argsURL.toLowerCase();
     
-    for(card of selectedCards){
-        if(card.type){
-            if(card.type.includes(cardType)){
-                cardNames.push(card.name)
+    if(cardType == "mech"){
+        for(card of selectedCards){
+            if(card.type){
+                if(card.type == cardType){
+                    cardNames.push(card.name)
+                }
+            }
+        }
+    }
+    else{
+        for(card of selectedCards){
+            if(card.type){
+                if(card.type.includes(cardType)){
+                    cardNames.push(card.name)
+                }
             }
         }
     }
@@ -236,4 +247,4 @@ function counting(message, data){
 }
 
 // Log in the bot with the token
-client.login("***");
+client.login("NzQ1MjU2NzY4MDg2NDc0Nzcy.XzvIcw.4gTMarnr3RhdAsTDXF2rNGjxonE");
