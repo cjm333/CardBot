@@ -21,43 +21,89 @@ client.on("ready", () =>{
 client.on("message", message => {
 
     if (message.content.startsWith("!card")){
-        search(message, allCards, 5)
+        if(message.content.startsWith("!cardType")){
+            searchType(message, allCards, 9)
+        }
+        else{
+            search(message, allCards, 5)
+        }
     }
     else if(message.content.startsWith("!champion")){
-        search(message, data.champions, 9)
+        if(message.content.startsWith("!championType")){
+            message.reply("Sorry, Champions don't have types")
+        }
+        else{
+            search(message, data.champions, 9)
+        }
     }
     else if(message.content.startsWith("!spirit")){
-        search(message, data.spirits, 7)
+        if(message.content.startsWith("!spiritType")){
+            message.reply("Sorry, Spirits don't have types")
+        }
+        else{
+            search(message, data.spirits, 7)
+        }
     }
     else if(message.content.startsWith("!tower")){
-        search(message, data.towers, 6)
+        if(message.content.startsWith("!towerType")){
+            message.reply("Sorry, Towers don't have types")
+        }
+        else{
+            search(message, data.towers, 6)
+        }
     }
     else if(message.content.startsWith("!shard")){
-        search(message, data.shards, 6)
+        if(message.content.startsWith("!shardType")){
+            searchType(message, data.shards, 10)
+        }
+        else{
+            search(message, data.shards, 6)
+        }
     }
     else if(message.content.startsWith("!unit")){
-        search(message, data.units, 5)
+        if(message.content.startsWith("!unitType")){
+            searchType(message, data.units, 9)
+        }
+        else{
+            search(message, data.units, 5)
+        }
     }
     else if(message.content.startsWith("!spell")){
-        search(message, data.spells, 6)
+        if(message.content.startsWith("!spellType")){
+            searchType(message, data.spells, 10)
+        }
+        else{
+            search(message, data.spells, 6)
+        }
     }
     else if(message.content.startsWith("!augment")){
-        search(message, data.augments, 8)
+        if(message.content.startsWith("!augmentType")){
+            searchType(message, data.augments, 12)
+        }
+        else{
+            search(message, data.augments, 8)
+        }
     }
     else if(message.content.startsWith("!count")){
-        counting(message, data)
+        if(message.content.startsWith("!countType")){
+            message.reply("Functionality Coming Soon!")
+        }
+        else{
+            counting(message, data)
+        }
     }
     else if(message.content.startsWith("!help")){
         message.reply("Here are a list of commands:\n \
-        !card: `Search all cards`\n \
-        !unit: `Search only units`\n \
-        !spell: `Search only spells`\n \
-        !augment: `Search only augments`\n \
-        !champion: `Search only champions`\n \
-        !spirit: `Search only spirits`\n \
-        !tower: `Search only towers`\n \
-        !shard: `Search only shards`\n \
-        !count: `Get how many cards there are of a type`")
+!card:: `Search all cards`\n \
+!unit:: `Search only units`\n \
+!spell:: `Search only spells`\n \
+!augment:: `Search only augments`\n \
+!champion: `Search only champions`\n \
+!spirit: `Search only spirits`\n \
+!tower: `Search only towers`\n \
+!shard:: `Search only shards`\n \
+!count: `Get how many cards there are of a type`\n \
+Append 'Type' to a command with :: to search for card with a certain type")
     }
 
 });
@@ -113,6 +159,39 @@ function search(message, selectedCards, sliceLength){
             cardEmbed.setDescription(cardList[0].effect)
             message.reply(cardEmbed);
         }
+    }
+}
+
+function searchType(message, selectedCards, sliceLength){
+    channel = message.channel
+    var doCheck = new Boolean(true)
+    cardNames = []
+
+    const args = message.content.slice(sliceLength).trim()
+    const argsURL = args.replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
+    const cardType = argsURL.toLowerCase();
+    
+    for(card of selectedCards){
+        if(card.type){
+            if(card.type.includes(cardType)){
+                cardNames.push(card.name)
+            }
+        }
+    }
+
+    if(cardNames.length == 0){
+        message.reply("No cards exist with that type")
+    }
+    else if(cardNames.length > 0 && cardNames.length <= 100){
+        message.reply("Here is a list of all the cards with that type:")
+        returnable = ""
+        for(name of cardNames){
+            returnable = returnable.concat(name).concat("\n") 
+        }
+        channel.send(returnable)
+    }
+    else if(cardNames.length > 100){
+        message.reply("Your search term was too broad. Be a bit more specific")
     }
 }
 
