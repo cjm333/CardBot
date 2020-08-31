@@ -86,7 +86,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!count")){
         if(message.content.startsWith("!countType")){
-            message.reply("Functionality Coming Soon!")
+            countingType(message, allCards)
         }
         else{
             counting(message, data)
@@ -102,7 +102,7 @@ client.on("message", message => {
 !spirit: `Search only spirits`\n \
 !tower: `Search only towers`\n \
 !shard:: `Search only shards`\n \
-!count: `Get how many cards there are of a type`\n \
+!count:: `Get how many cards there are of a type`\n \
 Append 'Type' to a command with :: to search for card with a certain type")
     }
 
@@ -171,7 +171,7 @@ function searchType(message, selectedCards, sliceLength){
     const argsURL = args.replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
     const cardType = argsURL.toLowerCase();
     
-    if(cardType == "mech"){
+    if(cardType == "mech" || cardType == "?"){
         for(card of selectedCards){
             if(card.type){
                 if(card.type == cardType){
@@ -246,5 +246,37 @@ function counting(message, data){
     }
 }
 
+function countingType(message, data){
+    const type = message.content.slice(10).trim()
+    const cardType = type.toLowerCase();
+    cardNames = []
+    
+    if(cardType == "mech" || cardType == "?"){
+        for(card of selectedCards){
+            if(card.type){
+                if(card.type == cardType){
+                    cardNames.push(card.name)
+                }
+            }
+        }
+    }
+    else{
+        for(card of data){
+            if(card.type){
+                if(card.type.includes(cardType)){
+                    cardNames.push(card.name)
+                }
+            }
+        }
+    }
+    
+    if(cardNames.length > 0){
+        message.reply("There are " + cardNames.length + " cards of type " + cardType)
+    }
+    else{
+        message.reply("There are 0 cards of type " + cardType)
+    }
+}
+
 // Log in the bot with the token
-client.login("NzQ1MjU2NzY4MDg2NDc0Nzcy.XzvIcw.4gTMarnr3RhdAsTDXF2rNGjxonE");
+client.login("***");
