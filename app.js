@@ -2,6 +2,12 @@
 const Discord = require("discord.js");
 const data = require('./cardList.json');
 
+//Build array of all cards
+allCards = data.digitama
+allCards = allCards.concat(data.digimon)
+allCards = allCards.concat(data.tamers)
+allCards = allCards.concat(data.options)
+
 // Create new client
 const client = new Discord.Client();
 client.on("ready", () =>{
@@ -12,7 +18,7 @@ client.on("ready", () =>{
 client.on("message", message => {
 
     if (message.content.startsWith("!card")){
-        search(message, data.cards, 5)
+        search(message, allCards, 5)
     }
     else if(message.content.startsWith("!digitama")){
         search(message, data.digitama, 9)
@@ -63,11 +69,7 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
 !borrow: `Information on memory borrowing`\n \
 !keyword: `List keywords`\n \
 !rulebook: `Simple question answer`\n\n \
-Reminder: large messages self-delete after a short time")
-
-
-    }
-
+Reminder: large messages self-delete after a short time")}
 });
 
 function search(message, selectedCards, sliceLength){
@@ -109,9 +111,11 @@ function search(message, selectedCards, sliceLength){
         }
         else if(cardList.length > 1 && cardList.length <= 10){
             message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
+            returnable = ""
             for(name of cardNames){
-                channel.send(name)
+                returnable = returnable.concat(name).concat("\n") 
             }
+            channel.send(returnable)
         }
         else if(cardList.length > 10){
             message.reply("Your search term was too broad. Be a bit more specific")
@@ -147,7 +151,11 @@ function counting(message, data){
         message.reply(response)
     }
     else if(type == "cards" || type == "card"){
-        const response = "There are " + data.cards.length + " cards in Digimon TCG 2020"
+        const response = "There are " + allCards.length + " cards in Digimon TCG 2020"
+        message.reply(response)
+    }
+    else if(type == "alt" || type == "alts"){
+        const response = "There are " + data.alt.length + " alternate art cards in Digimon TCG 2020"
         message.reply(response)
     }
     else{
