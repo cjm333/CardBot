@@ -2,14 +2,35 @@
 const Discord = require("discord.js");
 const data = require('./cardList.json');
 
-//Build array of all cards
-allCards = data.champions
-allCards = allCards.concat(data.spirits)
-allCards = allCards.concat(data.towers)
-allCards = allCards.concat(data.shards)
-allCards = allCards.concat(data.units)
-allCards = allCards.concat(data.spells)
-allCards = allCards.concat(data.augments)
+//Build card arrays
+allCards = data.champions.concat(data.spirits).concat(data.towers).concat(data.shards).concat(data.units).concat(data.spells).concat(data.augments)
+fireCards = []
+waterCards = []
+airCards = []
+lightCards = []
+darkCards = []
+argentCards = []
+
+for(card of allCards){
+    if(card.element == "fire"){
+        fireCards.push(card)
+    }
+    else if(card.element == "water"){
+        waterCards.push(card)
+    }
+    else if(card.element == "air"){
+        airCards.push(card)
+    }
+    else if(card.element == "light"){
+        lightCards.push(card)
+    }
+    else if(card.element == "dark"){
+        darkCards.push(card)
+    }
+    else{
+        argentCards.push(card)
+    }
+}
 
 // Create new client
 const client = new Discord.Client();
@@ -92,6 +113,54 @@ client.on("message", message => {
             counting(message, data)
         }
     }
+    else if(message.content.startsWith("!fire")){
+        if(message.content.startsWith("!fireType")){
+            searchType(message, fireCards, 9)
+        }
+        else{
+            search(message, fireCards, 5)
+        }
+    }
+    else if(message.content.startsWith("!water")){
+        if(message.content.startsWith("!waterType")){
+            searchType(message, waterCards, 10)
+        }
+        else{
+            search(message, waterCards, 6)
+        }
+    }
+    else if(message.content.startsWith("!air")){
+        if(message.content.startsWith("!airType")){
+            searchType(message, airCards, 8)
+        }
+        else{
+            search(message, airCards, 4)
+        }
+    }
+    else if(message.content.startsWith("!light")){
+        if(message.content.startsWith("!lightType")){
+            searchType(message, lightCards, 10)
+        }
+        else{
+            search(message, lightCards, 6)
+        }
+    }
+    else if(message.content.startsWith("!dark")){
+        if(message.content.startsWith("!darkType")){
+            searchType(message, darkCards, 9)
+        }
+        else{
+            search(message, darkCards, 5)
+        }
+    }
+    else if(message.content.startsWith("!argent")){
+        if(message.content.startsWith("!argentType")){
+            searchType(message, argentCards, 11)
+        }
+        else{
+            search(message, argentCards, 7)
+        }
+    }
     else if(message.content.startsWith("!help")){
         message.reply("Here are a list of commands:\n \
 !card:: `Search all cards`\n \
@@ -103,6 +172,7 @@ client.on("message", message => {
 !tower: `Search only towers`\n \
 !shard:: `Search only shards`\n \
 !count:: `Get how many cards there are of a type`\n \
+!element:: `Search in a particular element`\n \
 Append 'Type' to a command with :: to search for card with a certain type")
     }
 
