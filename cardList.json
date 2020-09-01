@@ -352,12 +352,23 @@
 
     {"append": "herald-of-tyrantus", "name": "Herald of Tyrantus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/herald-of-tyrantus.jpg", "effect": "Arrive - You may destroy target damaged unit.\nWhenever this card destroys an opponent's tower or unit - You may put a Dinosaur unit with cost (4) or less from your hand into play."},
 
+    {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
+
+    {"append": "hyldian-trainee", "name": "Hyldian Trainee", "type": "elf warrior", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hyldian-trainee.jpg", "effect": ""},
+
     {"append": "nightrider-eooch", "name": "Nightrider Eooch", "type": "evaerie knight", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/nightrider-eooch.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nArrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit."},
+
+    {"append": "pengobi-jonin-mochizuki", "name": "Pengobi Shinobi, Mochizuki", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-jonin-mochizuki.jpg", "effect": "Instacast\nWhenever this card declares an attack - You may Stun target unit.\nWhenever a unit becomes Stunned - You may draw a card."},
 
     {"append": "pengobi-konran", "name": "Pengobi Konran", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-konran.jpg", "effect": "This card gains Instacast in your hand while your opponent controls a Stunned unit.\nArrive - You may Stun target unit with cost (1) or less. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
 
+    {"append": "primeval-egg", "name": "Primeval Egg", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-egg.jpg", "effect": "Guardian\nThis card cannot attack or deal damage.\nRuined - Search your deck for a Dinosaur unit with cost (3) or less and add it to your hand."},
+
     {"append": "savage-arbiter", "name": "Savage Arbiter", "type": "arbiter", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/savage-arbiter.jpg", "effect": "As an additional cost to play this card you may exhaust any number of Air units you control. If you do, this card costs (1) less to play for each.\nUnits you control gain Overrun.\nIgnore the effects of your opponent's Air tower."},
 
+    {"append": "shardwork-angel", "name": "Shardwork Angel", "type": "robot angel", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-angel.jpg", "effect": "Unblockable\n\nAnimate 1 (You must pay (1) to attack or block with this card.)"},
+
+    {"append": "zonamian-stampede", "name": "Zonamian Stampede", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-stampede.jpg", "effect": "Deal 2000 to target active unit. If you control a Beast unit, deal 3000 instead."},
 
     {"append": "ash-the-glacial-sorcerer", "name": "Ash, the Glacial Sorcerer", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ash-the-glacial-sorcerer.jpg", "effect": "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\nRemove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500."},
     {"append": "ash-tidemelder-squire", "name": "Ash, Tidemelder Squire", "type": "tidemelder", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ash-tidemelder-squire.jpg", "effect": "Your Fire and Water spells cost (1) less to play while your opponent has three or more destroyed towers.\nOnce per turn, expel a Fire card and Water card from your discard zone: Deal 1500 to target unit, and if you do, draw a card."},
