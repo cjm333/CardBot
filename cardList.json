@@ -136,7 +136,7 @@
     {"append": "thief-of-valoi", "name": "Thief of Valoi", "type": "thief", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/thief-of-valoi.png", "effect": "Exhaust, Offering 3 (Expel three units from your discard zone.): Expel target unit from your opponent's discard zone. This turn you may play that card as if it was in your hand."},
     {"append": "harbinger-of-vabriel", "name": "Harbinger of Vabriel", "type": "legendary entity", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/harbinger-of-vabriel.png", "effect": "Guardian\nThis card cannot be targeted by spells.\nFlip your champion or your spirit face-down: Restore one of your destroyed towers with the same element as the card you flipped face-down."},
     {"append": "taphael-fallen-celestial-of-rottar", "name": "Taphael, Fallen Celestial of Rottar", "type": "legendary entity", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/taphael-fallen-celestial-of-rottar.png", "effect": "Brawler (This card may attack active and exhausted units the turn it comes into play.)\nArrive - Choose one.\n* Flip your champion face-down: Put a unit from your hand into play.\n* Flip your spirit face-down: Put target unit from your discard zone into play."},
-    {"append": "ashborn-conjurer", "name": "Ashborn Conjurer", "type": "mystic", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ashborn-conjurer.jpg", "effect": "Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Element/Fire/1000) with \"Ruined: Deal 500 to target unit.\""},
+    {"append": "ashborn-conjurer", "name": "Ashborn Conjurer", "type": "mystic", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ashborn-conjurer.jpg", "effect": "Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Elemental/Fire/1000) with \"Ruined: Deal 500 to target unit.\""},
     {"append": "ashborn-shaman", "name": "Ashborn Shaman", "type": "mystic", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ashborn-shaman.jpg", "effect": "Whenever your opponent plays a spell or uses an activated ability - You may search your deck for a Fire spell with cost (1) or less and add it to your hand."},
     {"append": "expanding-elemental", "name": "Expanding Elemental", "type": "elemental", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/expanding-elemental.jpg", "effect": "Arrive - You may Shard Drain 1: If you do, search your deck for an \"Expanding Elemental\" and put it into play."},
     {"append": "maiden-of-leviathan", "name": "Maiden of Leviathan", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/maiden-of-leviathan.jpg", "effect": "Arrive - You may flip one of your towers face-up. Then if you have two or more face-up towers, draw a card."},
@@ -347,20 +347,30 @@
     {"append": "hokken-archaeologist", "name": "Hokken Archaeologist", "type": "adventurer", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-archaeologist.jpg", "effect": "Augments you control cannot be targeted by spells or abilities.\nArrive - You may search your deck for a non-Location augment and add it to your hand, if you do, put a card from your hand on top of your deck."},
 
     {"append": "astral-of-valor", "name": "Astral of Valor", "type": "astral", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astral-of-valor.jpg", "effect": "Brawler\nIf you control two or more basic units, you may play this card from your discard zone as though it were in your hand.\nSacrifice a basic unit: Put a basic unit from your hand into play."},
-
+    
+    {"append": "astralic-regalia", "name": "Astralic Regalia", "type": "gear", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astralic-regalia.jpg", "effect": "Equip to target unit. The equipped unit gets +500.\nBasic units equipped with this card gain Guardian, Target Attack, and get +1000 instead."},
     {"append": "aurelian-ursa", "name": "Aurelian Ursa", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/aurelian-ursa.jpg", "effect": "Arrive - Place a +500 counter on this card for each Elemental unit you control.\nRemove a +500 counter from this card: Choose one.\n* Recover this card.\n* This card gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damagee to an opponent's tower.)"},
 
     {"append": "brontaurian-bambino", "name": "Brontaurian Bambino", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/brontaurian-bambino.jpg", "effect": "Ruined - You may destroy target damaged unit."},
 
     {"append": "crushing-elemental", "name": "Crushing Elemental", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/crushing-elemental.jpg", "effect": "Sacrifice this card: Destroy target augment, and if you do, place a +500 counter on each Beast unit you control."},
 
+    {"append": "emerald-elder-stag", "name": "Emerald Elder Stag", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/emerald-elder-stag.jpg", "effect": "This card cannot be targeted by your opponent's spells or abilities while you control an Elemental unit.\nExhaust an Elemental unit you control: Recover this card."},
+
+    {"append": "evaerie-rogue", "name": "Evaerie Rogue", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-rogue.jpg", "effect": "Ruined - Return this card to its owner's hand."},
+
     {"append": "herald-of-tyrantus", "name": "Herald of Tyrantus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/herald-of-tyrantus.jpg", "effect": "Arrive - You may destroy target damaged unit.\nWhenever this card destroys an opponent's tower or unit - You may put a Dinosaur unit with cost (4) or less from your hand into play."},
+
+    {"append": "hokken-adventurer", "name": "Hokken Adventurer", "type": "adventurer", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-adventurer.jpg", "effect": "Arrive - You may search your deck for a Location augment and add it to your hand. Then draw a card for each Location you have in play."},
 
     {"append": "hokken-market", "name": "Hokken Market", "type": "location", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-market.jpg", "effect": "Pay (2): Draw a card. Both players may use this ability."},
 
     {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
 
     {"append": "hyldian-trainee", "name": "Hyldian Trainee", "type": "elf warrior", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hyldian-trainee.jpg", "effect": ""},
+    {"append": "ice-breath-first-form-cryostrike", "name": "Ice Breath First Form: Cryostrike", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ice-breath-first-form-cryostrike.jpg", "effect": "Stun target unit with cost (2) or less. If that unit was already Stunned, destroy it instead. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
+
+    {"append": "mab-evaerie-dowager", "name": "Mab, Evaerie Dowager", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mab-evaerie-dowager.jpg", "effect": "Arrive or Ruined - Choose one.\n* Your opponent discards a card.\n* Add target Dark unit other than this card from your discard zone to your hand."},
 
     {"append": "melanites-manipulation", "name": "Melanite's Manipulation", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/melanites-manipulation.jpg", "effect": "Put target unit from your opponent's discard zone into play under your control."},
     
@@ -374,12 +384,15 @@
 
     {"append": "primeval-acid-monger", "name": "Primeval Acid Monger", "type": "beast", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-acid-monger.jpg", "effect": "Whenever this card declares an attack - You may destroy target augment."},    
     {"append": "primeval-egg", "name": "Primeval Egg", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-egg.jpg", "effect": "Guardian\nThis card cannot attack or deal damage.\nRuined - Search your deck for a Dinosaur unit with cost (3) or less and add it to your hand."},
+    {"append": "primeval-roar", "name": "Primeval Roar", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-roar.jpg", "effect": "Instacast\nDeal 1500 to target unit. Then if you control four or more shards you may exhaust target shard an opponent controls."},
 
     {"append": "prophet-of-hope", "name": "Prophet of Hope", "type": "elf prophet", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/prophet-of-hope.jpg", "effect": "Ruined - Search your deck for a basic unit and add it to your hand."},
 
     {"append": "savage-arbiter", "name": "Savage Arbiter", "type": "arbiter", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/savage-arbiter.jpg", "effect": "As an additional cost to play this card you may exhaust any number of Air units you control. If you do, this card costs (1) less to play for each.\nUnits you control gain Overrun.\nIgnore the effects of your opponent's Air tower."},
 
     {"append": "shardwork-angel", "name": "Shardwork Angel", "type": "robot angel", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-angel.jpg", "effect": "Unblockable\n\nAnimate 1 (You must pay (1) to attack or block with this card.)"},
+
+    {"append": "shardwork-titan", "name": "Shardwork Titan", "type": "robot titan", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-titan.jpg", "effect": "Destoyer, Guardian\nAnimate 2 (You may pay (2) to attack or block with this card.)"},
 
     {"append": "territoritops", "name": "Territoritops", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/territoritops.jpg", "effect": "Guardian\nWhile you control six or more shards and this card is exhausted, your opponent cannot attack unless they are attacking this card and cannot target other units you control with spells or abilities."},
 
