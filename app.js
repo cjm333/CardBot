@@ -174,6 +174,14 @@ client.on("message", message => {
             }
             message.channel.send(returnable)
     }
+    else if(message.content.startsWith("!text")){
+        names = effectTextSearch(message)
+        returnable = ""
+        for(name of names){
+            returnable = returnable.concat(name).concat("\n")
+        }
+        message.reply("Here is a list of every card with matching effect text:\n" + returnable)
+    }
     else if(message.content.startsWith("!help")){
         message.reply("Here are a list of commands:\n \
 !card:: `Search all cards`\n \
@@ -187,6 +195,7 @@ client.on("message", message => {
 !count:: `Get how many cards there are of a type`\n \
 !element:: `Search in a particular element`\n \
 !basic: `List all basic units in the game`\n \
+!text: `Search card effect text`\n \
 Append 'Type' to a command with :: to search for card with a certain type")
     }
 
@@ -362,5 +371,15 @@ function countingType(message, data){
     }
 }
 
+function effectTextSearch(message){
+    const searchable = message.content.slice(5).trim()
+    returnableCards = []
+    for(card of allCards){
+        if(card.effect.toLowerCase().includes(searchable)){
+            returnableCards.push(card.name)
+        }
+    }
+    return returnableCards
+}
 // Log in the bot with the token
 client.login("***");
