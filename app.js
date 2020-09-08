@@ -10,6 +10,7 @@ airCards = []
 lightCards = []
 darkCards = []
 argentCards = []
+basicCards = []
 
 for(card of allCards){
     if(card.element == "fire"){
@@ -29,6 +30,10 @@ for(card of allCards){
     }
     else{
         argentCards.push(card)
+    }
+
+    if(card.effect == ""){
+        basicCards.push(card)
     }
 }
 
@@ -161,6 +166,14 @@ client.on("message", message => {
             search(message, argentCards, 7)
         }
     }
+    else if(message.content.startsWith("!basic")){
+        message.reply("Here are all the basic cards in the game:")
+            returnable = ""
+            for(card of basicCards){
+                returnable = returnable.concat(card.name).concat("\n") 
+            }
+            message.channel.send(returnable)
+    }
     else if(message.content.startsWith("!help")){
         message.reply("Here are a list of commands:\n \
 !card:: `Search all cards`\n \
@@ -173,6 +186,7 @@ client.on("message", message => {
 !shard:: `Search only shards`\n \
 !count:: `Get how many cards there are of a type`\n \
 !element:: `Search in a particular element`\n \
+!basic: `List all basic units in the game`\n \
 Append 'Type' to a command with :: to search for card with a certain type")
     }
 
