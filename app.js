@@ -194,6 +194,7 @@ client.on("message", message => {
 !shard:: `Search only shards`\n \
 !count:: `Get how many cards there are of a type`\n \
 !element:: `Search in a particular element`\n \
+!cardType: `Search for a particular type`\n \
 !basic: `List all basic units in the game`\n \
 !text: `Search card effect text`\n \
 Append 'Type' to a command with :: to search for card with a certain type")
@@ -375,7 +376,7 @@ function effectTextSearch(message){
     const searchable = message.content.slice(5).trim()
     returnableCards = []
     for(card of allCards){
-        if(card.effect.toLowerCase().includes(searchable)){
+        if(card.effect.toLowerCase().includes(searchable.toLowerCase())){
             returnableCards.push(card.name)
         }
     }
