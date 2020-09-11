@@ -352,17 +352,22 @@
 
     {"append": "aurelian-ursa", "name": "Aurelian Ursa", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/aurelian-ursa.jpg", "effect": "Arrive - Place a +500 counter on this card for each Elemental unit you control.\nRemove a +500 counter from this card: Choose one.\n* Recover this card.\n* This card gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damagee to an opponent's tower.)"},
 
+    {"append": "boostersaurus", "name": "Boostersaurus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/boostersaurus.jpg", "effect": "Arrive or whenever this card declares an attack - Target Fire unit you control gets +1000 this turn."},
     {"append": "brontaurian-bambino", "name": "Brontaurian Bambino", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/brontaurian-bambino.jpg", "effect": "Ruined - You may destroy target damaged unit."},
 
     {"append": "crushing-elemental", "name": "Crushing Elemental", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/crushing-elemental.jpg", "effect": "Sacrifice this card: Destroy target augment, and if you do, place a +500 counter on each Beast unit you control."},
+    {"append": "cultist-of-the-forgotten-one", "name": "Cultist of the Forgotten One", "type": "cultist", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/cultist-of-the-forgotten-one.jpg", "effect": "Units and augments with Arrive abilities cost (2) more to play."},
+
+    {"append": "destroyasaurus", "name": "Destroyasaurus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/destroyasaurus.jpg", "effect": "Arrive - You may destroy target damaged unit, and if you do, this card gains Quickness."},
+    {"append": "disciple-of-hope", "name": "Disciple of Hope", "type": "elf mystic", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/disciple-of-hope.jpg", "effect": "Sacrifice this card: If your opponent controls more units than you, put target basic unit with cost (3) or less from your discard zone into play."},
 
     {"append": "elemaster-aurora", "name": "Elemaster Aurora", "type": "elemaster", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/elemaster-aurora.jpg", "effect": "This card gets +500 while your opponent has a destroyed Light tower.\nIf you control a Light unit, prevent the first damage that would be dealt to this card each turn."},
     {"append": "elemaster-cinder", "name": "Elemaster Cinder", "type": "elemaster", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/elemaster-cinder.jpg", "effect": "This card gets +500 while your opponent has a destroyed Fire tower.\nWhenever this card declares an attack - If you control a Fire unit, target unit you control gains Quickness this turn."},
     {"append": "elemaster-coral", "name": "Elemaster Coral", "type": "elemaster", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/elemaster-coral.jpg", "effect": "This card gets +500 while your opponent has a destroyed Water tower.\nExhaust: If you control a Water unit, switch control of this card and target unit your opponent controls."},
-
-    {"append": "destroyasaurus", "name": "Destroyasaurus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/destroyasaurus.jpg", "effect": "Arrive - You may destroy target damaged unit, and if you do, this card gains Quickness."},
-
+    {"append": "elemaster-squall", "name": "Elemaster Squall", "type": "elemaster", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/elemaster-squall.jpg", "effect": "This card gets +500 while your opponent has a destroyed Air tower.\nArrive - If you control an Air unit, target unit you control gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)"},
+    {"append": "elemaster-umbra", "name": "Elemaster Umbra", "type": "elemaster", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/elemaster-umbra.jpg", "effect": "This card gets +500 while your opponent has a destroyed Dark tower.\nRuined - If you control a Dark unit, target unit you control gains Destroyer this turn."},
     {"append": "emerald-elder-stag", "name": "Emerald Elder Stag", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/emerald-elder-stag.jpg", "effect": "This card cannot be targeted by your opponent's spells or abilities while you control an Elemental unit.\nExhaust an Elemental unit you control: Recover this card."},
+    {"append": "emerald-elder-treant", "name": "Emerald Elder Treant", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/emerald-elder-treant.jpg", "effect": "Arrive - Look at the top three cards of your deck. You may put a Beast unit with cost (3) or less among them into play with a +500 counter. Place the rest on the bottom of your deck in any order."},
 
     {"append": "evaerie-rogue", "name": "Evaerie Rogue", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-rogue.jpg", "effect": "Ruined - Return this card to its owner's hand."},
     {"append": "evaerie-throneguard", "name": "Evaerie Throneguard", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-throneguard.jpg", "effect": "Guardian\nThis card cannot attack.\nRuined - Target unit loses all abilities."},
@@ -375,14 +380,16 @@
     
     {"append": "mab-evaerie-dowager", "name": "Mab, Evaerie Dowager", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mab-evaerie-dowager.jpg", "effect": "Arrive or Ruined - Choose one.\n* Your opponent discards a card.\n* Add target Dark unit other than this card from your discard zone to your hand."},
     
+    {"append": "melanites-envoy", "name": "Melanite's Envoy", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/melanites-envoy.jpg", "effect": "Ruined - Put target Dark unit with cost (1) from your discard zone into play."},
+
     {"append": "mezozian-hatchling", "name": "Mezozian Hatchling", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mezozian-hatchling.jpg", "effect": "Other Dinosaur units you control get +500."},
 
     {"append": "nightrider-eooch", "name": "Nightrider Eooch", "type": "evaerie knight", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/nightrider-eooch.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nArrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit."},
 
     {"append": "pengobi-jonin-mochizuki", "name": "Pengobi Shinobi, Mochizuki", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-jonin-mochizuki.jpg", "effect": "Instacast\nWhenever this card declares an attack - You may Stun target unit.\nWhenever a unit becomes Stunned - You may draw a card."},
-
+    {"append": "pengobi-kishu", "name": "Pengobi Kishu", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-kishu.jpg", "effect": "Instacast\nArrive - Stun target unit that came into play this turn, and if you do, draw a card. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
     {"append": "pengobi-konran", "name": "Pengobi Konran", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-konran.jpg", "effect": "This card gains Instacast in your hand while your opponent controls a Stunned unit.\nArrive - You may Stun target unit with cost (1) or less. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
-
+    {"append": "pengushi-damiyo-kenshin", "name": "Pengushi Damiyo, Kenshin", "type": "samurai penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengushi-damiyo-kenshin.jpg", "effect": "While your opponent controls a Stunned unit, this card gets +1000 and cannot be targeted by spells or abilities."},
     {"append": "pengushi-kyudo", "name": "Pengushi Kyudo", "type": "samurai penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengushi-kyudo.jpg", "effect": "While your opponent controls a Stunned unit, this card gets +1000.\nWhenever this card declares an attack - You may destroy target Stunned unit."},
 
     {"append": "primeval-acid-monger", "name": "Primeval Acid Monger", "type": "beast", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-acid-monger.jpg", "effect": "Whenever this card declares an attack - You may destroy target augment."},    
@@ -561,7 +568,12 @@
     {"append": "melanties-gaze", "name": "Melantie's Gaze", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/melanties-gaze.jpg", "effect": "Look at your opponent's hand. You may choose a non-unit card among them with cost (2) or less. Your opponent discards that card."},
     {"append": "melanites-manipulation", "name": "Melanite's Manipulation", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/melanites-manipulation.jpg", "effect": "Put target unit from your opponent's discard zone into play under your control."},
 
+    {"append": "narrow-escape", "name": "Narrow Escape", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/narrow-escape.jpg", "effect": "Instacast\nReturn target attacking or blocking unit you control to its owner's hand."},
+
     {"append": "primeval-roar", "name": "Primeval Roar", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-roar.jpg", "effect": "Instacast\nDeal 1500 to target unit. Then if you control four or more shards you may exhaust target shard an opponent controls."},
+    {"append": "primeval-shockwave", "name": "Primeval Shockwave", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-shockwave.jpg", "effect": "Instacast\nDeal 2000 to all units. Then if you control seven or more shards, exhaust any number of target shards your opponent controls up to the number of units dealt damage this way."},
+
+    {"append": "ruined-reclamation", "name": "Ruined Reclamation", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ruined-reclamation.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nChoose one. If you paid the additional cost, you may choose both.\n* Trigger the Ruined ability of target unit you control.\n* Add target unit with Ruined from your discard zone to your hand."},
 
     {"append": "vindication-of-valor", "name": "Vindication of Valor", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/vindication-of-valor.jpg", "effect": "As an additional cost to play this card, sacrifice a unit.\nDestroy target unit or augment. If you sacrificed a non-token basic unit, draw a card."},
 
