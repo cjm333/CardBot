@@ -38,7 +38,10 @@ function getPartner(){
     "Hackmon (Appmon)", "BanchoLeomon", "Zeromaru", "Dorumon", "Argomon", "Keramon", "Kunemon", "Labramon", 
     "BlackAgumon", "ToyAgumon", "Bokomon", "Monmon", "Morphomon", "BlackGabumon", "Muchomon", "Otamamon", "Penguinmon",
     "DemiMeramon", "Phascomon", "Dracmon", "Dracomon", "Psychemon", "Burgermon", "Goblimon", "Gazimon", "Solarmon",
-    "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "uh....... Coronamon....."]
+    "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "uh....... Coronamon.....", 
+    "Ballistamon", "Dorulumon", "Damemon", "Cutemon", "Chibitortomon", "Starmon and several Pickmons", "Candlemon",
+    "Dondokomon", "Sparrowmon", "Monitamon", "Dobermon", "Seasarmon", "Gaossmon", "MailBirdramon", "Greymon (Fusion)",
+    "Falcomon (Data Squad)"]
     index = Math.floor(Math.random() * partners.length)
     return partners[index]
 }
@@ -85,6 +88,12 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
     }
     else if(message.content.startsWith("!rulebook")){
         message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\nhttps://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF")
+    }
+    else if(message.content.startsWith("!faq")){
+        message.channel.send("1. Play/Digivolve: `Playing and digivolving are NOT the same thing. These cause different effects and cost different amounts on cards`\n \
+        2. Raising Area: `Digimon in the raising area cannot activate their effects and cannot have effects affect them UNLESS specifically mentioned on the card in question`\n \
+        3. Effects Transfer: `If you evolve a mon with an effect (+DP, +Security, etc), it applies to evolved mon as well. This includes summoning sickness. NOTE: Digimon moved from raising to play do NOT have summoning sickness` \n \
+        4. Color Restrictions: `Tamers have no color restrictions. Digimon have color restrictions for evolving, the color of which is specified in the bubble (two colored bubbles indicates \"pick one\"). Options require a tamer or digimon of the same color to be on the field (this INCLUDES raising area).`")
     }
     else if(message.content.startsWith("!help")){
         message.reply("Here are a list of commands:\n \
