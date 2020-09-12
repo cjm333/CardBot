@@ -1,11 +1,11 @@
 module.exports = {
-    getDigivice: function() {
-        digivices = ["Digivice", "D-3", "D-Power", "D-Tector", "Data Link", "Fusion Loader", "App Drive"]
-        index = Math.floor(Math.random() * 7)
+    getDigivice: function(id) {
+        digivices = ["Digivice 01", "D-Cyber", "Digivice", "D-3", "D-Power", "Data Link", "Fusion Loader", "Digivice:", "Smartphone Digivice"]
+        index = id%digivices.length
         return digivices[index]
     },
-    
-    getPartner: function(){
+
+    getPartner: function(id){
         partners = ["Agumon", "Gabumon", "Gomamon", "Tentomon", "Palmon", "Biyomon", "Patamon", "Salamon", "Betamon", 
         "Guilmon", "Renamon", "Gatomon", "Lopmon", "Terriermon", "Gotsumon", "Kokuwamon", "DemiDevimon", "Monodramon", 
         "FanBeemon", "Guardromon", "MarineAngemon", "Impmon", "Hagurumon", "Shoutmon", "Gumdramon", "Neemon", "Bearmon",
@@ -19,8 +19,43 @@ module.exports = {
         "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "uh....... Coronamon.....", 
         "Ballistamon", "Dorulumon", "Damemon", "Cutemon", "Chibitortomon", "Starmon and several Pickmons", "Candlemon",
         "Dondokomon", "Sparrowmon", "Monitamon", "Dobermon", "Seasarmon", "Gaossmon", "MailBirdramon", "Greymon (Fusion)",
-        "Falcomon (Data Squad)"]
-        index = Math.floor(Math.random() * partners.length)
+        "Falcomon (Data Squad)", "Agumon X", "Betamon X", "Kokuwamon X", "Kotemon", "Kudamon (Data Squad)", "Aruraumon",
+        "Liollmon", "Lopmon X", "Terriermon X", "BlackAgumon X", "Ludomon", "BlackGuilmon", "ModokiBetamon", "Crabmon X",
+        "Commandramon", "Otamamon (Red)", "Otamamon X", "Palmon X", "Dracomon X", "Ryudamon", "Renamon X", "Salamon X",
+        "Sangomon", "ShadowToyAgumon", "Shamanmon", "Gabumon X", "Sistermon Blanc", "SnowGoblimon", "Gazimon X", "Ghostmon",
+        "Spadamon", "Gizumon", "Syakomon X", "Gomamon X", "Gotsumon X", "Guilmon X", "Professor Agumon", "Terriermon Assistant",
+        "Hagurumon X", "Herissmon", "Hyokomon", "Vemmon", "Vi-Elecmon", "Impmon X", "Keramon X"]
+        index = id%partners.length
         return partners[index]
+    },
+    partner: function(message){
+        id = message.author.id
+        //Zaffy
+        if(id == "269296909066305566"){
+            message.reply("Your partner is PetitMammon. You're connected via your Digivice 01!")
+        }
+        //Me
+        else if(id == "223279276340805632"){
+            message.reply("Your partner is Hackmon. You're connected via your Appli Drive Duo!")
+        }
+        //Ted
+        else if(id == "185756831304515587"){
+            message.reply("Your partner is Garurumon. You're connected via your D-Ark!")
+        }
+        //Orange
+        else if(id == "507019396238016512"){
+            message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
+        }
+        //Anti
+        else if(id == "121428788734066688"){
+            
+        }
+        //Clemens
+        else if(id == "150467882910744577"){
+            
+        }
+        else{
+            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
+        }
     }
 }

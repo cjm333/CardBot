@@ -20,8 +20,8 @@ client.on("ready", () =>{
 
 //User entrance message
 client.on("guildMemberAdd", member => {
-    digivice = memberEntry.getDigivice();
-    partner = memberEntry.getPartner();
+    digivice = memberEntry.getDigivice(message.author.id);
+    partner = memberEntry.getPartner(message.author.id);
     client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner)
 })
 
@@ -46,12 +46,13 @@ client.on("message", message => {
     else if(message.content.startsWith("!alt")){
         search.searching(message, data.alt, 4, Discord)
     }
-    else if(message.content.startsWith("!count")){count.counting(message, data);}
     else if(message.content.startsWith("!borrow")){textCommands.borrow(message);}
-    else if(message.content.startsWith("!keyword")){textCommands.keyword(message);}
-    else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
+    else if(message.content.startsWith("!count")){count.counting(message, data);}
     else if(message.content.startsWith("!faq")){textCommands.faq(message);}
     else if(message.content.startsWith("!help")){textCommands.help(message);}
+    else if(message.content.startsWith("!keyword")){textCommands.keyword(message);}
+    else if(message.content.startsWith("!partner")){memberEntry.partner(message);}
+    else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
 });
 
 // Log in the bot with the token

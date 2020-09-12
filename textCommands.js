@@ -17,7 +17,8 @@ module.exports = {
 !borrow: `Information on memory borrowing`\n \
 !keyword: `List keywords`\n \
 !rulebook: `Simple question answer`\n \
-!faq: `List common question answers`\n\n \
+!faq: `List common question answers`\n \
+!partner: `Check your partner and digivice` \n\n \
 Reminder: large messages self-delete after a short time")
     },
     faq: function(message){
