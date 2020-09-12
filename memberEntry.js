@@ -52,7 +52,15 @@ module.exports = {
         }
         //Clemens
         else if(id == "150467882910744577"){
-            
+            message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
+        }
+        //BlueNume (Gold)
+        else if(id == "268612585069215765"){
+            message.reply("Your partner is Numemon. You're connected via your Data Link!")
+        }
+        //Twinsinner (Booster)
+        else if(id == "118951296383451136"){
+            message.reply("Your partner is Lopmon. You're connected via your D-Ark!")
         }
         else{
             message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
