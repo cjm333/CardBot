@@ -62,6 +62,10 @@ module.exports = {
         else if(id == "118951296383451136"){
             message.reply("Your partner is Lopmon. You're connected via your D-Ark!")
         }
+        //Mellow (Booster)
+        else if(id == "160130297663324170"){
+            message.reply("Your partner is Tsukaimon. You're connected via your D-Ark!")
+        }
         else{
             message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
         }
