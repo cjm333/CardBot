@@ -11,7 +11,8 @@
     {"append": "liam-traitor-of-knights", "name": "Liam, Traitor of Knights", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/liam-traitor-of-knights.jpg", "effect": "When you destroy an opponent's Tower - You can add one Gear from your deck to your hand.\nOnce per turn, discard one Gear from your hand: target Unit gets +500 this turn."},
     {"append": "auron-the-golden-rose", "name": "Auron, the Golden Rose", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/auron-the-golden-rose.jpg", "effect": "Exhaust, Discard one Knight or Gear from your hand: Exhaust target unit."},
     {"append": "hoenna-immoral-conjurer", "name": "Hoenna, Immoral Conjurer", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hoenna-immoral-conjurer.jpg", "effect": "When you destroy a Tower or Unit in battle - Place one counter on this card.\nRemove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500)."},
-    {"append": "ergon-the-tragic-gargoyle", "name": "Ergon, the Tragic Gargoyle", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ergon-the-tragic-gargoyle.jpg", "effect": " Exhaust: Send the top two cards of your deck to the discard zone.\nExhaust, Pay (1): Put target unit from your discard zone on top of your deck."},
+    {"append": "ergon-the-tragic-gargoyle", "name": "Ergon, the Tragic Gargoyle", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ergon-the-tragic-gargoyle.jpg", "effect": "Exhaust: Send the top two cards of your deck to the discard zone.\nExhaust, Pay (1): Put target unit from your discard zone on top of your deck."},
+    {"append": "neferia-the-queens-assassin", "name": "Neferia, the Queen's Assassin", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ergon-the-tragic-gargoyle.jpg", "effect": "Whenever you trigger the Ruined ability of a unit - You may put that unit under this card.\nExhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it."},
     {"append": "metaial-the-silver-king", "name": "Metaial, the Silver King", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/metaial-the-silver-king.jpg", "effect": "Instead of drawing for your turn you may discard a card - If you do, search your deck for a Silver General unit and add it to your hand.\nPay (1), place a Silver General unit from your discard zone on the bottom of your deck: Draw a card."},
     {"append": "greatest-gardner-gregory", "name": "Greatest Gardener, Gregory", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/greatest-gardner-gregory.jpg", "effect": "Exhaust, sacrifice a unit: Recover one of your shards."},
     {"append": "kratin-being-of-strength", "name": "Kratin, Being of Strength", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/kratin-being-of-strength.jpg", "effect": "Exhaust, pay (2): Target attacking unit gets +1000 this turn."},
@@ -383,6 +384,8 @@
 
     {"append": "hokken-adventurer", "name": "Hokken Adventurer", "type": "adventurer", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-adventurer.jpg", "effect": "Arrive - You may search your deck for a Location augment and add it to your hand. Then draw a card for each Location you have in play."},
 
+    {"append": "hokken-tinkerers-alex-and-alex", "name": "Hokken Tinkerers, Alex & Alex", "type": "adventurer", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-tinkerers-alex-and-alex.jpg", "effect": "This card costs (1) less to play for each augment in play.\nPay (1): Your opponent sacrifices an augment."},
+
     {"append": "hyldian-trainee", "name": "Hyldian Trainee", "type": "elf warrior", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hyldian-trainee.jpg", "effect": ""},
     
     {"append": "mab-evaerie-dowager", "name": "Mab, Evaerie Dowager", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mab-evaerie-dowager.jpg", "effect": "Arrive or Ruined - Choose one.\n* Your opponent discards a card.\n* Add target Dark unit other than this card from your discard zone to your hand."},
@@ -392,6 +395,8 @@
     {"append": "mezozian-hatchling", "name": "Mezozian Hatchling", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mezozian-hatchling.jpg", "effect": "Other Dinosaur units you control get +500."},
 
     {"append": "nightrider-eooch", "name": "Nightrider Eooch", "type": "evaerie knight", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/nightrider-eooch.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nArrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit."},
+
+    {"append": "pengardian-mystic", "name": "Pengardian Mystic", "type": "mystic penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengardian-mystic.jpg", "effect": "Pay (1), sacrifice this card: Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
 
     {"append": "pengobi-jonin-mochizuki", "name": "Pengobi Shinobi, Mochizuki", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-jonin-mochizuki.jpg", "effect": "Instacast\nWhenever this card declares an attack - You may Stun target unit.\nWhenever a unit becomes Stunned - You may draw a card."},
     {"append": "pengobi-kishu", "name": "Pengobi Kishu", "type": "shinobi penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengobi-kishu.jpg", "effect": "Instacast\nArrive - Stun target unit that came into play this turn, and if you do, draw a card. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
@@ -419,6 +424,7 @@
 
     {"append": "warrior-of-valor", "name": "Warrior of Valor", "type": "elf warrior", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/warrior-of-valor.jpg", "effect": ""},
 
+    {"append": "zonamian-ambassador", "name": "Zonamian Ambassador", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-ambassador.jpg", "effect": "Arrive - Place +500 counter on each Beast unit you control."},
     {"append": "zonamian-critters", "name": "Zonamian Critters", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-critters.jpg", "effect": "Ruined - Put a Critter Token (Unit/Beast/Air/500) into play. If you control an Elemental unit put two into play instead."},
     {"append": "zonamian-dryad", "name": "Zonamian Dryad", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-dryad.jpg", "effect": "Exhaust: If you control a Beast unit, recover one of your shards."},
 
@@ -569,6 +575,8 @@
 
     {"append": "astralic-invocation", "name": "Astralic Invocation", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astralic-invocation.jpg", "effect": "Add up to two target basic units from your discard zone to your hand."},
     {"append": "astralic-judgment", "name": "Astralic Judgment", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astralic-judgment.jpg", "effect": "As an additional cost to play this card expel any number of basic units from your hand or from the field that you control.\nDestroy a number of units and/or augments your opponent controls equal to or less than the number of cards expelled this way, then draw a card for each card destroyed this way."},
+
+    {"append": "harmonization-of-hope", "name": "Harmonization of Hope", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/harmonization-of-hope.jpg", "effect": "Instacast\nTarget Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card."},
 
     {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
 
