@@ -62,6 +62,10 @@ module.exports = {
         else if(id == "176959369030795274"){
             message.reply("Your partner is Wizardmon. You're connected via your Digivice 01!")
         }
+        //R_009 (Gold)
+        else if(id == "591340274119213088"){
+            message.reply("Your partner is Koromon. You're connected via your Smartphone Digivice!")
+        }
         //Hoang (Gold)
         else if(id == "151088210426986496"){
             message.reply("Your partner is Hackmon. You're connected via your Smartphone Digivice!")
