@@ -51,7 +51,7 @@ client.on("message", message => {
 
     if (message.content.startsWith("!card")){
         if(message.content.startsWith("!cardType")){
-            searchType(message, allCards, 9)
+            search.searchType(message, allCards, 9)
         }
         else{
             search.searching(message, allCards, 5)
@@ -83,7 +83,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!shard")){
         if(message.content.startsWith("!shardType")){
-            searchType(message, data.shards, 10)
+            searching.searchType(message, data.shards, 10)
         }
         else{
             search.searching(message, data.shards, 6)
@@ -91,7 +91,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!unit")){
         if(message.content.startsWith("!unitType")){
-            searchType(message, data.units, 9)
+            searching.searchType(message, data.units, 9)
         }
         else{
             search.searching(message, data.units, 5)
@@ -99,7 +99,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!spell")){
         if(message.content.startsWith("!spellType")){
-            searchType(message, data.spells, 10)
+            searching.searchType(message, data.spells, 10)
         }
         else{
             search.searching(message, data.spells, 6)
@@ -107,7 +107,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!augment")){
         if(message.content.startsWith("!augmentType")){
-            searchType(message, data.augments, 12)
+            searching.searchType(message, data.augments, 12)
         }
         else{
             search.searching(message, data.augments, 8)
@@ -123,7 +123,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!fire")){
         if(message.content.startsWith("!fireType")){
-            searchType(message, fireCards, 9)
+            searching.searchType(message, fireCards, 9)
         }
         else{
             search.searching(message, fireCards, 5)
@@ -131,7 +131,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!water")){
         if(message.content.startsWith("!waterType")){
-            searchType(message, waterCards, 10)
+            searching.searchType(message, waterCards, 10)
         }
         else{
             search.searching(message, waterCards, 6)
@@ -139,7 +139,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!air")){
         if(message.content.startsWith("!airType")){
-            searchType(message, airCards, 8)
+            searching.searchType(message, airCards, 8)
         }
         else{
             search.searching(message, airCards, 4)
@@ -147,7 +147,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!light")){
         if(message.content.startsWith("!lightType")){
-            searchType(message, lightCards, 10)
+            searching.searchType(message, lightCards, 10)
         }
         else{
             search.searching(message, lightCards, 6)
@@ -155,7 +155,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!dark")){
         if(message.content.startsWith("!darkType")){
-            searchType(message, darkCards, 9)
+            searching.searchType(message, darkCards, 9)
         }
         else{
             search.searching(message, darkCards, 5)
@@ -163,7 +163,7 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!argent")){
         if(message.content.startsWith("!argentType")){
-            searchType(message, argentCards, 11)
+            searching.searchType(message, argentCards, 11)
         }
         else{
             search.searching(message, argentCards, 7)
