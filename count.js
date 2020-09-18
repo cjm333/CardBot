@@ -63,11 +63,6 @@ module.exports = {
             }
         }
         
-        if(cardNames.length > 0){
-            message.reply("There are " + cardNames.length + " cards of type " + cardType)
-        }
-        else{
-            message.reply("There are 0 cards of type " + cardType)
-        }
+        message.reply("There are " + cardNames.length + " cards of type " + cardType)
     }
 }

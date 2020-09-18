@@ -1,5 +1,5 @@
 module.exports = {
-    searching: function (message, selectedCards, sliceLength){
+    searching: function (message, selectedCards, sliceLength, Discord){
         const cardEmbed = new Discord.MessageEmbed()
         channel = message.channel
         var doCheck = new Boolean(true)
@@ -14,6 +14,7 @@ module.exports = {
                 cardList.push(card)
             }
         }
+        cardNames.sort()
         if(cardList.length > 1){
             for(card of cardList){
                 if(card.append === cardName){
@@ -37,7 +38,7 @@ module.exports = {
                 }
                 channel.send(returnable)
             }
-            else if(cardList.length > 10){
+            else if(cardList.length > 15){
                 message.reply("Your search term was too broad. Be a bit more specific")
             }
             else if(cardList.length == 1){
@@ -75,7 +76,7 @@ module.exports = {
                 }
             }
         }
-
+        cardNames.sort()
         if(cardNames.length == 0){
             message.reply("No cards exist with that type")
         }
