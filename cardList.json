@@ -10,6 +10,7 @@
     {"append": "hadir-boy-of-the-sacred-forest", "name": "Hadir, Boy of the Sacred Forest", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hadir-boy-of-the-sacred-forest.jpg", "effect": "Exhaust, put a card from your hand under this card: If it was a Beast unit, you may place a +500 counter on target unit. If it was an Elemental unit, draw a card. Put two cards form under this card into the discard zone: Target unit you control gets +1000 and gains Overrun this turn."},
     {"append": "liam-traitor-of-knights", "name": "Liam, Traitor of Knights", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/liam-traitor-of-knights.jpg", "effect": "When you destroy an opponent's Tower - You can add one Gear from your deck to your hand.\nOnce per turn, discard one Gear from your hand: target Unit gets +500 this turn."},
     {"append": "auron-the-golden-rose", "name": "Auron, the Golden Rose", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/auron-the-golden-rose.jpg", "effect": "Exhaust, Discard one Knight or Gear from your hand: Exhaust target unit."},
+    {"append": "zane-hero-of-hyldia", "name": "Zane, Hero of Hyldia", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zane-hero-of-hyldia.jpg", "effect": "Exhaust: If you declared an attack with a basic unit this turn, put a card from your hand under this card, and if you do, draw a card.\nPut two cards under this card into the discard zone: Put a Hyldian token (Unit/Warrior/Light/1000) into play."},
     {"append": "hoenna-immoral-conjurer", "name": "Hoenna, Immoral Conjurer", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hoenna-immoral-conjurer.jpg", "effect": "When you destroy a Tower or Unit in battle - Place one counter on this card.\nRemove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500)."},
     {"append": "ergon-the-tragic-gargoyle", "name": "Ergon, the Tragic Gargoyle", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ergon-the-tragic-gargoyle.jpg", "effect": "Exhaust: Send the top two cards of your deck to the discard zone.\nExhaust, Pay (1): Put target unit from your discard zone on top of your deck."},
     {"append": "neferia-the-queens-assassin", "name": "Neferia, the Queen's Assassin", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/neferia-the-queens-assassin.jpg", "effect": "Whenever you trigger the Ruined ability of a unit - You may put that unit under this card.\nExhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it."},
@@ -373,6 +374,8 @@
     {"append": "emerald-elder-stag", "name": "Emerald Elder Stag", "type": "beast", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/emerald-elder-stag.jpg", "effect": "This card cannot be targeted by your opponent's spells or abilities while you control an Elemental unit.\nExhaust an Elemental unit you control: Recover this card."},
     {"append": "emerald-elder-treant", "name": "Emerald Elder Treant", "type": "elemental", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/emerald-elder-treant.jpg", "effect": "Arrive - Look at the top three cards of your deck. You may put a Beast unit with cost (3) or less among them into play with a +500 counter. Place the rest on the bottom of your deck in any order."},
 
+    {"append": "evaerie-changeling", "name": "Evaerie Changeling", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-changeling.jpg", "effect": "Exhaust, sacrifice this card: Put target Dark unit from your discard zone with cost (2) or less, except \"Evaerie Changeling\", into play."},
+
     {"append": "evaerie-crone", "name": "Evaerie Crone", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-crone.jpg", "effect": "Ruined - You may sacrifice a unit you control. If you do, draw a card."},
 
     {"append": "evaerie-rogue", "name": "Evaerie Rogue", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-rogue.jpg", "effect": "Ruined - Return this card to its owner's hand."},
@@ -393,6 +396,8 @@
     {"append": "melanites-envoy", "name": "Melanite's Envoy", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/melanites-envoy.jpg", "effect": "Ruined - Put target Dark unit with cost (1) from your discard zone into play."},
 
     {"append": "mezozian-hatchling", "name": "Mezozian Hatchling", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mezozian-hatchling.jpg", "effect": "Other Dinosaur units you control get +500."},
+
+    {"append": "mezozian-raptor", "name": "Mezozian Raptor", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mezozian-raptor.jpg", "effect": "This card costs (1) less to play for each Dinosaur unit you have attacked with this turn.\nWhile you control five or more shards, units your opponent controls with cost (2) or less lose their abilities."},
 
     {"append": "nightrider-eooch", "name": "Nightrider Eooch", "type": "evaerie knight", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/nightrider-eooch.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nArrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit."},
 
@@ -587,6 +592,7 @@
 
     {"append": "narrow-escape", "name": "Narrow Escape", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/narrow-escape.jpg", "effect": "Instacast\nReturn target attacking or blocking unit you control to its owner's hand."},
 
+    {"append": "pengiros-decree", "name": "Pengiro's Decree", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/pengiros-decree.jpg", "effect": "This card costs (1) less to play for each Stunned unit your opponent controls.\nDraw two cards.\nWhenever a Stunned unit your opponent controls is put into the discard zone - You may add this card from your discard zone to your hand."},
     {"append": "primeval-roar", "name": "Primeval Roar", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-roar.jpg", "effect": "Instacast\nDeal 1500 to target unit. Then if you control four or more shards you may exhaust target shard an opponent controls."},
     {"append": "primeval-shockwave", "name": "Primeval Shockwave", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/primeval-shockwave.jpg", "effect": "Instacast\nDeal 2000 to all units. Then if you control seven or more shards, exhaust any number of target shards your opponent controls up to the number of units dealt damage this way."},
 
@@ -654,6 +660,8 @@
     {"append": "hokken-market", "name": "Hokken Market", "type": "location", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-market.jpg", "effect": "Pay (2): Draw a card. Both players may use this ability."},
 
     {"append": "kumakoris-totem", "name": "Kumakori's Totem", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/kumakoris-totem.jpg", "effect": "Water units get +500 for each Stunned unit your opponent controls.\nRuined - You may Stun target unit."},
+
+    {"append": "shardwork-heart", "name": "Shardwork Heart", "type": "gear", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-heart.jpg", "effect": "Equip only to target \"Shardwork\" unit.\nThe equipped unit ignores Animate."},
 
     {"append": "omega-amulet", "name": "\u03A9 Amulet", "type": "legendary amulet", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/omega-amulet.jpg", "effect": "Arrive – Draw a card.\nSacrifice this card: Champions lose all abilities this turn. Neither player can add to the queue in response to this ability."}
   ]
