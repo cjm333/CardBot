@@ -20,8 +20,8 @@ client.on("ready", () =>{
 
 //User entrance message
 client.on("guildMemberAdd", member => {
-    digivice = memberEntry.getDigivice(message.author.id);
-    partner = memberEntry.getPartner(message.author.id);
+    digivice = memberEntry.getDigivice(member.id);
+    partner = memberEntry.getPartner(member.id);
     client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner)
 })
 
@@ -56,4 +56,4 @@ client.on("message", message => {
 });
 
 // Log in the bot with the token
-client.login("***");
+client.login("*");
