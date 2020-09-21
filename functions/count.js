@@ -1,37 +1,40 @@
 module.exports = {
-    counting: function(message, data, allCards){
+    counting: function(message, stats){
         const type = message.content.slice(6).trim()
         if(type == "units" || type == "unit"){
-            const response = "There are " + data.units.length + " units in Argent Saga"
+            const response = "There are " + stats.units + " units in Argent Saga"
             message.reply(response)
         }
         else if(type == "spells" || type == "spell"){
-            const response = "There are " + data.spells.length + " spells in Argent Saga"
+            const response = "There are " + stats.spells + " spells in Argent Saga"
             message.reply(response)
         }
         else if(type == "augments" || type == "augment"){
-            const response = "There are " + data.augments.length + " augments in Argent Saga"
+            const response = "There are " + stats.augments + " augments in Argent Saga"
             message.reply(response)
         }
         else if(type == "champions" || type == "champion"){
-            const response = "There are " + data.champions.length + " champions in Argent Saga"
+            const response = "There are " + stats.champions + " champions in Argent Saga"
             message.reply(response)
         }
         else if(type == "spirits" || type == "spirit"){
-            const response = "There are " + data.spirits.length + " spirits in Argent Saga"
+            const response = "There are " + stats.spirits + " spirits in Argent Saga"
             message.reply(response)
         }
         else if(type == "towers" || type == "tower"){
-            const response = "There are " + data.towers.length + " towers in Argent Saga"
+            const response = "There are " + stats.towers + " towers in Argent Saga"
             message.reply(response)
         }
         else if(type == "shards" || type == "shard"){
-            tracker = data.shards.length - 2
-            const response = "There are " + tracker + " shards in Argent Saga"
+            const response = "There are " + stats.shards + " shards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "basics" || type == "basic"){
+            const response = "There are " + stats.basics + " basic units in Argent Saga"
             message.reply(response)
         }
         else if(type == "cards" || type == "card"){
-            const response = "There are " + allCards.length + " cards in Argent Saga"
+            const response = "There are " + stats.cards + " cards in Argent Saga"
             message.reply(response)
         }
         else{
@@ -39,13 +42,13 @@ module.exports = {
         }
     },
 
-    countingType: function(message, data){
+    countingType: function(message, cards){
         const type = message.content.slice(10).trim()
         const cardType = type.toLowerCase();
         cardNames = []
         
         if(cardType == "mech" || cardType == "?"){
-            for(card of selectedCards){
+            for(card of cards){
                 if(card.type){
                     if(card.type == cardType){
                         cardNames.push(card.name)
@@ -54,7 +57,7 @@ module.exports = {
             }
         }
         else{
-            for(card of data){
+            for(card of cards){
                 if(card.type){
                     if(card.type.includes(cardType)){
                         cardNames.push(card.name)
