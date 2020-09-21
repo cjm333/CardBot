@@ -38,7 +38,7 @@ Recovery +X: `Take X cards from the top of your deck and add them to the top of 
 Piercing: `When this Digimon attacks and destroys an opponent’s Digimon by battle, it performs a Security Check against your opponent’s Security. This Security Check does not count as a direct attack.`\n\n \
 Draw +X: `Draw x cards from the top of your deck and add them to your hand.`\n\n \
 Jamming: `This Digimon cannot be destroyed in battle against a Security Digimon.`\n\n \
-De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no Digivolution Sources or is the last Digimon in the stack, you may not continue discarding.`\n\n \
+De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no Digivolution Sources remaining, or is Lv.3, you may not continue discarding.`\n\n \
 Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
 Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`").then(msg => {
