@@ -116,7 +116,9 @@
         {"append": "astralic-judgment", "name": "Astralic Judgment", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astralic-judgment.jpg", "effect": "As an additional cost to play this card expel any number of basic units from your hand or from the field that you control.\nDestroy a number of units and/or augments your opponent controls equal to or less than the number of cards expelled this way, then draw a card for each card destroyed this way."},
         {"append": "astralic-law", "name": "Astralic Law", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/astralic-law.jpg", "effect": "Choose one. If your opponent controls three or more units you may choose both.\n* Put a Hyldian token (Unit/Warrior/Light/1000) into play.\n* Draw a card for each basic unit you control."},
         {"append": "beastkings-awakening", "name": "Beastking's Awakening", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/beastkings-awakening.jpg", "effect": "Put a Beast unit from your hand into play. Then if you control a Beast unit and an Elemental unit, draw a card."},
-    
+
+        {"append": "evaerie-burial", "name": "Evaerie Burial", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-burial.jpg", "effect": "Search your deck for up to two units with Ruined and put them into the discard zone."},
+
         {"append": "harmonization-of-hope", "name": "Harmonization of Hope", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/harmonization-of-hope.jpg", "effect": "Instacast\nTarget Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card."},
     
         {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
