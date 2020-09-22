@@ -33,6 +33,30 @@ module.exports = {
             const response = "There are " + stats.basics + " basic units in Argent Saga"
             message.reply(response)
         }
+        else if(type == "fire"){
+            const response = "There are " + stats.fire + " fire cards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "water"){
+            const response = "There are " + stats.water + " water cards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "air"){
+            const response = "There are " + stats.air + " air cards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "light"){
+            const response = "There are " + stats.light + " light cards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "dark"){
+            const response = "There are " + stats.dark + " dark cards in Argent Saga"
+            message.reply(response)
+        }
+        else if(type == "argent"){
+            const response = "There are " + stats.argent + " argent cards in Argent Saga"
+            message.reply(response)
+        }
         else if(type == "cards" || type == "card"){
             const response = "There are " + stats.cards + " cards in Argent Saga"
             message.reply(response)
