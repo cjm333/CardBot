@@ -1,0 +1,26 @@
+{ 
+    "digitama": [
+      {"append": "koromon-st1-01", "name": "Koromon (ST1-01)", "url": "https://digimon-bucket.s3.amazonaws.com/koromon-st1-01.png", "effect": "", "inheritable": ""},
+      {"append": "tsunomon-st2-01", "name": "Tsunomon (ST2-01)", "url": "https://digimon-bucket.s3.amazonaws.com/tsunomon-st2-01.png", "effect": "", "inheritable": ""},
+      {"append": "tokomon-st3-01", "name": "Tokomon (ST3-01)", "url": "https://digimon-bucket.s3.amazonaws.com/tokomon-st3-01.png", "effect": "", "inheritable": ""},
+  
+      {"append": "yokomon-bt1-001", "name": "Yokomon (BT1-001)", "url": "https://digimon-bucket.s3.amazonaws.com/yokomon-bt1-001.png", "effect": "", "inheritable": ""},
+      {"append": "babydmon-bt1-002", "name": "Babydmon (BT1-002)", "url": "https://digimon-bucket.s3.amazonaws.com/babydmon-bt1-002.png", "effect": "", "inheritable": ""},
+      {"append": "upamon-bt1-003", "name": "Upamon (BT1-003)", "url": "https://digimon-bucket.s3.amazonaws.com/upamon-bt1-003.png", "effect": "", "inheritable": ""},
+      {"append": "wanyamon-bt1-004", "name": "Wanyamon (BT1-004)", "url": "https://digimon-bucket.s3.amazonaws.com/wanyamon-bt1-004.png", "effect": "", "inheritable": ""},
+      {"append": "kyaromon-bt1-005", "name": "Kyaromon (BT1-005)", "url": "https://digimon-bucket.s3.amazonaws.com/kyaromon-bt1-005.png", "effect": "", "inheritable": ""},
+      {"append": "kyupimon-bt1-006", "name": "Kyupimon (BT1-006)", "url": "https://digimon-bucket.s3.amazonaws.com/kyupimon-bt1-006.png", "effect": "", "inheritable": ""},
+      {"append": "tanemon-bt1-007", "name": "Tanemon (BT1-007)", "url": "https://digimon-bucket.s3.amazonaws.com/tanemon-bt1-007.png", "effect": "", "inheritable": ""},
+      {"append": "frimon-bt1-008", "name": "Frimon (BT1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/frimon-bt1-008.png", "effect": "", "inheritable": ""},
+  
+      {"append": "gigimon-bt2-001", "name": "Gigimon (BT2-001)", "url": "https://digimon-bucket.s3.amazonaws.com/gigimon-bt2-001.png", "effect": "", "inheritable": ""},
+      {"append": "demiveemon-bt2-002", "name": "DemiVeemon (BT2-002)", "url": "https://digimon-bucket.s3.amazonaws.com/demiveemon-bt2-002.png", "effect": "", "inheritable": ""},
+      {"append": "nyaromon-bt2-003", "name": "Nyaromon (BT2-003)", "url": "https://digimon-bucket.s3.amazonaws.com/nyaromon-bt2-003.png", "effect": "", "inheritable": ""},
+      {"append": "argomon-bt2-004", "name": "Argomon (BT2-004)", "url": "https://digimon-bucket.s3.amazonaws.com/argomon-bt2-004.png", "effect": "", "inheritable": ""},
+      {"append": "kapurimon-bt2-005", "name": "Kapurimon (BT2-005)", "url": "https://digimon-bucket.s3.amazonaws.com/kapurimon-bt2-005.png", "effect": "", "inheritable": ""},
+      {"append": "tsumemon-bt2-006", "name": "Tsumemon (BT2-006)", "url": "https://digimon-bucket.s3.amazonaws.com/tsumemon-bt2-006.png", "effect": "", "inheritable": ""},
+      {"append": "pagumon-bt2-007", "name": "Pagumon (BT2-007)", "url": "https://digimon-bucket.s3.amazonaws.com/pagumon-bt2-007.png", "effect": "", "inheritable": ""},
+      {"append": "yaamon-bt2-008", "name": "Yaamon (BT2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/yaamon-bt2-008.png", "effect": "", "inheritable": ""}
+    ]
+  }
+  

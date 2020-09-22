@@ -1,0 +1,34 @@
+{
+    "alt": [
+    {"append": "agumon-bt1-010-alt", "name": "Agumon (Alt Art, BT1-010)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-bt1-010-alt.png", "effect": "", "inheritable": ""},
+    {"append": "wargreymon-bt1-025-alt", "name": "WarGreymon (Alt Art, BT1-025)", "url": "https://digimon-bucket.s3.amazonaws.com/wargreymon-bt1-025-alt.png", "effect": "", "inheritable": ""},
+    {"append": "gabumon-bt1-029-alt", "name": "Gabumon (Alt Art, BT1-029)", "url": "https://digimon-bucket.s3.amazonaws.com/gabumon-bt1-029-alt.png", "effect": "", "inheritable": ""},
+    {"append": "metalgarurumon-bt1-044-alt", "name": "MetalGarurumon (Alt Art, BT1-044)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-bt1-044-alt.png", "effect": "", "inheritable": ""},
+    {"append": "magnaangemon-bt1-060-alt", "name": "MagnaAngemon (Alt Art, BT1-060)", "url": "https://digimon-bucket.s3.amazonaws.com/magnaangemon-bt1-060-alt.png", "effect": "", "inheritable": ""},
+    {"append": "rosemon-bt1-082-alt", "name": "Rosemon (Alt Art, BT1-082)", "url": "https://digimon-bucket.s3.amazonaws.com/rosemon-bt1-082-alt.png", "effect": "", "inheritable": ""},
+    {"append": "grankuwagamon-bt1-083-alt", "name": "Grankuwagamon (Alt Art, BT1-083)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-bt1-083-alt.png", "effect": "", "inheritable": ""},
+    {"append": "omnimon-bt1-084-alt", "name": "Omnimon (Alt Art, BT1-084)", "url": "https://digimon-bucket.s3.amazonaws.com/omnimon-bt1-084-alt.png", "effect": "", "inheritable": ""},
+    {"append": "tai-bt1-085-alt", "name": "Tai Kamiya (Box Topper, BT1-085)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt1-085-alt.png", "effect": "", "inheritable": ""},
+    {"append": "matt-bt1-086-alt", "name": "Matt Ishida (Box Topper, BT1-086)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt1-086-alt.png", "effect": "", "inheritable": ""},
+    {"append": "tk-bt1-087-alt", "name": "T.K. Takaishi (Box Topper, BT1-087)", "url": "https://digimon-bucket.s3.amazonaws.com/tk-bt1-087-alt.png", "effect": "", "inheritable": ""},
+    {"append": "izzy-bt1-088-alt", "name": "Izzy Izumi (Box Topper, BT1-088)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-bt1-088-alt.png", "effect": "", "inheritable": ""},
+    {"append": "mimi-bt1-089-alt", "name": "Mimi Tachikawa (Box Topper, BT1-089)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-bt1-089-alt.png", "effect": "", "inheritable": ""},
+    {"append": "brave-shield-bt1-095-alt", "name": "Brave Shield (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/brave-shield-bt1-095-alt.png", "effect": "", "inheritable": ""},
+    {"append": "howling-crusher-bt1-101-alt", "name": "Howling Crusher (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/howling-crusher-bt1-101-alt.png", "effect": "", "inheritable": ""},
+    {"append": "holy-wave-bt1-107-alt", "name": "Holy Wave (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/holy-wave-bt1-107-alt.png", "effect": "", "inheritable": ""},
+    {"append": "flower-cannon-bt1-110-alt", "name": "Flower Cannon (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt.png", "effect": "", "inheritable": ""},
+    {"append": "metalgreymon-virus-bt1-114-alt", "name": "MetalGreymon Virus (Alt Art, BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114-alt.png", "effect": "", "inheritable": ""},
+    {"append": "veedramon-bt1-115-alt", "name": "Veedramon (Alt Art, BT1-115)", "url": "https://digimon-bucket.s3.amazonaws.com/veedramon-bt1-115-alt.png", "effect": "", "inheritable": ""},
+    
+    {"append": "gallantmon-bt2-020-alt", "name": "Gallantmon (Alt Art, BT2-020)", "url": "https://digimon-bucket.s3.amazonaws.com/gallantmon-bt2-020-alt.png", "effect": "", "inheritable": ""},
+    {"append": "metalseadramon-bt2-030", "name": "MetalSeadramon (Alt Art, BT2-030)", "url": "https://digimon-bucket.s3.amazonaws.com/metalseadramon-bt2-030-alt.png", "effect": "", "inheritable": ""},
+    {"append": "ulforceveedramon-bt2-032", "name": "UlforceVeedramon (Alt Art, BT2-032)", "url": "https://digimon-bucket.s3.amazonaws.com/ulforceveedramon-bt2-032-alt.png", "effect": "", "inheritable": ""},
+    {"append": "shinegreymon-bt2-041-alt", "name": "ShineGreymon (Alt Art, BT2-041)", "url": "https://digimon-bucket.s3.amazonaws.com/shinegreymon-bt2-041-alt.png", "effect": "", "inheritable": ""},
+    {"append": "puppetmon-bt2-049-alt", "name": "Puppetmon (Alt Art, BT2-049)", "url": "https://digimon-bucket.s3.amazonaws.com/puppetmon-bt2-049-alt.png", "effect": "", "inheritable": ""},
+    {"append": "wargreymon-bt2-065-alt", "name": "WarGreymon (Alt Art, BT2-065)", "url": "https://digimon-bucket.s3.amazonaws.com/wargreymon-bt2-065-alt.png", "effect": "", "inheritable": ""},
+    {"append": "machinedramon-bt2-066-alt", "name": "Machinedramon (Alt Art, BT2-066)", "url": "https://digimon-bucket.s3.amazonaws.com/machinedramon-bt2-066-alt.png", "effect": "", "inheritable": ""},
+    {"append": "piedmon-bt2-080-alt", "name": "Piedmon (Alt Art, BT2-080)", "url": "https://digimon-bucket.s3.amazonaws.com/piedmon-bt2-080-alt.png", "effect": "", "inheritable": ""},
+    {"append": "metalgarurumon-bt2-081-alt", "name": "MetalGarurumon (Alt Art, BT2-081)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-bt2-081-alt.png", "effect": "", "inheritable": ""},
+    {"append": "diaboromon-bt2-082-alt", "name": "Diaboromon (Alt Art, BT2-082)", "url": "https://digimon-bucket.s3.amazonaws.com/diaboromon-bt2-082-alt.png", "effect": "", "inheritable": ""}
+  ]
+}

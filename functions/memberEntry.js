@@ -86,6 +86,10 @@ module.exports = {
         else if(id == "223208303541354498"){
             message.reply("Your partner is Renamon. You're connected via your D-Power!")
         }
+        //Maria (Booster)
+        else if(id == "326859177152610314"){
+            message.reply("Your partner is Alphamon. You're connected via your Digivice!")
+        }
         else{
             message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
         }
