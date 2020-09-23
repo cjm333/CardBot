@@ -12,7 +12,7 @@ module.exports = {
 
         if(cardName == "wolf-claw"){
             for(card of selectedCards){
-                if(card.append == cardName){
+                if(card.append == "wolf-claw-st2-15"){
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     cardEmbed.setDescription(card.effect)

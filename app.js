@@ -74,7 +74,12 @@ client.on("message", message => {
         }
     }
     else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
+    else if(message.content.startsWith("!meme")){
+        const cardEmbed = new Discord.MessageEmbed()
+        cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/meme.png")
+        message.reply(cardEmbed)
+    }
 });
 
 // Log in the bot with the token
-client.login("NzQ4NzMyNjAyOTA2NTc0OTU5.X0htkw.hqA443FQTy-flbZ9c_tygULSU-o");
+client.login("*");
