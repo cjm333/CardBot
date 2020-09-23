@@ -7,18 +7,23 @@ module.exports = {
     },
     help: function(message){
         message.reply("Here are a list of commands:\n \
+Searching:\n \
 !card: `Search all card names`\n \
 !digitama: `Search only Digitama cards`\n \
 !digimon: `Search only Digimon cards`\n \
 !tamer: `Search only Tamer cards`\n \
 !option: `Search only Option cards`\n \
-!alt: `Search for alternate arts`\n \
-!count: `Number of cards in a certain type`\n \
+!alt: `Search for alternate arts`\n\n \
+Useful:\n \
 !borrow: `Information on memory borrowing`\n \
-!keyword: `List keywords`\n \
-!rulebook: `Simple question answer`\n \
 !faq: `List common question answers`\n \
-!partner: `Check your partner and digivice` \n\n \
+!keyword: `List keywords`\n \
+!meme: `The best reply to the most popular question to ever grace this server`\n \
+!rulebook: `Simple question answer`\n\n \
+Other:\n \
+!count: `Number of cards in a certain type`\n \
+!partner: `Check your partner and digivice` \n \
+!starterColor: `Get the starter deck list of whatever color you specify`\n\n \
 Reminder: large messages self-delete after a short time")
     },
     faq: function(message){
@@ -43,6 +48,52 @@ Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
 Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`").then(msg => {
     msg.delete({ timeout: 60000 })})
+    },
+
+    red: function(message){
+        message.channel.send("Main:\n \
+        4x Biyomon (st1-02)\n \
+        4x Agumon (st1-03)\n \
+        4x Dracomon (st1-04)\n \
+        4x Birdramon (st1-05)\n \
+        4x Coredramon (st1-06)\n \
+        2x Greymon (st1-07)\n \
+        4x Garudamon (st1-08)\n \
+        4x MetalGreymon (st1-09)\n \
+        2x Phoenixmon (st1-10)\n \
+        2x WarGreymon (st1-11)\n \
+        4x Tai Kamiya (st1-12)\n \
+        4x Wing Blade (st1-13)\n \
+        2x Starlight Explosion (st1-14)\n \
+        4x Giga Blaster (st1-15)\n \
+        2x Terra Force (st1-16)\n\n \
+        Digitama Deck:\n \
+        4x Koromon (ST1-01)")
+    },
+
+    blue: function(message){
+        message.channel.send("Main:\n \
+        4x Gomamon (ST2-02)\n \
+        4x Gabumon (ST2-03)\n \
+        4x Bearmon (ST2-04)\n \
+        4x Ikkakumon (ST2-05)\n \
+        2x Garurumon (ST2-06)\n \
+        4x Grizzlymon (ST2-07)\n \
+        4x WereGarurumon (ST2-08)\n \
+        4x Zudomon (ST2-09)\n \
+        2x Plesiomon (ST2-10)\n \
+        2x MetalGarurumon (ST2-11)\n \
+        4x Matt Ishida (ST2-12)\n \
+        4x Vulcan's Hammer (ST2-13)\n \
+        2x Sorrow Blue (ST2-14)\n \
+        4x Wolf Claw (ST2-15)\n \
+        2x Ice Wolf Claw (ST2-16)\n\n \
+        Digitama Deck:\n \
+        4x Tsunomon (ST2-01)")
+    },
+
+    yellow: function(message){
+        message.channel.send("Someone send me this one typed out cuz I don't do it")
     }
 
 }

@@ -79,6 +79,9 @@ client.on("message", message => {
         cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/meme.png")
         message.reply(cardEmbed)
     }
+    else if(message.content.startsWith("!starterRed")){textCommands.red(message)}
+    else if(message.content.startsWith("!starterBlue")){textCommands.blue(message)}
+    else if(message.content.startsWith("!starterYellow")){textCommands.yellow(message)}
 });
 
 // Log in the bot with the token
