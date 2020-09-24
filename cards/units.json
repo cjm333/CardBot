@@ -313,9 +313,8 @@
         {"append": "evaerie-rogue", "name": "Evaerie Rogue", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-rogue.jpg", "effect": "Ruined - Return this card to its owner's hand."},
         {"append": "evaerie-throneguard", "name": "Evaerie Throneguard", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-throneguard.jpg", "effect": "Guardian\nThis card cannot attack.\nRuined - Target unit loses all abilities."},
         {"append": "evvie-melanites-archmagus", "name": "Evvie, Melanite's Archmagus", "type": "evaerie sorceress", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evvie-melanites-archmagus.jpg", "effect": "Exhaust, sacrifice two units: Destroy target unit.\nRuined - Put target unit with Ruined and cost (2) or less from your discard zone into play."},
-    
+        {"append": "fragment-of-the-forgotten-one", "name": "Fragment of the Forgotten One", "type": "entity", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/fragment-of-the-forgotten-one.jpg", "effect": "Triggered abilities of units and augments do no trigger.\nOnce per turn, expel another unit you control: This card gains Immortal this turn."},
         {"append": "hand-of-pengiro", "name": "Hand of Pengiro", "type": "penguin", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hand-of-pengiro.jpg", "effect": "Arrive - Look at the top three cards of your deck. You may add a Penguin unit among them to your hand. Place the rest on the bottom of your deck in any order."},
-    
         {"append": "herald-of-tyrantus", "name": "Herald of Tyrantus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/herald-of-tyrantus.jpg", "effect": "Arrive - You may destroy target damaged unit.\nWhenever this card destroys an opponent's tower or unit - You may put a Dinosaur unit with cost (4) or less from your hand into play."},
     
         {"append": "hokken-adventurer", "name": "Hokken Adventurer", "type": "adventurer", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-adventurer.jpg", "effect": "Arrive - You may search your deck for a Location augment and add it to your hand. Then draw a card for each Location you have in play."},
@@ -328,6 +327,7 @@
     
         {"append": "hyldian-trainee", "name": "Hyldian Trainee", "type": "elf warrior", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hyldian-trainee.jpg", "effect": ""},
         
+        {"append": "lavallosaurus", "name": "Lavallosaurus", "type": "dinosaur", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/lavallosaurus.jpg", "effect": "Overrun (Whenver this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)\nWhile you control nine or more shards, this card gains Quickness and cannot be targeted by spells or abilities."},
         {"append": "mab-evaerie-dowager", "name": "Mab, Evaerie Dowager", "type": "evaerie", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mab-evaerie-dowager.jpg", "effect": "Arrive or Ruined - Choose one.\n* Your opponent discards a card.\n* Add target Dark unit other than this card from your discard zone to your hand."},
         {"append": "marrow-slurper", "name": "Marrow Slurper", "type": "beast", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/marrow-slurper.jpg", "effect": "Arrive - Expel target unit from your opponent's discard zone.\nPay (1), discard this card: Expel target unit from your opponent's discard zone."},
 
