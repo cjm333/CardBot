@@ -219,4 +219,4 @@ client.on("message", message => {
 });  
 
 // Log in the bot with the token
-client.login("***");
+client.login("*");

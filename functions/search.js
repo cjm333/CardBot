@@ -100,7 +100,7 @@ module.exports = {
 
         for(card of allCards){
             if(card.effect.toLowerCase().includes(searchable.toLowerCase())){
-                applicablebleCards.push(card.name)
+                applicableCards.push(card.name)
             }
         }
         
