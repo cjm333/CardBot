@@ -3,7 +3,7 @@ module.exports = {
         message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\nhttps://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF")
     },
     borrow: function(message){
-        message.channel.send("If you used any of the memory borrower skills aka  Metalgreymon/Weregarurumon/Chirinmon/Digitamamon or the option card Gravity Press, and decide to pass your turn while having positive memory, it goes like this:\n1) Declare you want to pass turn, so you put it to 3 on your opponent's side in order to pass the turn.\n2) Memory borrower's (end of turn) part of the effect activates, you get -3 or -2 memory for each memory borrower skill used, depending on which card you used")
+        message.channel.send("If you used any of the memory borrower skills like Metalgreymon/Weregarurumon/Chirinmon/Digitamamon, or the option card Gravity Press, and decide to pass your turn while having positive memory, it goes like this:\n1) Declare you want to pass turn, so you put it to 3 on your opponent's side in order to pass the turn.\n2) Memory borrower's [End of Turn] effect activates, you get -X memory for each memory borrower skill used")
     },
     help: function(message){
         message.reply("Here are a list of commands:\n \

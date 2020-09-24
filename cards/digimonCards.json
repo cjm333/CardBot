@@ -14,7 +14,7 @@
         {"append": "gabumon-st2-03", "name": "Gabumon (ST2-03)", "url": "https://digimon-bucket.s3.amazonaws.com/gabumon-st2-03.png", "effect": "", "inheritable": ""},
         {"append": "bearmon-st2-04", "name": "Bearmon (ST2-04)", "url": "https://digimon-bucket.s3.amazonaws.com/bearmon-st2-04.png", "effect": "", "inheritable": ""},
         {"append": "ikkakumon-st2-05", "name": "Ikkakumon (ST2-05)", "url": "https://digimon-bucket.s3.amazonaws.com/ikkakumon-st2-05.png", "effect": "", "inheritable": ""},
-        {"append": "garuru-st2-06", "name": "Garurumon (ST2-06)", "url": "https://digimon-bucket.s3.amazonaws.com/garuru-st2-06.png", "effect": "", "inheritable": ""},
+        {"append": "garurumon-st2-06", "name": "Garurumon (ST2-06)", "url": "https://digimon-bucket.s3.amazonaws.com/garurumon-st2-06.png", "effect": "", "inheritable": ""},
         {"append": "grizzlymon-st2-07", "name": "Grizzlymon (ST2-07)", "url": "https://digimon-bucket.s3.amazonaws.com/grizzlymon-st2-07.png", "effect": "", "inheritable": ""},
         {"append": "weregarurumon-st2-08", "name": "WereGarurumon (ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08.png", "effect": "", "inheritable": ""},
         {"append": "zudomon-st2-09", "name": "Zudomon (ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09.png", "effect": "", "inheritable": ""},
