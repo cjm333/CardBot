@@ -33,8 +33,8 @@
     {"append": "beelzemon-bt2-111-alt", "name": "Beelzemon (Alt Art, BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111-alt.png", "effect": "", "inheritable": ""},
     {"append": "blackwargreymon-bt2-112-alt", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt.png", "effect": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active.", "inheritable": ""},
 
-    {"append": "metalgreymon-st1-09-alt", "name": "MetalGreymon (Alt Art, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.png", "effect": "", "inheritable": ""},
-    {"append": "terra-force-st1-16-alt", "name": "Terra Force (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.png", "effect": "", "inheritable": ""},
-    {"append": "weregarurumon-st2-08-alt", "name": "WereGarurumon (Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.png", "effect": "", "inheritable": ""}
+    {"append": "metalgreymon-st1-09-alt", "name": "MetalGreymon (Alt Art, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "terra-force-st1-16-alt", "name": "Terra Force (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "weregarurumon-st2-08-alt", "name": "WereGarurumon (Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg", "effect": "", "inheritable": ""}
   ]
 }
