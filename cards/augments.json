@@ -45,6 +45,8 @@
 
     {"append": "hokken-market", "name": "Hokken Market", "type": "location", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-market.jpg", "effect": "Pay (2): Draw a card. Both players may use this ability."},
 
+    {"append": "hokken-warding-amulet", "name": "Hokken Warding Amulet", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hokken-warding-amulet.jpg", "effect": "Neither player can target cards in discard zones.\nNeither player can activate the abilities of cards in discard zones.\nYou can only control one \"Hokken Warding Amulet\"."},
+
     {"append": "kumakoris-totem", "name": "Kumakori's Totem", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/kumakoris-totem.jpg", "effect": "Water units get +500 for each Stunned unit your opponent controls.\nRuined - You may Stun target unit."},
 
     {"append": "shardwork-heart", "name": "Shardwork Heart", "type": "gear", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-heart.jpg", "effect": "Equip only to target \"Shardwork\" unit.\nThe equipped unit ignores Animate."},

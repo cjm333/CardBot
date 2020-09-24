@@ -119,6 +119,7 @@
 
         {"append": "evaerie-burial", "name": "Evaerie Burial", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-burial.jpg", "effect": "Search your deck for up to two units with Ruined and put them into the discard zone."},
 
+        {"append": "glacial-shuriken", "name": "Glacial Shuriken", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/glacial-shuriken.jpg", "effect": "Instacast\nStun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
         {"append": "harmonization-of-hope", "name": "Harmonization of Hope", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/harmonization-of-hope.jpg", "effect": "Instacast\nTarget Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card."},
     
         {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.jpg", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
@@ -143,7 +144,7 @@
         {"append": "vindication-of-valor", "name": "Vindication of Valor", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/vindication-of-valor.jpg", "effect": "As an additional cost to play this card, sacrifice a unit.\nDestroy target unit or augment. If you sacrificed a non-token basic unit, draw a card."},
     
         {"append": "zonamian-barrier", "name": "Zonamian Barrier", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-barrier.jpg", "effect": "Instacast\nPrevent all damage that would be dealt by your opponent's spells this turn."},
-        
+        {"append": "zonamian-mending", "name": "Zonamian Mending", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-mending.jpg", "effect": "Instacast\nRemove all damage from units you control. For each unit that had damage removed this way, recover a shard."},
         {"append": "zonamian-rage", "name": "Zonamian Rage", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-rage.jpg", "effect": "Instacast\nPlace a +500 counter on target attacking unit, and if you do, it gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)"},
         {"append": "zonamian-stampede", "name": "Zonamian Stampede", "element": "air", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/zonamian-stampede.jpg", "effect": "Deal 2000 to target active unit. If you control a Beast unit, deal 3000 instead."},
     
