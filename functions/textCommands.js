@@ -114,9 +114,9 @@ Digitama Deck:\n \
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`October 10th, 5pm UK Time: London Players Guild Tourney, Hosted by LPG - https://challonge.com/vc4z8f6s`\n\n \
-`October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG - https://challonge.com/y1uw3wkk`\n\n \
-`October 26th, 10am CDT (Week Long Event): DigiRumble 2, Hosted by orangeswim - https://challonge.com/dcdevR2`\n\n \
+`October 10th, 5pm UK Time: London Players Guild Tourney, Hosted by LPG -` https://challonge.com/vc4z8f6s\n\n \
+`October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG -` https://challonge.com/y1uw3wkk\n\n \
+`October 26th, 10am CDT (Week Long Event): DigiRumble 2, Hosted by orangeswim -` https://challonge.com/dcdevR2\n\n \
 `October 31st: Big Byte #7, Hosted by RazeOblivion`\n\n \
 `November 1st, 7pm EST: DigiDuels, Hosted by Drago`\n\n \
 `TBD: Teams Event by Antinomy`")
