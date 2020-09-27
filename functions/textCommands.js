@@ -22,6 +22,7 @@ Useful:\n \
 !rulebook: `Simple question answer`\n\n \
 Other:\n \
 !count: `Number of cards in a certain type`\n \
+!event: `List off the upcoming online events`\n \
 !partner: `Check your partner and digivice` \n \
 !starterColor: `Get the starter deck list of whatever color you specify`\n\n \
 Reminder: large messages self-delete after a short time")
