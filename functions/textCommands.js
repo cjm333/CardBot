@@ -114,12 +114,12 @@ Digitama Deck:\n \
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-October 10th, 11am UK Time: London Players Guild Tourney, Hosted by LPG\n \
-October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG\n \
-October 26th, 10am CDT: DigiRumble 2, Hosted by OrangeSwim\n \
-October 31st: Big Byte #7, Hosted by RazeOblivion\n \
-November 1st, 7pm EST: DigiDuels, Hosted by Drago\n \
-TBD: Teams Event by Antinomy")
+`October 10th, 11am UK Time: London Players Guild Tourney, Hosted by LPG`\n\n \
+`October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG`\n\n \
+`October 26th, 10am CDT: DigiRumble 2, Hosted by OrangeSwim`\n\n \
+`October 31st: Big Byte #7, Hosted by RazeOblivion`\n\n \
+`November 1st, 7pm EST: DigiDuels, Hosted by Drago`\n\n \
+`TBD: Teams Event by Antinomy`")
     }
 
 }
