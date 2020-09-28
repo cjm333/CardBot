@@ -13,6 +13,6 @@ module.exports = {
 !element:: `Search in a particular element`\n \
 !basic: `List all basic units in the game`\n \
 !text: `Search card effect text`\n \
-Append 'Type' to a command with :: to search for card with a certain type. Ex: !unitType")
+Append 'Type' or 'Text' to a command with :: to search for card with a certain type. Ex: !unitType, !spiritText")
     }
 }

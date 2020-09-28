@@ -94,11 +94,11 @@ module.exports = {
 
     },
 
-    effectText: function(message, allCards){
+    effectText: function(message, selectedCards){
         const searchable = message.content.slice(5).trim()
         applicableCards = []
 
-        for(card of allCards){
+        for(card of selectedCards){
             if(card.effect.toLowerCase().includes(searchable.toLowerCase())){
                 applicableCards.push(card.name)
             }

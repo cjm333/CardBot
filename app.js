@@ -85,6 +85,9 @@ client.on("message", message => {
         if(message.content.startsWith("!cardType")){
             search.searchType(message, allCards, 9);
         }
+        else if(message.content.startsWith("!cardText")){
+            search.effectText(message, allCards);
+        }
         else{
             search.searching(message, allCards, 5, Discord);
         }
@@ -92,6 +95,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!champion")){
         if(message.content.startsWith("!championType")){
             message.reply("Sorry, Champions don't have types");
+        }
+        else if(message.content.startsWith("!championText")){
+            search.effectText(message, otherCards.champions);
         }
         else{
             search.searching(message, otherCards.champions, 9, Discord);
@@ -101,6 +107,9 @@ client.on("message", message => {
         if(message.content.startsWith("!spiritType")){
             message.reply("Sorry, Spirits don't have types");
         }
+        else if(message.content.startsWith("!spiritText")){
+            search.effectText(message, otherCards.spirits);
+        }
         else{
             search.searching(message, otherCards.spirits, 7, Discord);
         }
@@ -108,6 +117,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!tower")){
         if(message.content.startsWith("!towerType")){
             message.reply("Sorry, Towers don't have types");
+        }
+        else if(message.content.startsWith("!towerText")){
+            search.effectText(message, otherCards.towers);
         }
         else{
             search.searching(message, otherCards.towers, 6, Discord);
@@ -117,6 +129,9 @@ client.on("message", message => {
         if(message.content.startsWith("!shardType")){
             search.searchType(message, otherCards.shards, 10);
         }
+        else if(message.content.startsWith("!shardText")){
+            search.effectText(message, otherCards.shards);
+        }
         else{
             search.searching(message, otherCards.shards, 6, Discord);
         }
@@ -124,6 +139,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!unit")){
         if(message.content.startsWith("!unitType")){
             search.searchType(message, units, 9);
+        }
+        else if(message.content.startsWith("!unitText")){
+            search.effectText(message, units);
         }
         else{
             search.searching(message, units, 5, Discord);
@@ -133,6 +151,9 @@ client.on("message", message => {
         if(message.content.startsWith("!spellType")){
             search.searchType(message, spells, 10);
         }
+        else if(message.content.startsWith("!spellText")){
+            search.effectText(message, spells);
+        }
         else{
             search.searching(message, spells, 6, Discord);
         }
@@ -140,6 +161,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!augment")){
         if(message.content.startsWith("!augmentType")){
             search.searchType(message, augments, 12);
+        }
+        else if(message.content.startsWith("!augmentText")){
+            search.effectText(message, augments);
         }
         else{
             search.searching(message, augments, 8, Discord);
@@ -157,6 +181,9 @@ client.on("message", message => {
         if(message.content.startsWith("!fireType")){
             search.searchType(message, fireCards, 9);
         }
+        else if(message.content.startsWith("!fireText")){
+            search.effectText(message, fireCards);
+        }
         else{
             search.searching(message, fireCards, 5, Discord);
         }
@@ -164,6 +191,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!water")){
         if(message.content.startsWith("!waterType")){
             search.searchType(message, waterCards, 10);
+        }
+        else if(message.content.startsWith("!waterText")){
+            search.effectText(message, waterCards);
         }
         else{
             search.searching(message, waterCards, 6, Discord);
@@ -173,6 +203,9 @@ client.on("message", message => {
         if(message.content.startsWith("!airType")){
             search.searchType(message, airCards, 8);
         }
+        else if(message.content.startsWith("!airText")){
+            search.effectText(message, airCards);
+        }
         else{
             search.searching(message, airCards, 4, Discord);
         }
@@ -180,6 +213,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!light")){
         if(message.content.startsWith("!lightType")){
             search.searchType(message, lightCards, 10);
+        }
+        else if(message.content.startsWith("!lightText")){
+            search.effectText(message, lightCards);
         }
         else{
             search.searching(message, lightCards, 6, Discord);
@@ -189,6 +225,9 @@ client.on("message", message => {
         if(message.content.startsWith("!darkType")){
             search.searchType(message, darkCards, 9);
         }
+        else if(message.content.startsWith("!darkText")){
+            search.effectText(message, darkCards);
+        }
         else{
             search.searching(message, darkCards, 5, Discord);
         }
@@ -196,6 +235,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!argent")){
         if(message.content.startsWith("!argentType")){
             search.searchType(message, argentCards, 11);
+        }
+        else if(message.content.startsWith("!argentText")){
+            search.effectText(message, argentCards);
         }
         else{
             search.searching(message, argentCards, 7, Discord);
