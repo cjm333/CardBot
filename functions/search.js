@@ -94,8 +94,8 @@ module.exports = {
 
     },
 
-    effectText: function(message, selectedCards){
-        const searchable = message.content.slice(5).trim()
+    effectText: function(message, selectedCards, sliceLength){
+        const searchable = message.content.slice(sliceLength).trim()
         applicableCards = []
 
         for(card of selectedCards){
@@ -103,7 +103,8 @@ module.exports = {
                 applicableCards.push(card.name)
             }
         }
-        
+        applicableCards.sort()
+
         finalMessage = ""
         for(name of applicableCards){
             finalMessage = finalMessage.concat(name).concat("\n")

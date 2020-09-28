@@ -12,7 +12,6 @@ module.exports = {
 !count:: `Get how many cards there are of a type`\n \
 !element:: `Search in a particular element`\n \
 !basic: `List all basic units in the game`\n \
-!text: `Search card effect text`\n \
 Append 'Type' or 'Text' to a command with :: to search for card with a certain type. Ex: !unitType, !spiritText")
     }
 }
