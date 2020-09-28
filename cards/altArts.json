@@ -1,8 +1,10 @@
 {
     "alt": [
     {"append": "metalgreymon-st1-09-alt", "name": "MetalGreymon (Alt Art, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "metalgreymon-st1-09-alt-2", "name": "MetalGreymon (Alt Art 2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.jpg", "effect": "", "inheritable": ""},
     {"append": "terra-force-st1-16-alt", "name": "Terra Force (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "weregarurumon-st2-08-alt", "name": "WereGarurumon (Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "zudomon-st2-09-alt", "name": "Zudomon (Alt Art, ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09-alt.png", "effect": "", "inheritable": ""},
     {"append": "vulcans-hammer-st2-13-alt", "name": "Vulcan's Hammer (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/vulcans-hammer-st2-13-alt.png", "effect": "", "inheritable": ""},
     {"append": "ice-wolf-claw-st2-16-alt", "name": "Ice Wolf Claw (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/ice-wolf-claw-st2-16-alt.png", "effect": "", "inheritable": ""},
 

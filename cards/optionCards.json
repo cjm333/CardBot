@@ -57,6 +57,8 @@
         {"append": "darkness-claw-bt2-107", "name": "Darkness Claw", "url": "https://digimon-bucket.s3.amazonaws.com/darkness-claw-bt2-107.png", "effect": "", "inheritable": ""},
         {"append": "grisly-wing-bt2-108", "name": "Grisly Wing", "url": "https://digimon-bucket.s3.amazonaws.com/grisly-wing-bt2-108.png", "effect": "", "inheritable": ""},
         {"append": "heat-viper-bt2-109", "name": "Heat Viper", "url": "https://digimon-bucket.s3.amazonaws.com/heat-viper-bt2-109.png", "effect": "", "inheritable": ""},
-        {"append": "trump-sword-bt2-110", "name": "Trump Sword", "url": "https://digimon-bucket.s3.amazonaws.com/trump-sword-bt2-110.png", "effect": "", "inheritable": ""}
+        {"append": "trump-sword-bt2-110", "name": "Trump Sword", "url": "https://digimon-bucket.s3.amazonaws.com/trump-sword-bt2-110.png", "effect": "", "inheritable": ""},
+
+        {"append": "the-fate-of-two-worlds-p-021", "name": "The Fate of Two Worlds", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png", "effect": "", "inheritable": ""}
       ]
 }
