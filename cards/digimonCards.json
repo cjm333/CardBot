@@ -189,7 +189,7 @@
         {"append": "blackwargreymon-bt2-112", "name": "BlackWarGreymon (BT2-112)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112.png", "effect": "", "inheritable": ""},
     
         {"append": "agumon-p-001", "name": "Agumon (P-001)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-p-001.png", "effect": "", "inheritable": ""},
-        {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://digimon-bucket.s3.amazonaws.com/biyomon-p-002", "effect": "", "inheritable": ""},
+        {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://digimon-bucket.s3.amazonaws.com/biyomon-p-002.png", "effect": "", "inheritable": ""},
         {"append": "gabumon-p-003", "name": "Gabumon (P-003)", "url": "https://digimon-bucket.s3.amazonaws.com/gabumon-p-003.png", "effect": "", "inheritable": ""},
         {"append": "gomamon-p-004", "name": "Gomamon (P-004)", "url": "https://digimon-bucket.s3.amazonaws.com/gomamon-p-004.png", "effect": "", "inheritable": ""},
         {"append": "patamon-p-005", "name": "Patamon (P-005)", "url": "https://digimon-bucket.s3.amazonaws.com/patamon-p-005.png", "effect": "", "inheritable": ""},
