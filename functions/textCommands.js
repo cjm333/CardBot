@@ -111,7 +111,7 @@ Digitama Deck:\n \
 4 Fire Tornado ST3-15\n \
 2 Strike Of The Seven Stars ST3-1\n\n \
 Digitama Deck:\n \
-4 Tsunomon (ST2-01)")
+4 Tokomon (ST3-01)")
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \

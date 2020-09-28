@@ -66,13 +66,17 @@ module.exports = {
         else if(id == "591340274119213088"){
             message.reply("Your partner is Koromon. You're connected via your Smartphone Digivice!")
         }
-        //Hoang (Gold)
+        //V01D (Gold)
         else if(id == "172778059659739136"){
             message.reply("Your partner is DORUmon. You're connected via your D-Burst!")
         }
         //Hoang (Gold)
         else if(id == "151088210426986496"){
             message.reply("Your partner is Hackmon. You're connected via your Smartphone Digivice!")
+        }
+        //Deci (Gold)
+        else if(id == "101162491962195968"){
+            message.reply("Your partner is Algomon. You're connected via your Smartphone Digivice!")
         }
         //Twinsinner (Booster)
         else if(id == "118951296383451136"){
