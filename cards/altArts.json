@@ -36,11 +36,11 @@
     {"append": "piedmon-bt2-080-alt", "name": "Piedmon (Alt Art, BT2-080)", "url": "https://digimon-bucket.s3.amazonaws.com/piedmon-bt2-080-alt.png", "effect": "", "inheritable": ""},
     {"append": "metalgarurumon-bt2-081-alt", "name": "MetalGarurumon (Alt Art, BT2-081)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-bt2-081-alt.png", "effect": "", "inheritable": ""},
     {"append": "diaboromon-bt2-082-alt", "name": "Diaboromon (Alt Art, BT2-082)", "url": "https://digimon-bucket.s3.amazonaws.com/diaboromon-bt2-082-alt.png", "effect": "", "inheritable": ""},
-    {"append": "sora-takenouchi-bt2-084-alt", "name": "Sora Takenouchi (BT2-084)", "url": "https://digimon-bucket.s3.amazonaws.com/sora-bt2-084-alt.png", "effect": "", "inheritable": ""},
-    {"append": "joe-kido-bt2-085-alt", "name": "Joe Kido (BT2-085)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-bt2-085-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "kari-kamiya-bt2-087-alt", "name": "Kari Kamiya (BT2-087)", "url": "https://digimon-bucket.s3.amazonaws.com/kari-bt2-087-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "tai-kamiya-bt2-089-alt", "name": "Tai Kamiya (BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt2-089-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "matt-ishida-bt2-090-alt", "name": "Matt Ishida (BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt2-090-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "sora-takenouchi-bt2-084-alt", "name": "Sora Takenouchi (BT2-084)", "url": "https://digimon-bucket.s3.amazonaws.com/sora-takenouchi-bt2-084-alt.png", "effect": "", "inheritable": ""},
+    {"append": "joe-kido-bt2-085-alt", "name": "Joe Kido (BT2-085)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt2-085-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "kari-kamiya-bt2-087-alt", "name": "Kari Kamiya (BT2-087)", "url": "https://digimon-bucket.s3.amazonaws.com/kari-kamiya-bt2-087-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "tai-kamiya-bt2-089-alt", "name": "Tai Kamiya (BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-kamiya-bt2-089-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "matt-ishida-bt2-090-alt", "name": "Matt Ishida (BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-ishida-bt2-090-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "beelzemon-bt2-111-alt", "name": "Beelzemon (Alt Art, BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111-alt.png", "effect": "", "inheritable": ""},
     {"append": "blackwargreymon-bt2-112-alt", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt.png", "effect": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active.", "inheritable": ""}
     
