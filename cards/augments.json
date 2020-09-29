@@ -50,6 +50,8 @@
 
     {"append": "kumakoris-totem", "name": "Kumakori's Totem", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/kumakoris-totem.png", "effect": "Water units get +500 for each Stunned unit your opponent controls.\nRuined - You may Stun target unit."},
 
+    {"append": "mezozia-the-primal-caldera", "name": "Mezozia, the Primal Caldera", "type": "location", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/mezozia-the-primal-caldera.png", "effect": "Exhaust: Dinosaur units you control get +500 this turn.\nExhaust, sacrifice this card: If you control four or more shards and a Dinosaur unit, deal 1000 to target unit or target face-up tower."},
+
     {"append": "shardwork-heart", "name": "Shardwork Heart", "type": "gear", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/shardwork-heart.png", "effect": "Equip only to target \"Shardwork\" unit.\nThe equipped unit ignores Animate."},
 
     {"append": "temple-of-the-forgotten", "name": "Temple of the Forgotten", "type": "location", "element": "argent", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/temple-of-the-forgotten.png", "effect": "Triggered abilities of units with cost equal to the number of counters on this card do not trigger.\nExhaust: Choose one.\n* Put a counter on this card.\n* Remove a counter from this card."},
