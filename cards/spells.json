@@ -119,9 +119,10 @@
 
         {"append": "evaerie-burial", "name": "Evaerie Burial", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-burial.png", "effect": "Search your deck for up to two units with Ruined and put them into the discard zone."},
 
+        {"append": "evaerie-glamour", "name": "Evaerie Glamour", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/evaerie-glamour.png", "effect": "Instacast\nThis turn target unit loses all abilities and becomes a (Unit/Evaerie/Dark/1000)."},
         {"append": "glacial-shuriken", "name": "Glacial Shuriken", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/glacial-shuriken.png", "effect": "Instacast\nStun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
         {"append": "harmonization-of-hope", "name": "Harmonization of Hope", "element": "light", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/harmonization-of-hope.png", "effect": "Instacast\nTarget Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card."},
-    
+        {"append": "herdmothers-formation", "name": "Herdmother's Formation", "element": "fire", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/herdmothers-formation.png", "effect": "Add two target Fire units with the same cost but different names from your discard zone to your hand."},
         {"append": "hunt-of-the-nightriders", "name": "Hunt of the Nightriders", "element": "dark", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/hunt-of-the-nightriders.png", "effect": "As an additional cost to play this card you may sacrifice a unit.\nSearch your deck for a \"Nightrider\" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit."},
         {"append": "ice-breath-first-form-cryostrike", "name": "Ice Breath First Form: Cryostrike", "element": "water", "url": "https://argent-saga-card-bucket.s3.amazonaws.com/ice-breath-first-form-cryostrike.png", "effect": "Stun target unit with cost (2) or less. If that unit was already Stunned, destroy it instead. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)"},
         
