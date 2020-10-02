@@ -9,6 +9,7 @@ const otherCards = require('./cards/other.json');
 const search = require('./functions/search.js');
 const textCommands = require('./functions/textCommands.js');
 const counter = require('./functions/count.js');
+const count = require("./functions/count.js");
 
 //Build card arrays
 units = unitData.units;
@@ -254,8 +255,11 @@ client.on("message", message => {
     else if(message.content.startsWith("!help")){
         textCommands.help(message);
     }
+    else if(message.content.startsWith("!promo")){
+        counter.promo(message, allCards);
+    }
 
 });  
 
 // Log in the bot with the token
-client.login("*");
+client.login("NzQ1MjU2NzY4MDg2NDc0Nzcy.XzvIcw.MCsNgm19hu2jdecmLLhpeW_zG_Q");

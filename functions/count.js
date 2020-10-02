@@ -91,5 +91,15 @@ module.exports = {
         }
         
         message.reply("There are " + cardNames.length + " cards of type " + cardType)
+    },
+    promo: function(message, allCards){
+        count = 0;
+        for(card of allCards){
+            if(card.promo){
+                count = count+1;
+            }
+        }
+
+        message.reply("There are " + count + " promo exclusive cards in Argent Saga.\nNOTE: This does not count cards only or additionally available in LGS Volumes or Curse of the Witch Queen. It also only encompasses Units, Spells, and Augments")
     }
 }
