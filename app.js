@@ -262,4 +262,4 @@ client.on("message", message => {
 });  
 
 // Log in the bot with the token
-client.login("NzQ1MjU2NzY4MDg2NDc0Nzcy.XzvIcw.MCsNgm19hu2jdecmLLhpeW_zG_Q");
+client.login("*");
