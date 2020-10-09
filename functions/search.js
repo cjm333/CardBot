@@ -21,6 +21,9 @@ module.exports = {
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     cardEmbed.setDescription(card.effect)
+                    if(card.special){
+                        cardEmbed.setFooter(card.special)
+                    }
                     message.reply(cardEmbed);
                     doCheck = false
                 }
@@ -45,6 +48,9 @@ module.exports = {
                 cardEmbed.setImage(cardList[0].url)
                 cardEmbed.setTitle(cardList[0].name)
                 cardEmbed.setDescription(cardList[0].effect)
+                if(cardList[0].special){
+                    cardEmbed.setFooter(cardList[0].special)
+                }
                 message.reply(cardEmbed);
             }
         }
