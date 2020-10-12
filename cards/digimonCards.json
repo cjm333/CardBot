@@ -213,6 +213,10 @@
         {"append": "leopardmon-bt3-030", "name": "Leopardmon (BT3-030)", "url": "https://digimon-bucket.s3.amazonaws.com/leopardmon-bt3-030.png", "effect": "", "inheritable": ""},
         {"append": "imperialdramon-dragon-mode-bt3-031", "name": "Imperialdramon Dragon Mode (BT3-031)", "url": "https://digimon-bucket.s3.amazonaws.com/imperialdramon-dragon-mode-bt3-031.png", "effect": "", "inheritable": ""},
         {"append": "ankylomon-bt3-036", "name": "Ankylomon (BT3-036)", "url": "https://digimon-bucket.s3.amazonaws.com/ankylomon-bt3-036.png", "effect": "", "inheritable": ""},
+        {"append": "angewomon-bt3-039", "name": "Angewomon (BT3-039)", "url": "https://digimon-bucket.s3.amazonaws.com/angewomon-bt3-039.png", "effect": "", "inheritable": ""},
+        {"append": "shakkoumon-bt3-040", "name": "Shakkoumon (BT3-040)", "url": "https://digimon-bucket.s3.amazonaws.com/shakkoumon-bt3-040.png", "effect": "", "inheritable": ""},
+        {"append": "cherubimon-bt3-041", "name": "Cherubimon (BT3-041)", "url": "https://digimon-bucket.s3.amazonaws.com/cherubimon-bt3-041.png", "effect": "", "inheritable": ""},
+        {"append": "kentaurosmon-bt3-043", "name": "Kentaurosmon (BT3-043)", "url": "https://digimon-bucket.s3.amazonaws.com/kentaurosmon-bt3-043.png", "effect": "", "inheritable": ""},
 
         {"append": "agumon-p-001", "name": "Agumon (P-001)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-p-001.png", "effect": "", "inheritable": ""},
         {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://digimon-bucket.s3.amazonaws.com/biyomon-p-002.png", "effect": "", "inheritable": ""},
