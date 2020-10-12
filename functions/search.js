@@ -66,8 +66,8 @@ module.exports = {
                 else if(cardList.length == 1){
                     cardEmbed.setImage(cardList[0].url)
                     cardEmbed.setTitle(cardList[0].name)
-                    if(card.bonus){
-                        cardEmbed.setFooter(card.bonus)
+                    if(cardList[0].bonus){
+                        cardEmbed.setFooter(cardList[0].bonus)
                     }
                     message.reply(cardEmbed).then(msg => {
                         msg.delete({ timeout: 60000 })
