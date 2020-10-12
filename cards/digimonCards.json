@@ -236,6 +236,12 @@
         {"append": "bryweludramon-bt3-072", "name": "Bryweludramon (BT3-072)", "url": "https://digimon-bucket.s3.amazonaws.com/bryweludramon-bt3-072.png", "effect": "", "inheritable": ""},
         {"append": "cresgarurumon-bt3-073", "name": "CresGarurumon (BT3-073)", "url": "https://digimon-bucket.s3.amazonaws.com/cresgarurumon-bt3-073.png", "effect": "", "inheritable": ""},
         {"append": "metaletemon-bt3-074", "name": "MetalEtemon (BT3-074)", "url": "https://digimon-bucket.s3.amazonaws.com/metaletemon-bt3-074.png", "effect": "", "inheritable": ""},
+        {"append": "blackgatomon-bt3-082", "name": "BlackGatomon (BT3-082)", "url": "https://digimon-bucket.s3.amazonaws.com/blackgatomon-bt3-082.png", "effect": "", "inheritable": ""},
+        {"append": "arukenimon-bt3-086", "name": "Arukenimon (BT3-086)", "url": "https://digimon-bucket.s3.amazonaws.com/arukenimon-bt3-086.png", "effect": "", "inheritable": ""},
+        {"append": "mummymon-bt3-087", "name": "Mummymon (BT3-087)", "url": "https://digimon-bucket.s3.amazonaws.com/mummymon-bt3-087.png", "effect": "", "inheritable": ""},
+        {"append": "mastemon-bt3-090", "name": "Mastemon (BT3-090)", "url": "https://digimon-bucket.s3.amazonaws.com/mastemon-bt3-090.png", "effect": "", "inheritable": ""},
+        {"append": "lilithmon-bt3-091", "name": "Lilithmon (BT3-091)", "url": "https://digimon-bucket.s3.amazonaws.com/lilithmon-bt3-091.png", "effect": "", "inheritable": ""},
+        {"append": "malomyotismon-bt3-092", "name": "MaloMyotismon (BT3-092)", "url": "https://digimon-bucket.s3.amazonaws.com/malomyotismon-bt3-092.png", "effect": "", "inheritable": ""},
 
         {"append": "agumon-p-001", "name": "Agumon (P-001)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-p-001.png", "effect": "", "inheritable": ""},
         {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://digimon-bucket.s3.amazonaws.com/biyomon-p-002.png", "effect": "", "inheritable": ""},
