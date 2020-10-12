@@ -200,7 +200,9 @@
         {"append": "valkyrimon-bt3-017", "name": "Valkyrimon (BT3-017)", "url": "https://digimon-bucket.s3.amazonaws.com/valkyrimon-bt3-017.png", "effect": "", "inheritable": ""},
         {"append": "blitzgreymon-bt3-018", "name": "BlitzGreymon (BT3-018)", "url": "https://digimon-bucket.s3.amazonaws.com/blitzgreymon-bt3-018.png", "effect": "", "inheritable": ""},
         {"append": "ragnaloardmon-bt3-019", "name": "Ragnaloardmon (BT3-019)", "url": "https://digimon-bucket.s3.amazonaws.com/ragnaloardmon-bt3-019.png", "effect": "", "inheritable": ""},
+        {"append": "patamon-bt3-020", "name": "Patamon (BT3-020)", "url": "https://digimon-bucket.s3.amazonaws.com/patamon-bt3-020.png", "effect": "", "inheritable": ""},
         {"append": "veemon-bt3-021", "name": "Veemon (BT3-021)", "url": "https://digimon-bucket.s3.amazonaws.com/veemon-bt3-021.png", "effect": "", "inheritable": ""},
+        {"append": "penguinmon-bt3-022", "name": "Penguinmon (BT3-022)", "url": "https://digimon-bucket.s3.amazonaws.com/penguinmon-bt3-022.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Digimon World 1!"},
         {"append": "angemon-bt3-023", "name": "Angemon (BT3-023)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-bt3-023.png", "effect": "", "inheritable": ""},
         {"append": "airdramon-bt3-024", "name": "Airdramon (BT3-024)", "url": "https://digimon-bucket.s3.amazonaws.com/airdramon-bt3-024.png", "effect": "", "inheritable": ""},
         {"append": "exveemon-bt3-025", "name": "ExVeemon (BT3-025)", "url": "https://digimon-bucket.s3.amazonaws.com/exveemon-bt3-025.png", "effect": "", "inheritable": ""},
@@ -210,6 +212,7 @@
         {"append": "goldramon-bt3-029", "name": "Goldramon (BT3-029)", "url": "https://digimon-bucket.s3.amazonaws.com/goldramon-bt3-029.png", "effect": "", "inheritable": ""},
         {"append": "leopardmon-bt3-030", "name": "Leopardmon (BT3-030)", "url": "https://digimon-bucket.s3.amazonaws.com/leopardmon-bt3-030.png", "effect": "", "inheritable": ""},
         {"append": "imperialdramon-dragon-mode-bt3-031", "name": "Imperialdramon Dragon Mode (BT3-031)", "url": "https://digimon-bucket.s3.amazonaws.com/imperialdramon-dragon-mode-bt3-031.png", "effect": "", "inheritable": ""},
+        {"append": "ankylomon-bt3-036", "name": "Ankylomon (BT3-036)", "url": "https://digimon-bucket.s3.amazonaws.com/ankylomon-bt3-036.png", "effect": "", "inheritable": ""},
 
         {"append": "agumon-p-001", "name": "Agumon (P-001)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-p-001.png", "effect": "", "inheritable": ""},
         {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://digimon-bucket.s3.amazonaws.com/biyomon-p-002.png", "effect": "", "inheritable": ""},
