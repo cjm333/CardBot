@@ -118,8 +118,8 @@ Digitama Deck:\n \
 `1. October 17th, 3pm BST/10AM EST Extreme Game by Antinomy`\n\n \
 `2. October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG -` https://challonge.com/y1uw3wkk\n\n \
 `3. October 26th, 10am CDT (Week Long Event): DigiRumble 2, Hosted by orangeswim -` https://challonge.com/dcdevR2\n\n \
-`4. October 31st: Big Byte #7, Hosted by RazeOblivion`\n\n \
-`5. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` https://challonge.com/DigiDuels\n\n \
+`4. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` https://challonge.com/DigiDuels\n\n \
+`5. November 7th: Big Byte #7, Hosted by RazeOblivion`\n\n \
 `6. TBD: Tournament by Nightmare`")
     }
 
