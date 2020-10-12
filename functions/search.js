@@ -15,8 +15,9 @@ module.exports = {
                 if(card.append == "wolf-claw-st2-15"){
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
-                    cardEmbed.setDescription(card.effect)
-                    cardEmbed.setFooter(card.inheritable)
+                    if(card.bonus){
+                        cardEmbed.setFooter(card.bonus)
+                    }
                     message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })})
                 }
             }
@@ -37,8 +38,9 @@ module.exports = {
                     if(card.append === cardName){
                         cardEmbed.setImage(card.url)
                         cardEmbed.setTitle(card.name)
-                        cardEmbed.setDescription(card.effect)
-                        cardEmbed.setFooter(card.inheritable)
+                        if(card.bonus){
+                            cardEmbed.setFooter(card.bonus)
+                        }
                         message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
                         })
                         doCheck = false
@@ -64,8 +66,9 @@ module.exports = {
                 else if(cardList.length == 1){
                     cardEmbed.setImage(cardList[0].url)
                     cardEmbed.setTitle(cardList[0].name)
-                    cardEmbed.setDescription(cardList[0].effect)
-                    cardEmbed.setFooter(cardList[0].inheritable)
+                    if(card.bonus){
+                        cardEmbed.setFooter(card.bonus)
+                    }
                     message.reply(cardEmbed).then(msg => {
                         msg.delete({ timeout: 60000 })
                     })

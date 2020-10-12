@@ -44,7 +44,7 @@
     {"append": "tai-kamiya-bt2-089-alt-art", "name": "Tai Kamiya (Box Topper, BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-kamiya-bt2-089-alt-art.jpg", "effect": "", "inheritable": ""},
     {"append": "matt-ishida-bt2-090-alt-art", "name": "Matt Ishida (Box Topper, BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-ishida-bt2-090-alt-art.jpg", "effect": "", "inheritable": ""},
     {"append": "beelzemon-bt2-111-alt-art", "name": "Beelzemon (Alt Art, BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111-alt-art.png", "effect": "", "inheritable": ""},
-    {"append": "blackwargreymon-bt2-112-alt-art", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt-art.png", "effect": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active.", "inheritable": ""}
+    {"append": "blackwargreymon-bt2-112-alt-art", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt-art.png", "effect": "", "inheritable": "", "bonus": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active."}
     
   ]
 }

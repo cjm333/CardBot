@@ -59,14 +59,14 @@
         {"append": "heat-viper-bt2-109", "name": "Heat Viper (BT2-109)", "url": "https://digimon-bucket.s3.amazonaws.com/heat-viper-bt2-109.png", "effect": "", "inheritable": ""},
         {"append": "trump-sword-bt2-110", "name": "Trump Sword (BT2-110)", "url": "https://digimon-bucket.s3.amazonaws.com/trump-sword-bt2-110.png", "effect": "", "inheritable": ""},
 
-        {"append": "precise-tactics-bt3-097", "name": "Precise Tactics (BT3-097)", "url": "https://digimon-bucket.s3.amazonaws.com/precise-tactics-bt3-097.png", "effect": "", "inheritable": ""},
-        {"append": "lets-stop-fighting-bt3-099", "name": "Let's Stop Fighting! (BT3-099)", "url": "https://digimon-bucket.s3.amazonaws.com/lets-stop-fighting-bt3-099.png", "effect": "", "inheritable": ""},
+        {"append": "precise-tactics-bt3-097", "name": "Precise Tactics (BT3-097)", "url": "https://digimon-bucket.s3.amazonaws.com/precise-tactics-bt3-097.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Elaborate Tactics! (Sp-3)\""},
+        {"append": "lets-stop-fighting-bt3-099", "name": "Let's Stop Fighting! (BT3-099)", "url": "https://digimon-bucket.s3.amazonaws.com/lets-stop-fighting-bt3-099.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Let's Stop Fighting (Bo-51)\""},
         {"append": "inferno-frost-bt3-101", "name": "Inferno Frost (BT3-101)", "url": "https://digimon-bucket.s3.amazonaws.com/inferno-frost-bt3-101.png", "effect": "", "inheritable": ""},
-        {"append": "cracker-bt3-102", "name": "Cracker!! (BT3-102)", "url": "https://digimon-bucket.s3.amazonaws.com/cracker-bt3-102.png", "effect": "", "inheritable": ""},
+        {"append": "cracker-bt3-102", "name": "Cracker!! (BT3-102)", "url": "https://digimon-bucket.s3.amazonaws.com/cracker-bt3-102.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Cracker!! (Bo-1214)\""},
         {"append": "power-of-breath-bt3-105", "name": "Power of Breath (BT3-105)", "url": "https://digimon-bucket.s3.amazonaws.com/power-of-breath-bt3-105.png", "effect": "", "inheritable": ""},
         {"append": "beast-cyclone-bt3-106", "name": "Beast Cyclone (BT3-106)", "url": "https://digimon-bucket.s3.amazonaws.com/beast-cyclone-bt3-106.png", "effect": "", "inheritable": ""},
-        {"append": "that-was-a-good-time-bt3-107", "name": "That Was a Good Time (BT3-107)", "url": "https://digimon-bucket.s3.amazonaws.com/that-was-a-good-time-bt3-107.png", "effect": "", "inheritable": ""},
-        {"append": "rematch-bt3-109", "name": "Rematch! (BT3-109)", "url": "https://digimon-bucket.s3.amazonaws.com/rematch-bt3-109.png", "effect": "", "inheritable": ""},
+        {"append": "that-was-a-good-time-bt3-107", "name": "That Was a Good Time (BT3-107)", "url": "https://digimon-bucket.s3.amazonaws.com/that-was-a-good-time-bt3-107.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"That Was a Good Time (St-57)\""},
+        {"append": "rematch-bt3-109", "name": "Rematch! (BT3-109)", "url": "https://digimon-bucket.s3.amazonaws.com/rematch-bt3-109.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Return Match! (St-104)\""},
 
         {"append": "the-fate-of-two-worlds-p-021", "name": "The Fate of Two Worlds (P-021)", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png", "effect": "", "inheritable": ""}
       ]
