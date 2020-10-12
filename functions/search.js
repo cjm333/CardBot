@@ -7,7 +7,7 @@ module.exports = {
         cardNames = []
     
         const args = message.content.slice(sliceLength).trim()
-        const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "")
+        const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "")
         const cardName = argsURL.toLowerCase();
 
         if(cardName == "wolf-claw"){

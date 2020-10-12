@@ -17,6 +17,11 @@
         {"append": "taiga-bt2-088", "name": "Taiga (BT2-088)", "url": "https://digimon-bucket.s3.amazonaws.com/taiga-bt2-088.png", "effect": "", "inheritable": ""},
         {"append": "tai-kamiya-bt2-089", "name": "Tai Kamiya (BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt2-089.png", "effect": "", "inheritable": ""},
         {"append": "matt-ishida-bt2-090", "name": "Matt Ishida (BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt2-090.png", "effect": "", "inheritable": ""},
+
+        {"append": "davis-motomiya-bt3-093", "name": "Davis Motomiya (BT3-093)", "url": "https://digimon-bucket.s3.amazonaws.com/davis-motomiya-bt3-093.png", "effect": "", "inheritable": ""},
+        {"append": "ken-ichijouji-bt3-094", "name": "Ken Ichijouji (BT3-094)", "url": "https://digimon-bucket.s3.amazonaws.com/ken-ichijouji-bt3-094.png", "effect": "", "inheritable": ""},
+        {"append": "joe-kido-bt3-095", "name": "Joe Kido (BT3-095)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt3-095.png", "effect": "", "inheritable": ""},
+        {"append": "mimi-tachikawa-bt3-096", "name": "Mimi Tachikawa (BT3-096)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-tachikawa-bt3-096.png", "effect": "", "inheritable": ""},
         
         {"append": "taichi-v-tamer-012", "name": "Taichi (V-Tamer, P-012)", "url": "https://digimon-bucket.s3.amazonaws.com/taichi-v-tamer-012.png", "effect": "", "inheritable": ""}
       ]
