@@ -107,7 +107,7 @@
         {"append": "rosemon-bt1-082", "name": "Rosemon (BT1-082)", "url": "https://digimon-bucket.s3.amazonaws.com/rosemon-bt1-082.png", "effect": "", "inheritable": ""},
         {"append": "grankuwagamon-bt1-083", "name": "GranKuwagamon (BT1-083)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-bt1-083.png", "effect": "", "inheritable": ""},
         {"append": "omnimon-bt1-084", "name": "Omnimon (BT1-084)", "url": "https://digimon-bucket.s3.amazonaws.com/omnimon-bt1-084.png", "effect": "", "inheritable": ""},
-        {"append": "metalgreymon-bt1-114", "name": "MetalGreymon Virus (BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Digimon World 1!"},
+        {"append": "metalgreymon-bt1-114", "name": "MetalGreymon (BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Digimon World 1!"},
         {"append": "veedramon-bt1-115", "name": "Veedramon (BT1-115)", "url": "https://digimon-bucket.s3.amazonaws.com/veedramon-bt1-115.png", "effect": "", "inheritable": ""},
     
         {"append": "guilmon-bt2-009", "name": "Guilmon (BT2-009)", "url": "https://digimon-bucket.s3.amazonaws.com/guilmon-bt2-009.png", "effect": "", "inheritable": ""},
