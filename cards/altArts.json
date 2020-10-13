@@ -1,7 +1,7 @@
 {
     "alt": [
     {"append": "metalgreymon-st1-09-alt-art-1", "name": "MetalGreymon (Alt Art #1, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "metalgreymon-st1-09-alt-art-2", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-art-2.png", "effect": "", "inheritable": ""},
+    {"append": "metalgreymon-st1-09-alt-art-2", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png", "effect": "", "inheritable": ""},
     {"append": "terra-force-st1-16-alt-art", "name": "Terra Force (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "weregarurumon-st2-08-alt-art", "name": "WereGarurumon (Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "zudomon-st2-09-alt-art", "name": "Zudomon (Alt Art, ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09-alt.png", "effect": "", "inheritable": ""},
