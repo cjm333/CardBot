@@ -67,6 +67,7 @@
         {"append": "beast-cyclone-bt3-106", "name": "Beast Cyclone (BT3-106)", "url": "https://digimon-bucket.s3.amazonaws.com/beast-cyclone-bt3-106.png", "effect": "", "inheritable": ""},
         {"append": "that-was-a-good-time-bt3-107", "name": "That Was a Good Time (BT3-107)", "url": "https://digimon-bucket.s3.amazonaws.com/that-was-a-good-time-bt3-107.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"That Was a Good Time (St-57)\""},
         {"append": "rematch-bt3-109", "name": "Rematch! (BT3-109)", "url": "https://digimon-bucket.s3.amazonaws.com/rematch-bt3-109.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Return Match! (St-104)\""},
+        {"append": "necrophobia-bt3-110", "name": "Necrophobia (BT3-110)", "url": "https://digimon-bucket.s3.amazonaws.com/necrophobia-bt3-110.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"Return Match! (St-104)\""},
 
         {"append": "the-fate-of-two-worlds-p-021", "name": "The Fate of Two Worlds (P-021)", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png", "effect": "", "inheritable": ""}
       ]

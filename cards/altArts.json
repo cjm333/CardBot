@@ -26,7 +26,7 @@
     {"append": "holy-wave-bt1-107-alt-art", "name": "Holy Wave (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/holy-wave-bt1-107-alt.png", "effect": "", "inheritable": ""},
     {"append": "flower-cannon-bt1-110-alt-art", "name": "Flower Cannon (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt.png", "effect": "", "inheritable": ""},
     {"append": "metalgreymon-bt1-114-alt-art", "name": "MetalGreymon Virus (Alt Art, BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114-alt.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"MetalGreymon (Bo-1)\""},
-    {"append": "veedramon-bt1-115-alt-art", "name": "Veedramon (Alt Art, BT1-115)", "url": "https://digimon-bucket.s3.amazonaws.com/veedramon-bt1-115-alt.png", "effect": "", "inheritable": ""},
+    {"append": "veedramon-bt1-115-alt-art", "name": "Veedramon (Alt Art, BT1-115)", "url": "https://digimon-bucket.s3.amazonaws.com/veedramon-bt1-115-alt.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the V-Tamer manga!"},
     
     {"append": "gallantmon-bt2-020-alt-art", "name": "Gallantmon (Alt Art, BT2-020)", "url": "https://digimon-bucket.s3.amazonaws.com/gallantmon-bt2-020-alt.png", "effect": "", "inheritable": ""},
     {"append": "metalseadramon-bt2-030-alt-art", "name": "MetalSeadramon (Alt Art, BT2-030)", "url": "https://digimon-bucket.s3.amazonaws.com/metalseadramon-bt2-030-alt.png", "effect": "", "inheritable": ""},
