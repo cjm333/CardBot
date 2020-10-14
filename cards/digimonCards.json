@@ -202,7 +202,7 @@
         {"append": "ragnaloardmon-bt3-019", "name": "Ragnaloardmon (BT3-019)", "url": "https://digimon-bucket.s3.amazonaws.com/ragnaloardmon-bt3-019.png", "effect": "", "inheritable": ""},
         {"append": "patamon-bt3-020", "name": "Patamon (BT3-020)", "url": "https://digimon-bucket.s3.amazonaws.com/patamon-bt3-020.png", "effect": "", "inheritable": ""},
         {"append": "veemon-bt3-021", "name": "Veemon (BT3-021)", "url": "https://digimon-bucket.s3.amazonaws.com/veemon-bt3-021.png", "effect": "", "inheritable": ""},
-        {"append": "penguinmon-bt3-022", "name": "Penguinmon (BT3-022)", "url": "https://digimon-bucket.s3.amazonaws.com/penguinmon-bt3-022.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the Curling Minigame in Digimon World 1!"},
+        {"append": "penguinmon-bt3-022", "name": "Penguinmon (BT3-022)", "url": "https://digimon-bucket.s3.amazonaws.com/penguinmon-bt3-022.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the Curling Minigame in Digimon World 1 and alludes to Bulucomon's Reference Book entry!"},
         {"append": "angemon-bt3-023", "name": "Angemon (BT3-023)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-bt3-023.png", "effect": "", "inheritable": ""},
         {"append": "airdramon-bt3-024", "name": "Airdramon (BT3-024)", "url": "https://digimon-bucket.s3.amazonaws.com/airdramon-bt3-024.png", "effect": "", "inheritable": ""},
         {"append": "exveemon-bt3-025", "name": "ExVeemon (BT3-025)", "url": "https://digimon-bucket.s3.amazonaws.com/exveemon-bt3-025.png", "effect": "", "inheritable": ""},
