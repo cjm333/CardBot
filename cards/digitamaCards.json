@@ -10,7 +10,7 @@
       {"append": "wanyamon-bt1-004", "name": "Wanyamon (BT1-004)", "url": "https://digimon-bucket.s3.amazonaws.com/wanyamon-bt1-004.png", "effect": "", "inheritable": ""},
       {"append": "kyaromon-bt1-005", "name": "Kyaromon (BT1-005)", "url": "https://digimon-bucket.s3.amazonaws.com/kyaromon-bt1-005.png", "effect": "", "inheritable": ""},
       {"append": "kyupimon-bt1-006", "name": "Kyupimon (BT1-006)", "url": "https://digimon-bucket.s3.amazonaws.com/kyupimon-bt1-006.png", "effect": "", "inheritable": ""},
-      {"append": "tanemon-bt1-007", "name": "Tanemon (BT1-007)", "url": "https://digimon-bucket.s3.amazonaws.com/tanemon-bt1-007.png", "effect": "", "inheritable": ""},
+      {"append": "tanemon-bt1-007", "name": "Tanemon (BT1-007)", "url": "https://digimon-bucket.s3.amazonaws.com/tanemon-bt1-007.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the Tanemon who runs the Meat Farm in DW1!"},
       {"append": "frimon-bt1-008", "name": "Frimon (BT1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/frimon-bt1-008.png", "effect": "", "inheritable": ""},
   
       {"append": "gigimon-bt2-001", "name": "Gigimon (BT2-001)", "url": "https://digimon-bucket.s3.amazonaws.com/gigimon-bt2-001.png", "effect": "", "inheritable": ""},
