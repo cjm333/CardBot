@@ -230,6 +230,8 @@
         {"append": "ludomon-bt3-062", "name": "Ludomon (BT3-062)", "url": "https://digimon-bucket.s3.amazonaws.com/ludomon-bt3-062.png", "effect": "", "inheritable": ""},
         {"append": "tialudomon-bt3-064", "name": "TiaLudomon (BT3-064)", "url": "https://digimon-bucket.s3.amazonaws.com/tialudomon-bt3-064.png", "effect": "", "inheritable": ""},
         {"append": "gururumon-bt3-065", "name": "Gururumon (BT3-065)", "url": "https://digimon-bucket.s3.amazonaws.com/gururumon-bt3-065.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Digimon World 1!"},
+        {"append": "tankmon-bt3-067", "name": "Tankmon (BT3-067)", "url": "https://digimon-bucket.s3.amazonaws.com/tankmon-bt3-067.png", "effect": "", "inheritable": ""},
+        {"append": "giromon-bt3-068", "name": "Giromon (BT3-068)", "url": "https://digimon-bucket.s3.amazonaws.com/giromon-bt3-068.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Giromon destroying Factorial Town's computers in Digimon World 1!"},
         {"append": "raijiludomon-bt3-069", "name": "RaijiLudomon (BT3-069)", "url": "https://digimon-bucket.s3.amazonaws.com/raijiludomon-bt3-069.png", "effect": "", "inheritable": ""},
         {"append": "etemon-bt3-070", "name": "Etemon (BT3-070)", "url": "https://digimon-bucket.s3.amazonaws.com/etemon-bt3-070.png", "effect": "", "inheritable": ""},
         {"append": "metalmamemon-bt3-071", "name": "MetalMamemon (BT3-071)", "url": "https://digimon-bucket.s3.amazonaws.com/metalmamemon-bt3-071.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the opening cutscene of Digimon World 1!"},
