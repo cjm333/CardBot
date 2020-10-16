@@ -6,7 +6,7 @@
         {"append": "birdramon-st1-05", "name": "Birdramon (ST1-05)", "url": "https://digimon-bucket.s3.amazonaws.com/birdramon-st1-05.png", "effect": "", "inheritable": ""},
         {"append": "coredramon-st1-06", "name": "Coredramon (ST1-06)", "url": "https://digimon-bucket.s3.amazonaws.com/coredramon-st1-06.png", "effect": "", "inheritable": ""},
         {"append": "greymon-st1-07", "name": "Greymon (ST1-07)", "url": "https://digimon-bucket.s3.amazonaws.com/greymon-st1-07.png", "effect": "", "inheritable": ""},
-        {"append": "garudabmon-st1-08", "name": "Garudamon (ST1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/garudamon-st1-08.png", "effect": "", "inheritable": ""},
+        {"append": "garudamon-st1-08", "name": "Garudamon (ST1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/garudamon-st1-08.png", "effect": "", "inheritable": ""},
         {"append": "metalgreymon-st1-09", "name": "MetalGreymon (ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09.png", "effect": "", "inheritable": ""},
         {"append": "phoenixmon-st1-10", "name": "Phoenixmon (ST1-10)", "url": "https://digimon-bucket.s3.amazonaws.com/phoenixmon-st1-10.png", "effect": "", "inheritable": ""},
         {"append": "wargreymon-st1-11", "name": "WarGreymon (ST1-11)", "url": "https://digimon-bucket.s3.amazonaws.com/wargreymon-st1-11.png", "effect": "", "inheritable": ""},

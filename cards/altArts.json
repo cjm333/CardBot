@@ -1,13 +1,5 @@
 {
     "alt": [
-    {"append": "metalgreymon-st1-09-alt-art-1", "name": "MetalGreymon (Alt Art #1, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "metalgreymon-st1-09-alt-art-2", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png", "effect": "", "inheritable": ""},
-    {"append": "terra-force-st1-16-alt-art", "name": "Terra Force (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "weregarurumon-st2-08-alt-art", "name": "WereGarurumon (Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "zudomon-st2-09-alt-art", "name": "Zudomon (Alt Art, ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09-alt.png", "effect": "", "inheritable": ""},
-    {"append": "vulcans-hammer-st2-13-alt-art", "name": "Vulcan's Hammer (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/vulcans-hammer-st2-13-alt.png", "effect": "", "inheritable": ""},
-    {"append": "ice-wolf-claw-st2-16-alt-art", "name": "Ice Wolf Claw (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/ice-wolf-claw-st2-16-alt.png", "effect": "", "inheritable": ""},
-
     {"append": "agumon-bt1-010-alt-art", "name": "Agumon (Alt Art, BT1-010)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-bt1-010-alt.png", "effect": "", "inheritable": ""},
     {"append": "wargreymon-bt1-025-alt-art", "name": "WarGreymon (Alt Art, BT1-025)", "url": "https://digimon-bucket.s3.amazonaws.com/wargreymon-bt1-025-alt.png", "effect": "", "inheritable": ""},
     {"append": "gabumon-bt1-029-alt-art", "name": "Gabumon (Alt Art, BT1-029)", "url": "https://digimon-bucket.s3.amazonaws.com/gabumon-bt1-029-alt.png", "effect": "", "inheritable": ""},
@@ -16,18 +8,13 @@
     {"append": "rosemon-bt1-082-alt-art", "name": "Rosemon (Alt Art, BT1-082)", "url": "https://digimon-bucket.s3.amazonaws.com/rosemon-bt1-082-alt.png", "effect": "", "inheritable": ""},
     {"append": "grankuwagamon-bt1-083-alt-art", "name": "Grankuwagamon (Alt Art, BT1-083)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-bt1-083-alt.png", "effect": "", "inheritable": ""},
     {"append": "omnimon-bt1-084-alt-art", "name": "Omnimon (Alt Art, BT1-084)", "url": "https://digimon-bucket.s3.amazonaws.com/omnimon-bt1-084-alt.png", "effect": "", "inheritable": ""},
-    {"append": "tai-bt1-085-alt-art", "name": "Tai Kamiya (Box Topper, BT1-085)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt1-085-alt.png", "effect": "", "inheritable": ""},
-    {"append": "matt-bt1-086-alt-art", "name": "Matt Ishida (Box Topper, BT1-086)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt1-086-alt.png", "effect": "", "inheritable": ""},
-    {"append": "tk-bt1-087-alt-art", "name": "T.K. Takaishi (Box Topper, BT1-087)", "url": "https://digimon-bucket.s3.amazonaws.com/tk-bt1-087-alt.png", "effect": "", "inheritable": ""},
-    {"append": "izzy-bt1-088-alt-art", "name": "Izzy Izumi (Box Topper, BT1-088)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-bt1-088-alt.png", "effect": "", "inheritable": ""},
-    {"append": "mimi-bt1-089-alt-art", "name": "Mimi Tachikawa (Box Topper, BT1-089)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-bt1-089-alt.png", "effect": "", "inheritable": ""},
-    {"append": "brave-shield-bt1-095-alt-art", "name": "Brave Shield (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/brave-shield-bt1-095-alt.png", "effect": "", "inheritable": ""},
-    {"append": "howling-crusher-bt1-101-alt-art", "name": "Howling Crusher (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/howling-crusher-bt1-101-alt.png", "effect": "", "inheritable": ""},
-    {"append": "holy-wave-bt1-107-alt-art", "name": "Holy Wave (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/holy-wave-bt1-107-alt.png", "effect": "", "inheritable": ""},
-    {"append": "flower-cannon-bt1-110-alt-art", "name": "Flower Cannon (Alt Art)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt.png", "effect": "", "inheritable": ""},
-    {"append": "metalgreymon-bt1-114-alt-art", "name": "MetalGreymon Virus (Alt Art, BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114-alt.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"MetalGreymon (Bo-1)\""},
+    {"append": "brave-shield-bt1-095-alt-art", "name": "Brave Shield (Alt Art, BT1-095)", "url": "https://digimon-bucket.s3.amazonaws.com/brave-shield-bt1-095-alt.png", "effect": "", "inheritable": ""},
+    {"append": "howling-crusher-bt1-101-alt-art", "name": "Howling Crusher (Alt Art, BT1-101)", "url": "https://digimon-bucket.s3.amazonaws.com/howling-crusher-bt1-101-alt.png", "effect": "", "inheritable": ""},
+    {"append": "holy-wave-bt1-107-alt-art", "name": "Holy Wave (Alt Art, BT1-107)", "url": "https://digimon-bucket.s3.amazonaws.com/holy-wave-bt1-107-alt.png", "effect": "", "inheritable": ""},
+    {"append": "flower-cannon-bt1-110-alt-art-1", "name": "Flower Cannon (Alt Art #1, BT1-110)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt.png", "effect": "", "inheritable": ""},
+    {"append": "metalgreymon-bt1-114-alt-art", "name": "MetalGreymon (Alt Art, BT1-114)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-virus-bt1-114-alt.png", "effect": "", "inheritable": "", "bonus": "This card is based on the Hyper Colosseum card \"MetalGreymon (Bo-1)\""},
     {"append": "veedramon-bt1-115-alt-art", "name": "Veedramon (Alt Art, BT1-115)", "url": "https://digimon-bucket.s3.amazonaws.com/veedramon-bt1-115-alt.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to the V-Tamer manga!"},
-    
+
     {"append": "gallantmon-bt2-020-alt-art", "name": "Gallantmon (Alt Art, BT2-020)", "url": "https://digimon-bucket.s3.amazonaws.com/gallantmon-bt2-020-alt.png", "effect": "", "inheritable": ""},
     {"append": "metalseadramon-bt2-030-alt-art", "name": "MetalSeadramon (Alt Art, BT2-030)", "url": "https://digimon-bucket.s3.amazonaws.com/metalseadramon-bt2-030-alt.png", "effect": "", "inheritable": ""},
     {"append": "ulforceveedramon-bt2-032-alt-art", "name": "UlforceVeedramon (Alt Art, BT2-032)", "url": "https://digimon-bucket.s3.amazonaws.com/ulforceveedramon-bt2-032-alt.png", "effect": "", "inheritable": ""},
@@ -38,13 +25,47 @@
     {"append": "piedmon-bt2-080-alt-art", "name": "Piedmon (Alt Art, BT2-080)", "url": "https://digimon-bucket.s3.amazonaws.com/piedmon-bt2-080-alt.png", "effect": "", "inheritable": ""},
     {"append": "metalgarurumon-bt2-081-alt-art", "name": "MetalGarurumon (Alt Art, BT2-081)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-bt2-081-alt.png", "effect": "", "inheritable": ""},
     {"append": "diaboromon-bt2-082-alt-art", "name": "Diaboromon (Alt Art, BT2-082)", "url": "https://digimon-bucket.s3.amazonaws.com/diaboromon-bt2-082-alt.png", "effect": "", "inheritable": ""},
+    {"append": "beelzemon-bt2-111-alt-art", "name": "Beelzemon (Alt Art, BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111-alt.png", "effect": "", "inheritable": ""},
+    {"append": "blackwargreymon-bt2-112-alt-art", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt.png", "effect": "", "inheritable": "", "bonus": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active."},
+
+    {"append": "tai-bt1-085-alt-art", "name": "Tai Kamiya (Box Topper, BT1-085)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt1-085-alt.png", "effect": "", "inheritable": ""},
+    {"append": "matt-bt1-086-alt-art", "name": "Matt Ishida (Box Topper, BT1-086)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt1-086-alt.png", "effect": "", "inheritable": ""},
+    {"append": "tk-bt1-087-alt-art", "name": "T.K. Takaishi (Box Topper, BT1-087)", "url": "https://digimon-bucket.s3.amazonaws.com/tk-bt1-087-alt.png", "effect": "", "inheritable": ""},
+    {"append": "izzy-bt1-088-alt-art", "name": "Izzy Izumi (Box Topper, BT1-088)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-bt1-088-alt.png", "effect": "", "inheritable": ""},
+    {"append": "mimi-bt1-089-alt-art", "name": "Mimi Tachikawa (Box Topper, BT1-089)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-bt1-089-alt.png", "effect": "", "inheritable": ""},
     {"append": "sora-takenouchi-bt2-084-alt-art", "name": "Sora Takenouchi (Box Topper, BT2-084)", "url": "https://digimon-bucket.s3.amazonaws.com/sora-takenouchi-bt2-084-alt.png", "effect": "", "inheritable": ""},
     {"append": "joe-kido-bt2-085-alt-art", "name": "Joe Kido (Box Topper, BT2-085)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt2-085-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "kari-kamiya-bt2-087-alt-art", "name": "Kari Kamiya (Box Topper, BT2-087)", "url": "https://digimon-bucket.s3.amazonaws.com/kari-kamiya-bt2-087-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "tai-kamiya-bt2-089-alt-art", "name": "Tai Kamiya (Box Topper, BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-kamiya-bt2-089-alt.jpg", "effect": "", "inheritable": ""},
     {"append": "matt-ishida-bt2-090-alt-art", "name": "Matt Ishida (Box Topper, BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-ishida-bt2-090-alt.jpg", "effect": "", "inheritable": ""},
-    {"append": "beelzemon-bt2-111-alt-art", "name": "Beelzemon (Alt Art, BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111-alt.png", "effect": "", "inheritable": ""},
-    {"append": "blackwargreymon-bt2-112-alt-art", "name": "BlackWarGreymon (Alt Art, BT2-122)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112-alt.png", "effect": "", "inheritable": "", "bonus": "Note, text should read: If this Digimon attacks your opponent's Digimon with the highest DP, this Digimon becomes Active."}
-    
+    {"append": "greymon-bt3-011-alt-art", "name": "Greymon (Box Topper, BT3-011)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": ""},
+    {"append": "airdramon-bt3-024-alt-art", "name": "Airdramon (Box Topper, BT3-024)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": ""},
+    {"append": "ankylomon-bt3-036-alt-art", "name": "Ankylomon (Box Topper, BT3-036)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": ""},
+    {"append": "flymon-bt3-049-alt-art", "name": "Flymon (Box Topper, BT3-049)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": ""},
+    {"append": "gururumon-bt3-065-alt-art", "name": "Gururumon (Box Topper, BT3-065)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": "", "bonus": "This card is a reference to Digimon World 1!"},
+    {"append": "blackgatomon-bt3-082-alt-art", "name": "BlackGatomon (Box Topper, BT3-082)", "url": "https://digimon-bucket.s3.amazonaws.com/placeholder.png", "effect": "", "inheritable": ""},
+
+    {"append": "metalgreymon-st1-09-alt-art-1", "name": "MetalGreymon (Alt Art #1, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "zudomon-st2-09-alt-art", "name": "Zudomon (Alt Art, ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09-alt.png", "effect": "", "inheritable": ""},
+    {"append": "angewomon-st3-09-alt-art", "name": "Angewomon (Alt Art, ST3-09)", "url": "https://digimon-bucket.s3.amazonaws.com/angewomon-st3-09-alt.png", "effect": "", "inheritable": ""},
+    {"append": "megakabuterimon-bt1-076-alt-art", "name": "MegaKabuterimon (Alt Art, BT1-076)", "url": "https://digimon-bucket.s3.amazonaws.com/megakabuterimon-bt1-076-alt.png", "effect": "", "inheritable": ""},
+
+    {"append": "garudamon-st1-08-alt-art", "name": "Garudamon (Alt Art, ST1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/garudamon-st1-08-alt.png", "effect": "", "inheritable": ""},
+    {"append": "weregarurumon-st2-08-alt-art-1", "name": "WereGarurumon (Alt Art #1, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt-1.jpg", "effect": "", "inheritable": ""},
+    {"append": "magnaangemon-st3-08-alt-art", "name": "MagnaAngemon (Alt Art, ST3-08)", "url": "https://digimon-bucket.s3.amazonaws.com/magnaangemon-st3-08-alt.png", "effect": "", "inheritable": ""},
+    {"append": "lillymon-bt1-079-alt-art", "name": "Lillymon (Alt Art, BT1-079)", "url": "https://digimon-bucket.s3.amazonaws.com/lillymon-bt1-079-alt.png", "effect": "", "inheritable": ""},
+
+    {"append": "metalgreymon-st1-09-alt-art-2", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png", "effect": "", "inheritable": ""},
+    {"append": "weregarurumon-st2-08-alt-art-2", "name": "WereGarurumon (Alt Art #2, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg", "effect": "", "inheritable": ""},
+
+    {"append": "wing-blade-st1-13-alt-art", "name": "Wing Blade (Alt Art, ST1-13)", "url": "https://digimon-bucket.s3.amazonaws.com/wing-blade-st1-13-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "terra-force-st1-16-alt-art", "name": "Terra Force (Alt Art, ST1-16)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg", "effect": "", "inheritable": ""},
+    {"append": "vulcans-hammer-st2-13-alt-art", "name": "Vulcan's Hammer (Alt Art, ST2-13)", "url": "https://digimon-bucket.s3.amazonaws.com/vulcans-hammer-st2-13-alt.png", "effect": "", "inheritable": ""},
+    {"append": "ice-wolf-claw-st2-16-alt-art", "name": "Ice Wolf Claw (Alt Art, ST2-16)", "url": "https://digimon-bucket.s3.amazonaws.com/ice-wolf-claw-st2-16-alt.png", "effect": "", "inheritable": ""},
+    {"append": "gate-of-destiny-st3-13-alt-art", "name": "Gate of Destiny (Alt Art, ST3-13)", "url": "https://digimon-bucket.s3.amazonaws.com/gate-of-destiny-st3-13-alt.png", "effect": "", "inheritable": ""},
+    {"append": "heavens-charm-st3-14-alt-art", "name": "Heaven's Charm (Alt Art, ST3-14)", "url": "https://digimon-bucket.s3.amazonaws.com/heavens-charm-st3-14-alt.png", "effect": "", "inheritable": ""},
+    {"append": "horn-buster-bt1-108-alt-art", "name": "Horn Buster (Alt Art, BT1-108)", "url": "https://digimon-bucket.s3.amazonaws.com/horn-buster-bt1-108-alt.png", "effect": "", "inheritable": ""},
+    {"append": "flower-cannon-bt1-110-alt-art-2", "name": "Flower Cannon (Alt Art #2, BT1-110)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt-2.png", "effect": "", "inheritable": ""}
+
   ]
 }
