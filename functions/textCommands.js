@@ -122,8 +122,8 @@ Digitama Deck:\n \
 `2. October 26th-30th, 10am CDT: DigiRumble 2, Hosted by orangeswim -` https://challonge.com/dcdevR2\n\n \
 `3. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` https://challonge.com/DigiDuels\n\n \
 `4. November 4th-6th: DigiRumble 2 Finals`\n\n \
-`5. November 7th: Big Byte #7, Hosted by RazeOblivion`\n\n \
-`6. TBD: Tournament by Nightmare`")
+`5. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - https://challonge.com/HardModeGamesBB7\n\n \
+`6. TBD: Tournament Series by Nightmare`")
     }
 
 }
