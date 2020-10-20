@@ -23,7 +23,10 @@ Useful:\n \
 Other:\n \
 !count: `Number of cards in a certain type`\n \
 !event: `List off the upcoming online events`\n \
+!judge: `List requirements to become a Royal Knight` \n \
 !partner: `Check your partner and digivice` \n \
+!digivolve: `Digivolve your partner` \n \
+!dedigivolve: `Dedigivolve your partner` \n \
 !starterColor: `Get the starter deck list of whatever color you specify`\n\n \
 Reminder: large messages self-delete after a short time")
     },

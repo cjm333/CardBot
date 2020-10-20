@@ -28,7 +28,7 @@ module.exports = {
         index = id%partners.length
         return partners[index]
     },
-    partner: function(message, partners, tracking){
+    partner: function(message, partnerJSON, tracking){
         elite = false;
         id = message.author.id;
         current = 0;
@@ -43,9 +43,13 @@ module.exports = {
         }
 
         if(elite){
-            for(searchable of partners){
+            for(searchable of partnerJSON){
                 if(id == searchable.id){
+                    //console.log(id)
+                    //console.log(searchable.id)
+                    //console.log(grab)
                     grab = searchable;
+                    //console.log(grab)
                 }
             }
 
@@ -68,20 +72,17 @@ module.exports = {
                 elitePartner = grab.mega;
             }
 
-            message.reply("Your partner is " + elitePartner + ". You're connected via your " + grab.digivice + "!")
+            message.reply("Your partner is " + elitePartner + ". You're connected via your " + grab.digivice + "!");
+            elite = false;
 
         }
         else{
-            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
+            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
         }
 
         //Zaffy
         if(id == "269296909066305566"){
             message.reply("Your partner is PetitMammon. You're connected via your Digivice 01!")
-        }
-        //Orange
-        else if(id == "507019396238016512"){
-            message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
         }
         //Clemens
         else if(id == "150467882910744577"){
@@ -122,10 +123,6 @@ module.exports = {
         //Maria (Booster)
         else if(id == "223208303541354498"){
             message.reply("Your partner is Renamon. You're connected via your D-Power!")
-        }
-        //Nightmare (Proxy Booster through BlueNume)
-        else if(id == "326859177152610314"){
-            message.reply("Your partner is Alphamon. You're connected via your Digivice!")
         }
     }
 }

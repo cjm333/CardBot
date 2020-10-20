@@ -14,7 +14,7 @@ const search = require('./functions/search.js');
 
 //Partner Functionality Setup
 const partnersData = require('./cards/partners.json');
-partners = partnersData.list;
+const partners = partnersData.list;
 tracking = []
 for(temp of partners){
     pair = [temp.id, temp.normal]
@@ -146,7 +146,7 @@ client.on("message", message => {
                     previous = grab.ultimate;
                     next = grab.mega;
                 }
-                message.reply("Your " + previous + " digivolved to " + next + "!!!")
+                message.reply(previous + " digivolve tooooooo...... " + next + "!!!")
             }
         }
     }
