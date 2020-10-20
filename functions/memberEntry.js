@@ -83,10 +83,6 @@ module.exports = {
         else if(id == "507019396238016512"){
             message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
         }
-        //Anti
-        else if(id == "121428788734066688"){
-            message.reply("Your partner is ModokiBetamon. You're connected via your Digivice!")
-        }
         //Clemens
         else if(id == "150467882910744577"){
             message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
