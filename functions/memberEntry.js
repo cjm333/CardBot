@@ -80,16 +80,8 @@ module.exports = {
             message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
         }
 
-        //Zaffy
-        if(id == "269296909066305566"){
-            message.reply("Your partner is PetitMammon. You're connected via your Digivice 01!")
-        }
-        //Clemens
-        else if(id == "150467882910744577"){
-            message.reply("Your partner is SkullGreymon. You're connected via your Digivice!")
-        }
         //BlueNume (Gold)
-        else if(id == "268612585069215765"){
+        if(id == "268612585069215765"){
             message.reply("Your partner is Numemon. You're connected via your Data Link!")
         }
         //Tesero (Gold)
