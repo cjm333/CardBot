@@ -28,19 +28,56 @@ module.exports = {
         index = id%partners.length
         return partners[index]
     },
-    partner: function(message){
-        id = message.author.id
+    partner: function(message, partners, tracking){
+        elite = false;
+        id = message.author.id;
+        current = 0;
+        grab = null;
+        elitePartner = null;
+
+        for(searchable of tracking){
+            if(id == searchable[0]){
+                elite = true;
+                current = searchable[1]
+            }
+        }
+
+        if(elite){
+            for(searchable of partners){
+                if(id == searchable.id){
+                    grab = searchable;
+                }
+            }
+
+            if(current == 1){
+                elitePartner = grab.fresh;
+            }
+            else if(current == 2){
+                elitePartner = grab.inTraining;
+            }
+            else if(current == 3){
+                elitePartner = grab.rookie;
+            }
+            else if(current == 4) {
+                elitePartner = grab.champion;
+            }
+            else if(current == 5) {
+                elitePartner = grab.ultimate;
+            }
+            else if(current == 6) {
+                elitePartner = grab.mega;
+            }
+
+            message.reply("Your partner is " + elitePartner + ". You're connected via your " + grab.digivice + "!")
+
+        }
+        else{
+            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
+        }
+
         //Zaffy
         if(id == "269296909066305566"){
             message.reply("Your partner is PetitMammon. You're connected via your Digivice 01!")
-        }
-        //Me
-        else if(id == "223279276340805632"){
-            message.reply("Your partner is Hackmon. You're connected via your Appli Drive Duo!")
-        }
-        //Ted
-        else if(id == "185756831304515587"){
-            message.reply("Your partner is Garurumon. You're connected via your D-Ark!")
         }
         //Orange
         else if(id == "507019396238016512"){
@@ -97,9 +134,6 @@ module.exports = {
         //Nightmare (Proxy Booster through BlueNume)
         else if(id == "326859177152610314"){
             message.reply("Your partner is Alphamon. You're connected via your Digivice!")
-        }
-        else{
-            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!")
         }
     }
 }

@@ -1,0 +1,9 @@
+{
+    "list": [
+        {"name": "Me", "id": "223279276340805632", "normal": 3, "fresh": "an Egg", "inTraining": "Puroromon", "rookie": "FanBeemon", "champion": "Waspmon", "ultimate": "CannonBeemon", "mega": "TigerVespamon", "digivice": "Appli Drive Duo"},
+        {"name": "Ted", "id": "185756831304515587", "normal": 4, "fresh": "Punimon", "inTraining": "Tsunomon", "rookie": "Gabumon", "champion": "Garurumon", "ultimate": "WereGarurumon", "mega": "MetalGarurumon", "digivice": "D-Ark"},
+
+        {"name": "jwhorth", "id": "282541027758309376", "normal": 3, "fresh": "Keemon", "inTraining": "Yaamon", "rookie": "Impmon", "champion": "Devimon", "ultimate": "Kimeramon", "mega": "ZeedMillenniummon", "digivice": "Digivice"},
+        {"name": "SJ", "id": "282541027758309376", "normal": 3, "fresh": "SnowBotamon", "inTraining": "Tsunomon", "rookie": "Blucomon", "champion": "Paledramon", "ultimate": "CrysPaledramon", "mega": "HexeBlaumon", "digivice": "Smartphone Digivice"}
+
+    ]}
