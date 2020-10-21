@@ -12,5 +12,6 @@
         {"name": "Nightmare", "id": "326859177152610314", "normal": 5, "fresh": "an Egg", "inTraining": "Dorimon", "rookie": "Dorumon", "champion": "Dorugamon", "ultimate": "DoruGreymon", "mega": "Alphamon", "digivice": "Digivice"},
         {"name": "jwhorth", "id": "269674566408732672", "normal": 6, "fresh": "Keemon", "inTraining": "Yaamon", "rookie": "Impmon", "champion": "Devimon", "ultimate": "Kimeramon", "mega": "ZeedMillenniummon", "digivice": "Digivice"},
         {"name": "SJ", "id": "282541027758309376", "normal": 3, "fresh": "Botamon", "inTraining": "Sakuttomon", "rookie": "BushiAgumon", "champion": "GeoGreymon", "ultimate": "RizeGreymon", "mega": "Agumon (Bond of Bravery)", "digivice": "Smartphone Digivice"},
-        {"name": "Cryos", "id": "410833999129214976", "normal": 3, "fresh": "SnowBotamon", "inTraining": "Gummymon", "rookie": "SnowAgumon", "champion": "Paledramon", "ultimate": "CrysPaledramon", "mega": "HexeBlaumon", "digivice": "D-Ark"}
+        {"name": "Cryos", "id": "410833999129214976", "normal": 3, "fresh": "SnowBotamon", "inTraining": "Gummymon", "rookie": "SnowAgumon", "champion": "Paledramon", "ultimate": "CrysPaledramon", "mega": "HexeBlaumon", "digivice": "D-Ark"},
+        {"name": "BeLkastel", "id": "168367059758088192", "normal": 6, "fresh": "an Egg", "inTraining": "DemiMeramon", "rookie": "DemiDevimon", "champion": "BlackTailmon", "ultimate": "LadyDevimon", "mega": "Mastemon", "digivice": "D-Ark"}
     ]}

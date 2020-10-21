@@ -1,3 +1,5 @@
+const { partner } = require("./memberEntry")
+
 module.exports = {
     rulebook: function(message){
         message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\nhttps://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF")
@@ -184,6 +186,14 @@ Digitama Deck:\n \
 `4. November 4th-6th: DigiRumble 2 Finals`\n\n \
 `5. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - https://challonge.com/HardModeGamesBB7\n\n \
 `6. TBD: Tournament Series by Nightmare`")
+    },
+    info: function(message){
+        message.channel.send("A personal parter line can be set in 2 different ways:\n \
+1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord\n \
+2. Become a Server Booster \n\n \
+You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
+1. Donate at least $5 to the server's Premium Mee6 fund\n \
+2. Boost the server for a period of time, then stop boosting")
     }
 
 }
