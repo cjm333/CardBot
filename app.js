@@ -48,6 +48,13 @@ client.on("guildMemberAdd", member => {
     client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner);
 })
 
+//Omnimon Meme
+client.on("message", message =>{
+    if(message.content.includes("Omegamon")){
+        message.reply("Omnimon*")
+    }
+})
+
 //Check messages for commands
 client.on("message", message => {
 
@@ -91,6 +98,9 @@ client.on("message", message => {
     else if(message.content.startsWith("!starterRed")){textCommands.red(message);}
     else if(message.content.startsWith("!starterBlue")){textCommands.blue(message);}
     else if(message.content.startsWith("!starterYellow")){textCommands.yellow(message);}
+    else if(message.content.startsWith("!starterGreen")){textCommands.green(message);}
+    else if(message.content.startsWith("!starterBlack")){textCommands.black(message);}
+    else if(message.content.startsWith("!starterPurple")){textCommands.purple(message);}
     else if(message.content.startsWith("!event")){textCommands.event(message);}
     else if(message.content.startsWith("!digivolve")){
         id = message.author.id;

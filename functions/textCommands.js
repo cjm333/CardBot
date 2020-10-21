@@ -98,23 +98,83 @@ Digitama Deck:\n \
 
     yellow: function(message){
         message.channel.send("Main:\n \
-4 Salamon ST3-02\n \
-4 Tapirmon ST3-03\n \
-4 Patamon ST3-04\n \
-2 Angemon ST3-05\n \
-4 Gatomon ST3-06\n \
-4 Unimon ST3-07\n \
-4 Magnaangemon ST3-08\n \
-4 Angewomon ST3-09\n \
-2 Magnadramon ST3-10\n \
-2 Seraphimon ST3-11\n \
-4 T.K. Takaishi ST3-12\n \
-4 Gate Of Destiny ST3-13\n \
-2 Heaven's Charm ST3-14\n \
-4 Fire Tornado ST3-15\n \
-2 Strike Of The Seven Stars ST3-1\n\n \
+4 Salamon ST6-02\n \
+4 Tapirmon ST6-03\n \
+4 Patamon ST6-04\n \
+2 Angemon ST6-05\n \
+4 Gatomon ST6-06\n \
+4 Unimon ST6-07\n \
+4 Magnaangemon ST6-08\n \
+4 Angewomon ST6-09\n \
+2 Magnadramon ST6-10\n \
+2 Seraphimon ST6-11\n \
+4 T.K. Takaishi ST6-12\n \
+4 Gate Of Destiny ST6-13\n \
+2 Heaven's Charm ST6-14\n \
+4 Fire Tornado ST6-15\n \
+2 Strike Of The Seven Stars ST6-16\n\n \
 Digitama Deck:\n \
-4 Tokomon (ST3-01)")
+4 Tokomon (ST6-01)")
+    },
+    green: function(message){
+        message.channel.send("Main:\n \
+4 Floramon ST4-02\n \
+4 Tentomon ST4-03\n \
+4 Palmon ST4-04\n \
+4 Kunemon ST4-05\n \
+4 Togemon ST4-06\n \
+4 Kuwagamon ST4-07\n \
+2 Kabuterimon ST4-08\n \
+4 Okuwamon ST4-09\n \
+4 Lillymon ST4-10\n \
+2 MegaKabuterimon ST4-11\n \
+2 Rosemon ST4-12\n \
+2 HerculesKabuterimon ST4-13\n \
+4 Izzy Izumi ST4-14\n \
+4 Needle Spray ST4-15\n \
+2 Electro Shocker ST4-16\n\n \
+Digitama Deck:\n \
+4 Motimon (ST4-01)")
+    },
+    black: function(message){
+        message.channel.send("Main:\n \
+4 Jazamon ST5-02\n \
+4 Agumon ST5-03\n \
+4 ToyAgumon ST5-04\n \
+4 Commandramon ST5-05\n \
+4 Greymon ST5-06\n \
+4 Jazardmon ST5-07\n \
+2 DarkTyrannomon ST5-08\n \
+4 MetalGreymon ST5-09\n \
+4 MetalTyrannomon ST5-10\n \
+2 Megadramon ST5-11\n \
+2 Machinedramon ST5-12\n \
+2 BlitzGreymon ST5-13\n \
+4 Tai Kamiya ST5-14\n \
+4 Laser Eye ST5-15\n \
+2 Genocide Attack ST5-1\n\n \
+Digitama Deck:\n \
+4 Kapurimon (ST5-01)")
+    },
+    purple: function(message){
+        message.channel.send("Main:\n \
+4 DemiDevimon ST6-02\n \
+4 Gabumon ST6-03\n \
+4 Dracmon ST6-04\n \
+4 Elecmon ST6-05\n \
+4 Garurumon ST6-06\n \
+4 Youkomon ST6-07\n \
+2 Devimon ST6-08\n \
+4 Kyukimon ST6-09\n \
+4 SkullSatamon ST6-10\n \
+2 WereGarurumon ST6-11\n \
+2 VenomMyotismon ST6-12\n \
+2 CresGarurumon ST6-13\n \
+4 Matt Ishida ST6-14\n \
+4 Death Claw ST6-15\n \
+2 Nail Bone ST6-1\n\n \
+Digitama Deck:\n \
+4 Pagumon (ST6-01)")
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
