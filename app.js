@@ -51,7 +51,9 @@ client.on("guildMemberAdd", member => {
 //Omnimon Meme
 client.on("message", message =>{
     if(message.content.includes("Omegamon") || message.content.includes("omegamon")){
-        message.reply("Omnimon*")
+        string = message.content;
+        string.replace("Omega", "Omni").replace("omega", "omni")
+        message.reply(string + "*")
     }
 })
 
