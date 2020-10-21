@@ -60,7 +60,7 @@ module.exports = {
                     }
                     channel.send(returnable)
                 }
-                else if(cardList.length > 10){
+                else if(cardList.length > 25){
                     message.reply("Your search term was too broad. Be a bit more specific")
                 }
                 else if(cardList.length == 1){

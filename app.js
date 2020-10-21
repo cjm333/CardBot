@@ -39,18 +39,24 @@ stats.cards = allCards.length;
 const client = new Discord.Client();
 client.on("ready", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
+
+    client.guilds.cache.forEach((guild) => {
+        console.log(guild.name);
+    });
 });
 
 //User entrance message
 client.on("guildMemberAdd", member => {
-    digivice = memberEntry.getDigivice(member.id);
-    partner = memberEntry.getPartner(member.id);
-    client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner);
+    if(member.guild.id == 681578268729540663){
+        digivice = memberEntry.getDigivice(member.id);
+        partner = memberEntry.getPartner(member.id);
+        client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner);    
+    }
 })
 
 //Omnimon Meme
 client.on("message", message =>{
-    if(message.content.includes("Omegamon") || message.content.includes("omegamon")){
+    if((message.content.includes("Omegamon") || message.content.includes("omegamon")) && message.guild.id == 681578268729540663){
         string = message.content;
         string = string.replace(/Omegamon/g, "Omnimon").replace(/omegamon/g, "omnimon")
         message.reply(string + "*")
@@ -119,7 +125,7 @@ client.on("message", message => {
         }
 
         if(grab == null){
-            message.reply("Sorry, only Gold Tamers and Server Boosters have a bond strong enough to do that!")
+            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
         }
         else{
             for(searchable of tracking){
