@@ -50,7 +50,7 @@ client.on("guildMemberAdd", member => {
 
 //Omnimon Meme
 client.on("message", message =>{
-    if(message.content.includes("Omegamon")){
+    if(message.content.includes("Omegamon") || message.content.includes("omegamon")){
         message.reply("Omnimon*")
     }
 })
