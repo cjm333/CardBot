@@ -52,7 +52,7 @@ client.on("guildMemberAdd", member => {
 client.on("message", message =>{
     if(message.content.includes("Omegamon") || message.content.includes("omegamon")){
         string = message.content;
-        string = string.replace(/Omega/g, "Omni").replace(/omega/g, "omni")
+        string = string.replace(/Omegamon/g, "Omnimon").replace(/omegamon/g, "omnimon")
         message.reply(string + "*")
     }
 })
