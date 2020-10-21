@@ -7,6 +7,8 @@
         {"name": "Zaffy", "id": "269296909066305566", "normal": 5, "fresh": "Zurumon", "inTraining": "Pagumon", "rookie": "PetitMamon", "champion": "Pucchiemon", "ultimate": "Lilimon", "mega": "BanchoLilimon", "digivice": "Digivice 01"},
         {"name": "Clemens", "id": "150467882910744577", "normal": 5, "fresh": "Pabumon", "inTraining": "Motimon", "rookie": "Kunemon", "champion": "Bakemon", "ultimate": "SkullGreymon", "mega": "Machinedramon", "digivice": "Digivice"},
 
+        {"name": "BlueNumemon", "id": "268612585069215765", "normal": 4, "fresh": "Zurumon", "inTraining": "Kapurimon", "rookie": "Kokuwamon", "champion": "Numemon", "ultimate": "Monzaemon", "mega": "PlatinumNumemon", "digivice": "Data Link"},
+
         {"name": "Nightmare", "id": "326859177152610314", "normal": 5, "fresh": "an Egg", "inTraining": "Dorimon", "rookie": "Dorumon", "champion": "Dorugamon", "ultimate": "DoruGreymon", "mega": "Alphamon", "digivice": "Digivice"},
         {"name": "jwhorth", "id": "269674566408732672", "normal": 6, "fresh": "Keemon", "inTraining": "Yaamon", "rookie": "Impmon", "champion": "Devimon", "ultimate": "Kimeramon", "mega": "ZeedMillenniummon", "digivice": "Digivice"},
         {"name": "SJ", "id": "282541027758309376", "normal": 3, "fresh": "Botamon", "inTraining": "Sakuttomon", "rookie": "BushiAgumon", "champion": "GeoGreymon", "ultimate": "RizeGreymon", "mega": "Agumon (Bond of Bravery)", "digivice": "Smartphone Digivice"},
