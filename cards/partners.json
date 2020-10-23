@@ -18,5 +18,6 @@
         {"name": "NumeWife", "id": "323661590673096705", "normal": 3, "fresh": "Zerimon", "inTraining": "Gummymon", "rookie": "Terriermon", "champion": "TerrierCrewsmon", "ultimate": "WereGarurumon", "mega": ["BanchoLeomon"], "digivice": "D-Tector"},
         {"name": "Macsx101", "id": "335713198214873088", "normal": 6, "fresh": "Kuramon", "inTraining": "Tsumemon", "rookie": "Keramon", "champion": "Chrysalimmon", "ultimate": "Infermon", "mega": ["Diablomon", "Armagemon", "Zexmon"], "digivice": "Digivice:"},
         {"name": "Mellow", "id": "160130297663324170", "normal": 3, "fresh": "Kuramon", "inTraining": "Tsumemon", "rookie": "Tsukaimon", "champion": "Deltamon", "ultimate": "Chimaeramon", "mega": ["Millenniummon", "Moon=Milleniummon", "ZeedMilleniummon"], "digivice": "D-Ark"},
-        {"name": "Twinsinner", "id": "118951296383451136", "normal": 3, "fresh": "Cocomon", "inTraining": "Chocomon", "rookie": "Lopmon", "champion": "Turuiemon", "ultimate": "Antylamon (Deva)", "mega": ["Cherubimon (Virtue)"], "digivice": "D-Ark"}
+        {"name": "Twinsinner", "id": "118951296383451136", "normal": 3, "fresh": "Cocomon", "inTraining": "Chocomon", "rookie": "Lopmon", "champion": "Turuiemon", "ultimate": "Antylamon (Deva)", "mega": ["Cherubimon (Virtue)"], "digivice": "D-Ark"},
+        {"name": "Saac", "id": "237764316416180224", "normal": 3, "fresh": "an Egg", "inTraining": "Kokomon & Gummymon", "rookie": "Lopmon & Terriermon", "champion": "Wendigomon", "ultimate": "Antylamon", "mega": ["Cherubimon (Vice)"], "digivice": "Digivice"}
     ]}

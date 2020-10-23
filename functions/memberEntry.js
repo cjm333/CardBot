@@ -74,12 +74,12 @@ module.exports = {
                 elitePartner = grab.mega[current2];
             }
 
-            message.reply("Your partner is " + elitePartner + ". You're connected via your " + grab.digivice + "!");
+            message.reply("You're partnered to " + elitePartner + ". You're connected via your " + grab.digivice + "!");
             elite = false;
 
         }
         else{
-            message.reply("Your partner is " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
+            message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
         }
 
         //Tesero (Gold)

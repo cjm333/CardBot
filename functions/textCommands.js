@@ -190,7 +190,7 @@ Digitama Deck:\n \
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
 1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord\n \
-2. Become a Server Booster (There are 12 Boosters Currently)\n\n \
+2. Become a Server Booster (There are 13 Boosters Currently)\n\n \
 You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
 1. Donate at least $5 to the server's Premium Mee6 fund (20 slots left, $0 of $100 donated)\n \
 2. Boost the server for a period of time, then stop boosting")
@@ -198,14 +198,24 @@ You may also attain a personal partner *without* full line functionality in 2 di
     reference: function(message, bonus){
         message.reply("All the cards with references are:\n")
         counter = 0;
-        string = ""
+        returnable = "";
+        checker = false;
+
         for(card of bonus){
-            string = string + card.name + "\n";
+            returnable = returnable + card.name + "\n";
             counter += 1
-            if(counter % 10 == 0 || bonus.length-counter < 10){
-                message.channel.send(string)
-                string = ""
+            if(counter % 10 == 0){
+                message.channel.send(returnable)
+                returnable = ""
             }
+            else if(bonus.length-counter < 10 && bonus.length != 10){
+                checker = true;
+            }
+        }
+        if(checker){
+            message.channel.send(returnable)
+            returnable = ""
+            checker = false;
         }
     }
 

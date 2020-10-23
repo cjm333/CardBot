@@ -23,8 +23,6 @@ module.exports = {
             }
         }
         else{
-
-        
     
             for(card of selectedCards){
                 if(card.append.includes(cardName)){
@@ -48,24 +46,33 @@ module.exports = {
                 }
             }
         
+            checker = false;
             if(doCheck){
                 if(cardList.length == 0){
                     message.reply("No cards exist with that phrase")
                 }
-                else if(cardList.length > 1 && cardList.length <= 10){
+                else if(cardList.length > 1 && cardList.length < 25){
                     message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
                     returnable = "";
                     counter = 0;
                     for(name of cardNames){
                         returnable = returnable + name + "\n";
                         counter += 1
-                        if(counter % 5 == 0 || cardName.length-counter < 5){
+                        if(counter % 5 == 0){
                             message.channel.send(returnable)
                             returnable = ""
                         }
+                        else if(cardNames.length-counter < 5 && cardNames.length != 5){
+                            checker = true;
+                        }
+                    }
+                    if(checker){
+                        message.channel.send(returnable)
+                        returnable = ""
+                        checker = false;
                     }
                 }
-                else if(cardList.length > 25){
+                else if(cardList.length >= 25){
                     message.reply("Your search term was too broad. Be a bit more specific")
                 }
                 else if(cardList.length == 1){

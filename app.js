@@ -206,7 +206,7 @@ client.on("message", message => {
         }
 
         if(grab == null){
-            message.reply("Sorry, only Gold Tamers and Server Boosters have a bond strong enough to do that!")
+            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
         }
         else{
             for(searchable of tracking){
