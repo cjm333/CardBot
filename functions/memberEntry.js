@@ -98,10 +98,6 @@ module.exports = {
         else if(id == "101162491962195968"){
             message.reply("Your partner is Algomon. You're connected via your Smartphone Digivice!")
         }
-        //Twinsinner (Booster)
-        else if(id == "118951296383451136"){
-            message.reply("Your partner is Lopmon. You're connected via your D-Ark!")
-        }
         //Maria (Booster)
         else if(id == "223208303541354498"){
             message.reply("Your partner is Renamon. You're connected via your D-Power!")
