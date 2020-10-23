@@ -17,7 +17,7 @@ const partnersData = require('./cards/partners.json');
 const partners = partnersData.list;
 tracking = []
 for(temp of partners){
-    pair = [temp.id, temp.normal]
+    pair = [temp.id, temp.normal, 0]
     tracking.push(pair)
 }
 
@@ -34,6 +34,17 @@ stats.tamers = tamers.tamers.length;
 stats.options = options.options.length;
 stats.cards = allCards.length;
 
+bonus = [];
+for(card of allCards){
+    if(card.bonus && card.name){
+        bonus.push(card)
+    }
+}
+for(card of altArts.alt){
+    if(card.bonus && card.name != "BlackWarGreymon (Alt Art, BT2-122)"){
+        bonus.push(card)
+    }
+}
 
 //Create new client
 const client = new Discord.Client();
@@ -55,13 +66,13 @@ client.on("guildMemberAdd", member => {
 })
 
 //Omnimon Meme
-client.on("message", message =>{
+/*client.on("message", message =>{
     if((message.content.includes("Omegamon") || message.content.includes("omegamon")) && message.guild.id == 681578268729540663){
         string = message.content;
         string = string.replace(/Omegamon/g, "Omnimon").replace(/omegamon/g, "omnimon")
         message.reply(string + "*")
     }
-})
+})*/
 
 //Check messages for commands
 client.on("message", message => {
@@ -84,6 +95,7 @@ client.on("message", message => {
     else if(message.content.startsWith("!alt")){
         search.searching(message, altArts.alt, 4, Discord);
     }
+    else if(message.content.startsWith("!reference")){textCommands.reference(message, bonus);}
     else if(message.content.startsWith("!borrow")){textCommands.borrow(message);}
     else if(message.content.startsWith("!count")){count.counting(message, stats);}
     else if(message.content.startsWith("!faq")){textCommands.faq(message);}
@@ -110,9 +122,11 @@ client.on("message", message => {
     else if(message.content.startsWith("!starterBlack")){textCommands.black(message);}
     else if(message.content.startsWith("!starterPurple")){textCommands.purple(message);}
     else if(message.content.startsWith("!event")){textCommands.event(message);}
+    else if(message.content.startsWith("!info")){textCommands.info(message);}
     else if(message.content.startsWith("!digivolve")){
         id = message.author.id;
         current = 0;
+        current2 = 0;
         grab = null;
         previous = null;
         next = null;
@@ -133,6 +147,10 @@ client.on("message", message => {
                     if(searchable[1] < 6){
                         searchable[1] = searchable[1]+1;
                         current = searchable[1];
+                    }
+                    else if(searchable[1] == 6 && searchable[2]<grab.mega.length-1){
+                        searchable[2] = searchable[2] + 1;
+                        current2 = searchable[2];
                     }
                     else{
                         flag = true;
@@ -160,9 +178,13 @@ client.on("message", message => {
                     previous = grab.champion;
                     next = grab.ultimate;
                 }
-                else if(current == 6) {
+                else if(current == 6 && current2 == 0) {
                     previous = grab.ultimate;
-                    next = grab.mega;
+                    next = grab.mega[0];
+                }
+                else {
+                    previous = grab.mega[current2-1];
+                    next = grab.mega[current2];
                 }
                 message.reply(previous + " digivolve tooooooo...... " + next + "!!!")
             }
@@ -171,6 +193,7 @@ client.on("message", message => {
     else if(message.content.startsWith("!dedigivolve")){
         id = message.author.id;
         current = 0;
+        current2 = 0;
         grab = null;
         previous = null;
         next = null;
@@ -188,7 +211,11 @@ client.on("message", message => {
         else{
             for(searchable of tracking){
                 if(id == searchable[0]){
-                    if(searchable[1] > 1){
+                    if(searchable[2] > 0){
+                        searchable[2] = searchable[2]-1
+                        current2 = searchable[2]
+                    }
+                    else if(searchable[1] > 1){
                         searchable[1] = searchable[1]-1;
                         current = searchable[1];
                     }
@@ -219,8 +246,16 @@ client.on("message", message => {
                     next = grab.champion;
                 }
                 else if(current == 5) {
-                    previous = grab.mega;
+                    previous = grab.mega[0];
                     next = grab.ultimate;
+                }
+                else if(current == 6 && current2 == 0) {
+                    previous = grab.mega[1];
+                    next = grab.mega[0];
+                }
+                else {
+                    previous = grab.mega[current2+1];
+                    next = grab.mega[current2];
                 }
                 message.reply("Your " + previous + " dedigivolved to " + next + "!!!")
             }

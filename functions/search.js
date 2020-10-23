@@ -54,11 +54,16 @@ module.exports = {
                 }
                 else if(cardList.length > 1 && cardList.length <= 10){
                     message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
-                    returnable = ""
+                    returnable = "";
+                    counter = 0;
                     for(name of cardNames){
-                        returnable = returnable.concat(name).concat("\n") 
+                        returnable = returnable + name + "\n";
+                        counter += 1
+                        if(counter % 5 == 0 || cardName.length-counter < 5){
+                            message.channel.send(returnable)
+                            returnable = ""
+                        }
                     }
-                    channel.send(returnable)
                 }
                 else if(cardList.length > 25){
                     message.reply("Your search term was too broad. Be a bit more specific")

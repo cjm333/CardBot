@@ -32,6 +32,7 @@ module.exports = {
         elite = false;
         id = message.author.id;
         current = 0;
+        current2 = 0;
         grab = null;
         elitePartner = null;
 
@@ -39,6 +40,7 @@ module.exports = {
             if(id == searchable[0]){
                 elite = true;
                 current = searchable[1]
+                current2 = searchable[2]
             }
         }
 
@@ -69,7 +71,7 @@ module.exports = {
                 elitePartner = grab.ultimate;
             }
             else if(current == 6) {
-                elitePartner = grab.mega;
+                elitePartner = grab.mega[current2];
             }
 
             message.reply("Your partner is " + elitePartner + ". You're connected via your " + grab.digivice + "!");
@@ -88,10 +90,6 @@ module.exports = {
         else if(id == "591340274119213088"){
             message.reply("Your partner is Koromon. You're connected via your Smartphone Digivice!")
         }
-        //V01D (Gold)
-        else if(id == "172778059659739136"){
-            message.reply("Your partner is DORUmon. You're connected via your D-Burst!")
-        }
         //Hoang (Gold)
         else if(id == "151088210426986496"){
             message.reply("Your partner is Hackmon. You're connected via your Smartphone Digivice!")
@@ -103,10 +101,6 @@ module.exports = {
         //Twinsinner (Booster)
         else if(id == "118951296383451136"){
             message.reply("Your partner is Lopmon. You're connected via your D-Ark!")
-        }
-        //Mellow (Booster)
-        else if(id == "160130297663324170"){
-            message.reply("Your partner is Tsukaimon. You're connected via your D-Ark!")
         }
         //Maria (Booster)
         else if(id == "223208303541354498"){
