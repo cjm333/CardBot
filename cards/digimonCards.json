@@ -188,7 +188,7 @@
         {"append": "beelzemon-bt2-111", "name": "Beelzemon (BT2-111)", "url": "https://digimon-bucket.s3.amazonaws.com/beelzemon-bt2-111.png", "effect": "", "inheritable": ""},
         {"append": "blackwargreymon-bt2-112", "name": "BlackWarGreymon (BT2-112)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-bt2-112.png", "effect": "", "inheritable": ""},
     
-        {"append": "agumon-bt3-007", "name": "Agumon (BT3-007)", "url": "https://en.digimoncard.com/images/cardlist/card/BT3-007.png", "effect": "", "inheritable": ""},
+        {"append": "agumon-bt3-007", "name": "Agumon (BT3-007)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-bt3-007.png", "effect": "", "inheritable": ""},
         {"append": "zubamon-bt3-008", "name": "Zubamon (BT3-008)", "url": "https://digimon-bucket.s3.amazonaws.com/zubamon-bt3-008.png", "effect": "", "inheritable": ""},
         {"append": "hawkmon-bt3-009", "name": "Hawkmon (BT3-009)", "url": "https://digimon-bucket.s3.amazonaws.com/hawkmon-bt3-009.png", "effect": "", "inheritable": ""},
         {"append": "zubaeagermon-bt3-010", "name": "Zubaeagermon (BT3-010)", "url": "https://digimon-bucket.s3.amazonaws.com/zubaeagermon-bt3-010.png", "effect": "", "inheritable": ""},
