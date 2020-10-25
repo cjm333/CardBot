@@ -180,12 +180,11 @@ Digitama Deck:\n \
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. October 25th, 11am UK Time: London Players Guild Tourney, Hosted by LPG -` https://challonge.com/y1uw3wkk\n\n \
-`2. October 26th-30th, 10am CDT: DigiRumble 2, Hosted by orangeswim -` https://challonge.com/dcdevR2\n\n \
-`3. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` https://challonge.com/DigiDuels\n\n \
-`4. November 4th-6th: DigiRumble 2 Finals`\n\n \
-`5. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - https://challonge.com/HardModeGamesBB7\n\n \
-`6. TBD: Tournament Series by Nightmare`")
+`1. October 26th-30th, 10am CDT: DigiRumble 2, Hosted by orangeswim -` https://challonge.com/dcdevR2\n\n \
+`2. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` https://challonge.com/DigiDuels\n\n \
+`3. November 4th-6th: DigiRumble 2 Finals`\n\n \
+`4. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - https://challonge.com/HardModeGamesBB7\n\n \
+`5. TBD: Tournament Series by Nightmare`")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
