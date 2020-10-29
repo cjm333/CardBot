@@ -184,7 +184,7 @@ Digitama Deck:\n \
 `2. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` <https://challonge.com/DigiDuels>\n\n \
 `3. November 4th-6th: DigiRumble 2 Finals`\n\n \
 `4. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - <https://challonge.com/HardModeGamesBB7>\n\n \
-`5. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum by Nightmare` - <https://challonge.com/lmoufecb>")
+`5. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb>")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \

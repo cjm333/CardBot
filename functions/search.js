@@ -9,82 +9,67 @@ module.exports = {
         const args = message.content.slice(sliceLength).trim()
         const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
         const cardName = argsURL.toLowerCase();
-
-        if(cardName == "wolf-claw"){
-            for(card of selectedCards){
-                if(card.append == "wolf-claw-st2-15"){
+    
+        for(card of selectedCards){
+            if(card.append.includes(cardName)){
+                cardNames.push(card.name)
+                cardList.push(card)
+            }
+        }
+        
+        if(cardList.length > 1){
+            for(card of cardList){
+                if(card.append === cardName){
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     if(card.bonus){
                         cardEmbed.setFooter(card.bonus)
                     }
-                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })})
+                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
+                    })
+                    doCheck = false
                 }
             }
         }
-        else{
-    
-            for(card of selectedCards){
-                if(card.append.includes(cardName)){
-                    cardNames.push(card.name)
-                    cardList.push(card)
-                }
-            }
         
-            if(cardList.length > 1){
-                for(card of cardList){
-                    if(card.append === cardName){
-                        cardEmbed.setImage(card.url)
-                        cardEmbed.setTitle(card.name)
-                        if(card.bonus){
-                            cardEmbed.setFooter(card.bonus)
-                        }
-                        message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
-                        })
-                        doCheck = false
-                    }
-                }
+        checker = false;
+        if(doCheck){
+            if(cardList.length == 0){
+                message.reply("No cards exist with that phrase")
             }
-        
-            checker = false;
-            if(doCheck){
-                if(cardList.length == 0){
-                    message.reply("No cards exist with that phrase")
-                }
-                else if(cardList.length > 1 && cardList.length < 25){
-                    message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
-                    returnable = "";
-                    counter = 0;
-                    for(name of cardNames){
-                        returnable = returnable + name + "\n";
-                        counter += 1
-                        if(counter % 5 == 0){
-                            message.channel.send(returnable)
-                            returnable = ""
-                        }
-                        else if(cardNames.length-counter < 5 && cardNames.length != 5){
-                            checker = true;
-                        }
-                    }
-                    if(checker){
+            else if(cardList.length > 1 && cardList.length < 25){
+                message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
+                returnable = "";
+                counter = 0;
+                for(name of cardNames){
+                    returnable = returnable + name + "\n";
+                    counter += 1
+                    if(counter % 5 == 0){
                         message.channel.send(returnable)
                         returnable = ""
-                        checker = false;
+                    }
+                    else if(cardNames.length-counter < 5 && cardNames.length != 5){
+                        checker = true;
                     }
                 }
-                else if(cardList.length >= 25){
-                    message.reply("Your search term was too broad. Be a bit more specific")
+                if(checker){
+                    message.channel.send(returnable)
+                    returnable = ""
+                    checker = false;
                 }
-                else if(cardList.length == 1){
-                    cardEmbed.setImage(cardList[0].url)
-                    cardEmbed.setTitle(cardList[0].name)
-                    if(cardList[0].bonus){
-                        cardEmbed.setFooter(cardList[0].bonus)
-                    }
-                    message.reply(cardEmbed).then(msg => {
-                        msg.delete({ timeout: 60000 })
-                    })
+            }
+            else if(cardList.length >= 25){
+                message.reply("Your search term was too broad. Be a bit more specific")
+            }
+            else if(cardList.length == 1){
+                cardEmbed.setImage(cardList[0].url)
+                cardEmbed.setTitle(cardList[0].name)
+                if(cardList[0].bonus){
+                    cardEmbed.setFooter(cardList[0].bonus)
                 }
+                message.reply(cardEmbed).then(msg => {
+                    msg.delete({ timeout: 60000 })
+                })
             }
         }
     

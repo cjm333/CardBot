@@ -1,28 +1,28 @@
 {
     "tamers": [
-        {"append": "tai-kamiya-st1-12", "name": "Tai Kamiya (ST1-12)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-st1-12.png", "effect": "", "inheritable": ""},
-        {"append": "matt-ishida-st2-12", "name": "Matt Ishida (ST2-12)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-st2-12.png", "effect": "", "inheritable": ""},
-        {"append": "tk-takaishi-st3-12", "name": "T.K. Takaishi (ST3-12)", "url": "https://digimon-bucket.s3.amazonaws.com/tk-st3-12.png", "effect": "", "inheritable": ""},
+        {"append": "tai-kamiya-st1-12", "name": "Tai Kamiya (ST1-12)", "url": "https://world.digimoncard.com/images/cardlist/card/ST1-12.png", "effect": "", "inheritable": ""},
+        {"append": "matt-ishida-st2-12", "name": "Matt Ishida (ST2-12)", "url": "https://world.digimoncard.com/images/cardlist/card/ST2-12.png", "effect": "", "inheritable": ""},
+        {"append": "tk-takaishi-st3-12", "name": "T.K. Takaishi (ST3-12)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-12.png", "effect": "", "inheritable": ""},
 
-        {"append": "tai-kamiya-bt1-085", "name": "Tai Kamiya (BT1-085)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt1-085.png", "effect": "", "inheritable": ""},
-        {"append": "matt-ishida-bt1-086", "name": "Matt Ishida (BT1-086)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt1-086.png", "effect": "", "inheritable": ""},
-        {"append": "tk-takaishi-bt1-087", "name": "T.K. Takaishi (BT1-087)", "url": "https://digimon-bucket.s3.amazonaws.com/tk-bt1-087.png", "effect": "", "inheritable": ""},
-        {"append": "izzy-izumi-bt1-088", "name": "Izzy Izumi (BT1-088)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-bt1-088.png", "effect": "", "inheritable": ""},
-        {"append": "mimi-tachikawa-bt1-089", "name": "Mimi Tachikawa (BT1-089)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-bt1-089.png", "effect": "", "inheritable": ""},
+        {"append": "tai-kamiya-bt1-085", "name": "Tai Kamiya (BT1-085)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-085.png", "effect": "", "inheritable": ""},
+        {"append": "matt-ishida-bt1-086", "name": "Matt Ishida (BT1-086)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-086.png", "effect": "", "inheritable": ""},
+        {"append": "tk-takaishi-bt1-087", "name": "T.K. Takaishi (BT1-087)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-087.png", "effect": "", "inheritable": ""},
+        {"append": "izzy-izumi-bt1-088", "name": "Izzy Izumi (BT1-088)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-088.png", "effect": "", "inheritable": ""},
+        {"append": "mimi-tachikawa-bt1-089", "name": "Mimi Tachikawa (BT1-089)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-089.png", "effect": "", "inheritable": ""},
         
-        {"append": "sora-takenouchi-bt2-084", "name": "Sora Takenouchi (BT2-084)", "url": "https://digimon-bucket.s3.amazonaws.com/sora-bt2-084.png", "effect": "", "inheritable": ""},
-        {"append": "joe-kido-bt2-085", "name": "Joe Kido (BT2-085)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-bt2-085.png", "effect": "", "inheritable": ""},
+        {"append": "sora-takenouchi-bt2-084", "name": "Sora Takenouchi (BT2-084)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-084.png", "effect": "", "inheritable": ""},
+        {"append": "joe-kido-bt2-085", "name": "Joe Kido (BT2-085)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-085.png", "effect": "", "inheritable": ""},
         {"append": "rina-shinomiya-bt2-086", "name": "Rina Shinomiya (BT2-086)", "url": "https://digimon-bucket.s3.amazonaws.com/rina-bt2-086.png", "effect": "", "inheritable": ""},
-        {"append": "kari-kamiya-bt2-087", "name": "Kari Kamiya (BT2-087)", "url": "https://digimon-bucket.s3.amazonaws.com/kari-bt2-087.png", "effect": "", "inheritable": ""},
-        {"append": "taiga-bt2-088", "name": "Taiga (BT2-088)", "url": "https://digimon-bucket.s3.amazonaws.com/taiga-bt2-088.png", "effect": "", "inheritable": ""},
-        {"append": "tai-kamiya-bt2-089", "name": "Tai Kamiya (BT2-089)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-bt2-089.png", "effect": "", "inheritable": ""},
-        {"append": "matt-ishida-bt2-090", "name": "Matt Ishida (BT2-090)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-bt2-090.png", "effect": "", "inheritable": ""},
+        {"append": "kari-kamiya-bt2-087", "name": "Kari Kamiya (BT2-087)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-087.png", "effect": "", "inheritable": ""},
+        {"append": "taiga-bt2-088", "name": "Taiga (BT2-088)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-088.png", "effect": "", "inheritable": ""},
+        {"append": "tai-kamiya-bt2-089", "name": "Tai Kamiya (BT2-089)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-089.png", "effect": "", "inheritable": ""},
+        {"append": "matt-ishida-bt2-090", "name": "Matt Ishida (BT2-090)", "url": "https://world.digimoncard.com/images/cardlist/card/BT2-090.png", "effect": "", "inheritable": ""},
 
         {"append": "davis-motomiya-bt3-093", "name": "Davis Motomiya (BT3-093)", "url": "https://digimon-bucket.s3.amazonaws.com/davis-motomiya-bt3-093.png", "effect": "", "inheritable": ""},
         {"append": "ken-ichijouji-bt3-094", "name": "Ken Ichijouji (BT3-094)", "url": "https://digimon-bucket.s3.amazonaws.com/ken-ichijouji-bt3-094.png", "effect": "", "inheritable": ""},
         {"append": "joe-kido-bt3-095", "name": "Joe Kido (BT3-095)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt3-095.png", "effect": "", "inheritable": ""},
         {"append": "mimi-tachikawa-bt3-096", "name": "Mimi Tachikawa (BT3-096)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-tachikawa-bt3-096.png", "effect": "", "inheritable": ""},
         
-        {"append": "taichi-v-tamer-012", "name": "Taichi (V-Tamer, P-012)", "url": "https://digimon-bucket.s3.amazonaws.com/taichi-v-tamer-012.png", "effect": "", "inheritable": ""}
+        {"append": "tai-kamiya-v-tamer-012", "name": "Tai Kamiya (V-Tamer, P-012)", "url": "https://world.digimoncard.com/images/cardlist/card/P-012.png", "effect": "", "inheritable": ""}
       ]
 }
