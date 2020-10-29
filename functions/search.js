@@ -25,6 +25,9 @@ module.exports = {
                     if(card.bonus){
                         cardEmbed.setFooter(card.bonus)
                     }
+                    if(card.faq){
+                        cardEmbed.setDescription(card.faq)
+                    }
                     message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
                     })
                     doCheck = false
@@ -66,6 +69,9 @@ module.exports = {
                 cardEmbed.setTitle(cardList[0].name)
                 if(cardList[0].bonus){
                     cardEmbed.setFooter(cardList[0].bonus)
+                }
+                if(cardList[0].faq){
+                    cardEmbed.setDescription(cardList[0].faq)
                 }
                 message.reply(cardEmbed).then(msg => {
                     msg.delete({ timeout: 60000 })

@@ -98,9 +98,5 @@ module.exports = {
         else if(id == "101162491962195968"){
             message.reply("Your partner is Algomon. You're connected via your Smartphone Digivice!")
         }
-        //Maria (Booster)
-        else if(id == "223208303541354498"){
-            message.reply("Your partner is Renamon. You're connected via your D-Power!")
-        }
     }
 }

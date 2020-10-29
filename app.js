@@ -41,7 +41,7 @@ for(card of allCards){
     }
 }
 for(card of altArts.alt){
-    if(card.bonus && card.name != "BlackWarGreymon (Alt Art, BT2-122)"){
+    if(card.bonus){
         bonus.push(card)
     }
 }
@@ -51,9 +51,16 @@ const client = new Discord.Client();
 client.on("ready", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
 
+    servers = 0
+
     client.guilds.cache.forEach((guild) => {
-        console.log(guild.name);
+        servers++;
+        //console.log(guild.name);
     });
+
+    status = "DCG 2020 in " + servers + " servers!"
+
+    client.user.setActivity(status);
 });
 
 //User entrance message
