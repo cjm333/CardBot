@@ -2,24 +2,24 @@ module.exports = {
     searching: function(message, selectedCards, sliceLength, Discord){
         const cardEmbed = new Discord.MessageEmbed()
         channel = message.channel
-        var doCheck = new Boolean(true)
-        cardList = []
+        var noMatch = new Boolean(true)
+        cardPool = []
         cardNames = []
     
         const args = message.content.slice(sliceLength).trim()
         const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
-        const cardName = argsURL.toLowerCase();
+        const userSearch = argsURL.toLowerCase();
     
         for(card of selectedCards){
-            if(card.append.includes(cardName)){
+            if(card.append.includes(userSearch)){
                 cardNames.push(card.name)
-                cardList.push(card)
+                cardPool.push(card)
             }
         }
         
-        if(cardList.length > 1){
-            for(card of cardList){
-                if(card.append === cardName){
+        if(cardPool.length > 1){
+            for(card of cardPool){
+                if(card.append === userSearch){
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     if(card.bonus){
@@ -30,52 +30,44 @@ module.exports = {
                     }
                     message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
                     })
-                    doCheck = false
+                    noMatch = false
                 }
             }
         }
         
         checker = false;
-        if(doCheck){
-            if(cardList.length == 0){
+        if(noMatch){
+            if(cardPool.length == 0){
                 message.reply("No cards exist with that phrase")
             }
-            else if(cardList.length > 1 && cardList.length < 25){
+            else if(cardPool.length == 1){
+                cardEmbed.setImage(cardPool[0].url)
+                cardEmbed.setTitle(cardPool[0].name)
+                if(cardPool[0].bonus){
+                    cardEmbed.setFooter(cardPool[0].bonus)
+                }
+                if(cardPool[0].faq){
+                    cardEmbed.setDescription(cardPool[0].faq)
+                }
+                message.reply(cardEmbed).then(msg => {
+                    msg.delete({ timeout: 60000 })
+                })
+            }
+            else if(cardPool.length > 1 && cardPool.length < 25){
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
                 returnable = "";
                 counter = 0;
                 for(name of cardNames){
                     returnable = returnable + name + "\n";
                     counter += 1
-                    if(counter % 5 == 0){
+                    if(counter % 5 == 0 || counter == cardPool.length){
                         message.channel.send(returnable)
                         returnable = ""
                     }
-                    else if(cardNames.length-counter < 5 && cardNames.length != 5){
-                        checker = true;
-                    }
-                }
-                if(checker){
-                    message.channel.send(returnable)
-                    returnable = ""
-                    checker = false;
                 }
             }
-            else if(cardList.length >= 25){
+            else{
                 message.reply("Your search term was too broad. Be a bit more specific")
-            }
-            else if(cardList.length == 1){
-                cardEmbed.setImage(cardList[0].url)
-                cardEmbed.setTitle(cardList[0].name)
-                if(cardList[0].bonus){
-                    cardEmbed.setFooter(cardList[0].bonus)
-                }
-                if(cardList[0].faq){
-                    cardEmbed.setDescription(cardList[0].faq)
-                }
-                message.reply(cardEmbed).then(msg => {
-                    msg.delete({ timeout: 60000 })
-                })
             }
         }
     

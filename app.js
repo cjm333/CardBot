@@ -33,6 +33,7 @@ stats.digimon = digimon.digimon.length;
 stats.tamers = tamers.tamers.length;
 stats.options = options.options.length;
 stats.cards = allCards.length;
+stats.alt = altArts.length;
 
 bonus = [];
 for(card of allCards){
