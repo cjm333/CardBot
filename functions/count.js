@@ -100,6 +100,6 @@ module.exports = {
             }
         }
 
-        message.reply("There are " + count + " promo exclusive cards in Argent Saga.\nNOTE: This does not count cards only or additionally available in LGS Volumes or Curse of the Witch Queen. It also only encompasses Units, Spells, and Augments")
+        message.reply("There are " + count + " promo exclusive cards in Argent Saga.\nNOTE: This only counts cards not available in sealed product. It also only encompasses Units, Spells, and Augments")
     }
 }
