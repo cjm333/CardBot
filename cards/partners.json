@@ -1,7 +1,7 @@
 {
     "list": [
         {"name": "Me", "id": "223279276340805632", "normal": 3, "fresh": "an Egg", "inTraining": "Puroromon", "rookie": "Wormmon", "champion": "Arresterdramon", "ultimate": "NeoDevimon", "mega": ["Apollomon, GraceNovamon"], "digivice": "Appli Drive Duo"},
-        {"name": "Ted", "id": "185756831304515587", "normal": 4, "fresh": "Punimon", "inTraining": "Tsunomon", "rookie": "Gabumon", "champion": "Garurumon", "ultimate": "WereGarurumon (Black)", "mega": ["Belphemon Rage Mode"], "digivice": "D-Ark"},
+        {"name": "Ted", "id": "185756831304515587", "normal": 4, "fresh": "Punimon", "inTraining": "Tsunomon", "rookie": "Gabumon", "champion": "Garurumon", "ultimate": "WereGarurumon (Black)", "mega": ["WereGarurumon (Black) Sagittarius Mode", "Belphemon Sleep Mode", "Belphemon Rage Mode"], "digivice": "D-Ark"},
         {"name": "Anti", "id": "121428788734066688", "normal": 3, "fresh": "Pitchmon", "inTraining": "Chapmon", "rookie": "ModokiBetamon", "champion": "Musyamon", "ultimate": "Asuramon", "mega": ["Lampmon"], "digivice": "Digivice"},
         {"name": "Orange", "id": "507019396238016512", "normal": 1, "fresh": "MetalKoromon", "inTraining": "Koromon", "rookie": "Clear Agumon", "champion": "Gryemon (Virus)", "ultimate": "SkullGreymon", "mega": ["BlackWarGreymon X"], "digivice": "Digivice"},
         {"name": "Zaffy", "id": "269296909066305566", "normal": 5, "fresh": "Zurumon", "inTraining": "Pagumon", "rookie": "PetitMamon", "champion": "Pucchiemon", "ultimate": "Lilimon", "mega": ["BanchoLilimon"], "digivice": "Digivice 01"},
