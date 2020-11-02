@@ -180,13 +180,11 @@ Digitama Deck:\n \
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. October 26th-30th, 10am CDT: DigiRumble 2, Hosted by orangeswim -` <https://challonge.com/dcdevR2>\n\n \
-`2. November 1st, 7pm EST: DigiDuels, Hosted by Drago -` <https://challonge.com/DigiDuels>\n\n \
-`3. November 4th-6th: DigiRumble 2 Finals`\n\n \
-`4. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - <https://challonge.com/HardModeGamesBB7>\n\n \
-`5. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb>\n\n \
-`6. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
-`7. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj>")
+`1. November 4th-6th: DigiRumble 2 Finals`\n\n \
+`2. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - <https://challonge.com/HardModeGamesBB7>\n\n \
+`3. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb>\n\n \
+`4. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
+`5. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj>")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
