@@ -1,25 +1,48 @@
 module.exports = {
     searching: function(message, selectedCards, sliceLength, Discord){
+        //Variable Setup
         const cardEmbed = new Discord.MessageEmbed()
         channel = message.channel
         var noMatch = new Boolean(true)
         cardPool = []
         cardNames = []
     
+        //User Search Parsing
         const args = message.content.slice(sliceLength).trim()
         const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
-        const userSearch = argsURL.toLowerCase();
-    
+        const shortCut = argsURL.toLowerCase()
+        const userSearch = shortCut.split("-");
+        
+        //Initial Card Gathering
         for(card of selectedCards){
-            if(card.append.includes(userSearch)){
+            if(card.append.includes(userSearch[0])){
                 cardNames.push(card.name)
                 cardPool.push(card)
             }
         }
         
+        //Thinning Card Pool
+        if(userSearch.length > 1){
+            counter = 1;
+            do{
+                index = 0;
+                while(index < cardPool.length){
+                    if(cardPool[index].append.includes(userSearch[counter])){
+                        index++;
+                    }
+                    else{
+                        cardPool.splice(index, 1)
+                        cardNames.splice(index, 1)
+                    }
+                }
+                counter++;
+            } while(counter < userSearch.length)
+        }
+        
+        //Shortcutting Exact Matches
         if(cardPool.length > 1){
             for(card of cardPool){
-                if(card.append === userSearch){
+                if(card.append === shortCut){
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     if(card.bonus){
@@ -35,6 +58,7 @@ module.exports = {
             }
         }
         
+        //Handling Resulting Card Pool
         checker = false;
         if(noMatch){
             if(cardPool.length == 0){

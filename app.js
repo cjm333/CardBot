@@ -56,6 +56,9 @@ client.on("ready", () =>{
 
     client.guilds.cache.forEach((guild) => {
         servers++;
+        if(guild.id != 681578268729540663){
+            guild.id.leave()
+        }
         //console.log(guild.name);
     });
 
