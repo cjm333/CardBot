@@ -7,13 +7,13 @@ const tamers = require('./cards/tamerCards.json');
 const options = require('./cards/optionCards.json');
 const altArts = require('./cards/altArts.json');
 
-const memberEntry = require('./functions/memberEntry.js');
+const partnerFunctions = require('./functions/partner.js');
 const textCommands =  require('./functions/textCommands.js');
 const count = require('./functions/count.js');
 const search = require('./functions/search.js');
 
-//Partner Functionality Setup
-const partnersData = require('./cards/partners.json');
+//Elite Partner Functionality Setup
+const partnersData = require('./cards/elite.json');
 const partners = partnersData.list;
 tracking = []
 for(temp of partners){
@@ -70,8 +70,8 @@ client.on("ready", () =>{
 //User entrance message
 client.on("guildMemberAdd", member => {
     if(member.guild.id == 681578268729540663){
-        digivice = memberEntry.getDigivice(member.id);
-        partner = memberEntry.getPartner(member.id);
+        digivice = partnerFunctions.getDigivice(member.id);
+        partner = partnerFunctions.getPartner(member.id);
         client.channels.cache.get("681578269455548421").send("<@" + member.id + "> just joined and received a " + digivice + "! Their partner seems to be " + partner);    
     }
 })
@@ -88,24 +88,12 @@ client.on("guildMemberAdd", member => {
 //Check messages for commands
 client.on("message", message => {
 
-    if (message.content.startsWith("!card")){
-        search.searching(message, allCards, 5, Discord);
-    }
-    else if(message.content.startsWith("!digitama")){
-        search.searching(message, digitama.digitama, 9, Discord);
-    }
-    else if(message.content.startsWith("!digimon")){
-        search.searching(message, digimon.digimon, 8, Discord);
-    }
-    else if(message.content.startsWith("!tamer")){
-        search.searching(message, tamers.tamers, 7, Discord);
-    }
-    else if(message.content.startsWith("!option")){
-        search.searching(message, options.options, 7, Discord);
-    }
-    else if(message.content.startsWith("!alt")){
-        search.searching(message, altArts.alt, 4, Discord);
-    }
+    if (message.content.startsWith("!card")){search.searching(message, allCards, 5, Discord);}
+    else if(message.content.startsWith("!digitama")){search.searching(message, digitama.digitama, 9, Discord);}
+    else if(message.content.startsWith("!digimon")){search.searching(message, digimon.digimon, 8, Discord);}
+    else if(message.content.startsWith("!tamer")){search.searching(message, tamers.tamers, 7, Discord);}
+    else if(message.content.startsWith("!option")){search.searching(message, options.options, 7, Discord);}
+    else if(message.content.startsWith("!alt")){search.searching(message, altArts.alt, 4, Discord);}
     else if(message.content.startsWith("!reference")){textCommands.reference(message, bonus);}
     else if(message.content.startsWith("!borrow")){textCommands.borrow(message);}
     else if(message.content.startsWith("!count")){count.counting(message, stats);}
@@ -113,12 +101,8 @@ client.on("message", message => {
     else if(message.content.startsWith("!help")){textCommands.help(message);}
     else if(message.content.startsWith("!keyword")){textCommands.keyword(message);}
     else if(message.content.startsWith("!partner")){
-        if(message.content.includes("change") || message.content.includes("Change")){
-            message.reply("You and your partner are bonded for life! You'd better appreciate them!");
-        }
-        else{
-            memberEntry.partner(message, partners, tracking);
-        }
+        if(message.content.includes("change") || message.content.includes("Change")){message.reply("You and your partner are bonded for life! You'd better appreciate them!");}
+        else{partnerFunctions.partner(message, partners, tracking);}
     }
     else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
     else if(message.content.startsWith("!meme")){
@@ -134,144 +118,8 @@ client.on("message", message => {
     else if(message.content.startsWith("!starterPurple")){textCommands.purple(message);}
     else if(message.content.startsWith("!event")){textCommands.event(message);}
     else if(message.content.startsWith("!info")){textCommands.info(message);}
-    else if(message.content.startsWith("!digivolve")){
-        id = message.author.id;
-        current = 0;
-        current2 = 0;
-        grab = null;
-        previous = null;
-        next = null;
-        flag = false;
-
-        for(searchable of partners){
-            if(id == searchable.id){
-                grab = searchable
-            }
-        }
-
-        if(grab == null){
-            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
-        }
-        else{
-            for(searchable of tracking){
-                if(id == searchable[0]){
-                    if(searchable[1] < 6){
-                        searchable[1] = searchable[1]+1;
-                        current = searchable[1];
-                    }
-                    else if(searchable[1] == 6 && searchable[2]<grab.mega.length-1){
-                        searchable[2] = searchable[2] + 1;
-                        current2 = searchable[2];
-                    }
-                    else{
-                        flag = true;
-                    }
-                }
-            }
-    
-            if(flag){
-                message.reply("You can't digivolve further!")
-            }
-            else{
-                if(current == 2){
-                    previous = grab.fresh;
-                    next = grab.inTraining;
-                }
-                else if(current == 3){
-                    previous = grab.inTraining;
-                    next = grab.rookie;
-                }
-                else if(current == 4) {
-                    previous = grab.rookie;
-                    next = grab.champion;
-                }
-                else if(current == 5) {
-                    previous = grab.champion;
-                    next = grab.ultimate;
-                }
-                else if(current == 6 && current2 == 0) {
-                    previous = grab.ultimate;
-                    next = grab.mega[0];
-                }
-                else {
-                    previous = grab.mega[current2-1];
-                    next = grab.mega[current2];
-                }
-                message.reply(previous + " digivolve tooooooo...... " + next + "!!!")
-            }
-        }
-    }
-    else if(message.content.startsWith("!dedigivolve")){
-        id = message.author.id;
-        current = 0;
-        current2 = 0;
-        grab = null;
-        previous = null;
-        next = null;
-        flag = false;
-
-        for(searchable of partners){
-            if(id == searchable.id){
-                grab = searchable
-            }
-        }
-
-        if(grab == null){
-            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
-        }
-        else{
-            for(searchable of tracking){
-                if(id == searchable[0]){
-                    if(searchable[2] > 0){
-                        searchable[2] = searchable[2]-1
-                        current2 = searchable[2]
-                    }
-                    else if(searchable[1] > 1){
-                        searchable[1] = searchable[1]-1;
-                        current = searchable[1];
-                    }
-                    else{
-                        flag = true;
-                    }
-                }
-            }
-    
-            if(flag){
-                message.reply("You can't dedigivolve further!")
-            }
-            else{
-                if(current == 1){
-                    previous = grab.inTraining;
-                    next = grab.fresh;
-                }
-                else if(current == 2){
-                    previous = grab.rookie;
-                    next = grab.inTraining;
-                }
-                else if(current == 3) {
-                    previous = grab.champion;
-                    next = grab.rookie;
-                }
-                else if(current == 4) {
-                    previous = grab.ultimate;
-                    next = grab.champion;
-                }
-                else if(current == 5) {
-                    previous = grab.mega[0];
-                    next = grab.ultimate;
-                }
-                else if(current == 6 && current2 == 0) {
-                    previous = grab.mega[1];
-                    next = grab.mega[0];
-                }
-                else {
-                    previous = grab.mega[current2+1];
-                    next = grab.mega[current2];
-                }
-                message.reply("Your " + previous + " dedigivolved to " + next + "!!!")
-            }
-        }
-    }
+    else if(message.content.startsWith("!digivolve")){partnerFunctions.digivolve(message, partners, tracking);}
+    else if(message.content.startsWith("!dedigivolve")){partnerFunctions.dedigivolve(message, partners, tracking);}
 });
 
 // Log in the bot with the token

@@ -1,4 +1,4 @@
-const { partner } = require("./memberEntry")
+const { partner } = require("./partner")
 
 module.exports = {
     rulebook: function(message){

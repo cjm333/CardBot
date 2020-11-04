@@ -28,6 +28,7 @@ module.exports = {
         index = id%partners.length
         return partners[index]
     },
+    
     partner: function(message, partnerJSON, tracking){
         elite = false;
         id = message.author.id;
@@ -97,6 +98,146 @@ module.exports = {
         //Deci (Gold)
         else if(id == "101162491962195968"){
             message.reply("Your partner is Algomon. You're connected via your Smartphone Digivice!")
+        }
+    },
+    
+    digivolve: function(message, partners, tracking){
+        id = message.author.id;
+        current = 0;
+        current2 = 0;
+        grab = null;
+        previous = null;
+        next = null;
+        flag = false;
+
+        for(searchable of partners){
+            if(id == searchable.id){
+                grab = searchable
+            }
+        }
+
+        if(grab == null){
+            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
+        }
+        else{
+            for(searchable of tracking){
+                if(id == searchable[0]){
+                    if(searchable[1] < 6){
+                        searchable[1] = searchable[1]+1;
+                        current = searchable[1];
+                    }
+                    else if(searchable[1] == 6 && searchable[2]<grab.mega.length-1){
+                        searchable[2] = searchable[2] + 1;
+                        current2 = searchable[2];
+                    }
+                    else{
+                        flag = true;
+                    }
+                }
+            }
+    
+            if(flag){
+                message.reply("You can't digivolve further!")
+            }
+            else{
+                if(current == 2){
+                    previous = grab.fresh;
+                    next = grab.inTraining;
+                }
+                else if(current == 3){
+                    previous = grab.inTraining;
+                    next = grab.rookie;
+                }
+                else if(current == 4) {
+                    previous = grab.rookie;
+                    next = grab.champion;
+                }
+                else if(current == 5) {
+                    previous = grab.champion;
+                    next = grab.ultimate;
+                }
+                else if(current == 6 && current2 == 0) {
+                    previous = grab.ultimate;
+                    next = grab.mega[0];
+                }
+                else {
+                    previous = grab.mega[current2-1];
+                    next = grab.mega[current2];
+                }
+                message.reply(previous + " digivolve tooooooo...... " + next + "!!!")
+            }
+        }
+    },
+    
+    dedigivolve: function(message, partners, tracking){
+        id = message.author.id;
+        current = 0;
+        current2 = 0;
+        grab = null;
+        previous = null;
+        next = null;
+        flag = false;
+
+        for(searchable of partners){
+            if(id == searchable.id){
+                grab = searchable
+            }
+        }
+
+        if(grab == null){
+            message.reply("Sorry, only a select few people have a bond strong enough to do that!")
+        }
+        else{
+            for(searchable of tracking){
+                if(id == searchable[0]){
+                    if(searchable[2] > 0){
+                        searchable[2] = searchable[2]-1
+                        current2 = searchable[2]
+                    }
+                    else if(searchable[1] > 1){
+                        searchable[1] = searchable[1]-1;
+                        current = searchable[1];
+                    }
+                    else{
+                        flag = true;
+                    }
+                }
+            }
+    
+            if(flag){
+                message.reply("You can't dedigivolve further!")
+            }
+            else{
+                if(current == 1){
+                    previous = grab.inTraining;
+                    next = grab.fresh;
+                }
+                else if(current == 2){
+                    previous = grab.rookie;
+                    next = grab.inTraining;
+                }
+                else if(current == 3) {
+                    previous = grab.champion;
+                    next = grab.rookie;
+                }
+                else if(current == 4) {
+                    previous = grab.ultimate;
+                    next = grab.champion;
+                }
+                else if(current == 5) {
+                    previous = grab.mega[0];
+                    next = grab.ultimate;
+                }
+                else if(current == 6 && current2 == 0) {
+                    previous = grab.mega[1];
+                    next = grab.mega[0];
+                }
+                else {
+                    previous = grab.mega[current2+1];
+                    next = grab.mega[current2];
+                }
+                message.reply("Your " + previous + " dedigivolved to " + next + "!!!")
+            }
         }
     }
 }
