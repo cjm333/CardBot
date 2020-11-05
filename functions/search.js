@@ -14,6 +14,9 @@ module.exports = {
         else if(cardName == "bae"){
             cardName = "aurora"
         }
+        else if(cardName == "thot"){
+            cardName = "hoenna-immoral-conj"
+        }
 
         for(card of selectedCards){
             if(card.append.includes(cardName)){
