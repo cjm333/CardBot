@@ -33,7 +33,7 @@
       {"append": "leopardmon-bt3-030-alt-art", "name": "Leopardmon (Alt Art, BT3-030)", "url": "https://world.digimoncard.com/images/cardlist/card/BT3-030_P1.png"},
       {"append": "imperialdramon-dragon-mode-bt3-031-alt-art", "name": "Imperialdramon Dragon Mode (Alt Art, BT3-031)", "url": "https://digimon-bucket.s3.amazonaws.com/imperialdramon-dragon-mode-bt3-031-alt.png"},
       {"append": "kentaurosmon-bt3-043-alt-art", "name": "Kentaurosmon (Alt Art, BT3-043)", "url": "https://world.digimoncard.com/images/cardlist/card/BT3-043_P1.png"},
-      {"append": "ceresmon-bt3-056-alt-art", "name": "Ceresmon (Alt Art, BT3-056)", "url": "https://digimon-bucket.s3.amazonaws.com/ceresmon-bt3-056-alt.png"},
+      {"append": "ceresmon-bt3-056-alt-art", "name": "Ceresmon (Alt Art, BT3-056)", "url": "https://digimon-bucket.s3.amazonaws.com/ceresmon-bt3-056-alt.png", "faq": "FAQ: You may NOT use Ceresmon's Once Per Turn ability on itself!"},
       {"append": "cresgarurumon-bt3-073-alt-art", "name": "CresGarurumon (Alt Art, BT3-073)", "url": "https://digimon-bucket.s3.amazonaws.com/cresgarurumon-bt3-073-alt.png"},
       {"append": "craniamon-bt3-075-alt-art", "name": "Craniamon (Alt Art, BT3-075)", "url": "https://digimon-bucket.s3.amazonaws.com/craniamon-bt3-075-alt.png"},        
       {"append": "mastemon-bt3-090-alt-art", "name": "Mastemon (Alt Art, BT3-090)", "url": "https://shopmanzokuya.com/upload/save_image/BT3-p011.jpg"},
