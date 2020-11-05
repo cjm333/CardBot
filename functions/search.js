@@ -17,6 +17,9 @@ module.exports = {
         else if(cardName == "thot"){
             cardName = "hoenna-immoral-conj"
         }
+        else if(cardName == "thicc"){
+            cardName = "catrina"
+        }
 
         for(card of selectedCards){
             if(card.append.includes(cardName)){
