@@ -7,7 +7,11 @@ module.exports = {
         cardNames = []
         const args = message.content.slice(sliceLength).trim()
         const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
-        const cardName = argsURL.toLowerCase();
+        cardName = argsURL.toLowerCase();
+        if(cardName == "skandy"){
+            cardName == "iskandar"
+        }
+        
         for(card of selectedCards){
             if(card.append.includes(cardName)){
                 cardNames.push(card.name)
@@ -55,6 +59,7 @@ module.exports = {
             }
         }
     },
+    
     searchType: function(message, selectedCards, sliceLength){
         channel = message.channel
         var doCheck = new Boolean(true)
