@@ -11,6 +11,9 @@ module.exports = {
         if(cardName == "skandy"){
             cardName = "iskandar"
         }
+        else if(cardName == "bae"){
+            cardName = "aurora"
+        }
 
         for(card of selectedCards){
             if(card.append.includes(cardName)){
