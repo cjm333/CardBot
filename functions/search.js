@@ -9,9 +9,9 @@ module.exports = {
         const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
         cardName = argsURL.toLowerCase();
         if(cardName == "skandy"){
-            cardName == "iskandar"
+            cardName = "iskandar"
         }
-        
+
         for(card of selectedCards){
             if(card.append.includes(cardName)){
                 cardNames.push(card.name)
