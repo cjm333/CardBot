@@ -102,7 +102,10 @@ client.on("message", message => {
     else if(message.content.startsWith("!keyword")){textCommands.keyword(message);}
     else if(message.content.startsWith("!partner")){
         if(message.member.roles.cache.has('774145809280925736')){message.reply("Sorry, your partner abandoned you because you were ungrateful to them");}
-        else if(message.content.includes("change") || message.content.includes("Change")){message.reply("You and your partner are bonded for life! You'd better appreciate them!");}
+        else if(message.content.includes("change") || message.content.includes("Change")){
+            message.reply("You and your partner are bonded for life! You'd better appreciate them!");
+            message.member.roles.add('774145809280925736')
+        }
         else{partnerFunctions.partner(message, partners, tracking);}
     }
     else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
