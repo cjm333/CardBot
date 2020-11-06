@@ -33,14 +33,9 @@ Other:\n \
 Reminder: large messages self-delete after a short time")
     },
     faq: function(message){
-        message.channel.send("1. Play/Digivolve: `Playing and digivolving are NOT the same thing. These cause different effects and cost different amounts on card`\n \
-2. Raising Area: `Digimon in the raising area cannot activate their effects and cannot have effects affect them UNLESS specifically mentioned on the card in question. These Digimon are not considered \"in play\" for effects.`\n \
-3. Effect Transfer: `If you evolve a mon with an effect (+DP, +Security, etc), it applies to evolved mon as well. This includes summoning sickness. NOTE: Digimon moved from raising to play do NOT have summoning sickness` \n \
-4. Color Restrictions: `Tamers have no color restrictions. Digimon have color restrictions for evolving, the color of which is specified in the bubble (two colored bubbles indicates \"pick one\"). Options require a Tamer or Digimon of the same color to be on the field (this INCLUDES raising area).`\n \
-5. Digimon in Security: `These are NOT considered Digimon and their effects do NOT activate unless it's specifically a security effect (which are only in BT3).`\n \
-6. Attacking for Game: `+X Security effects will NOT win a game. To win, you must attack the player while they have no security. NOTE: Gallantmon is an exception. He can attack player, discard all their security and win`\n \
-7. +X Security Effects: `These DO add to the check made by Piercing. If turn passes in the middle of checking extra security, the checks continue UNLESS the Digimon is destroyed.`").then(msg => {
-    msg.delete({ timeout: 90000 })})        
+        message.channel.send("Your questions can be answered by the Official Q&A's. Please read over them to answer simple questions:\n \
+1. General: <https://world.digimoncard.com/rule/pdf/general_rules.pdf?201106>\n \
+2. Starter Deck Cards: <https://world.digimoncard.com/rule/pdf/starter_deck.pdf?201106>")        
     },
     keyword: function(message){
         message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \

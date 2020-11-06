@@ -56,10 +56,10 @@ client.on("ready", () =>{
 
     client.guilds.cache.forEach((guild) => {
         servers++;
-        if(guild.id != 681578268729540663){
-            guild.id.leave()
-        }
-        //console.log(guild.name);
+        //if(guild.id != 681578268729540663){
+            //guild.id.leave()
+        //}
+        console.log(guild.name);
     });
 
     status = "DCG 2020 in " + servers + " servers!"
@@ -101,7 +101,8 @@ client.on("message", message => {
     else if(message.content.startsWith("!help")){textCommands.help(message);}
     else if(message.content.startsWith("!keyword")){textCommands.keyword(message);}
     else if(message.content.startsWith("!partner")){
-        if(message.content.includes("change") || message.content.includes("Change")){message.reply("You and your partner are bonded for life! You'd better appreciate them!");}
+        if(message.member.roles.cache.has('774145809280925736')){message.reply("Sorry, your partner abandoned you because you were ungrateful to them");}
+        else if(message.content.includes("change") || message.content.includes("Change")){message.reply("You and your partner are bonded for life! You'd better appreciate them!");}
         else{partnerFunctions.partner(message, partners, tracking);}
     }
     else if(message.content.startsWith("!rulebook")){textCommands.rulebook(message);}
