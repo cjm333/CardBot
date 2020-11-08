@@ -9,14 +9,14 @@ module.exports = {
         partners = ["Agumon", "Gabumon", "Gomamon", "Tentomon", "Palmon", "Biyomon", "Patamon", "Salamon", "Betamon", 
         "Guilmon", "Renamon", "Gatomon", "Lopmon", "Terriermon", "Gotsumon", "Kokuwamon", "DemiDevimon", "Monodramon", 
         "FanBeemon", "Guardromon", "MarineAngemon", "Impmon", "Hagurumon", "Shoutmon", "Gumdramon", "Neemon", "Bearmon",
-        "Tapirmon", "Veemon", "Hawkmon", "Armadillomon", "Wormmon", "Meicoomon", "Calumon", "Leomon (Uh oh....)", 
+        "Tapirmon", "Veemon", "Hawkmon", "Armadillomon", "Wormmon", "Meicoomon", "Calumon", "Leomon", 
         "Kokomon", "Crabmon", "Airdramon", "Flarerizamon", "Centarumon", "Frigimon", "Tortomon", "Floramon", "Gizamon",
         "Elecmon", "Syakomon", "Apemon", "Kuwagamon", "Snimon", "Unimon", "Gorillamon", "Locomon", "Mervamon", "Opossummon",
         "Hackmon", "Cyberdramon", "Gaomon", "Lalamon", "Falcomon", "Kudamon", "PawnChessmon (Black)", "PawnChessmon (White)",
         "Pipimon", "BanchoLeomon", "Zeromaru", "Dorumon", "Argomon", "Keramon", "Kunemon", "Labramon", 
         "BlackAgumon", "ToyAgumon", "Bokomon", "Monmon", "Morphomon", "BlackGabumon", "Muchomon", "Otamamon", "Penguinmon",
         "DemiMeramon", "Phascomon", "Dracmon", "Dracomon", "Psychemon", "Burgermon", "Goblimon", "Gazimon", "Solarmon",
-        "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "uh....... Coronamon.....", 
+        "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "Coronamon", 
         "Ballistamon", "Dorulumon", "Damemon", "Cutemon", "Chibitortomon", "Starmon and several Pickmons", "Candlemon",
         "Dondokomon", "Sparrowmon", "Monitamon", "Dobermon", "Seasarmon", "Gaossmon", "MailBirdramon", "Greymon (Fusion)",
         "Falcomon (Data Squad)", "Agumon X", "Betamon X", "Kokuwamon X", "Kotemon", "Kudamon (Data Squad)", "Aruraumon",
@@ -98,6 +98,60 @@ module.exports = {
         //Deci (Gold)
         else if(id == "101162491962195968"){
             message.reply("Your partner is Algomon. You're connected via your Smartphone Digivice!")
+        }
+    },
+
+    partnerReturnable: function(message, partnerJSON, tracking){
+        elite = false;
+        id = message.author.id;
+        current = 0;
+        current2 = 0;
+        grab = null;
+        elitePartner = null;
+
+        for(searchable of tracking){
+            if(id == searchable[0]){
+                elite = true;
+                current = searchable[1]
+                current2 = searchable[2]
+            }
+        }
+
+        if(elite){
+            for(searchable of partnerJSON){
+                if(id == searchable.id){
+                    //console.log(id)
+                    //console.log(searchable.id)
+                    //console.log(grab)
+                    grab = searchable;
+                    //console.log(grab)
+                }
+            }
+
+            if(current == 1){
+                elitePartner = grab.fresh;
+            }
+            else if(current == 2){
+                elitePartner = grab.inTraining;
+            }
+            else if(current == 3){
+                elitePartner = grab.rookie;
+            }
+            else if(current == 4) {
+                elitePartner = grab.champion;
+            }
+            else if(current == 5) {
+                elitePartner = grab.ultimate;
+            }
+            else if(current == 6) {
+                elitePartner = grab.mega[current2];
+            }
+
+            elite = false;
+            return elitePartner;
+        }
+        else{
+            return this.getPartner(id);
         }
     },
     
@@ -239,5 +293,73 @@ module.exports = {
                 message.reply("Your " + previous + " dedigivolved to " + next + "!!!")
             }
         }
+    },
+
+    fight: function(message, partners, tracking){
+        id = message.author.id;
+        const first = this.partnerReturnable(message, partners, tracking);
+        const filter = m => m.content.includes('!accept');
+        const collector = message.channel.createMessageCollector(filter, { time: 30000 });
+        looking = true;
+
+        message.channel.send("<@" + id + "> and " + first + " are looking for a battle! Reply with !accept to throwdown!");
+
+        collector.on('collect', m => {
+            if(looking){
+                if(m.content.startsWith('!accept') && m.author.id != message.author.id && m.guild.id == message.guild.id && m.channel.id == message.channel.id){
+                    looking = false;
+                    const second = this.partnerReturnable(m, partners, tracking)
+                    message.channel.send("A challenger approaches...\n\n" + first.toUpperCase() + " VS. " + second.toUpperCase() + "! FIGHT!!!")
+                    setTimeout(function() {this.fightMessage(message.channel, first, second)}.bind(this), 2000);
+                    setTimeout(function() {this.fightMessage(message.channel, second, first)}.bind(this), 4000);
+                    setTimeout(function() {this.fightMessage(message.channel, first, second)}.bind(this), 6000);
+                    setTimeout(function() {this.fightMessage(message.channel, second, first)}.bind(this), 8000);
+                    setTimeout(function() {this.fightDecision(message, m, first, second)}.bind(this), 10000)
+                }
+            }
+        });
+
+        collector.on('end', collected => {
+            if(looking){
+                message.channel.send(first + " received no challengers. They must all be cowards...");
+            }
+        });
+    },
+
+    fightMessage: function(channel, digimon, second){
+        messages = [`${digimon} charges up its signature move!`,`${digimon} is quaking in fear!`,
+                    `A swift dodge from ${digimon}!`,`${digimon} deals a glancing blow!`,
+                    `${digimon} lands a devastating attack!`,`${digimon} is struggling to keep up!`,
+                    `${digimon} is looking woozy!`,`${digimon}'s Tamer is just punched ${second}! Is that even legal?!?!`,
+                    `${digimon} is backed into a corner!`,`${digimon}'s Tamer throws it a Digishroom!`,
+                    `${digimon} is... promoting digimoncard.dev?`, `${digimon} is sizing up ${second}!`,
+                    `${digimon} looks intimidated!`, `${digimon} got bodyslammed! That's gotta hurt!!`,
+                    `A quick right hook from ${digimon}! Brutal!`, `${digimon} used Quick Attack! It was super effective!`, 
+                    `${digimon} grabs a chair from the audience. Somebody tell them this isn't the DigitalWorld Wresting Entertainment!`,
+                    `${digimon} uses Kaioken!?!`, `${digimon} uses Hadouken?!?`, `${digimon} executes a piledriver from the top of the cage!`,
+                    `${digimon} bobs and weaves!`, `INCREDIBLE! ${digimon} pulled off the dreaded Thousand Years of Death!!!`,
+                    `The crowd is chanting ${digimon}'s name!`, `${digimon} strikes with the legendary One Inch Punch!`,
+                    `Are we sure ${digimon} isn't juicing?`, `${digimon} takes an uppercut right to the jaw!`]
+        index = Math.floor(Math.random()*1000)%messages.length
+        if(index == 42){
+            channel.send(`${digimon} stops to think about the ethicality of fighting. Who gives us right to fight another creature? Is ${second}'s data not as \
+important as my own? Who am I or my Tamer to decide which being gets digitized? Why are we fighting in the first place? Is it for fun, enjoyment, money?\
+It seems like a pointless game that shall continue until the universe's reboot. For all we know, this could be a mere game to some higher beings. Perhaps \
+in an online chatroom populated by strange weebs...`)
+        }
+        else{
+            channel.send(messages[index])
+        }
+    },
+
+    fightDecision: function(message, m, first, second){
+        num = Math.floor(Math.random()*2);
+        if(num == 1){
+            message.channel.send(first + " knocks out " + second +  " for the win!!! Congratualtions <@" + message.author.id + ">!")
+        }
+        else{
+            message.channel.send(second + " knocks out " + first +  " for the win!!! Congratulations <@" + m.author.id + ">!")
+        }
     }
+
 }

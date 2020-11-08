@@ -22,13 +22,15 @@ Useful:\n \
 !keyword: `List keywords`\n \
 !meme: `The best reply to the most popular question to ever grace this game`\n \
 !rulebook: `Simple question answer`\n\n \
+Partner Stuff: \n \
+!partner: `Check your partner and digivice` \n \
+!digivolve: `Digivolve your partner` \n \
+!dedigivolve: `Dedigivolve your partner` \n \
+!fight: `Duke it out in a brawl against an opponent` \n\n \
 Other:\n \
 !count: `Number of cards in a certain type`\n \
 !event: `List off the upcoming online events`\n \
 !judge: `List requirements to become a Royal Knight` \n \
-!partner: `Check your partner and digivice` \n \
-!digivolve: `Digivolve your partner` \n \
-!dedigivolve: `Dedigivolve your partner` \n \
 !starterColor: `Get the starter deck list of whatever color you specify`\n\n \
 Reminder: large messages self-delete after a short time")
     },
@@ -175,16 +177,15 @@ Digitama Deck:\n \
     },
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. November 4th-6th: DigiRumble 2 Finals`\n\n \
-`2. November 7th, 1pm EST: Big Byte #7, Hosted by RazeOblivion` - <https://challonge.com/HardModeGamesBB7>\n\n \
-`3. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb>\n\n \
-`4. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
-`5. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj>")
+`1. November 8th: Big Byte #7 Top 8, Hosted by RazeOblivion` - <https://challonge.com/HardModeGamesBB7>\n\n \
+`2. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb>\n\n \
+`3. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
+`4. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj>")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
 1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord\n \
-2. Become a Server Booster (There are 13 Boosters Currently)\n\n \
+2. Become a Server Booster (There are 15 Boosters Currently)\n\n \
 You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
 1. Donate at least $5 to the server's Premium Mee6 fund (20 slots left, $0 of $100 donated)\n \
 2. Boost the server for a period of time, then stop boosting")

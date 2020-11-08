@@ -1,3 +1,4 @@
+noQueue = true;
 //imports
 const Discord = require("discord.js");
 
@@ -53,7 +54,6 @@ client.on("ready", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
 
     servers = 0
-
     client.guilds.cache.forEach((guild) => {
         servers++;
         //if(guild.id != 681578268729540663){
@@ -63,7 +63,6 @@ client.on("ready", () =>{
     });
 
     status = "DCG 2020 in " + servers + " servers!"
-
     client.user.setActivity(status);
 });
 
@@ -124,6 +123,7 @@ client.on("message", message => {
     else if(message.content.startsWith("!info")){textCommands.info(message);}
     else if(message.content.startsWith("!digivolve")){partnerFunctions.digivolve(message, partners, tracking);}
     else if(message.content.startsWith("!dedigivolve")){partnerFunctions.dedigivolve(message, partners, tracking);}
+    else if(message.content.startsWith("!fight")){partnerFunctions.fight(message, partners, tracking);}
 });
 
 // Log in the bot with the token
