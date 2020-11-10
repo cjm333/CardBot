@@ -25,5 +25,11 @@
         {"name": "Maria (2 Boosts)", "id": "223208303541354498", "normal": 3, "fresh": "Relemon", "inTraining": "Viximon", "rookie": "Renamon", "champion": "Kyubimon", "ultimate": "Taomon", "mega": ["Sakuyamon"], "digivice": "D-Power"},
         {"name": "xtremebystander (2 Boosts)", "id": "230778989499777025", "normal": 3, "fresh": "an Egg", "inTraining": "Babydramon", "rookie": "Dracomon X", "champion": "Coredamon X (Blue)", "ultimate": "Wingdramon X", "mega": ["Slayerdramon X", "Examon X"], "digivice": "D-Ark"},
         {"name": "Lowtonemon (1 Boost)", "id": "441633644440715274", "normal": 3, "fresh": "Zurumon", "inTraining": "Pagumon", "rookie": "Goblimon", "champion": "Ogremon", "ultimate": "Digitamamon", "mega": ["Titamon"], "digivice": "Digivice"},
-        {"name": "NajdGamer (1 Boost)", "id": "243339038361255937", "normal": 3, "fresh": "MetalKoromon", "inTraining": "Kapurimon", "rookie": "Solarmon", "champion": "Guardromon (Gold)", "ultimate": "Rapidmon (Armor)", "mega": ["Apollomon", "GraceNovamon"], "digivice": "D-3"}
+        {"name": "NajdGamer (1 Boost)", "id": "243339038361255937", "normal": 3, "fresh": "MetalKoromon", "inTraining": "Kapurimon", "rookie": "Solarmon", "champion": "Guardromon (Gold)", "ultimate": "Rapidmon (Armor)", "mega": ["Apollomon", "GraceNovamon"], "digivice": "D-3"},
+
+        {"name": "Tesero", "id": "176959369030795274", "normal": 4, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Not Set", "champion": "Wizardmon", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice 01"},
+        {"name": "R_009", "id": "591340274119213088", "normal": 2, "fresh": "Not Set", "inTraining": "Koromon", "rookie": "Not Set", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"},
+        {"name": "Hoang", "id": "151088210426986496", "normal": 3, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Hackmon", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"},
+        {"name": "Deci", "id": "101162491962195968", "normal": 3, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Algomon", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"}
+
     ]}
