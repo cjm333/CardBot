@@ -339,7 +339,9 @@ module.exports = {
                     `${digimon} uses Kaioken!?!`, `${digimon} uses Hadouken?!?`, `${digimon} executes a piledriver from the top of the cage!`,
                     `${digimon} bobs and weaves!`, `INCREDIBLE! ${digimon} pulled off the dreaded Thousand Years of Death!!!`,
                     `The crowd is chanting ${digimon}'s name!`, `${digimon} strikes with the legendary One Inch Punch!`,
-                    `Are we sure ${digimon} isn't juicing?`, `${digimon} takes an uppercut right to the jaw!`]
+                    `Are we sure ${digimon} isn't juicing?`, `${digimon} takes an uppercut right to the jaw!`,
+                    `${digimon}'s Tamer throws it some DigiMeat! Wait don't we grow meat on farms? So are we all.... vegans?`,
+                    `${digimon} goes all in with a roundhouse kick to the face!`, `Ouch! ${digimon} takes a flying kick full on!`]
         index = Math.floor(Math.random()*1000)%messages.length
         if(index == 42){
             channel.send(`${digimon} stops to think about the ethicality of fighting. Who gives us right to fight another creature? Is ${second}'s data not as \
