@@ -10,12 +10,14 @@ const search = require('./functions/search.js');
 const textCommands = require('./functions/textCommands.js');
 const counter = require('./functions/count.js');
 const count = require("./functions/count.js");
+var seedrandom = require('seedrandom');
 
 //Build card arrays
 units = unitData.units;
 spells = spellData.spells;
 augments = augmentData.augments;
 allCards = otherCards.champions.concat(otherCards.spirits).concat(otherCards.towers).concat(otherCards.shards).concat(units).concat(spells).concat(augments);
+draftFunctionPool = units.concat(spells).concat(augments);
 
 fireCards = [];
 waterCards = [];
@@ -257,6 +259,12 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!promo")){
         counter.promo(message, allCards);
+    }
+    else if(message.content.startsWith("!random")){
+        counter.random(message, allCards, Discord, seedrandom);
+    }
+    else if(message.content.startsWith("!draft")){
+        counter.draft(message, draftFunctionPool, seedrandom)
     }
 
 });  

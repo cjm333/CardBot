@@ -12,6 +12,7 @@ module.exports = {
 !count: `Get how many cards there are of a type`\n \
 !element: `Search in a particular element`\n \
 !basic: `List all basic units in the game`\n \
-Append 'Type' or 'Text' to a command (besides !basic) to filter based on preference. Ex: !unitType, !spiritText")
+!random: `Pull up a random card`\n \
+Append 'Type' or 'Text' to a command (besides !basic or !random) to filter based on preference. Ex: !unitType, !spiritText")
     }
 }

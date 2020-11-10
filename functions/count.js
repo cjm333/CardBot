@@ -92,6 +92,7 @@ module.exports = {
         
         message.reply("There are " + cardNames.length + " cards of type " + cardType)
     },
+
     promo: function(message, allCards){
         count = 0;
         for(card of allCards){
@@ -101,5 +102,35 @@ module.exports = {
         }
 
         message.reply("There are " + count + " promo exclusive cards in Argent Saga.\nNOTE: This only counts cards not available in sealed product. It also only encompasses Units, Spells, and Augments")
+    },
+
+    random: function(message, allCards, Discord, seedrandom){
+        temp = seedrandom()
+        num = Math.floor(temp()*allCards.length)
+        const cardEmbed = new Discord.MessageEmbed()
+        cardEmbed.setImage(allCards[num].url)
+        cardEmbed.setTitle(allCards[num].name)
+        cardEmbed.setDescription(allCards[num].effect)
+        if(allCards[num].special){
+            cardEmbed.setFooter(allCards[num].special)
+        }
+        message.reply(cardEmbed);
+    },
+
+    draft: function(message, allCards, seedrandom){
+        deck = [];
+        temp = seedrandom()
+        for(i = 1; i<61; i++){
+            num = Math.floor(temp()*allCards.length);
+            deck.push(allCards[num].name);
+        }
+
+        deck.sort();
+        returnable = ""
+        for(name of deck){
+            returnable = returnable.concat(name).concat("\n")
+        }
+        message.reply("Here is your draft pool:")
+        message.channel.send(returnable)
     }
 }
