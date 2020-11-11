@@ -309,7 +309,7 @@ module.exports = {
         messages = [`${digimon} charges up its signature move!`,`${digimon} is quaking in fear!`,
                     `A swift dodge from ${digimon}!`,`${digimon} deals a glancing blow!`,
                     `${digimon} lands a devastating attack!`,`${digimon} is struggling to keep up!`,
-                    `${digimon} is looking woozy!`,`${digimon}'s Tamer is just punched ${second}! Is that even legal?!?!`,
+                    `${digimon} is looking woozy!`,`${digimon}'s Tamer just punched ${second}! Is that even legal?!?!`,
                     `${digimon} is backed into a corner!`,`${digimon}'s Tamer throws it a Digishroom!`,
                     `${digimon} is... promoting digimoncard.dev?`, `${digimon} is sizing up ${second}!`,
                     `${digimon} looks intimidated!`, `${digimon} got bodyslammed! That's gotta hurt!!`,

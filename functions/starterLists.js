@@ -53,23 +53,23 @@ Digitama Deck:\n \
 
     yellow: function(message){
         message.channel.send("Main:\n \
-4 Salamon ST6-02\n \
-4 Tapirmon ST6-03\n \
-4 Patamon ST6-04\n \
-2 Angemon ST6-05\n \
-4 Gatomon ST6-06\n \
-4 Unimon ST6-07\n \
-4 Magnaangemon ST6-08\n \
-4 Angewomon ST6-09\n \
-2 Magnadramon ST6-10\n \
-2 Seraphimon ST6-11\n \
-4 T.K. Takaishi ST6-12\n \
-4 Gate Of Destiny ST6-13\n \
-2 Heaven's Charm ST6-14\n \
-4 Fire Tornado ST6-15\n \
-2 Strike Of The Seven Stars ST6-16\n\n \
+4 Salamon ST3-02\n \
+4 Tapirmon ST3-03\n \
+4 Patamon ST3-04\n \
+2 Angemon ST3-05\n \
+4 Gatomon ST3-06\n \
+4 Unimon ST3-07\n \
+4 Magnaangemon ST3-08\n \
+4 Angewomon ST3-09\n \
+2 Magnadramon ST3-10\n \
+2 Seraphimon ST3-11\n \
+4 T.K. Takaishi ST3-12\n \
+4 Gate Of Destiny ST3-13\n \
+2 Heaven's Charm ST3-14\n \
+4 Fire Tornado ST3-15\n \
+2 Strike Of The Seven Stars ST3-16\n\n \
 Digitama Deck:\n \
-4 Tokomon (ST6-01)")
+4 Tokomon (ST3-01)")
     },
 
     green: function(message){
