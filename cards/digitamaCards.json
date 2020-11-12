@@ -3,6 +3,9 @@
     {"append": "koromon-st1-01", "name": "Koromon (ST1-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST1-01.png"},
     {"append": "tsunomon-st2-01", "name": "Tsunomon (ST2-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST2-01.png"},
     {"append": "tokomon-st3-01", "name": "Tokomon (ST3-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-01.png"},
+    {"append": "motimon-st4-01", "name": "Motimon (ST4-01)", "url": "https://digimon-bucket.s3.amazonaws.com/motimon-st4-01.jpg", "faq": "[Your Turn] - When this Digimon is LV 6 or higher, this Digimon gains +1000DP"},
+    {"append": "kapurimon-st5-01", "name": "Kapurimon (ST5-01)", "url": "https://digimon-bucket.s3.amazonaws.com/kapurimon-st5-01.jpg", "faq": "[Your Turn] - When this Digimon has <Blocker>, this Digimon gains +1000DP"},
+    {"append": "pagumon-st6-01", "name": "Pagumon (ST6-01)", "url": "https://digimon-bucket.s3.amazonaws.com/pagumon-st6-01.jpg", "faq": "[When Destroyed] - Discard 2 cards from top of your deck"},
 
     {"append": "yokomon-bt1-001", "name": "Yokomon (BT1-001)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-001.png"},
     {"append": "bebydomon-bt1-002", "name": "Bebydomon (BT1-002)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-002.png"},

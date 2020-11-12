@@ -31,14 +31,17 @@
         {"append": "magnadramon-st3-10", "name": "Magnadramon (ST3-10)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-10.png"},
         {"append": "seraphimon-st3-11", "name": "Seraphimon (ST3-11)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-11.png"},
 
+        {"append": "floramon-st4-02", "name": "Floramon (ST4-02)", "url": "https://digimon-bucket.s3.amazonaws.com/floramon-st4-02.jpg"},
         {"append": "tentomon-st4-03", "name": "Tentomon (ST4-03)", "url": "https://digimon-bucket.s3.amazonaws.com/tentomon-st4-03.png", "faq": "[When Played] Reveal 1 card from the top of your deck. If that card is a Green Digimon card, add it to your hand. Put the remaining cards on the bottom of your Deck in any order."},
         {"append": "kabuterimon-st4-08", "name": "Kabuterimon (ST4-08)", "url": "https://digimon-bucket.s3.amazonaws.com/kabuterimon-st4-08.png", "faq": "<Blocker>\n[When Attacking] Memory -2"},
         {"append": "rosemon-st4-12", "name": "Rosemon (ST4-12)", "url": "https://digimon-bucket.s3.amazonaws.com/rosemon-st4-12.png", "faq": "[When Digivolved] 1 of your opponents Digimon cannot attack or block until the end of your opponents next turn."},
         {"append": "herculeskabuterimon-st4-13", "name": "HerculesKabuterimon (ST4-13)", "url": "https://digimon-bucket.s3.amazonaws.com/herculeskabuterimon-st4-13.png", "faq": "<Pierce>\n[Main] <Digi-Burst 2> Rest 1 of your opponent's Digimon."},
+        {"append": "jazamon-st5-02", "name": "Jazamon (ST5-02)", "url": "https://digimon-bucket.s3.amazonaws.com/jazamon-st5-02.jpg"},
         {"append": "agumon-st5-03", "name": "Agumon (ST5-03)", "url": "https://digimon-bucket.s3.amazonaws.com/agumon-st5-03.png", "faq": "<Blocker>"},
         {"append": "metalgreymon-st5-09", "name": "MetalGreymon (ST5-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st5-09.png", "faq": "[When Digivolved] 1 of your Digimon gets <Blocker> until the end of your opponent's next turn."},
         {"append": "machinedramon-st5-12", "name": "Machinedramon (ST5-12)", "url": "https://digimon-bucket.s3.amazonaws.com/machinedramon-st5-12.png", "faq": "[When Digivolved] 2 of your Digimon get <Reboot> until the end of your opponents next turn."},
         {"append": "blitzgreymon-st5-13", "name": "BlitzGreymon (ST5-13)", "url": "https://digimon-bucket.s3.amazonaws.com/blitzgreymon-st5-13.png", "faq": "<Security Attack +1>\n[Main] <Digi-Burst 2> 1 of your Digimon gets +4000 DP until the end of your opponents next turn."},
+        {"append": "demidevimon-st6-02", "name": "DemiDevimon (ST6-02)", "url": "https://digimon-bucket.s3.amazonaws.com/demidevimon-st6-02.jpg"},
         {"append": "gabumon-st6-03", "name": "Gabumon (ST6-03)", "url": "https://digimon-bucket.s3.amazonaws.com/gabumon-st6-03.png", "faq": "Source: [When Attacking] <Draw +1>. Discard 1 card from your hand."},
         {"append": "weregarurumon-st6-11", "name": "WereGarurumon (ST6-11)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st6-11.png", "faq": "Source: [Your Turn] If you have 5 or more cards in your Trash, this Digimon gets +2000 DP."},
         {"append": "venommyotismon-st6-12", "name": "VenomMyotismon (ST6-12)", "url": "https://digimon-bucket.s3.amazonaws.com/venommyotismon-st6-12.png", "faq": "[When Digivolved] 2 of your Digimon get <Vengeance> until the end of your opponents next turn."},
@@ -308,6 +311,9 @@
         {"append": "demidevimon-p-017", "name": "DemiDevimon (P-017)", "url": "https://digimon-bucket.s3.amazonaws.com/demidevimon-p-017.png"},
         {"append": "devimon-p-018", "name": "Devimon (P-018)", "url": "https://digimon-bucket.s3.amazonaws.com/devimon-p-018.png"},
         {"append": "myotismon-p-019", "name": "Myotismon (P-019)", "url": "https://digimon-bucket.s3.amazonaws.com/myotismon-p-019.png"},
-        {"append": "venommyotismon-p-020", "name": "VenomMyotismon (P-020)", "url": "https://digimon-bucket.s3.amazonaws.com/venommyotismon-p-020.png"}
+        {"append": "venommyotismon-p-020", "name": "VenomMyotismon (P-020)", "url": "https://digimon-bucket.s3.amazonaws.com/venommyotismon-p-020.png"},
+        {"append": "grankuwagamon-p-025", "name": "GranKuwagamon (P-025)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-p-025.jpg", "faq": "<Digiburst 2> - Give 1 of your Digimon SA+1 for the turn"},
+        {"append": "blackwargreymon-p-026", "name": "BlackWarGreymon (P-026)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-p-026.jpg", "faq": "<Digiburst 2> - Put self to Active"},
+        {"append": "metalgarurumon-p-027", "name": "MetalGarurumon (P-027)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-p-027.jpg", "faq": "<Digiburst 2> - Use a 7 cost or below purple option from hand for free"}
       ]
 }

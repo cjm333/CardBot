@@ -275,6 +275,14 @@ module.exports = {
     },
 
     fight: function(message, partners, tracking){
+        if(message.guild.id == 681578268729540663 && message.channel.id != 774517943831887892){
+            return;
+        }
+        if(message.member.roles.cache.has('774145809280925736')){
+            message.channel.send("Sorry lad, you'll get rocked if you try to fight without a partner")
+            return;
+        }
+
         id = message.author.id;
         const first = this.partnerReturnable(message, partners, tracking);
         const filter = m => m.content.includes('!accept');
@@ -285,7 +293,10 @@ module.exports = {
 
         collector.on('collect', m => {
             if(looking){
-                if(m.content.startsWith('!accept') && m.author.id != message.author.id && m.guild.id == message.guild.id && m.channel.id == message.channel.id){
+                if(m.member.roles.cache.has('774145809280925736')){
+                    message.channel.send("Sorry lad, you'll get rocked if you try to fight without a partner")
+                }
+                else if(m.content.startsWith('!accept') && m.author.id != message.author.id && m.guild.id == message.guild.id && m.channel.id == message.channel.id){
                     looking = false;
                     const second = this.partnerReturnable(m, partners, tracking)
                     message.channel.send("A challenger approaches...\n\n" + first.toUpperCase() + " VS. " + second.toUpperCase() + "! FIGHT!!!")
@@ -314,7 +325,7 @@ module.exports = {
                     `${digimon} is... promoting digimoncard.dev?`, `${digimon} is sizing up ${second}!`,
                     `${digimon} looks intimidated!`, `${digimon} got bodyslammed! That's gotta hurt!!`,
                     `A quick right hook from ${digimon}! Brutal!`, `${digimon} used Quick Attack! It was super effective!`, 
-                    `${digimon} grabs a chair from the audience. Somebody tell them this isn't the DigitalWorld Wresting Entertainment!`,
+                    `${digimon} grabs a chair from the audience. Somebody tell them this isn't the DigitalWorld Wrestling Entertainment!`,
                     `${digimon} uses Kaioken!?!`, `${digimon} uses Hadouken?!?`, `${digimon} executes a piledriver from the top of the cage!`,
                     `${digimon} bobs and weaves!`, `INCREDIBLE! ${digimon} pulled off the dreaded Thousand Years of Death!!!`,
                     `The crowd is chanting ${digimon}'s name!`, `${digimon} strikes with the legendary One Inch Punch!`,
@@ -336,7 +347,7 @@ in an online chatroom populated by strange weebs...`)
     fightDecision: function(message, m, first, second){
         num = Math.floor(Math.random()*2);
         if(num == 1){
-            message.channel.send(first + " knocks out " + second +  " for the win!!! Congratualtions <@" + message.author.id + ">!")
+            message.channel.send(first + " knocks out " + second +  " for the win!!! Congratulations <@" + message.author.id + ">!")
         }
         else{
             message.channel.send(second + " knocks out " + first +  " for the win!!! Congratulations <@" + m.author.id + ">!")
