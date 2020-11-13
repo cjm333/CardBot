@@ -293,6 +293,11 @@
         {"append": "imperialdramon-dragon-mode-bt3-111", "name": "Imperialdramon Dragon Mode (BT3-111)", "url": "https://shopmanzokuya.com/upload/save_image/BT3-111.jpg"},
         {"append": "omnimon-alter-s-bt3-112", "name": "Omnimon Alter-S (BT3-112)", "url": "https://shopmanzokuya.com/upload/save_image/BT3-112.jpg"},
 
+        {"append": "vritramon-burninggreymon-bt4-013", "name": "Vritramon/BurningGreymon (BT4-013)", "url": "https://digimon-bucket.s3.amazonaws.com/vritramon-burninggrey-bt4-013.png", "faq": "Your Red Tamer can Digivolve to this card in your hand as if it were a level 3 Red Digimon.\n[Your Turn] This Digimon gets +1000 DP."},
+        {"append": "garummon-kendogarurumon-bt4-027", "name": "Garummon/KendoGarurumon (BT4-027)", "url": "https://digimon-bucket.s3.amazonaws.com/garummon-kendogarurumon-bt4-027.png", "faq": "Your Blue Tamer can Digivolve to this card in your hand as if it were a Level 3 Blue Digimon.\n[When Attacking] Return 1 of your opponent's Level 3 or lower Digimon to its owner's hand."},
+        {"append": "meicoomon-bt4-041", "name": "Meicoomon (BT4-041)", "url": "https://digimon-bucket.s3.amazonaws.com/meicoomon-bt4-041.png", "faq": "[On Play] If you have 3 or fewer Security Cards, 1 of your opponent's Digimon gets -4000 DP for the turn."},
+        {"append": "neodevimon-bt4-084", "name": "NeoDevimon (BT4-084)", "url": "https://digimon-bucket.s3.amazonaws.com/neodevimon-bt4-084.png", "faq": "[Opponent's Turn] When your opponent plays a Tamer, gain 3 memory.\nSource: [Opponent's Turn] When one of your opponent's Tamers becomes suspended, gain 1 memory."},
+
         {"append": "agumon-p-001", "name": "Agumon (P-001)", "url": "https://world.digimoncard.com/images/cardlist/card/P-001.png"},
         {"append": "biyomon-p-002", "name": "Biyomon (P-002)", "url": "https://world.digimoncard.com/images/cardlist/card/P-002.png"},
         {"append": "gabumon-p-003", "name": "Gabumon (P-003)", "url": "https://world.digimoncard.com/images/cardlist/card/P-003.png"},
@@ -312,8 +317,8 @@
         {"append": "devimon-p-018", "name": "Devimon (P-018)", "url": "https://digimon-bucket.s3.amazonaws.com/devimon-p-018.png"},
         {"append": "myotismon-p-019", "name": "Myotismon (P-019)", "url": "https://digimon-bucket.s3.amazonaws.com/myotismon-p-019.png"},
         {"append": "venommyotismon-p-020", "name": "VenomMyotismon (P-020)", "url": "https://digimon-bucket.s3.amazonaws.com/venommyotismon-p-020.png"},
-        {"append": "grankuwagamon-p-025", "name": "GranKuwagamon (P-025)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-p-025.jpg", "faq": "<Digiburst 2> - Give 1 of your Digimon SA+1 for the turn"},
-        {"append": "blackwargreymon-p-026", "name": "BlackWarGreymon (P-026)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-p-026.jpg", "faq": "<Digiburst 2> - Put self to Active"},
-        {"append": "metalgarurumon-p-027", "name": "MetalGarurumon (P-027)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-p-027.jpg", "faq": "<Digiburst 2> - Use a 7 cost or below purple option from hand for free"}
+        {"append": "grankuwagamon-p-025", "name": "GranKuwagamon (P-025)", "url": "https://digimon-bucket.s3.amazonaws.com/grankuwagamon-p-025.jpg", "faq": "[Main] <Digi-Burst 2> 1 of your Digimon gets <Security Attack+1> until the end of this turn."},
+        {"append": "blackwargreymon-p-026", "name": "BlackWarGreymon (P-026)", "url": "https://digimon-bucket.s3.amazonaws.com/blackwargreymon-p-026.jpg", "faq": "[Main] <Digi-Burst 2> This Digimon becomes Active."},
+        {"append": "metalgarurumon-p-027", "name": "MetalGarurumon (P-027)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgarurumon-p-027.jpg", "faq": "[Main] <Digi-Burst 2> Play 1 cost 7 or lower Purple Option Card from your hand without paying its cost."}
       ]
 }

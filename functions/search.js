@@ -51,13 +51,12 @@ module.exports = {
                     if(card.faq){
                         cardEmbed.setDescription(card.faq)
                     }
-                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 })
-                    })
+                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
                     noMatch = false
                 }
             }
         }
-        
+
         //Handling Resulting Card Pool
         checker = false;
         if(noMatch){
@@ -73,9 +72,7 @@ module.exports = {
                 if(cardPool[0].faq){
                     cardEmbed.setDescription(cardPool[0].faq)
                 }
-                message.reply(cardEmbed).then(msg => {
-                    msg.delete({ timeout: 60000 })
-                })
+                message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
             }
             else if(cardPool.length > 1 && cardPool.length < 25){
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")

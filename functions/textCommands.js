@@ -49,8 +49,7 @@ Jamming: `This Digimon cannot be destroyed in battle against a Security Digimon.
 De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no Digivolution Sources remaining, or is Lv.3, you may not continue discarding.`\n\n \
 Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
-Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`").then(msg => {
-    msg.delete({ timeout: 60000 })})
+Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`").then(msg => {msg.delete({ timeout: 60000 })}).catch(e => {})
     },
 
     event: function(message){
