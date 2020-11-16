@@ -54,10 +54,9 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. November 13th, 8pm UTC (4pm EST): Nightmare Colosseum, Hosted by Nightmare` - <https://challonge.com/lmoufecb> (NOTE: ENTRY CLOSED)\n\n \
-`2. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
-`3. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
-`4. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST)")
+`1. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
+`2. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
+`3. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST)")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
@@ -89,6 +88,15 @@ You may also attain a personal partner *without* full line functionality in 2 di
             returnable = ""
             checker = false;
         }
+    },
+
+    deckloader: function(message){
+        message.channel.send("Your issue with the deck loader is likely solved with one of the following answers:\n \
+A) you didn't read the instructions fully and you renamed the \"mydeck\" tab in the notebook\n \
+B) you didn't read the instructions fully and took the pile of cards out of the \"All Cards\" box before hitting load\n \
+C) you're trying to load cards that aren't in the mod yet\n \
+D) you copy+pasted the wrong thing from digimoncard.dev\n \
+E) something *actually* broke, post the error message for Orange to look at later.")
     }
 
 }
