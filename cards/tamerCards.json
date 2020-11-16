@@ -4,9 +4,9 @@
         {"append": "matt-ishida-st2-12", "name": "Matt Ishida (ST2-12)", "url": "https://world.digimoncard.com/images/cardlist/card/ST2-12.png"},
         {"append": "tk-takaishi-st3-12", "name": "T.K. Takaishi (ST3-12)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-12.png"},
 
-        {"append": "izzy-izumi-st4-14", "name": "Izzy Izumi (ST4-14)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-izumi-st4-14.png", "faq": "[Your Turn] If your opponent's Digimon is rested, by resting this card, get +1 Memory."},
-        {"append": "tai-kamiya-st5-14", "name": "Tai Kamiya (ST5-14)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-kamiya-st5-14.png", "faq": "[Opponent's Turn] If your Digimon is rested by using <Blocker>, by resting this card, 1 of your Digimon becomes Active."},
-        {"append": "matt-ishida-st6-14", "name": "Matt Ishida (ST6-14)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-ishida-st6-14.png", "faq": "[Both Players' Turn] If your Digimon is Destroyed, by resting this card, get +1 Memory."},
+        {"append": "izzy-izumi-st4-14", "name": "Izzy Izumi (ST4-14)", "url": "https://digimon-bucket.s3.amazonaws.com/izzy-izumi-st4-14.jpg", "faq": "[Your Turn] If your opponent's Digimon is rested, by resting this card, get +1 Memory."},
+        {"append": "tai-kamiya-st5-14", "name": "Tai Kamiya (ST5-14)", "url": "https://digimon-bucket.s3.amazonaws.com/tai-kamiya-st5-14.jpg", "faq": "[Opponent's Turn] If your Digimon is rested by using <Blocker>, by resting this card, 1 of your Digimon becomes Active."},
+        {"append": "matt-ishida-st6-14", "name": "Matt Ishida (ST6-14)", "url": "https://digimon-bucket.s3.amazonaws.com/matt-ishida-st6-14.jpg", "faq": "[Both Players' Turn] If your Digimon is Destroyed, by resting this card, get +1 Memory."},
 
         {"append": "tai-kamiya-bt1-085", "name": "Tai Kamiya (BT1-085)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-085.png"},
         {"append": "matt-ishida-bt1-086", "name": "Matt Ishida (BT1-086)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-086.png"},
