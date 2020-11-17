@@ -13,6 +13,10 @@
       {"append": "holy-flame-st3-15", "name": "Holy Flame (ST3-15)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-15.png"},
       {"append": "seven-heavens-st3-16", "name": "Seven Heavens (ST3-16)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-16.png"},
     
+      {"append": "needle-spray-st4-15", "name": "Needle Spray (ST4-15)", "url": "https://digimon-bucket.s3.amazonaws.com/needle-spray-st4-15.jpg"},
+      {"append": "laser-eye-st5-15", "name": "Laser Eye (ST5-15)", "url": "https://digimon-bucket.s3.amazonaws.com/laser-eye-st5-15.jpg"},
+      {"append": "the-touch-of-evil-st6-15", "name": "The Touch of Evil (ST6-15)", "url": "https://digimon-bucket.s3.amazonaws.com/the-touch-of-evil-st6-15.jpg"},
+      
       {"append": "gravity-crush-bt1-090", "name": "Gravity Crush (BT1-090)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-090.png"},
       {"append": "scrap-claw-bt1-091", "name": "Scrap Claw (BT1-091)", "url": "https://digimon-bucket.s3.amazonaws.com/scrap-claw-bt1-091.png"},
       {"append": "nuclear-laser-btT1-092", "name": "Nuclear Laser (BT1-092)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-092.png"},
