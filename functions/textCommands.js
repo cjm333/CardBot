@@ -56,12 +56,13 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
         message.channel.send("Upcoming Events:\n \
 `1. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
 `2. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
-`3. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST)")
+`3. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST))\n\n \
+`4. December 5th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 4th, 5pm EST)")
     },
     info: function(message){
         message.channel.send("A personal partner line with full evolution functionality can be granted in 2 different ways:\n \
 1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord\n \
-2. Become a Server Booster (There are 16 Boosters Currently)\n\n \
+2. Become a Server Booster (There are 17 Boosters Currently)\n\n \
 You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
 1. Donate at least $5 to the server's Premium Mee6 fund (20 slots left, $0 of $100 donated)\n \
 2. Boost the server for a period of time, then stop boosting")

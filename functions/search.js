@@ -9,10 +9,10 @@ module.exports = {
     
         //User Search Parsing
         const args = message.content.slice(sliceLength).trim()
-        const argsURL = args.replace(/\s/g, "-").replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
-        const shortCut = argsURL.toLowerCase()
-        const userSearch = shortCut.split("-");
-        
+        const argsURL = args.replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
+        const shortCut = argsURL.toLowerCase().replace(/\s/g, "-")
+        const userSearch = argsURL.toLowerCase().split(" ");
+
         //Initial Card Gathering
         for(card of selectedCards){
             if(card.append.includes(userSearch[0])){
@@ -20,7 +20,7 @@ module.exports = {
                 cardPool.push(card)
             }
         }
-        
+
         //Thinning Card Pool
         if(userSearch.length > 1){
             counter = 1;
@@ -78,6 +78,7 @@ module.exports = {
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
                 returnable = "";
                 counter = 0;
+                cardNames.sort()
                 for(name of cardNames){
                     returnable = returnable + name + "\n";
                     counter += 1

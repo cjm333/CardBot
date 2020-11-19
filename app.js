@@ -101,7 +101,7 @@ client.on("message", message => {
                     message.reply("You and your partner are bonded for life! You'd better appreciate them!");
                     message.member.roles.add('774145809280925736')
                 }
-                else{partnerFunctions.partner(message, partners, tracking);}
+                else{partnerFunctions.partner(message, partners, tracking, Discord);}
             }
             else if(message.content.startsWith("!digivolve")){partnerFunctions.digivolve(message, partners, tracking);}
             else if(message.content.startsWith("!dedigivolve")){partnerFunctions.dedigivolve(message, partners, tracking);}
@@ -115,6 +115,12 @@ client.on("message", message => {
             else if(message.content.startsWith("!meme")){
                 const cardEmbed = new Discord.MessageEmbed()
                 cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/meme.png")
+                message.reply(cardEmbed)
+            }
+            else if(message.content.startsWith("!import")){
+                const cardEmbed = new Discord.MessageEmbed()
+                cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/meme2.png")
+                cardEmbed.setFooter("Seriously though, please check the pins for TTS Custom Imports in #tabletop")
                 message.reply(cardEmbed)
             }
 

@@ -13,9 +13,12 @@
       {"append": "holy-flame-st3-15", "name": "Holy Flame (ST3-15)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-15.png"},
       {"append": "seven-heavens-st3-16", "name": "Seven Heavens (ST3-16)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-16.png"},
     
-      {"append": "needle-spray-st4-15", "name": "Needle Spray (ST4-15)", "url": "https://digimon-bucket.s3.amazonaws.com/needle-spray-st4-15.jpg"},
-      {"append": "laser-eye-st5-15", "name": "Laser Eye (ST5-15)", "url": "https://digimon-bucket.s3.amazonaws.com/laser-eye-st5-15.jpg"},
-      {"append": "the-touch-of-evil-st6-15", "name": "The Touch of Evil (ST6-15)", "url": "https://digimon-bucket.s3.amazonaws.com/the-touch-of-evil-st6-15.jpg"},
+      {"append": "needle-spray-st4-15", "name": "Needle Spray (ST4-15)", "url": "https://digimon-bucket.s3.amazonaws.com/needle-spray-st4-15.jpg", "faq": "[Main] Suspend 1 of your opponent's Digimon.\n[Security] Activate this card's [Main] effect. Then add this card to its owner's hand."},
+      {"append": "electro-shocker-st4-16", "name": "Electro Shocker (ST4-16)", "url": "https://digimon-bucket.s3.amazonaws.com/electro-shocker-st4-16.jpg", "faq": "[Main] Return 1 of your opponent's suspended Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)\n[SEC] Activate this card's [Main] effect."},
+      {"append": "laser-eye-st5-15", "name": "Laser Eye (ST5-15)", "url": "https://digimon-bucket.s3.amazonaws.com/laser-eye-st5-15.jpg", "faq": "[Main] Trigger <De-Digivolve 1> on up to 2 of your opponent's Digimon.\n[Security] Activate this card's [Main] effect."},
+      {"append": "dark-side-attack-st5-16", "name": "Dark Side Attack (ST5-16)", "url": "https://digimon-bucket.s3.amazonaws.com/dark-side-attack-st5-16.jpg", "faq": "[Main] Delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[SEC] Activate this card's [Main] effect."},
+      {"append": "the-touch-of-evil-st6-15", "name": "The Touch of Evil (ST6-15)", "url": "https://digimon-bucket.s3.amazonaws.com/the-touch-of-evil-st6-15.jpg", "faq": "[Main] You may delete 1 of your Digimon to delete up to 1 of your opponent's level 4 or lower Digimon.\n[Security] Delete 1 of your opponent's level 4 or lower Digimon."},
+      {"append": "nail-bone-st6-16", "name": "Nail Bone (ST6-16)", "url": "https://digimon-bucket.s3.amazonaws.com/nail-bone-st6-16.jpg", "faq": "[Main] Play 1 purple level 3 and 1 purple level 4 Digimon from your trash without paying their memory cost. Any [On Play] effects on the Digimon played with this effect do not activate.\n[SEC] Play 1 purple level 4 or lower Digimon from your trash without paying it's memory cost. Any [On Play] effects on the Digimon played with this effect do not activate."},
       
       {"append": "gravity-crush-bt1-090", "name": "Gravity Crush (BT1-090)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-090.png"},
       {"append": "scrap-claw-bt1-091", "name": "Scrap Claw (BT1-091)", "url": "https://digimon-bucket.s3.amazonaws.com/scrap-claw-bt1-091.png"},
