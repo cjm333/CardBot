@@ -83,8 +83,8 @@ client.on("guildMemberAdd", member => {
 
 //Check messages for commands
 client.on("message", message => {
-    if(message.content.startsWith("!")){
-        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196"){
+    if(message.content.startsWith("!") && message.guild){
+        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "667080188487532545"){
 
             //Card Pull Ups
             if (message.content.startsWith("!card")){search.searching(message, allCards, 5, Discord);}

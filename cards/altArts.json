@@ -67,9 +67,15 @@
       {"append": "weregarurumon-st2-08-alt-art-1", "name": "WereGarurumon (Alt Art #1, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt-1.jpg"},
       {"append": "magnaangemon-st3-08-alt-art", "name": "MagnaAngemon (Alt Art, ST3-08)", "url": "https://digimon-bucket.s3.amazonaws.com/magnaangemon-st3-08-alt.png"},
       {"append": "lillymon-bt1-079-alt-art", "name": "Lillymon (Alt Art, BT1-079)", "url": "https://digimon-bucket.s3.amazonaws.com/lillymon-bt1-079-alt.png"},
+      
+      {"append": "monzaemon-bt1-038-alt-art", "name": "Monzaemon (Alt Art, BT1-038)", "url": "https://digimoncard.com/images/cardlist/card/BT1-038_P1.png", "bonus": "This card references where you can find Monzaemon in Digimon World 1's Toy Town. If you hava a Numemon, it can slip in the costume and digivolve to Monzaemon!"},
+      {"append": "wargrowlmon-bt2-017-alt-art", "name": "WarGrowlmon (Alt Art, BT2-017)", "url": "https://digimoncard.com/images/cardlist/card/BT2-017_P1.png"},
+      {"append": "rizegreymon-bt2-038-alt-art-1", "name": "RizeGreymon (Alt Art, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P1.png"},
+      {"append": "argomon-bt2-047-alt-art", "name": "Argomon (Alt Art, BT2-047)", "url": "https://digimoncard.com/images/cardlist/card/BT2-047_P1.png"},
 
-      {"append": "metalgreymon-st1-09-alt-art-2", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png"},
-      {"append": "weregarurumon-st2-08-alt-art-2", "name": "WereGarurumon (Alt Art #2, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg"},
+      {"append": "metalgreymon-st1-09-alt-art-prize", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png"},
+      {"append": "weregarurumon-st2-08-alt-art-prize", "name": "WereGarurumon (Alt Art #2, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg"},
+      {"append": "rizegreymon-bt2-038-alt-art-prize", "name": "RizeGreymon (Alt Art #2, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P2.png"},
 
       {"append": "wing-blade-st1-13-alt-art", "name": "Wing Blade (Alt Art, ST1-13)", "url": "https://digimon-bucket.s3.amazonaws.com/wing-blade-st1-13-alt.jpg"},
       {"append": "terra-force-st1-16-alt-art", "name": "Terra Force (Alt Art, ST1-16)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg"},

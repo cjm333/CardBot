@@ -27,6 +27,6 @@
         {"append": "joe-kido-bt3-095", "name": "Joe Kido (BT3-095)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt3-095.png"},
         {"append": "mimi-tachikawa-bt3-096", "name": "Mimi Tachikawa (BT3-096)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-tachikawa-bt3-096.png"},
         
-        {"append": "tai-kamiya-v-tamer-012", "name": "Tai Kamiya (V-Tamer, P-012)", "url": "https://world.digimoncard.com/images/cardlist/card/P-012.png", "faq": "IMPORTANT: The last bullet is mistranslated and should read \"1 of your Digimon gets +1000 DP for the turn.\""}
+        {"append": "tai-kamiya-v-tamer-012", "name": "Tai Kamiya (V-Tamer, P-012)", "url": "https://world.digimoncard.com/images/cardlist/card/P-012.png", "faq": "OFFICIAL ERRATA: The last bullet should read \"1 of your Digimon gets +1000 DP for the turn.\""}
       ]
 }
