@@ -16,6 +16,9 @@ module.exports = {
         if(shortCut == "skandy"){
             shortCut = "iskandar"
         }
+        if(shortCut == "phlox"){
+            shortCut = "white-rose"
+        }
         else if(shortCut == "bae"){
             shortCut = "aurora"
         }
