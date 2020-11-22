@@ -19,14 +19,8 @@ module.exports = {
         if(shortCut == "phlox"){
             shortCut = "white-rose"
         }
-        else if(shortCut == "bae"){
-            shortCut = "aurora"
-        }
-        else if(shortCut == "thot"){
-            shortCut = "hoenna-immoral-conj"
-        }
-        else if(shortCut == "thicc"){
-            shortCut = "catrina"
+        else if(shortCut == "asb"){
+            shortCut = "ancient-serpents-breath"
         }
 
         //Initial Card Gathering
