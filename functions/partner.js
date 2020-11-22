@@ -71,37 +71,39 @@ module.exports = {
                 elitePartner = grab.mega[current2];
             }
 
-            customImage = false;
-            partnerEmbed = new Discord.MessageEmbed();
-            partnerEmbed.setDescription("You're partnered to " + elitePartner + ". You're connected via your " + grab.digivice + "!");
-            if(elitePartner == "Wendigomon"){elitePartner = "Wendimon"}
-            else if(elitePartner == "Moon=Millenniummon"){elitePartner = "moonmillenniumon";}
-            else if(elitePartner == "Rapidmon (Armor)"){elitePartner = "rapidmon_gold";}
-            else if(elitePartner == "Cherubimon (Vice)"){elitePartner = "cherubimon-vice";}
-            else if(elitePartner == "Cherubimon (Virtue)"){elitePartner = "cherubimon";}
-            else if(elitePartner == "Antylamon" || elitePartner == "Antylamon (Good)"){elitePartner = "andiramon_2";}
-            else if(elitePartner == "Algomon Seedform"){elitePartner = "algomon_lv1";}
-            else if(elitePartner == "Algomon Succform"){elitePartner = "algomon_lv2";}
-            else if(elitePartner == "Algomon Sockem Bopper Form"){elitePartner = "algomon_lv3";}
-            else if(elitePartner == "Algomon Tickle Hands Form"){elitePartner = "algomon_lv4";}
-            else if(elitePartner == "Algomon Come Get Some Form"){elitePartner = "algomon";}
-            else if(elitePartner == "Algomon OTK Form"){elitePartner = "algomon-ultimate";}
-            else if(elitePartner == "WereGarurumon (Black)"){elitePartner = "weregarurumon_black";}
-            else if(elitePartner == "WereGarurumon (Black) Sagittarius Mode"){elitePartner = "waregarurumon_sagittarius";}
-            else if(elitePartner == "Belphemon Sleep Mode"){elitePartner = "belphemonsleepmode";}
-            else if(elitePartner == "Belphemon Rage Mode"){elitePartner = "belphemonragemode";}
-            else if(elitePartner == "Tsunomon"){elitePartner = "tunomon";}
-            else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
-            else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon"){customImage = true;}
-            if(customImage){
-                if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
-                else if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
+            if(elitePartner.includes("&")){message.reply("Your partnered to " + elitePartner + ". You're connected via your " + grab.digivice + "!");}
+            else{
+                customImage = false;
+                partnerEmbed = new Discord.MessageEmbed();
+                partnerEmbed.setDescription("You're partnered to " + elitePartner + ". You're connected via your " + grab.digivice + "!");
+                if(elitePartner == "Wendigomon"){elitePartner = "Wendimon"}
+                else if(elitePartner == "Moon=Millenniummon"){elitePartner = "moonmillenniumon";}
+                else if(elitePartner == "Rapidmon (Armor)"){elitePartner = "rapidmon_gold";}
+                else if(elitePartner == "Cherubimon (Vice)"){elitePartner = "cherubimon-vice";}
+                else if(elitePartner == "Cherubimon (Virtue)"){elitePartner = "cherubimon";}
+                else if(elitePartner == "Antylamon" || elitePartner == "Antylamon (Good)"){elitePartner = "andiramon_2";}
+                else if(elitePartner == "Algomon Seedform"){elitePartner = "algomon_lv1";}
+                else if(elitePartner == "Algomon Succform"){elitePartner = "algomon_lv2";}
+                else if(elitePartner == "Algomon Sockem Bopper Form"){elitePartner = "algomon_lv3";}
+                else if(elitePartner == "Algomon Tickle Hands Form"){elitePartner = "algomon_lv4";}
+                else if(elitePartner == "Algomon Come Get Some Form"){elitePartner = "algomon";}
+                else if(elitePartner == "Algomon OTK Form"){elitePartner = "algomon-ultimate";}
+                else if(elitePartner == "WereGarurumon (Black)"){elitePartner = "weregarurumon_black";}
+                else if(elitePartner == "WereGarurumon (Black) Sagittarius Mode"){elitePartner = "waregarurumon_sagittarius";}
+                else if(elitePartner == "Belphemon Sleep Mode"){elitePartner = "belphemonsleepmode";}
+                else if(elitePartner == "Belphemon Rage Mode"){elitePartner = "belphemonragemode";}
+                else if(elitePartner == "Tsunomon"){elitePartner = "tunomon";}
+                else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
+                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon"){customImage = true;}
+                if(customImage){
+                    if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
+                    else if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
+                }
+                else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
+                //console.log("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg")
+                message.reply(partnerEmbed);
+                elite = false;
             }
-            else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
-            //console.log("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg")
-            message.reply(partnerEmbed);
-            elite = false;
-
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
