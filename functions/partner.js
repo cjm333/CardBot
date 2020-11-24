@@ -101,6 +101,7 @@ module.exports = {
                 if(customImage){
                     if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
                     else if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
+                    else if(elitePartner == "OmegaNumemon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/OmegaNume.png");}
                 }
                 else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
                 //console.log("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg")

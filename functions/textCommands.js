@@ -54,10 +54,9 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. November 21st, 11am EST: DigiDouble, Hosted by Renigade` - <https://challonge.com/pemhrybh>\n\n \
-`2. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
-`3. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST))\n\n \
-`4. December 5th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 4th, 5pm EST)")
+`1. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
+`2. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST))\n\n \
+`3. December 5th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 4th, 5pm EST)")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
