@@ -93,6 +93,9 @@ module.exports = {
                 else if(elitePartner == "Belphemon Sleep Mode"){elitePartner = "belphemonsleepmode";}
                 else if(elitePartner == "Belphemon Rage Mode"){elitePartner = "belphemonragemode";}
                 else if(elitePartner == "Tsunomon"){elitePartner = "tunomon";}
+                else if(elitePartner == "RizeGreymon X"){elitePartner = "rizegreymon_x";}
+                else if(elitePartner == "ShineGreymon Burst Mode"){elitePartner = "shinegreymonburstmode";}
+                else if(elitePartner == "Agumon (Bond of Bravery)"){elitePartner = "agumon_kizuna";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon"){customImage = true;}
                 if(customImage){
