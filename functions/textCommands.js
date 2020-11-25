@@ -37,7 +37,9 @@ Reminder: large messages self-delete after a short time")
     faq: function(message){
         message.channel.send("Your questions can be answered by the Official Q&A's. Please read over them to answer simple questions:\n \
 1. General: <https://world.digimoncard.com/rule/pdf/general_rules.pdf?201106>\n \
-2. Starter Deck Cards: <https://world.digimoncard.com/rule/pdf/starter_deck.pdf?201106>")        
+2. Starter Deck Cards: <https://world.digimoncard.com/rule/pdf/starter_deck.pdf?201106>\n \
+3. BT1 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_01.pdf?201120>\n \
+4. BT2 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_02.pdf?201120>")        
     },
     keyword: function(message){
         message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \
