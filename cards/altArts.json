@@ -84,6 +84,9 @@
       {"append": "gate-of-destiny-st3-13-alt-art", "name": "Gate of Destiny (Alt Art, ST3-13)", "url": "https://digimon-bucket.s3.amazonaws.com/gate-of-destiny-st3-13-alt.png"},
       {"append": "heavens-charm-st3-14-alt-art", "name": "Heaven's Charm (Alt Art, ST3-14)", "url": "https://digimon-bucket.s3.amazonaws.com/heavens-charm-st3-14-alt.png"},
       {"append": "horn-buster-bt1-108-alt-art", "name": "Horn Buster (Alt Art, BT1-108)", "url": "https://digimon-bucket.s3.amazonaws.com/horn-buster-bt1-108-alt.png"},
-      {"append": "flower-cannon-bt1-110-alt-art-2", "name": "Flower Cannon (Alt Art #2, BT1-110)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt-2.png"}
+      {"append": "flower-cannon-bt1-110-alt-art-2", "name": "Flower Cannon (Alt Art #2, BT1-110)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt-2.png"},
+
+      {"append": "garurumon-st2-06-alt-art", "name": "Garurumon (Alt Art, ST2-06)", "url": "https://digimon-bucket.s3.amazonaws.com/garurumon-st2-06-alt-art.jpg"}
+
   ]
 }
