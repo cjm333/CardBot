@@ -2,7 +2,9 @@ const { partner } = require("./partner")
 
 module.exports = {
     rulebook: function(message){
-        message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\nhttps://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF")
+        message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\n \
+        Server Made (slightly more in depth): https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
+        Official: https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
     },
     borrow: function(message){
         message.channel.send("If you used any of the memory borrower skills like Metalgreymon/Weregarurumon/Chirinmon/Digitamamon, or the option card Gravity Press, and decide to pass your turn while having positive memory, it goes like this:\n1) Declare you want to pass turn, so you put it to 3 on your opponent's side in order to pass the turn.\n2) Memory borrower's [End of Turn] effect activates, you get -X memory for each memory borrower skill used")
@@ -39,7 +41,8 @@ Reminder: large messages self-delete after a short time")
 1. General: <https://world.digimoncard.com/rule/pdf/general_rules.pdf?201106>\n \
 2. Starter Deck Cards: <https://world.digimoncard.com/rule/pdf/starter_deck.pdf?201106>\n \
 3. BT1 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_01.pdf?201120>\n \
-4. BT2 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_02.pdf?201120>")        
+4. BT2 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_02.pdf?201120>\n \
+5. Promo Cards: <https://world.digimoncard.com/rule/pdf/qa_promocard.pdf?201120>")        
     },
     keyword: function(message){
         message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \
