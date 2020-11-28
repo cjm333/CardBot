@@ -99,8 +99,8 @@ module.exports = {
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon"){customImage = true;}
                 if(customImage){
-                    if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
-                    else if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
+                    //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
+                    if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
                     else if(elitePartner == "OmegaNumemon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/OmegaNume.png");}
                 }
                 else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
@@ -108,6 +108,20 @@ module.exports = {
                 message.reply(partnerEmbed);
                 elite = false;
             }
+        }
+        else if(id == 410833999129214976){
+            partnerEmbed = new Discord.MessageEmbed();
+            partnerEmbed.setDescription("You're partnered to SnowAgumon. You're connected via your D-Ark!");
+            partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg"
+        }
+        else if(id == 323661590673096705){
+            partnerEmbed = new Discord.MessageEmbed();
+            partnerEmbed.setDescription("You're partnered to Terriermon. You're connected via your D-Tector!");
+            partnerEmbed.setImage("https://digimon.net/cimages/digimon/terriermon.jpg"
+        }
+        else if(id == 237764316416180224){
+            partnerEmbed = new Discord.MessageEmbed();
+            partnerEmbed.setDescription("You're partnered to <:terriersip:720917483070160898> & <:lopcoke:774064395893735464>. You're connected via your Digivice!");
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
