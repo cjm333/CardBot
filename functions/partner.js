@@ -112,12 +112,12 @@ module.exports = {
         else if(id == 410833999129214976){
             partnerEmbed = new Discord.MessageEmbed();
             partnerEmbed.setDescription("You're partnered to SnowAgumon. You're connected via your D-Ark!");
-            partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg"
+            partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg");
         }
         else if(id == 323661590673096705){
             partnerEmbed = new Discord.MessageEmbed();
             partnerEmbed.setDescription("You're partnered to Terriermon. You're connected via your D-Tector!");
-            partnerEmbed.setImage("https://digimon.net/cimages/digimon/terriermon.jpg"
+            partnerEmbed.setImage("https://digimon.net/cimages/digimon/terriermon.jpg");
         }
         else if(id == 237764316416180224){
             partnerEmbed = new Discord.MessageEmbed();
