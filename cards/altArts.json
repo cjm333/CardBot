@@ -73,9 +73,9 @@
       {"append": "rizegreymon-bt2-038-alt-art-1", "name": "RizeGreymon (Alt Art, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P1.png"},
       {"append": "argomon-bt2-047-alt-art", "name": "Argomon (Alt Art, BT2-047)", "url": "https://digimoncard.com/images/cardlist/card/BT2-047_P1.png"},
 
-      {"append": "metalgreymon-st1-09-alt-art-prize", "name": "MetalGreymon (Alt Art #2, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png"},
-      {"append": "weregarurumon-st2-08-alt-art-prize", "name": "WereGarurumon (Alt Art #2, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg"},
-      {"append": "rizegreymon-bt2-038-alt-art-prize", "name": "RizeGreymon (Alt Art #2, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P2.png"},
+      {"append": "metalgreymon-st1-09-alt-art-winner", "name": "MetalGreymon (Winner Alt Art, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png"},
+      {"append": "weregarurumon-st2-08-alt-art-winner", "name": "WereGarurumon (Winner Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg"},
+      {"append": "rizegreymon-bt2-038-alt-art-2-winner", "name": "RizeGreymon (Winner Alt Art, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P2.png"},
 
       {"append": "wing-blade-st1-13-alt-art", "name": "Wing Blade (Alt Art, ST1-13)", "url": "https://digimon-bucket.s3.amazonaws.com/wing-blade-st1-13-alt.jpg"},
       {"append": "terra-force-st1-16-alt-art", "name": "Terra Force (Alt Art, ST1-16)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg"},
@@ -86,7 +86,7 @@
       {"append": "horn-buster-bt1-108-alt-art", "name": "Horn Buster (Alt Art, BT1-108)", "url": "https://digimon-bucket.s3.amazonaws.com/horn-buster-bt1-108-alt.png"},
       {"append": "flower-cannon-bt1-110-alt-art-2", "name": "Flower Cannon (Alt Art #2, BT1-110)", "url": "https://digimon-bucket.s3.amazonaws.com/flower-cannon-bt1-110-alt-2.png"},
 
-      {"append": "greymon-st1-07-alt-art", "name": "Greymon (Alt Art, ST1-07)", "url": "https://digimon-bucket.s3.amazonaws.com/greymon-st1-07-alt-art.png"},
+      {"append": "greymon-st1-07-alt-art", "name": "Greymon (Alt Art, ST1-07)", "url": "https://digimon-bucket.s3.amazonaws.com/greymon-st1-07-alt-art.PNG"},
       {"append": "garurumon-st2-06-alt-art", "name": "Garurumon (Alt Art, ST2-06)", "url": "https://digimon-bucket.s3.amazonaws.com/garurumon-st2-06-alt-art.jpg"},
       {"append": "angemon-st3-05-alt-art", "name": "Angemon (Alt Art, ST3-05)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-st3-05-alt-art.jpg"}
 

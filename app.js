@@ -1,4 +1,3 @@
-noQueue = true;
 //imports
 const Discord = require("discord.js");
 
@@ -13,6 +12,7 @@ const textCommands =  require('./functions/textCommands.js');
 const count = require('./functions/count.js');
 const search = require('./functions/search.js');
 const starters = require('./functions/starterLists.js');
+
 //Elite Partner Functionality Setup
 const partnersData = require('./cards/elite.json');
 const partners = partnersData.list;
@@ -83,7 +83,10 @@ client.on("guildMemberAdd", member => {
 
 //Check messages for commands
 client.on("message", message => {
-    if(message.content.startsWith("!") && message.guild){
+    if(message.content.includes("bit nerd")){
+        message.delete()
+    }
+    else if(message.content.startsWith("!") && message.guild){
         if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "667080188487532545"){
 
             //Card Pull Ups
@@ -98,7 +101,7 @@ client.on("message", message => {
             else if(message.content.startsWith("!partner")){
                 if(message.member.roles.cache.has('774145809280925736')){message.reply("Sorry, your partner abandoned you because you were ungrateful to them");}
                 else if(message.content.includes("change") || message.content.includes("Change")){
-                    message.reply("You and your partner are bonded for life! You'd better appreciate them!");
+                    message.reply("You and your partner are bonded for life! You should have appreciated them!");
                     message.member.roles.add('774145809280925736')
                 }
                 else{partnerFunctions.partner(message, partners, tracking, Discord);}
@@ -120,7 +123,19 @@ client.on("message", message => {
             else if(message.content.startsWith("!import")){
                 const cardEmbed = new Discord.MessageEmbed()
                 cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/meme2.png")
-                cardEmbed.setFooter("Seriously though, please check the pins for TTS Custom Imports in #tabletop")
+                cardEmbed.setFooter("Please check the pins for TTS Custom Imports in #tabletop")
+                message.reply(cardEmbed)
+            }
+            else if(message.content.startsWith("!breed")){
+                const cardEmbed = new Discord.MessageEmbed()
+                cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/breeding.png")
+                cardEmbed.setFooter("Imagine this area as an impenetrable wall. No effects come in or go out")
+                message.reply(cardEmbed)
+            }
+            else if(message.content.startsWith("!security")){
+                const cardEmbed = new Discord.MessageEmbed()
+                cardEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/security.png")
+                cardEmbed.setFooter("Cards will specify which one the effect works with")
                 message.reply(cardEmbed)
             }
 

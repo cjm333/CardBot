@@ -3,8 +3,8 @@ const { partner } = require("./partner")
 module.exports = {
     rulebook: function(message){
         message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\n \
-        Server Made (slightly more in depth): https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
-        Official: https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
+Server Made (slightly more in depth): https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
+Official: https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
     },
     borrow: function(message){
         message.channel.send("If you used any of the memory borrower skills like Metalgreymon/Weregarurumon/Chirinmon/Digitamamon, or the option card Gravity Press, and decide to pass your turn while having positive memory, it goes like this:\n1) Declare you want to pass turn, so you put it to 3 on your opponent's side in order to pass the turn.\n2) Memory borrower's [End of Turn] effect activates, you get -X memory for each memory borrower skill used")
@@ -19,11 +19,13 @@ Searching:\n \
 !option: `Search only Option cards`\n \
 !alt: `Search for alternate arts`\n\n \
 Useful:\n \
-!borrow: `Information on memory borrowing`\n \
+!rulebook: `Simple question answer`\n \
 !faq: `List common question answers`\n \
 !keyword: `List keywords`\n \
-!meme: `The best reply to the most popular question to ever grace this game`\n \
-!rulebook: `Simple question answer`\n\n \
+!borrow: `Information on memory borrowing`\n \
+!meme: `Digivolving vs. Playing`\n \
+!import: `TTS Custom Import info`\n \
+!zaffy: `Link to TTS mod`\n\n \
 Partner Stuff: \n \
 !partner: `Check your partner and digivice` \n \
 !digivolve: `Digivolve your partner` \n \
@@ -59,14 +61,13 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. November 29th: Discord Invitational, Hosted by RazeOblivion`\n\n \
-`2. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST))\n\n \
-`3. December 5th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 4th, 5pm EST)")
+`1. November 30th-December 5th: Prodigious!, Hosted by Saac` - <https://challonge.com/nv8ltxuj> (NOTE: Decklists due November 29th, 10pm EST))\n\n \
+`2. December 11th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 10th, 5pm EST)")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
 1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord (at least 20 participants)\n \
-2. Become a Server Booster (There are 17 Boosters Currently with 24 Boosts total)\n\n \
+2. Become a Server Booster (There are 21 Boosters Currently with 30 Boosts total)\n\n \
 You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
 1. Donate at least $5 to the server's Premium Mee6 fund (20 slots left, $0 of $100 donated)\n \
 2. Boost the server for a period of time, then stop boosting")

@@ -3,8 +3,8 @@
     {"append": "koromon-st1-01", "name": "Koromon (ST1-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST1-01.png"},
     {"append": "tsunomon-st2-01", "name": "Tsunomon (ST2-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST2-01.png"},
     {"append": "tokomon-st3-01", "name": "Tokomon (ST3-01)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-01.png"},
-    {"append": "motimon-st4-01", "name": "Motimon (ST4-01)", "url": "https://digimon-bucket.s3.amazonaws.com/motimon-st4-01.png"},
-    {"append": "kapurimon-st5-01", "name": "Kapurimon (ST5-01)", "url": "https://digimon-bucket.s3.amazonaws.com/kapurimon-st5-01.jpg", "faq": "[Your Turn] - When this Digimon has <Blocker>, this Digimon gains +1000DP"},
+    {"append": "motimon-st4-01", "name": "Motimon (ST4-01)", "url": "https://digimon-bucket.s3.amazonaws.com/motimon-st4-01.png", "faq": "NOTE: Server Proxy"},
+    {"append": "kapurimon-st5-01", "name": "Kapurimon (ST5-01)", "url": "https://digimon-bucket.s3.amazonaws.com/kapurimon-st5-01.png", "faq": "NOTE: Server Proxy"},
     {"append": "pagumon-st6-01", "name": "Pagumon (ST6-01)", "url": "https://digimon-bucket.s3.amazonaws.com/pagumon-st6-01.jpg", "faq": "[When Destroyed] - Discard 2 cards from top of your deck"},
 
     {"append": "yokomon-bt1-001", "name": "Yokomon (BT1-001)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-001.png"},
@@ -30,6 +30,13 @@
     {"append": "upamon-bt3-003", "name": "Upamon (BT3-003)", "url": "https://digimon-bucket.s3.amazonaws.com/upamon-bt3-003.png"},
     {"append": "minomon-bt3-004", "name": "Minomon (BT3-004)", "url": "https://digimon-bucket.s3.amazonaws.com/minomon-bt3-004.png"},
     {"append": "kakkinmon-bt3-005", "name": "Kakkinmon (BT3-005)", "url": "https://digimon-bucket.s3.amazonaws.com/kakkinmon-bt3-005.png"},
-    {"append": "demimeramon-bt3-006", "name": "DemiMeramon (BT3-006)", "url": "https://digimon-bucket.s3.amazonaws.com/demimeramon-bt3-006.png"}
+    {"append": "demimeramon-bt3-006", "name": "DemiMeramon (BT3-006)", "url": "https://digimon-bucket.s3.amazonaws.com/demimeramon-bt3-006.png"},
+
+    {"append": "sakuttomon-bt4-001", "name": "Sakuttomon (BT4-001)", "url": "https://digimon-bucket.s3.amazonaws.com/sakuttomon-bt4-001.jpg", "faq": "[When Attacking] (once per turn) When this Digimon is LV7, get Memory +1"},
+    {"append": "bukamon-bt4-002", "name": "Bukamon (BT4-002)", "url": "https://digimon-bucket.s3.amazonaws.com/bukamon-bt4-002.jpg", "faq": "[When Attacking] Discard 1 Evolution Source of 1 of your opponent's LV4 or below Digimon from the bottom"},
+    {"append": "koromon-bt4-003", "name": "Koromon (BT4-003)", "url": "https://digimon-bucket.s3.amazonaws.com/koromon-bt4-003.jpg", "faq": "[When Attacking] (once per turn) When you have 3 or less Security, 1 of your opponent's Digimon gets -1000DP for the turn"},
+    {"append": "budmon-bt4-004", "name": "Budmon (BT4-004)", "url": "https://digimon-bucket.s3.amazonaws.com/budmon-bt4-004.jpg", "faq": "[Your turn] While this Digimon has <Digi-burst>, it gets +1000 DP."},
+    {"append": "missimon-bt4-005", "name": "Missimon (BT4-005)", "url": "https://digimon-bucket.s3.amazonaws.com/missimon-bt4-005.jpg", "faq": "[Your turn] While this Digimon is [D-Brigade] type, it gets +1000 DP."},
+    {"append": "xiaomon-bt4-006", "name": "Xiaomon (BT4-006)", "url": "https://digimon-bucket.s3.amazonaws.com/xiaomon-bt4-006.jpg", "faq": "[Your turn] While you have 10 or more cards in your trash, this digimon gains <Retaliation>."}
   ]
 }

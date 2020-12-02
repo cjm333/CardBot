@@ -13,8 +13,8 @@
       {"append": "holy-flame-st3-15", "name": "Holy Flame (ST3-15)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-15.png"},
       {"append": "seven-heavens-st3-16", "name": "Seven Heavens (ST3-16)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-16.png"},
     
-      {"append": "needle-spray-st4-15", "name": "Needle Spray (ST4-15)", "url": "https://digimon-bucket.s3.amazonaws.com/needle-spray-st4-15.jpg", "faq": "[Main] Suspend 1 of your opponent's Digimon.\n[Security] Activate this card's [Main] effect. Then add this card to its owner's hand."},
-      {"append": "electro-shocker-st4-16", "name": "Electro Shocker (ST4-16)", "url": "https://digimon-bucket.s3.amazonaws.com/electro-shocker-st4-16.jpg", "faq": "[Main] Return 1 of your opponent's suspended Digimon to its owner's hand. (Trash all of the digivolution cards of that Digimon.)\n[SEC] Activate this card's [Main] effect."},
+      {"append": "needle-spray-st4-15", "name": "Needle Spray (ST4-15)", "url": "https://digimon-bucket.s3.amazonaws.com/needle-spray-st4-15.png", "faq": "NOTE: Server Proxy"},
+      {"append": "electro-shocker-st4-16", "name": "Electro Shocker (ST4-16)", "url": "https://digimon-bucket.s3.amazonaws.com/electro-shocker-st4-16.png", "faq": "NOTE: Server Proxy"},
       {"append": "laser-eye-st5-15", "name": "Laser Eye (ST5-15)", "url": "https://digimon-bucket.s3.amazonaws.com/laser-eye-st5-15.jpg", "faq": "[Main] Trigger <De-Digivolve 1> on up to 2 of your opponent's Digimon.\n[Security] Activate this card's [Main] effect."},
       {"append": "dark-side-attack-st5-16", "name": "Dark Side Attack (ST5-16)", "url": "https://digimon-bucket.s3.amazonaws.com/dark-side-attack-st5-16.jpg", "faq": "[Main] Delete 1 of your opponent's Digimon with a play cost of 7 or less.\n[SEC] Activate this card's [Main] effect."},
       {"append": "the-touch-of-evil-st6-15", "name": "The Touch of Evil (ST6-15)", "url": "https://digimon-bucket.s3.amazonaws.com/the-touch-of-evil-st6-15.jpg", "faq": "[Main] You may delete 1 of your Digimon to delete up to 1 of your opponent's level 4 or lower Digimon.\n[Security] Delete 1 of your opponent's level 4 or lower Digimon."},
@@ -80,6 +80,9 @@
       {"append": "dark-despair-bt3-108", "name": "Dark Despair (BT3-108)", "url": "https://digimon-bucket.s3.amazonaws.com/dark-despair-bt3-108.png"},
       {"append": "back-for-revenge-bt3-109", "name": "Back for Revenge! (BT3-109)", "url": "https://world.digimoncard.com/images/cardlist/card/BT3-109.png", "bonus": "This card is based on the Hyper Colosseum card \"Return Match! (St-104)\""},
       {"append": "necrophobia-bt3-110", "name": "Necrophobia (BT3-110)", "url": "https://digimon-bucket.s3.amazonaws.com/necrophobia-bt3-110.png"},
+      
+      {"append": "the-ones-who-inherited-the-power-of-the-dragons-bt4-099", "name": "The Ones Who Inherited the Power of the Dragons (BT3-099)", "url": "https://digimon-bucket.s3.amazonaws.com/the-ones-who-inherited-the-power-of-the-dragons-bt4-099.png", "faq": "NOTE: Server Proxy", "bonus": "This card is based on the Hyper Colosseum card \"The One Who Inherits the Power of the Dragons (Vj-4)\""},
+      {"append": "hells-gate-bt4-112", "name": "Hell's Gate (BT4-112)", "url": "https://digimon-bucket.s3.amazonaws.com/hells-gate-bt4-112.png", "faq": "[Main] Destroy 1 of your opponent's LV6 or above Digimon\n[Sec] Add this card to your hand"},
 
       {"append": "the-fate-of-two-worlds-p-021", "name": "The Fate of Two Worlds (P-021)", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png"},
       {"append": "jogress-evolution-now-unite-your-heart-p-022", "name": "Jogress Evolution Now, Unite Your Heart (P-022)", "url": "https://digimon-bucket.s3.amazonaws.com/jogress-evolution-now-unite-your-heart-p-022.jpg"},

@@ -97,11 +97,13 @@ module.exports = {
                 else if(elitePartner == "ShineGreymon Burst Mode"){elitePartner = "shinegreymonburstmode";}
                 else if(elitePartner == "Agumon (Bond of Bravery)"){elitePartner = "agumon_kizuna";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
-                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon"){customImage = true;}
+                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon"){customImage = true;}
                 if(customImage){
                     //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
                     if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
                     else if(elitePartner == "OmegaNumemon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/OmegaNume.png");}
+                    else if(elitePartner == "ModokiBetamon"){partnerEmbed.setImage("https://wikimon.net/images/3/3f/Modokibetamon.jpg");} 
+ 
                 }
                 else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
                 //console.log("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg")
@@ -113,15 +115,10 @@ module.exports = {
             partnerEmbed = new Discord.MessageEmbed();
             partnerEmbed.setDescription("You're partnered to SnowAgumon. You're connected via your D-Ark!");
             partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg");
-        }
-        else if(id == 323661590673096705){
-            partnerEmbed = new Discord.MessageEmbed();
-            partnerEmbed.setDescription("You're partnered to Terriermon. You're connected via your D-Tector!");
-            partnerEmbed.setImage("https://digimon.net/cimages/digimon/terriermon.jpg");
+            message.reply(partnerEmbed);
         }
         else if(id == 237764316416180224){
-            partnerEmbed = new Discord.MessageEmbed();
-            partnerEmbed.setDescription("You're partnered to <:terriersip:720917483070160898> & <:lopcoke:774064395893735464>. You're connected via your Digivice!");
+            message.reply("You're partnered to <:terriersip:720917483070160898> & <:lopcoke:774064395893735464>. You're connected via your Digivice!");
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
