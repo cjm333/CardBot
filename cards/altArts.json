@@ -88,7 +88,8 @@
 
       {"append": "greymon-st1-07-alt-art", "name": "Greymon (Alt Art, ST1-07)", "url": "https://digimon-bucket.s3.amazonaws.com/greymon-st1-07-alt-art.PNG"},
       {"append": "garurumon-st2-06-alt-art", "name": "Garurumon (Alt Art, ST2-06)", "url": "https://digimon-bucket.s3.amazonaws.com/garurumon-st2-06-alt-art.jpg"},
-      {"append": "angemon-st3-05-alt-art", "name": "Angemon (Alt Art, ST3-05)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-st3-05-alt-art.jpg"}
+      {"append": "angemon-st3-05-alt-art", "name": "Angemon (Alt Art, ST3-05)", "url": "https://digimon-bucket.s3.amazonaws.com/angemon-st3-05-alt-art.jpg"}, 
 
+      {"append": "omnimon-bt1-084-alt-art-2", "name": "Omnimon (Alt Art #2, BT1-084)", "url": "https://digimon-bucket.s3.amazonaws.com/omnimon-bt1-084-alt-art-2.jpg"}
   ]
 }
