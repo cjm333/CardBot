@@ -29,6 +29,8 @@
         {"name": "imbk (Lowtone's Boost)", "id": "415177809170923521", "normal": 4, "fresh": "Dodomon", "inTraining": "Dorimon", "rookie": "Dorumon", "champion": "Dorugamon", "ultimate": "Dorugreymon", "mega": ["Alphamon"], "digivice": "D-3"},
         {"name": "Island Go (1 Boost)", "id": "200055150193278977", "normal": 3, "fresh": "an Egg", "inTraining": "Dorimon", "rookie": "Dorumon", "champion": "Dorugamon", "ultimate": "DoruGreymon", "mega": ["Alphamon"], "digivice": "D-Power"},
         {"name": "NumeWife (2 Boosts)", "id": "323661590673096705", "normal": 3, "fresh": "Zerimon", "inTraining": "Gummymon", "rookie": "Terriermon", "champion": "TerrierCrewsmon", "ultimate": "WereGarurumon", "mega": ["BanchoLeomon"], "digivice": "D-Tector"},
+        {"name": "Lugos", "id": "238058299608530955", "normal": 3, "fresh": "Zerimon", "inTraining": "Gummymon", "rookie": "Terriermon", "champion": "Gargomon", "ultimate": "Rapidmon", "mega": ["MegaGargomon"], "digivice": "D-Power"},
+        {"name": "Raspberry", "id": "239544831305580546", "normal": 3, "fresh": "an Egg", "inTraining": "an Egg", "rookie": "Hackmon", "champion": "BaoHuckmon", "ultimate": "SaviorHackmon", "mega": ["Jesmon"], "digivice": "Digivice"},
 
         {"name": "Tesero", "id": "176959369030795274", "normal": 4, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Not Set", "champion": "Wizardmon", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice 01"},
         {"name": "R_009", "id": "591340274119213088", "normal": 2, "fresh": "Not Set", "inTraining": "Koromon", "rookie": "Not Set", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"},
