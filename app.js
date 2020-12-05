@@ -83,7 +83,7 @@ client.on("guildMemberAdd", member => {
 
 //Check messages for commands
 client.on("message", message => {
-    if(message.content.includes("bit nerd")){
+    if(message.content.toLowerCase().includes("bit nerd") || message.content.toLowerCase().includes("bitnerd")){
         message.delete()
     }
     else if(message.content.startsWith("!") && message.guild){
