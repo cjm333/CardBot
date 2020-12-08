@@ -126,18 +126,23 @@ module.exports = {
         if(cardNames.length == 0){
             message.reply("No cards exist with that type")
         }
-        else if(cardNames.length > 0 && cardNames.length <= 100){
+        else {
             message.reply("Here is a list of all the cards with that type:")
             returnable = ""
+            counter = 1;
             for(name of cardNames){
                 returnable = returnable.concat(name).concat("\n") 
+                if(counter % 10 == 0){
+                    message.channel.send(returnable)
+                    returnable = ""
+                }
+                else if(counter == cardNames.length){
+                    message.channel.send(returnable)
+                    retunable = ""
+                }
+                counter++;
             }
-            channel.send(returnable)
         }
-        else if(cardNames.length > 100){
-            message.reply("Your search term was too broad. Be a bit more specific")
-        }
-
     },
 
     effectText: function(message, selectedCards, sliceLength){
@@ -151,11 +156,21 @@ module.exports = {
         }
         applicableCards.sort()
 
-        finalMessage = ""
-        for(name of applicableCards){
-            finalMessage = finalMessage.concat(name).concat("\n")
-        }
+        message.reply("Here is a list of every card with matching effect text:")
 
-        message.reply("Here is a list of every card with matching effect text:\n" + finalMessage)
+        tempMessage = ""
+        counter = 1
+        for(name of applicableCards){
+            tempMessage = tempMessage.concat(name).concat("\n")
+            if(counter % 10 == 0){
+                message.channel.send(tempMessage)
+                tempMessage = ""
+            }
+            else if(counter == applicableCards.length){
+                message.channel.send(tempMessage)
+                tempMessage = ""
+            }
+            counter++;
+        }
     }
 }
