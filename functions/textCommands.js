@@ -14,5 +14,20 @@ module.exports = {
 !basic: `List all basic units in the game`\n \
 !random: `Pull up a random card`\n \
 Append 'Type' or 'Text' to a command (besides !basic or !random) to filter based on preference. Ex: !unitType, !spiritText")
+    },
+
+    cardPrint: function(message, cards){
+        returnable = ""
+        counter = 1;
+        cards.sort()
+
+        for(name of cards){
+            returnable = returnable.concat(name).concat("\n") 
+            if(counter % 10 == 0 || counter == cards.length){
+                message.channel.send(returnable)
+                returnable = ""
+            }
+            counter++;
+        }
     }
 }

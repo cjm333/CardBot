@@ -71,12 +71,10 @@ module.exports = {
         const cardType = type.toLowerCase();
         cardNames = []
         
-        if(cardType == "mech" || cardType == "?"){
+        if(cardType == "mech"){
             for(card of cards){
-                if(card.type){
-                    if(card.type == cardType){
-                        cardNames.push(card.name)
-                    }
+                if(card.type && card.type == cardType){
+                    cardNames.push(card.name)
                 }
             }
         }

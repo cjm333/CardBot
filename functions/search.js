@@ -1,3 +1,5 @@
+const textCommands = require('./textCommands.js');
+
 module.exports = {
     searching: function (message, selectedCards, sliceLength, Discord){
         //Variable Setup
@@ -51,7 +53,6 @@ module.exports = {
         }
 
         //Shortcutting Exact Matches
-        cardNames.sort()
         if(cardPool.length > 1){
             for(card of cardPool){
                 if(card.append === shortCut){
@@ -72,17 +73,6 @@ module.exports = {
             if(cardPool.length == 0){
                 message.reply("No cards exist with that phrase")
             }
-            else if(cardPool.length > 1 && cardPool.length <= 10){
-                message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
-                returnable = ""
-                for(name of cardNames){
-                    returnable = returnable.concat(name).concat("\n") 
-                }
-                channel.send(returnable)
-            }
-            else if(cardPool.length > 15){
-                message.reply("Your search term was too broad. Be a bit more specific")
-            }
             else if(cardPool.length == 1){
                 cardEmbed.setImage(cardPool[0].url)
                 cardEmbed.setTitle(cardPool[0].name)
@@ -92,24 +82,25 @@ module.exports = {
                 }
                 message.reply(cardEmbed);
             }
+            else{
+                message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
+                textCommands.cardPrint(message, cardNames)
+            }
         }
     },
     
     searchType: function(message, selectedCards, sliceLength){
         channel = message.channel
-        var doCheck = new Boolean(true)
         cardNames = []
 
         const args = message.content.slice(sliceLength).trim()
         const argsURL = args.replace(/'/g, "").replace(/,/g, "").replace(/#/g, "").replace(/:/g, "").replace(/&/g, "and").replace(/!/g, "and");
         const cardType = argsURL.toLowerCase();
         
-        if(cardType == "mech" || cardType == "?"){
+        if(cardType == "mech"){
             for(card of selectedCards){
-                if(card.type){
-                    if(card.type == cardType){
-                        cardNames.push(card.name)
-                    }
+                if(card.type && card.type == cardType){
+                    cardNames.push(card.name)
                 }
             }
         }
@@ -122,26 +113,13 @@ module.exports = {
                 }
             }
         }
-        cardNames.sort()
+
         if(cardNames.length == 0){
             message.reply("No cards exist with that type")
         }
         else {
             message.reply("Here is a list of all the cards with that type:")
-            returnable = ""
-            counter = 1;
-            for(name of cardNames){
-                returnable = returnable.concat(name).concat("\n") 
-                if(counter % 10 == 0){
-                    message.channel.send(returnable)
-                    returnable = ""
-                }
-                else if(counter == cardNames.length){
-                    message.channel.send(returnable)
-                    retunable = ""
-                }
-                counter++;
-            }
+            textCommands.cardPrint(message, cardNames)
         }
     },
 
@@ -154,23 +132,8 @@ module.exports = {
                 applicableCards.push(card.name)
             }
         }
-        applicableCards.sort()
 
         message.reply("Here is a list of every card with matching effect text:")
-
-        tempMessage = ""
-        counter = 1
-        for(name of applicableCards){
-            tempMessage = tempMessage.concat(name).concat("\n")
-            if(counter % 10 == 0){
-                message.channel.send(tempMessage)
-                tempMessage = ""
-            }
-            else if(counter == applicableCards.length){
-                message.channel.send(tempMessage)
-                tempMessage = ""
-            }
-            counter++;
-        }
+        textCommands.cardPrint(message, applicableCards)
     }
 }
