@@ -2,7 +2,7 @@ const { partner } = require("./partner")
 
 module.exports = {
     rulebook: function(message){
-        message.channel.send("Your question can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules, before you ask anymore questions:\n \
+        message.channel.send("Your questions can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules:\n \
 Server Made (slightly more in depth): https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
 Official: https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
     },
@@ -64,8 +64,9 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
 `1. December 11th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 10th, 5pm EST)\n \
 `2. December 13th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, BT4 Format)` - <https://challonge.com/dcdevbt4_1> (NOTE: Decklists due same day 12pm CST)\n \
 `3. December 19th: Dev League, Hosted by orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)`\n \
-`4. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
-`5. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
+`4. December 19th: big Byte #8, Hosted by RazeOblivion (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
+`5. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
+`6. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
