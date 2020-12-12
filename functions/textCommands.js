@@ -63,8 +63,7 @@ Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was
         message.channel.send("Upcoming Events:\n \
 `1. December 11th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 10th, 5pm EST)\n \
 `2. December 13th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, BT4 Format)` - <https://challonge.com/dcdevbt4_1> (NOTE: Decklists due same day 12pm CST)\n \
-`3. December 19th: Dev League, Hosted by orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)`\n \
-`4. December 19th: big Byte #8, Hosted by RazeOblivion (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
+`4. December 19th: Big Byte #8 (DevLeague Collab), Hosted by RazeOblivion & orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
 `5. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
 `6. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
     },
