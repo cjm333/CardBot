@@ -44,7 +44,12 @@ Reminder: large messages self-delete after a short time")
 2. Starter Deck Cards: <https://world.digimoncard.com/rule/pdf/starter_deck.pdf?201106>\n \
 3. BT1 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_01.pdf?201120>\n \
 4. BT2 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_02.pdf?201120>\n \
-5. Promo Cards: <https://world.digimoncard.com/rule/pdf/qa_promocard.pdf?201120>")        
+5. Promo Cards: <https://world.digimoncard.com/rule/pdf/qa_promocard.pdf?201120>\n\n \
+Translated Japanese FAQs:\n \
+1. BT3 Cards: <https://docs.google.com/document/d/11Uhu8R8CC9IouwbAICE4Ay5KFbJVvk7qWynjat_7K9Q/edit#>\n\n \
+NOTE: Bandai's English BT1 & BT2 FAQs have some formatting issues. Thus, the fully translated ones are below until those get fixed:\n \
+1. BT1 Cards: <https://game-academia.com/blogs/digimon-card-game-blog/digimon-card-game-booster-new-evolution-bt-01-q-a>\n \
+1. BT2 Cards: <https://game-academia.com/blogs/digimon-card-game-blog/digimon-card-game-booster-ultimate-power-bt-02-q-a>")        
     },
     keyword: function(message){
         message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \
@@ -56,14 +61,15 @@ Jamming: `This Digimon cannot be destroyed in battle against a Security Digimon.
 De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no Digivolution Sources remaining, or is Lv.3, you may not continue discarding.`\n\n \
 Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
-Vengeance: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`").then(msg => {msg.delete({ timeout: 60000 })}).catch(e => {})
+Retaliation: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`\n\n \
+Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effect below.`").then(msg => {msg.delete({ timeout: 60000 })}).catch(e => {})
     },
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
 `1. December 11th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 10th, 5pm EST)\n \
 `2. December 13th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, BT4 Format)` - <https://challonge.com/dcdevbt4_1> (NOTE: Decklists due same day 12pm CST)\n \
-`4. December 19th: Big Byte #8 (DevLeague Collab), Hosted by RazeOblivion & orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
+`4. December 19th: Big Byte #8 (Dev League Collab), Hosted by RazeOblivion & orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
 `5. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
 `6. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
     },

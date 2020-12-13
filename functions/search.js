@@ -43,13 +43,13 @@ module.exports = {
         if(cardPool.length > 1){
             for(card of cardPool){
                 if(card.append === shortCut){
-                    cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
-                    if(card.bonus){
-                        cardEmbed.setFooter(card.bonus)
-                    }
-                    if(card.faq){
-                        cardEmbed.setDescription(card.faq)
+                    if(card.bonus){cardEmbed.setFooter(card.bonus)}
+                    if(card.faq){cardEmbed.setDescription(card.faq)}
+                    if(card.url){cardEmbed.setImage(card.url)}
+                    else{
+                        temp = "https://world.digimoncard.com/images/cardlist/card/".concat(card.id).concat(".png")
+                        cardEmbed.setImage(temp)
                     }
                     message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
                     noMatch = false
@@ -64,13 +64,13 @@ module.exports = {
                 message.reply("No cards exist with that phrase")
             }
             else if(cardPool.length == 1){
-                cardEmbed.setImage(cardPool[0].url)
                 cardEmbed.setTitle(cardPool[0].name)
-                if(cardPool[0].bonus){
-                    cardEmbed.setFooter(cardPool[0].bonus)
-                }
-                if(cardPool[0].faq){
-                    cardEmbed.setDescription(cardPool[0].faq)
+                if(cardPool[0].bonus){ cardEmbed.setFooter(cardPool[0].bonus)}
+                if(cardPool[0].faq){cardEmbed.setDescription(cardPool[0].faq)}
+                if(cardPool[0].url){cardEmbed.setImage(cardPool[0].url)}
+                else{
+                    temp = "https://world.digimoncard.com/images/cardlist/card/".concat(cardPool[0].id).concat(".png")
+                    cardEmbed.setImage(temp)
                 }
                 message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
             }
