@@ -74,7 +74,7 @@ module.exports = {
                 }
                 message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
             }
-            else if(cardPool.length > 1 && cardPool.length < 25){
+            else {
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
                 returnable = "";
                 counter = 0;
@@ -87,9 +87,6 @@ module.exports = {
                         returnable = ""
                     }
                 }
-            }
-            else{
-                message.reply("Your search term was too broad. Be a bit more specific")
             }
         }
     

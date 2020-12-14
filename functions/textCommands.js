@@ -67,11 +67,9 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. December 11th: Nightmare Colosseum Qualifier 2, Hosted by Nightmare` - <https://challonge.com/NightmareColosseum> (NOTE: Decklists due December 10th, 5pm EST)\n \
-`2. December 13th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, BT4 Format)` - <https://challonge.com/dcdevbt4_1> (NOTE: Decklists due same day 12pm CST)\n \
-`4. December 19th: Big Byte #8 (Dev League Collab), Hosted by RazeOblivion & orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
-`5. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
-`6. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
+`1. December 19th: Big Byte #8 (Dev League Collab), Hosted by RazeOblivion & orangeswim (WebCam, Bo3 Single Elim, 1.0 Format)` - <https://challonge.com/HardModeGamesBB8>\n \
+`2. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)`\n \
+`3. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)`")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
