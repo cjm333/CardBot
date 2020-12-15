@@ -98,6 +98,7 @@ module.exports = {
                 else if(elitePartner == "Agumon (Bond of Bravery)"){elitePartner = "agumon_kizuna";}
                 else if(elitePartner == "Gargomon"){elitePartner = "galgomon";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
+                else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
                 else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon"){customImage = true;}
                 if(customImage){
                     //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
