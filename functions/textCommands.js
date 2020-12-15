@@ -3,8 +3,8 @@ const { partner } = require("./partner")
 module.exports = {
     rulebook: function(message){
         message.channel.send("Your questions can be answered by reading the rulebook. Please familiarize yourself with it, per the server rules:\n \
-Server Made (slightly more in depth): https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
-Official: https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
+Server Made (slightly more in depth) - https://drive.google.com/folderview?id=13l4AygyBAPDxul58Uin4sczHNmEhaSOF\n \
+Official - https://world.digimoncard.com/rule/pdf/manual.pdf?201120")
     },
     borrow: function(message){
         message.channel.send("If you used any of the memory borrower skills like Metalgreymon/Weregarurumon/Chirinmon/Digitamamon, or the option card Gravity Press, and decide to pass your turn while having positive memory, it goes like this:\n1) Declare you want to pass turn, so you put it to 3 on your opponent's side in order to pass the turn.\n2) Memory borrower's [End of Turn] effect activates, you get -X memory for each memory borrower skill used")

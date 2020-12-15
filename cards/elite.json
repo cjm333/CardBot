@@ -33,6 +33,8 @@
         {"name": "Raspberry", "id": "239544831305580546", "normal": 3, "fresh": "an Egg", "inTraining": "an Egg", "rookie": "Hackmon", "champion": "BaoHuckmon", "ultimate": "SaviorHackmon", "mega": ["Jesmon"], "digivice": "Digivice"},
         {"name": "JeremyNZ", "id": "121792981362671618", "normal": 3, "fresh": "an Egg", "inTraining": "Wanyamon", "rookie": "Gaomon", "champion": "Gaogamon", "ultimate": "MachGaogamon", "mega": ["MirageGaogamon", "MirageGaogamon BURST MODE"], "digivice": "Applewatchvice"},
         {"name": "Ribell", "id": "277928302155530240", "normal": 3, "fresh": "Pipmon", "inTraining": "Tanemon", "rookie": "Palmon", "champion": "Togemon", "ultimate": "Lillymon", "mega": ["BanchoLillymon"], "digivice": "Digivice"},
+        {"name": "Bryansempai", "id": "256044639335874560", "normal": 3, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Lucemon", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice"},
+        {"name": "Kaiiiser", "id": "202786736009379840", "normal": 3, "fresh": "an Egg", "inTraining": "an Egg", "rookie": "Hackmon", "champion": "BaoHuckmon", "ultimate": "SaviorHackmon", "mega": ["Jesmon", "Jesmon X"], "digivice": "Digivice 01"},
 
         {"name": "Tesero", "id": "176959369030795274", "normal": 4, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Not Set", "champion": "Wizardmon", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice 01"},
         {"name": "R_009", "id": "591340274119213088", "normal": 2, "fresh": "Not Set", "inTraining": "Koromon", "rookie": "Not Set", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"},
