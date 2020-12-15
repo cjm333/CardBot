@@ -5,6 +5,7 @@ const unitData = require('./cards/units.json');
 const spellData = require('./cards/spells.json');
 const augmentData = require('./cards/augments.json');
 const otherCards = require('./cards/other.json');
+const loreData = require('./cards/lore.json');
 
 const search = require('./functions/search.js');
 const textCommands = require('./functions/textCommands.js');
@@ -18,6 +19,7 @@ spells = spellData.spells;
 augments = augmentData.augments;
 allCards = otherCards.champions.concat(otherCards.spirits).concat(otherCards.towers).concat(otherCards.shards).concat(units).concat(spells).concat(augments);
 draftFunctionPool = units.concat(spells).concat(augments);
+lore = loreData.cards;
 
 fireCards = [];
 waterCards = [];
@@ -265,6 +267,9 @@ client.on("message", message => {
     }
     else if(message.content.startsWith("!draft")){
         counter.draft(message, draftFunctionPool, seedrandom)
+    }
+    else if(message.content.startsWith("!lore")){
+        search.lore(message, lore, Discord);
     }
 
 });  

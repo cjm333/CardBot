@@ -13,7 +13,8 @@ module.exports = {
 !element: `Search in a particular element`\n \
 !basic: `List all basic units in the game`\n \
 !random: `Pull up a random card`\n \
-Append 'Type' or 'Text' to a command (besides !basic or !random) to filter based on preference. Ex: !unitType, !spiritText")
+!lore: `Read more into the world of Argos`\n \
+Append 'Type' or 'Text' to a command (besides !basic, !random, or !lore) to filter based on preference. Ex: !unitType, !spiritText")
     },
 
     cardPrint: function(message, cards){
