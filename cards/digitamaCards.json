@@ -5,7 +5,7 @@
     {"append": "tokomon-st3-01", "name": "Tokomon (ST3-01)", "id": "ST3-01"},
     {"append": "motimon-st4-01", "name": "Motimon (ST4-01)", "url": "https://digimon-bucket.s3.amazonaws.com/motimon-st4-01.png", "faq": "NOTE: Server Proxy"},
     {"append": "kapurimon-st5-01", "name": "Kapurimon (ST5-01)", "url": "https://digimon-bucket.s3.amazonaws.com/kapurimon-st5-01.png", "faq": "NOTE: Server Proxy"},
-    {"append": "pagumon-st6-01", "name": "Pagumon (ST6-01)", "url": "https://digimon-bucket.s3.amazonaws.com/pagumon-st6-01.jpg", "faq": "[When Destroyed] - Discard 2 cards from top of your deck"},
+    {"append": "pagumon-st6-01", "name": "Pagumon (ST6-01)", "url": "https://digimon-bucket.s3.amazonaws.com/pagumon-st6-01.png", "faq": "NOTE: Server Proxy"},
 
     {"append": "yokomon-bt1-001", "name": "Yokomon (BT1-001)", "id": "BT1-001"},
     {"append": "bebydomon-bt1-002", "name": "Bebydomon (BT1-002)", "id": "BT1-002"},

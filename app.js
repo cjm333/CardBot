@@ -147,6 +147,7 @@ client.on("message", message => {
             else if(message.content.startsWith("!info")){textCommands.info(message);}
             else if(message.content.startsWith("!reference")){textCommands.reference(message, bonus);}
             else if(message.content.startsWith("!deckloader")){textCommands.deckloader(message);}
+            else if(message.content.startsWith("!zaffy")){message.reply("TTS Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2042884945")}
 
         }
         else{
