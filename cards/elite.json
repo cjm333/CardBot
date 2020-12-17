@@ -35,9 +35,10 @@
         {"name": "Ribell", "id": "277928302155530240", "normal": 3, "fresh": "Pipmon", "inTraining": "Tanemon", "rookie": "Palmon", "champion": "Togemon", "ultimate": "Lillymon", "mega": ["BanchoLillymon"], "digivice": "Digivice"},
         {"name": "Bryansempai", "id": "256044639335874560", "normal": 3, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Lucemon", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice"},
         {"name": "Kaiiiser", "id": "202786736009379840", "normal": 3, "fresh": "an Egg", "inTraining": "an Egg", "rookie": "Hackmon", "champion": "BaoHuckmon", "ultimate": "SaviorHackmon", "mega": ["Jesmon", "Jesmon X"], "digivice": "Digivice 01"},
+        {"name": "danceking1711", "id": "143485529659408384", "normal": 3, "fresh": "an Egg", "inTraining": "Pagumon", "rookie": "BlackAgumon", "champion": "BlackGreymon", "ultimate": "MetalGreymon", "mega": ["BlackWarGreymon"], "digivice": "D-3"},
 
         {"name": "Tesero", "id": "176959369030795274", "normal": 4, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Not Set", "champion": "Wizardmon", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Digivice 01"},
         {"name": "R_009", "id": "591340274119213088", "normal": 2, "fresh": "Not Set", "inTraining": "Koromon", "rookie": "Not Set", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"},
-        {"name": "Hoang", "id": "151088210426986496", "normal": 3, "fresh": "Not Set", "inTraining": "Not Set", "rookie": "Hackmon", "champion": "Not Set", "ultimate": "Not Set", "mega": ["Not Set"], "digivice": "Smartphone Digivice"}
+        {"name": "Hoang", "id": "151088210426986496", "normal": 3, "fresh": "Kiimon", "inTraining": "DemiVeemon", "rookie": "Blucomon", "champion": "Darkmaildramon", "ultimate": "Mephistomon", "mega": ["Nidhoggmon", "Jesmon GX"], "digivice": "Smartphone Digivice"}
 
     ]}

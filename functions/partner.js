@@ -97,6 +97,8 @@ module.exports = {
                 else if(elitePartner == "ShineGreymon Burst Mode"){elitePartner = "shinegreymonburstmode";}
                 else if(elitePartner == "Agumon (Bond of Bravery)"){elitePartner = "agumon_kizuna";}
                 else if(elitePartner == "Gargomon"){elitePartner = "galgomon";}
+                else if(elitePartner == "Ogudomon X"){elitePartner = "ogudomon_x";}
+                else if(elitePartner == "Diablomon X"){elitePartner = "diablomon_x";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
                 else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon"){customImage = true;}
