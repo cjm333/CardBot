@@ -266,10 +266,13 @@ client.on("message", message => {
         counter.random(message, allCards, Discord, seedrandom);
     }
     else if(message.content.startsWith("!draft")){
-        counter.draft(message, draftFunctionPool, seedrandom)
+        counter.draft(message, draftFunctionPool, seedrandom);
     }
     else if(message.content.startsWith("!lore")){
         search.lore(message, lore, Discord);
+    }
+    else if(message.content.startsWith("!sticker")){
+        textCommands.stickers(message);
     }
 
 });  
