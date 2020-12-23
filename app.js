@@ -86,8 +86,9 @@ client.on("message", message => {
     if(message.content.toLowerCase().includes("bit nerd") || message.content.toLowerCase().includes("bitnerd")){
         message.delete()
     }
+    //681578268729540663 Big Server, 709829599604768770 HMG, 784566381072089109 DFW, 770014933474607196 DigiBox
     else if(message.content.startsWith("!") && message.guild){
-        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "667080188487532545" || message.guild.id == "784566381072089109"){
+        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "784566381072089109"){
 
             //Card Pull Ups
             if (message.content.startsWith("!card")){search.searching(message, allCards, 5, Discord);}
