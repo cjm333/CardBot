@@ -13,7 +13,7 @@
     {"append": "wanyamon-bt1-004", "name": "Wanyamon (BT1-004)", "id": "BT1-004"},
     {"append": "kyaromon-bt1-005", "name": "Kyaromon (BT1-005)", "id": "BT1-005"},
     {"append": "cupimon-bt1-006", "name": "Cupimon (BT1-006)", "id": "BT1-006"},
-    {"append": "tanemon-bt1-007", "name": "Tanemon (BT1-007)", "id": "BT1-007", "bonus": "This card is a reference to the Tanemon who runs the Meat Farm in DW1!"},
+    {"append": "tanemon-bt1-007", "name": "Tanemon (BT1-007)", "id": "BT1-007", "bonus": "This card is a reference to the Tanemon who runs the Meat Farm in DW1!", "faq": "FAQ: Digivolving in the Breeding Area does NOT count for this card's effect!"},
     {"append": "frimon-bt1-008", "name": "Frimon (BT1-08)", "id": "BT1-008"},
 
     {"append": "gigimon-bt2-001", "name": "Gigimon (BT2-001)", "url": "https://digimon-bucket.s3.amazonaws.com/gigimon-bt2-001.png"},

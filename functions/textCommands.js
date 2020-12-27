@@ -30,7 +30,7 @@ Partner Stuff: \n \
 !partner: `Check your partner and digivice` \n \
 !digivolve: `Digivolve your partner` \n \
 !dedigivolve: `Dedigivolve your partner` \n \
-!fight: `Duke it out in a brawl against an opponent` \n\n \
+!fight: `Duke it out in a brawl against an opponent (ONLY in the arena)` \n\n \
 Other:\n \
 !count: `Number of cards in a certain type`\n \
 !event: `List off the upcoming online events`\n \
