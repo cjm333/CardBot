@@ -47,9 +47,7 @@ Reminder: large messages self-delete after a short time")
 5. Promo Cards: <https://world.digimoncard.com/rule/pdf/qa_promocard.pdf?201120>\n\n \
 Translated Japanese FAQs:\n \
 1. BT3 Cards: <https://docs.google.com/document/d/11Uhu8R8CC9IouwbAICE4Ay5KFbJVvk7qWynjat_7K9Q/edit#>\n\n \
-NOTE: Bandai's English BT1 & BT2 FAQs have some formatting issues. Thus, the fully translated ones are below until those get fixed:\n \
-1. BT1 Cards: <https://game-academia.com/blogs/digimon-card-game-blog/digimon-card-game-booster-new-evolution-bt-01-q-a>\n \
-1. BT2 Cards: <https://game-academia.com/blogs/digimon-card-game-blog/digimon-card-game-booster-ultimate-power-bt-02-q-a>")        
+NOTE: Bandai's English BT1 & BT2 FAQs have some issues, so feel free to ask if something seems odd")        
     },
     keyword: function(message){
         message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \
