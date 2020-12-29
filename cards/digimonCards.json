@@ -63,7 +63,7 @@
         {"append": "youkomon-st6-07", "name": "Youkomon (ST6-07)", "url": "https://digimon-bucket.s3.amazonaws.com/youkomon-st6-07.png", "faq": "NOTE: Server Proxy"},
         {"append": "devimon-st6-08", "name": "Devimon (ST6-08)", "url": "https://digimon-bucket.s3.amazonaws.com/devimon-st6-08.png", "faq": "NOTE: Server Proxy"},
         {"append": "kyukimon-st6-09", "name": "Kyukimon (ST6-09)", "url": "https://digimon-bucket.s3.amazonaws.com/kyukimon-st6-09.png"},
-        {"append": "skullsatamon-st6-10", "name": "SkullSatamon (ST6-10)", "url": "https://digimon-bucket.s3.amazonaws.com/skullsatamon-st6-10.png", "faq": "[When Digivolving] Return 1 Purple Digimon card form your Trash to hand"},
+        {"append": "skullsatamon-st6-10", "name": "SkullSatamon (ST6-10)", "url": "https://digimon-bucket.s3.amazonaws.com/skullsatamon-st6-10.png", "faq": "[When Digivolving] You may return 1 Purple Digimon card from your Trash to hand"},
         {"append": "weregarurumon-st6-11", "name": "WereGarurumon (ST6-11)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st6-11.jpg", "faq": "Source: [Your Turn] If you have 5 or more cards in your Trash, this Digimon gets +2000 DP."},
         {"append": "venommyotismon-st6-12", "name": "VenomMyotismon (ST6-12)", "url": "https://digimon-bucket.s3.amazonaws.com/venommyotismon-st6-12.png", "faq": "[When Digivolved] 2 of your Digimon get <Vengeance> until the end of your opponents next turn."},
         {"append": "cresgarurumon-st6-13", "name": "CresGarurumon (ST6-13)", "url": "https://digimon-bucket.s3.amazonaws.com/cresgarurumon-st6-13.png", "faq": "<Security Attack +1>\n[Main] <Digi-Burst 2> Play 1 (Lv.3?) Purple Digimon from your Trash without paying its cost."},
