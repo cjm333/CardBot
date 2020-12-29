@@ -122,8 +122,11 @@ module.exports = {
             partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg");
             message.reply(partnerEmbed);
         }
-        else if(id == 237764316416180224){
+        else if(id == 237764316416180224){ //Saac
             message.reply("You're partnered to <:terriersip:720917483070160898> & <:lopcoke:774064395893735464>. You're connected via your Digivice!");
+        }
+        else if(id == 269674566408732672){ //jwhorth or joseph
+            message.reply("You're partnered to ZeedMillenniummon. You're connected via your D-3!");
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
