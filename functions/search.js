@@ -53,6 +53,7 @@ module.exports = {
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     cardEmbed.setDescription(card.effect)
+                    if(card.faq){cardEmbed.setFooter(card.faq)}
                     if(card.special){cardEmbed.setFooter(card.special)}
                     message.reply(cardEmbed);
                     doCheck = false
@@ -69,6 +70,7 @@ module.exports = {
                 cardEmbed.setImage(cardPool[0].url)
                 cardEmbed.setTitle(cardPool[0].name)
                 cardEmbed.setDescription(cardPool[0].effect)
+                if(cardPool[0].faq){cardEmbed.setFooter(cardPool[0].faq)}
                 if(cardPool[0].special){cardEmbed.setFooter(cardPool[0].special)}
                 message.reply(cardEmbed);
             }
@@ -182,6 +184,7 @@ module.exports = {
                     cardEmbed.setImage(card.url)
                     cardEmbed.setTitle(card.name)
                     cardEmbed.setDescription(card.text)
+                    if(card.faq){cardEmbed.setFooter(card.faq)}
                     if(card.fun){cardEmbed.setFooter(card.fun)}
                     message.reply(cardEmbed);
                     doCheck = false
@@ -198,6 +201,7 @@ module.exports = {
                 cardEmbed.setImage(cardPool[0].url)
                 cardEmbed.setTitle(cardPool[0].name)
                 cardEmbed.setDescription(cardPool[0].text)
+                if(cardPool[0].faq){cardEmbed.setFooter(cardPool[0].faq)}
                 if(cardPool[0].fun){cardEmbed.setFooter(cardPool[0].fun)}
                 message.reply(cardEmbed);
             }
