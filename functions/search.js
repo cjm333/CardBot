@@ -51,7 +51,7 @@ module.exports = {
                         temp = "https://world.digimoncard.com/images/cardlist/card/".concat(card.id).concat(".png")
                         cardEmbed.setImage(temp)
                     }
-                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
+                    message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 120000 }).catch(e => {})})
                     noMatch = false
                 }
             }
@@ -72,7 +72,7 @@ module.exports = {
                     temp = "https://world.digimoncard.com/images/cardlist/card/".concat(cardPool[0].id).concat(".png")
                     cardEmbed.setImage(temp)
                 }
-                message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 60000 }).catch(e => {})})
+                message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 120000 }).catch(e => {})})
             }
             else {
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
