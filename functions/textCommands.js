@@ -60,14 +60,13 @@ De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no 
 Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
 Retaliation: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`\n\n \
-Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effect below.`").then(msg => {msg.delete({ timeout: 60000 })}).catch(e => {})
+Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effect below.`").then(msg => {msg.delete({ timeout: 120000 })}).catch(e => {})
     },
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. January 9th: Dev League, Hosted by orangeswim (TTS, Bo3 Swiss, 1.0 Format)` - <https://challonge.com/dcdevbt4_3/>\n \
-`2. January 9th: Nightmare Colosseum Championship, Hosted by Nightmare (TTS, Bo3, 50 minutes, BT4 Format)`\n \
-`3. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)` - <https://challonge.com/dcdevbt4_4>")
+`1. January 16th: Dev League, Hosted by orangeswim (TTS, Bo3 Single Elim, BT4 Format)` - <https://challonge.com/dcdevbt4_4>\n\
+`2. January 23rd: IVy Leagues, Hosted by LoganIV (TTS, Bo3 Double Elim, BT4 Format)` - <https://challonge.com/u31sikab>")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
