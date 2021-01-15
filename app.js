@@ -18,6 +18,7 @@ units = unitData.units;
 spells = spellData.spells;
 augments = augmentData.augments;
 allCards = otherCards.champions.concat(otherCards.spirits).concat(otherCards.towers).concat(otherCards.shards).concat(units).concat(spells).concat(augments);
+altArts = otherCards.alts;
 draftFunctionPool = units.concat(spells).concat(augments);
 lore = loreData.cards;
 
@@ -98,7 +99,7 @@ client.on("message", message => {
         }
     }
     else if(message.content.startsWith("!champion")){
-        if(message.content.startsWith("!championType")){
+        if(message.content.startsWith("!championType") || message.content.startsWith("!champType")){
             message.reply("Sorry, Champions don't have types");
         }
         else if(message.content.startsWith("!championText")){
@@ -247,6 +248,9 @@ client.on("message", message => {
         else{
             search.searching(message, argentCards, 7, Discord);
         }
+    }
+    else if(message.content.startsWith("!alt")){
+        search.searching(message, altArts, 4, Discord);
     }
     else if(message.content.startsWith("!basic")){
         message.reply("Here are all the basic cards in the game:");
