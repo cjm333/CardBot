@@ -80,10 +80,10 @@
       {"append": "izzy-izumi-bt4-096-box-topper", "name": "Izzy Izumi (Box Topper, BT4-096)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-096_P1.png", "faq": "[Beginning of your turn] If your memory is 2 or less, make it 3.\n[On play] Open the top 3 cards of your deck. IF all the open cards are black cards, memory +1. Put the remaining cards on the tp of your deck in desired order."},
       {"append": "kari-kamiya-bt4-097-box-topper", "name": "Kari Kamiya (Box Topper, BT4-097)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-097_P1.png", "faq": "[Both Players Turn] When your Security is reduced, you may put this Tamer to Rest to gain Memory +1"},
 
-      {"append": "metalgreymon-st1-09-tamer-battle-pack", "name": "MetalGreymon (Tamer Battle Pack, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt.jpg"},
-      {"append": "zudomon-st2-09-tamer-battle-pack", "name": "Zudomon (Tamer Battle Pack, ST2-09)", "url": "https://digimon-bucket.s3.amazonaws.com/zudomon-st2-09-alt.png"},
-      {"append": "angewomon-st3-09-tamer-battle-pack", "name": "Angewomon (Tamer Battle Pack, ST3-09)", "url": "https://digimon-bucket.s3.amazonaws.com/angewomon-st3-09-alt.png"},
-      {"append": "megakabuterimon-bt1-076-tamer-battle-pack", "name": "MegaKabuterimon (Tamer Battle Pack, BT1-076)", "url": "https://digimon-bucket.s3.amazonaws.com/megakabuterimon-bt1-076-alt.png"},
+      {"append": "metalgreymon-st1-09-tamer-battle-pack", "name": "MetalGreymon (Tamer Battle Pack 1, ST1-09)", "url": "https://world.digimoncard.com/images/cardlist/card/ST1-09_P1.png"},
+      {"append": "zudomon-st2-09-tamer-battle-pack", "name": "Zudomon (Tamer Battle Pack 1, ST2-09)", "url": "https://world.digimoncard.com/images/cardlist/card/ST2-09_P1.png"},
+      {"append": "angewomon-st3-09-tamer-battle-pack", "name": "Angewomon (Tamer Battle Pack 1, ST3-09)", "url": "https://world.digimoncard.com/images/cardlist/card/ST3-09_P1.png"},
+      {"append": "megakabuterimon-bt1-076-tamer-battle-pack", "name": "MegaKabuterimon (Tamer Battle Pack 1, BT1-076)", "url": "https://world.digimoncard.com/images/cardlist/card/BT1-076_P1.png"},
 
       {"append": "garudamon-st1-08-alt-art", "name": "Garudamon (Tamer Battle Pack, ST1-08)", "url": "https://digimon-bucket.s3.amazonaws.com/garudamon-st1-08-alt.png"},
       {"append": "weregarurumon-st2-08-alt-art-1", "name": "WereGarurumon (Tamer Battle Pack, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt-1.jpg"},

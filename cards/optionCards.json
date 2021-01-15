@@ -97,8 +97,9 @@
       {"append": "jack-raid-bt4-111", "name": "Jack Raid (BT4-111)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-111.png", "faq": "[Main] Gain 1 memory for every 10 cards in your trash.\n[Sec] Gain 2 memory."},
       {"append": "hells-gate-bt4-112", "name": "Hell's Gate (BT4-112)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-112.png", "faq": "[Main] Destroy 1 of your opponent's LV6 or above Digimon\n[Sec] Add this card to your hand"},
 
-      {"append": "the-fate-of-two-worlds-p-021", "name": "The Fate of Two Worlds (P-021)", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png"},
-      {"append": "jogress-evolution-now-unite-your-heart-p-022", "name": "Jogress Evolution Now, Unite Your Heart (P-022)", "url": "https://digimon-bucket.s3.amazonaws.com/jogress-evolution-now-unite-your-heart-p-022.jpg"},
-      {"append": "patamons-confession-p-023", "name": "Patamon's Confession (P-023)", "url": "https://digimoncard.com/images/cardlist/card/P-023.png", "faq": "[Main] When you have a [Takaishi Takeru], put 1 of your [Patamon] to the bottom of your Security face down. Discard that Digimon's Evo sources\n[SEC] Add this card to your hand"}
+      {"append": "a-new-world-p-021", "name": "A New World (P-021)", "url": "https://digimon-bucket.s3.amazonaws.com/the-fate-of-two-worlds-p-021.png"},
+      {"append": "dna-digivolution-hearts-united-p-022", "name": "DNA Digivolution - Hearts United (P-022)", "url": "https://digimon-bucket.s3.amazonaws.com/jogress-evolution-now-unite-your-heart-p-022.jpg"},
+      {"append": "patamons-confession-p-023", "name": "Patamon's Confession (P-023)", "url": "https://digimoncard.com/images/cardlist/card/P-023.png", "faq": "[Main] When you have a [Takaishi Takeru], put 1 of your [Patamon] to the bottom of your Security face down. Discard that Digimon's Evo sources\n[SEC] Add this card to your hand"},
+      {"append": "tais-growing-up-p-023", "name": "Tai's Growing Up! (P-023)", "url": "https://digimoncard.com/images/cardlist/card/P-023.png", "faq": "[Main] When you have a [Takaishi Takeru], put 1 of your [Patamon] to the bottom of your Security face down. Discard that Digimon's Evo sources\n[SEC] Add this card to your hand"}
     ]
 }
