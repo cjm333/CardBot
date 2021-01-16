@@ -100,6 +100,8 @@ module.exports = {
                 else if(elitePartner == "Ogudomon X"){elitePartner = "ogudomon_x";}
                 else if(elitePartner == "Diablomon X"){elitePartner = "diablomon_x";}
                 else if(elitePartner == "OmniShoutmon"){elitePartner = "omegashoutmon";}
+                else if(elitePartner == "Jesmon X"){elitePartner = "jesmon_x";}
+                else if(elitePartner == "Jesmon GX"){elitePartner = "jesmongx";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
                 else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon"){customImage = true;}
