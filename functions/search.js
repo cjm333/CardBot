@@ -16,8 +16,9 @@ module.exports = {
 
         //Memes
         if(shortCut == "skandy"){shortCut = "iskandar"}
-        if(shortCut == "phlox"){shortCut = "white-rose"}
+        else if(shortCut == "phlox"){shortCut = "white-rose-knight"}
         else if(shortCut == "asb"){shortCut = "ancient-serpents-breath"}
+        else if(shortCut == "carbie"){shortCut = "arbor-carbuncle"}
 
         //Initial Card Gathering
         cardName = shortCut.split("-");
