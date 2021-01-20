@@ -74,6 +74,9 @@ module.exports = {
                 }
                 message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 120000 }).catch(e => {})})
             }
+            else if(cardPool.length == selectedCards.length || userSearch == "mon"){
+                message.reply("Sorry, try a more specific search")
+            }
             else {
                 message.reply("Multiple cards match your phrase. Pick from the list below and try again:")
                 returnable = "";
