@@ -22,10 +22,10 @@
         {"append": "tai-kamiya-bt2-089", "name": "Tai Kamiya (BT2-089)", "id": "BT2-089"},
         {"append": "matt-ishida-bt2-090", "name": "Matt Ishida (BT2-090)", "id": "BT2-090"},
 
-        {"append": "davis-motomiya-bt3-093", "name": "Davis Motomiya (BT3-093)", "url": "https://digimon-bucket.s3.amazonaws.com/davis-motomiya-bt3-093.png"},
-        {"append": "ken-ichijouji-bt3-094", "name": "Ken Ichijouji (BT3-094)", "url": "https://digimon-bucket.s3.amazonaws.com/ken-ichijouji-bt3-094.png"},
-        {"append": "joe-kido-bt3-095", "name": "Joe Kido (BT3-095)", "url": "https://digimon-bucket.s3.amazonaws.com/joe-kido-bt3-095.png"},
-        {"append": "mimi-tachikawa-bt3-096", "name": "Mimi Tachikawa (BT3-096)", "url": "https://digimon-bucket.s3.amazonaws.com/mimi-tachikawa-bt3-096.png"},
+        {"append": "davis-motomiya-bt3-093", "name": "Davis Motomiya (BT3-093)", "url": "BT3-093"},
+        {"append": "ken-ichijouji-bt3-094", "name": "Ken Ichijouji (BT3-094)", "url": "BT3-094"},
+        {"append": "joe-kido-bt3-095", "name": "Joe Kido (BT3-095)", "url": "BT3-095"},
+        {"append": "mimi-tachikawa-bt3-096", "name": "Mimi Tachikawa (BT3-096)", "url": "BT3-096"},
         
         {"append": "marcus-damon-bt4-092", "name": "Marcus Damon (BT4-092)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-092.png", "faq": "[Start of turn] If you have 2 or less memory, set your memory to 3.\n[Your Turn] When your Digimon whose name contains [Greymon] attacks, you may suspend this Tamer to gain 1 Memory. "},
         {"append": "thomas-h-norstein-bt4-093", "name": "Thomas H. Norstein (BT4-093)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-093.png", "faq": "[On Play] Trigger <Draw 1>.\n[Main] When your opponent has 8 or more cards in their hand, you may suspend this Tamer to unsuspend 1 of your Digimon whose name contains [Gao]. "},

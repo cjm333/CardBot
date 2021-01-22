@@ -1,3 +1,22 @@
+/*const got = require('got');
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
+const vgmUrl= 'https://pastebin.com/raw/qgcHF8nS';
+
+got(vgmUrl).then(response => {
+  const dom = new JSDOM(response.body);
+  //console.log(response.body)
+  console.log(response.body)
+  //var arr = Array.prototype.slice.call( collection )
+  //console.log(collection.length)
+  //console.log(dom.window.document.querySelector('title').innerHTML);
+
+  //console.log(dom.window.document.getElementsByClassName('post-view').length);
+}).catch(err => {
+  console.log(err);
+});*/
+
 //imports
 const Discord = require("discord.js");
 
@@ -158,4 +177,4 @@ client.on("message", message => {
 });
 
 // Log in the bot with the token
-client.login("*");
+client.login("NzQ4NzMyNjAyOTA2NTc0OTU5.X0htkw.POsyG95dr7gBwA9OhKlm8AYFPmM");

@@ -21,8 +21,11 @@
   "homepage": "https://github.com/cjm333/CardBot#readme",
   "dependencies": {
     "discord.js": "^12.3.1",
-    "google-spreadsheet": "^3.0.13",
+    "google-spreadsheet": "^3.1.15",
     "googleapis": "^39.2.0",
+    "got": "^10.4.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
