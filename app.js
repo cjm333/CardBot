@@ -177,4 +177,4 @@ client.on("message", message => {
 });
 
 // Log in the bot with the token
-client.login("NzQ4NzMyNjAyOTA2NTc0OTU5.X0htkw.POsyG95dr7gBwA9OhKlm8AYFPmM");
+client.login("*");
