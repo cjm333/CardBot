@@ -66,7 +66,8 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
     event: function(message){
         message.channel.send("Upcoming Events:\n \
 `1. January 30th, 5pm EST: Nightmare Colosseum, Hosted by Nightmare (TTS, Bo3, BT4 & BT5 Cards)` - <https://challonge.com/e1ho4om1>\n\
-`2. February 14th: IVy Leagues, Hosted by LoganIV (TTS, 1.5 Tag Team Format, Bo3 Single Elim)` - <https://challonge.com/Jogress>")
+`2. February 6th, 1pm EST: Big Byte #9, Hosted by RazeOblivion (Webcam, 1.0, Day 1 Bo3 Swiss, Day 2 Top 8)` - <https://challonge.com/HardModeGamesBB9>\n\
+`3. February 14th: IVy Leagues, Hosted by LoganIV (TTS, 1.5 Tag Team Format, Bo3 Single Elim)` - <https://challonge.com/Jogress>")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
