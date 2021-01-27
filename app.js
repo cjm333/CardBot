@@ -88,6 +88,10 @@ client.on("ready", () =>{
 // Check messages for a specific command
 client.on("message", message => {
 
+    if(message.content.includes("pivit")){
+        message.channel.send("Pivot*")
+    }
+
     if (message.content.startsWith("!card")){
         if(message.content.startsWith("!cardType")){
             search.searchType(message, allCards, 9);
