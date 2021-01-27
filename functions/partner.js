@@ -102,14 +102,18 @@ module.exports = {
                 else if(elitePartner == "OmniShoutmon"){elitePartner = "omegashoutmon";}
                 else if(elitePartner == "Jesmon X"){elitePartner = "jesmon_x";}
                 else if(elitePartner == "Jesmon GX"){elitePartner = "jesmongx";}
+                else if(elitePartner == "BeelStarmon X"){elitePartner = "beelstarmon_x";}
+                else if(elitePartner == "Sistermon Blanc"){elitePartner = "sistermonblanc";}
+                else if(elitePartner == "Sistermon Noir"){elitePartner = "sistermonnoir";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
-                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon"){customImage = true;}
+                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon" || "Sistermon Noir (Awakened)"){customImage = true;}
                 if(customImage){
                     //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
                     if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
                     else if(elitePartner == "OmegaNumemon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/OmegaNume.png");}
                     else if(elitePartner == "ModokiBetamon"){partnerEmbed.setImage("https://wikimon.net/images/3/3f/Modokibetamon.jpg");} 
+                    else if(elitePartner == "Sistermon Noir (Awakened)"){partnerEmbed.setImage("https://wikimon.net/images/f/f0/Sistermon_noir_awaken.jpg");} 
  
                 }
                 else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
