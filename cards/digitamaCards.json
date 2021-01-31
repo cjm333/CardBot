@@ -27,9 +27,9 @@
 
     {"append": "poromon-bt3-001", "name": "Poromon (BT3-001)", "id": "BT3-001"},
     {"append": "demiveemon-bt3-002", "name": "DemiVeemon (BT3-002)", "id": "BT3-002"},
-    {"append": "upamon-bt3-003", "name": "Upamon (BT3-003)", "id": "BT3-003", "faq": "This should say '[When attacking] (Once per turn) If your Security is 3 or less, <Draw +1>.'"},
+    {"append": "upamon-bt3-003", "name": "Upamon (BT3-003)", "id": "BT3-003"},
     {"append": "minomon-bt3-004", "name": "Minomon (BT3-004)", "id": "BT3-004"},
-    {"append": "kakkinmon-bt3-005", "name": "Kakkinmon (BT3-005)", "id": "BT3-005", "faq": "This should say '[When attacking] (Once Per Turn) If this Digimon is Lv. 7, get Memory +1.'" },
+    {"append": "kakkinmon-bt3-005", "name": "Kakkinmon (BT3-005)", "id": "BT3-005"},
     {"append": "demimeramon-bt3-006", "name": "DemiMeramon (BT3-006)", "id": "BT3-006"},
 
     {"append": "sakuttomon-bt4-001", "name": "Sakuttomon (BT4-001)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-001.png", "faq": "[When Attacking] (once per turn) When this Digimon is LV7, get Memory +1"},

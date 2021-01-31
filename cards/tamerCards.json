@@ -16,7 +16,7 @@
         
         {"append": "sora-takenouchi-bt2-084", "name": "Sora Takenouchi (BT2-084)", "id": "BT2-084"},
         {"append": "joe-kido-bt2-085", "name": "Joe Kido (BT2-085)", "id": "BT2-085"},
-        {"append": "rina-shinomiya-bt2-086", "name": "Rina Shinomiya (BT2-086)", "url": "https://digimon-bucket.s3.amazonaws.com/rina-bt2-086.png"},
+        {"append": "rina-shinomiya-bt2-086", "name": "Rina Shinomiya (BT2-086)", "id": "BT2-086"},
         {"append": "kari-kamiya-bt2-087", "name": "Kari Kamiya (BT2-087)", "id": "BT2-087"},
         {"append": "taiga-bt2-088", "name": "Taiga (BT2-088)", "id": "BT2-088"},
         {"append": "tai-kamiya-bt2-089", "name": "Tai Kamiya (BT2-089)", "id": "BT2-089"},
