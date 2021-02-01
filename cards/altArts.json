@@ -95,9 +95,15 @@
       {"append": "rizegreymon-bt2-038-alt-art-1", "name": "RizeGreymon (Tamer Battle Pack, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P1.png"},
       {"append": "argomon-bt2-047-alt-art", "name": "Argomon (Tamer Battle Pack, BT2-047)", "url": "https://digimoncard.com/images/cardlist/card/BT2-047_P1.png"},
 
+      {"append": "sirenmon-bt1-057-alt-art", "name": "Sirenmon (Tamer Battle Pack, BT1-057)", "url": "https://en.digimoncard.com/images/cardlist/card/BT1-057_P1.png"},
+      {"append": "aeroveedramon-bt2-028-alt-art", "name": "AeroVeedramon (Tamer Battle Pack, BT2-028)", "url": "https://en.digimoncard.com/images/cardlist/card/BT2-028_P1.png"},
+      {"append": "andromon-bt2-038-alt-art", "name": "Andromon (Tamer Battle Pack, BT2-038)", "url": "https://en.digimoncard.com/images/cardlist/card/BT2-061_P1.png"},
+      {"append": "kimeramon-bt2-077-alt-art", "name": "Kimeramon (Tamer Battle Pack, BT2-077)", "url": "https://en.digimoncard.com/images/cardlist/card/BT2-077_P1.png"},
+
       {"append": "metalgreymon-st1-09-alt-art-japanese-locals-winner", "name": "MetalGreymon (Japanese Locals Winner Alt Art, ST1-09)", "url": "https://digimon-bucket.s3.amazonaws.com/metalgreymon-st1-09-alt-2.png"},
       {"append": "weregarurumon-st2-08-alt-art-japanese-locals-winner", "name": "WereGarurumon (Japanese Locals Winner Alt Art, ST2-08)", "url": "https://digimon-bucket.s3.amazonaws.com/weregarurumon-st2-08-alt.jpg"},
       {"append": "rizegreymon-bt2-038-premium-pack-01", "name": "RizeGreymon (Premium Pack 01, BT2-038)", "url": "https://digimoncard.com/images/cardlist/card/BT2-038_P2.png"},
+      {"append": "kimeramon-bt2-077-alt-art-japanese-locals-winner", "name": "Kimeramon (Japanese Locals Winner Alt Art, BT2-077)", "url": "https://en.digimoncard.com/images/cardlist/card/BT2-077_P2.png"},
 
       {"append": "wing-blade-st1-13-premium-bandai", "name": "Wing Blade (Premium Bandai, ST1-13)", "url": "https://digimon-bucket.s3.amazonaws.com/wing-blade-st1-13-alt.jpg"},
       {"append": "terra-force-st1-16-premium-bandai", "name": "Terra Force (Premium Bandai, ST1-16)", "url": "https://digimon-bucket.s3.amazonaws.com/terra-force-st1-16-alt.jpg"},
