@@ -88,7 +88,7 @@ client.on("ready", () =>{
 // Check messages for a specific command
 client.on("message", message => {
 
-    if(message.content.includes("pivit")){
+    if(message.content.includes("pivit") || message.content.includes("Pivit")){
         message.channel.send("Pivot*")
     }
 
