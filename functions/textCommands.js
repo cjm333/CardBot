@@ -66,7 +66,17 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
     event: function(message){
         message.channel.send("Upcoming Events:\n \
 `1. February 6th, 1pm EST: Big Byte #9, Hosted by RazeOblivion (Webcam, 1.0, Day 1 Bo3 Swiss, Day 2 Top 8)` - <https://challonge.com/HardModeGamesBB9>\n\
-`2. February 13th: IVy Leagues, Hosted by LoganIV (TTS, 1.5 Tag Team Format, Bo3 Single Elim)` - <https://challonge.com/Jogress>")
+`2. February 13th: IVy Leagues, Hosted by LoganIV (TTS, 1.5 Tag Team Format, Bo3 Single Elim)` - <https://challonge.com/Jogress>\n\
+`3. February 27th, 5pm EST: Nightmare Colusseum, Hosted by Nightmare (TTS,  Single Elim, 50min Rounds, Bo3, Cash Prizing)` - <https://challonge.com/8jk2n5e2>")
+    },
+    release: function(message){
+        message.channel.send("Upcoming English Releases:\n\
+`1. Booster 1.0: February 12th (Delayed from January 29th)`\n\
+`2. Booster 1.5: March 12th (Delayed from February 28th)`\n\
+`3. Premium Pack 01: April 15th`\n\
+`4. Great Legends (BT4): May 28th (Delayed from original)`\n\
+`5. Battle of Omni (BT5): July 23rd (Dealyed from original)`\n\
+`6. ST4-6: Originally alongside BT4, unsure now with the BT4 delays`")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \

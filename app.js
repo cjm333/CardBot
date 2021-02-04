@@ -162,6 +162,7 @@ client.on("message", message => {
             else if(message.content.startsWith("!help")){textCommands.help(message);}
             else if(message.content.startsWith("!starter")){starters.print(message);}
             else if(message.content.startsWith("!event")){textCommands.event(message);}
+            else if(message.content.startsWith("!release")){textCommands.release(message);}
             else if(message.content.startsWith("!info")){textCommands.info(message);}
             else if(message.content.startsWith("!reference")){textCommands.reference(message, bonus);}
             else if(message.content.startsWith("!deckloader")){textCommands.deckloader(message);}
