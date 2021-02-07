@@ -1,21 +1,27 @@
 module.exports = {
     help: function(message){
         message.reply("Here are a list of commands:\n\
+Normal Searches:\n\
 !card: `Search all cards`\n\
 !unit: `Search only units`\n\
 !spell: `Search only spells`\n\
 !augment: `Search only augments`\n\
-!champ or !champion: `Search only champions`\n\
+!champion: `Search only champions`\n\
 !spirit: `Search only spirits`\n\
 !tower: `Search only towers`\n\
-!shard: `Search only shards`\n\
+!shard: `Search only shards`\n\n\
+Variant Searches:\n\
 !alt: `Search alternate arts`\n\
+!alpha: `Search the alpha versions of intro cards (WIP)`\n\
+!beta: `Search test versions of intro cards (WIP)`\n\
+!original: `Search the lower rarity versions of cards (WIP)`\n\n\
+Other:\n\
 !count: `Get how many cards there are of a type`\n\
 !element: `Search in a particular element`\n\
 !basic: `List all basic units in the game`\n\
 !random: `Pull up a random card`\n\
 !lore: `Read more into the world of Argos`\n\
-Append 'Type' or 'Text' to a command (besides !basic, !random, or !lore) to filter based on preference. Ex: !unitType, !spiritText")
+Append 'Type' or 'Text' to a command from the first section to filter differently. Ex: !unitType, !spiritText")
     },
 
     cardPrint: function(message, cards){
