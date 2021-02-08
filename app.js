@@ -102,10 +102,10 @@ client.on("guildMemberAdd", member => {
 
 //Check messages for commands
 client.on("message", message => {
-    //681578268729540663 Big Server, 709829599604768770 HMG, 784566381072089109 DFW, 770014933474607196 DigiBox
+    //681578268729540663 Big Server, 709829599604768770 HMG, 784566381072089109 DFW, 770014933474607196 DigiBox, 642834824754626626 Defensa
     
     //if(message.content.startsWith("!") && message.guild){
-        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "784566381072089109"){
+        if(message.guild.id == "681578268729540663" || message.guild.id == "709829599604768770" || message.guild.id == "770014933474607196" || message.guild.id == "784566381072089109" || message.guild.id == "642834824754626626"){
 
             //Card Pull Ups
             if (message.content.startsWith("!card")){search.searching(message, allCards, 5, Discord);}

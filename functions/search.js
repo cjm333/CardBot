@@ -2,16 +2,22 @@ module.exports = {
     searching: function(message, selectedCards, sliceLength, Discord){
         //Variable Setup
         const cardEmbed = new Discord.MessageEmbed()
-        channel = message.channel
+        const channel = message.channel
         var noMatch = new Boolean(true)
         cardPool = []
         cardNames = []
     
         //User Search Parsing
-        const args = message.content.slice(sliceLength).trim()
-        const argsURL = args.replace(/'/g, "").replace("promo", "p").replace("(", "").replace(")", "").replace(":", "").replace("#", "").replace("!", "")
-        const shortCut = argsURL.toLowerCase().replace(/\s/g, "-")
-        const userSearch = argsURL.toLowerCase().split(" ");
+        args = message.content.slice(sliceLength).trim()
+        args = args.replace(/[():#!\*']/g, "").replace("promo", "p").replace("&", "and")
+        const shortCut = args.toLowerCase().replace(/\s/g, "-")
+        const userSearch = args.toLowerCase().replace(/-/g, "").split(" ");
+
+        //Disallow Massive Results
+        if(shortCut == "mon" || shortCut.replace(/-/g, "").length <= 2 || ((shortCut.length == 3 || shortCut.length == 4) && shortCut.includes("bt"))){
+            message.reply("Sorry, try a more specific search")
+            return;
+        }
 
         //Initial Card Gathering
         for(card of selectedCards){
@@ -74,7 +80,7 @@ module.exports = {
                 }
                 message.reply(cardEmbed).then(msg => {msg.delete({ timeout: 120000 }).catch(e => {})})
             }
-            else if(cardPool.length == selectedCards.length || userSearch == "mon"){
+            else if(cardPool.length == selectedCards.length){
                 message.reply("Sorry, try a more specific search")
             }
             else {
@@ -85,7 +91,7 @@ module.exports = {
                 for(name of cardNames){
                     returnable = returnable + name + "\n";
                     counter += 1
-                    if(counter % 5 == 0 || counter == cardPool.length){
+                    if(counter % 10 == 0 || counter == cardPool.length){
                         message.channel.send(returnable)
                         returnable = ""
                     }
