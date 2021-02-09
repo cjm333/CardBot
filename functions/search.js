@@ -11,7 +11,7 @@ module.exports = {
         args = message.content.slice(sliceLength).trim()
         args = args.replace(/[():#!\*']/g, "").replace("promo", "p").replace("&", "and")
         const shortCut = args.toLowerCase().replace(/\s/g, "-")
-        const userSearch = args.toLowerCase().replace(/-/g, "").split(" ");
+        const userSearch = args.toLowerCase().replace(/-/g, " ").split(" ");
 
         //Disallow Massive Results
         if(shortCut == "mon" || shortCut.replace(/-/g, "").length <= 2 || ((shortCut.length == 3 || shortCut.length == 4) && shortCut.includes("bt"))){
