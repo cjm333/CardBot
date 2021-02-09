@@ -105,9 +105,10 @@ module.exports = {
                 else if(elitePartner == "BeelStarmon X"){elitePartner = "beelstarmon_x";}
                 else if(elitePartner == "Sistermon Blanc"){elitePartner = "sistermonblanc";}
                 else if(elitePartner == "Sistermon Noir"){elitePartner = "sistermonnoir";}
+                else if(elitePartner == "DoruGreymon"){elitePartner = "doruguremon";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
-                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon" || "Sistermon Noir (Awakened)"){customImage = true;}
+                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon" || elitePartner == "Sistermon Noir (Awakened)"){customImage = true;}
                 if(customImage){
                     //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
                     if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
@@ -116,7 +117,10 @@ module.exports = {
                     else if(elitePartner == "Sistermon Noir (Awakened)"){partnerEmbed.setImage("https://wikimon.net/images/f/f0/Sistermon_noir_awaken.jpg");} 
  
                 }
-                else{partnerEmbed.setImage("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg");}
+                else{
+                    link = "https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg";
+                    partnerEmbed.setImage(link);
+                }
                 //console.log("https://digimon.net/cimages/digimon/" + elitePartner.toLowerCase() + ".jpg")
                 message.reply(partnerEmbed);
                 elite = false;
@@ -133,6 +137,12 @@ module.exports = {
         }
         else if(id == 269674566408732672){ //jwhorth or joseph
             message.reply("You're partnered to ZeedMillenniummon. You're connected via your D-3!");
+        }
+        else if(id == 121792981362671618){ //JeremyNZ
+            message.reply("You're partnered to Gaomon. You're connected via your Digivice!");
+        }
+        else if(id == 202786736009379840){ //Kaiiiser/Temperance
+            message.reply("You're partnered to Hackmon. You're connected via your Digivice 01!");
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
