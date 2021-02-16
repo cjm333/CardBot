@@ -66,7 +66,7 @@
       {"append": "heat-viper-bt2-109", "name": "Heat Viper (BT2-109)", "id": "BT2-109"},
       {"append": "trump-sword-bt2-110", "name": "Trump Sword (BT2-110)", "id": "BT2-110"},
 
-      {"append": "a-delicate-plan-bt3-097", "name": "A Delicate Plan (BT3-097)", "id": "BT3-097", "bonus": "This card is based on the Hyper Colosseum card \"Elaborate Tactics! (Sp-3)\""},
+      {"append": "a-delicate-plan-bt3-097", "name": "A Delicate Plan (BT3-097)", "id": "BT3-097", "bonus": "This card is based on the Hyper Colosseum card \"Elaborate Tactics! (Sp-3)\"","faq": "OFFICIAL ERRATA: This card should read \"any *option* cards it checks\""},
       {"append": "plasma-stake-bt3-098", "name": "Plasma Stake (BT3-098)", "id": "BT3-098"},
       {"append": "we-have-to-stop-fighting-bt3-099", "name": "We Have to Stop Fighting! (BT3-099)", "id": "BT3-099", "bonus": "This card is based on the Hyper Colosseum card \"Let's Stop Fighting (Bo-51)\""},
       {"append": "death-parade-blaster-bt3-100", "name": "Death Parade Blaster (BT3-100)", "id": "BT3-100"},

@@ -144,6 +144,18 @@ module.exports = {
         else if(id == 202786736009379840){ //Kaiiiser/Temperance
             message.reply("You're partnered to Hackmon. You're connected via your Digivice 01!");
         }
+        else if(id == 633478293319843871){ //Benjamin
+            message.reply("You're partnered to Agumon. You're connected via your Smartphone Digivice!");
+        }
+        else if(id == 243339038361255937){ //Nahjd
+            message.reply("You're partnered to Solarmon. You're connected via your D-3!");
+        }
+        else if(id == 323661590673096705){ //Numewife
+            message.reply("You're partnered to Terriermon. You're connected via your D-Tector!");
+        }
+        else if(id == 323661590673096705){ //Lugos
+            message.reply("You're partnered to Terriermon. You're connected via your D-Power!");
+        }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");
         }

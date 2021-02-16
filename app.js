@@ -163,10 +163,11 @@ client.on("message", message => {
             else if(message.content.startsWith("!starter")){starters.print(message);}
             else if(message.content.startsWith("!event")){textCommands.event(message);}
             else if(message.content.startsWith("!release")){textCommands.release(message);}
+            else if(message.content.startsWith("!banlist")){textCommands.banlist(message);}
             else if(message.content.startsWith("!info")){textCommands.info(message);}
             else if(message.content.startsWith("!reference")){textCommands.reference(message, bonus);}
             else if(message.content.startsWith("!deckloader")){textCommands.deckloader(message);}
-            else if(message.content.startsWith("!zaffy")){message.reply("TTS Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2042884945")}
+            else if(message.content.startsWith("!cake")){message.channel.send("https://steamcommunity.com/sharedfiles/filedetails/?id=2330775492")}
             else if(message.content.startsWith("!rkList")){
                 message.guild.members.cache.forEach( member =>
                     {if(member.roles.cache.find(r => r.name === "Royal Knight")){

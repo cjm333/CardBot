@@ -21,11 +21,12 @@ Searching:\n \
 Useful:\n \
 !rulebook: `Simple question answer`\n \
 !faq: `List common question answers`\n \
+!banlist: `Most current banlist`\n\
 !keyword: `List keywords`\n \
 !borrow: `Information on memory borrowing`\n \
 !meme: `Digivolving vs. Playing`\n \
 !import: `TTS Custom Import info`\n \
-!zaffy: `Link to TTS mod`\n\n \
+!cake: `Link to TTS mod`\n\n \
 Partner Stuff: \n \
 !partner: `Check your partner and digivice` \n \
 !digivolve: `Digivolve your partner` \n \
@@ -46,7 +47,8 @@ Reminder: large messages self-delete after a short time")
 4. BT2 Cards: <https://world.digimoncard.com/rule/pdf/qa_pack_02.pdf?201120>\n \
 5. Promo Cards: <https://world.digimoncard.com/rule/pdf/qa_promocard.pdf?201120>\n\n \
 Translated Japanese FAQs:\n \
-1. BT3 Cards: <https://docs.google.com/document/d/11Uhu8R8CC9IouwbAICE4Ay5KFbJVvk7qWynjat_7K9Q/edit#>\n\n \
+1. BT3 Cards: <https://docs.google.com/document/d/11Uhu8R8CC9IouwbAICE4Ay5KFbJVvk7qWynjat_7K9Q/edit#>\n\
+2. BT4 Cards: <https://game-academia.com/blogs/digimon-card-game-blog/digimon-card-game-booster-great-legend-bt-04-q-a>\n\n \
 NOTE: Bandai's English FAQs may have some issues, so feel free to ask if something seems odd")        
     },
     keyword: function(message){
@@ -70,13 +72,17 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
-`1. Booster 1.0: February 12th (Delayed from January 29th)`\n\
-`2. Booster 1.5: March 12th (Delayed from February 28th)`\n\
-`3. Premium Pack 01: April 15th`\n\
-`4. Great Legends (BT4): May 28th (Delayed from original)`\n\
-`5. Battle of Omni (BT5): July 23rd (Dealyed from original)`\n\
-`6. WarGreymon Playmat Bundle: August`\n\
-`7. ST4-6: Originally alongside BT4, unsure now with the BT4 delays`")
+`1. Booster 1.5: March 12th (Delayed from February 28th)`\n\
+`2. Premium Pack 01: April 15th`\n\
+`3. Great Legends (BT4): May 28th (Delayed from original)`\n\
+`4. Battle of Omni (BT5): July 23rd (Dealyed from original)`\n\
+`5. WarGreymon Playmat Bundle: August`\n\
+`6. ST4-6: Originally alongside BT4, unsure now with the BT4 delays`")
+    },
+    banlist: function(message){
+        message.channel.send("***Limited to 1:***       Effective April 1st for English\n\
+Argomon (BT2-047)\n\
+Hidden Potential Discovered!! (BT3-103)")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
