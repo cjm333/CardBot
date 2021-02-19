@@ -3,31 +3,31 @@ module.exports = {
         returnable = "";
         digivices = ["Digivice 01", "D-Cyber", "Digivice", "D-3", "D-Power", "Data Link", "Fusion Loader", "Digivice:", "Smartphone Digivice"]
         switch(id){
-            case 410833999129214976: //Majora
+            case "410833999129214976": //Majora
                 returnable = "D-Ark";
                 break;
-            case 237764316416180224: //Saac
+            case "237764316416180224": //Saac
                 returnable = "Digivice";
                 break;
-            case 269674566408732672: //jwhorth or Joseph
+            case "269674566408732672": //jwhorth or Joseph
                 returnable = "D-3";
                 break;
-            case 121792981362671618: //JeremyNZ
+            case "121792981362671618": //JeremyNZ
                 returnable = "Digivice";
                 break;
-            case 202786736009379840: //Kaiiiser/Temperance
+            case "202786736009379840": //Kaiiiser/Temperance
                 returnable = "Digivice 01";
                 break;
-            case 633478293319843871: //Benjamin
+            case "633478293319843871": //Benjamin
                 returnable = "Smartphone Digivice";
                 break;
-            case 243339038361255937: //Nahjd
+            case "243339038361255937": //Nahjd
                 returnable = "D-3";
                 break;
-            case 323661590673096705: //Numewife
+            case "323661590673096705": //Numewife
                 returnable = "D-Tector";
                 break;
-                case 238058299608530955: //Lugos
+            case "238058299608530955": //Lugos
                 returnable = "D-Power";
                 break;
             default:
@@ -59,31 +59,31 @@ module.exports = {
         "Spadamon", "Gizumon", "Syakomon X", "Gomamon X", "Gotsumon X", "Guilmon X", "Professor Agumon", "Terriermon Assistant",
         "Hagurumon X", "Herissmon", "Hyokomon", "Vemmon", "Vi-Elecmon", "Impmon X", "Keramon X"]
         switch(id){
-            case 410833999129214976: //Majora
+            case "410833999129214976": //Majora
                 returnable = "SnowAgumon";
                 break;
-            case 237764316416180224: //Saac
+            case "237764316416180224": //Saac
                 returnable = "<:terriersip:720917483070160898> & <:lopcoke:774064395893735464>";
                 break;
-            case 269674566408732672: //jwhorth or joseph
+            case "269674566408732672": //jwhorth or joseph
                 returnable = "ZeedMillenniummon";
                 break;
-            case 121792981362671618: //JeremyNZ
+            case "121792981362671618": //JeremyNZ
                 returnable = "Gaomon";
                 break;
-            case 202786736009379840: //Kaiiiser/Temperance
+            case "202786736009379840": //Kaiiiser/Temperance
                 returnable = "Hackmon";
                 break;
-            case 633478293319843871: //Benjamin
+            case "633478293319843871": //Benjamin
                 returnable = "Agumon";
                 break;
-            case 243339038361255937: //Nahjd
+            case "243339038361255937": //Nahjd
                 returnable = "Solarmon";
                 break;
-            case 323661590673096705: //Numewife
+            case "323661590673096705": //Numewife
                 returnable = "Terriermon";
                 break;
-            case 238058299608530955: //Lugos
+            case "238058299608530955": //Lugos
                 returnable = "Terriermon";
                 break;
             default:
@@ -214,11 +214,7 @@ module.exports = {
         if(elite){
             for(searchable of partnerJSON){
                 if(id == searchable.id){
-                    //console.log(id)
-                    //console.log(searchable.id)
-                    //console.log(grab)
                     grab = searchable;
-                    //console.log(grab)
                 }
             }
 
