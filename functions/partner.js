@@ -1,11 +1,44 @@
 module.exports = {
     getDigivice: function(id) {
+        returnable = "";
         digivices = ["Digivice 01", "D-Cyber", "Digivice", "D-3", "D-Power", "Data Link", "Fusion Loader", "Digivice:", "Smartphone Digivice"]
-        index = id%digivices.length
-        return digivices[index]
+        switch(id){
+            case 410833999129214976: //Majora
+                returnable = "D-Ark";
+                break;
+            case 237764316416180224: //Saac
+                returnable = "Digivice";
+                break;
+            case 269674566408732672: //jwhorth or Joseph
+                returnable = "D-3";
+                break;
+            case 121792981362671618: //JeremyNZ
+                returnable = "Digivice";
+                break;
+            case 202786736009379840: //Kaiiiser/Temperance
+                returnable = "Digivice 01";
+                break;
+            case 633478293319843871: //Benjamin
+                returnable = "Smartphone Digivice";
+                break;
+            case 243339038361255937: //Nahjd
+                returnable = "D-3";
+                break;
+            case 323661590673096705: //Numewife
+                returnable = "D-Tector";
+                break;
+                case 238058299608530955: //Lugos
+                returnable = "D-Power";
+                break;
+            default:
+                index = id%digivices.length;
+                returnable = digivices[index];
+        }
+        return returnable;
     },
 
     getPartner: function(id){
+        returnable = "";
         partners = ["Agumon", "Gabumon", "Gomamon", "Tentomon", "Palmon", "Biyomon", "Patamon", "Salamon", "Betamon", 
         "Guilmon", "Renamon", "Gatomon", "Lopmon", "Terriermon", "Gotsumon", "Kokuwamon", "DemiDevimon", "Monodramon", 
         "FanBeemon", "Guardromon", "MarineAngemon", "Impmon", "Hagurumon", "Shoutmon", "Gumdramon", "Neemon", "Bearmon",
@@ -25,8 +58,39 @@ module.exports = {
         "Sangomon", "ShadowToyAgumon", "Shamanmon", "Gabumon X", "Sistermon Blanc", "SnowGoblimon", "Gazimon X", "Ghostmon",
         "Spadamon", "Gizumon", "Syakomon X", "Gomamon X", "Gotsumon X", "Guilmon X", "Professor Agumon", "Terriermon Assistant",
         "Hagurumon X", "Herissmon", "Hyokomon", "Vemmon", "Vi-Elecmon", "Impmon X", "Keramon X"]
-        index = id%partners.length
-        return partners[index]
+        switch(id){
+            case 410833999129214976: //Majora
+                returnable = "SnowAgumon";
+                break;
+            case 237764316416180224: //Saac
+                returnable = "<:terriersip:720917483070160898> & <:lopcoke:774064395893735464>";
+                break;
+            case 269674566408732672: //jwhorth or joseph
+                returnable = "ZeedMillenniummon";
+                break;
+            case 121792981362671618: //JeremyNZ
+                returnable = "Gaomon";
+                break;
+            case 202786736009379840: //Kaiiiser/Temperance
+                returnable = "Hackmon";
+                break;
+            case 633478293319843871: //Benjamin
+                returnable = "Agumon";
+                break;
+            case 243339038361255937: //Nahjd
+                returnable = "Solarmon";
+                break;
+            case 323661590673096705: //Numewife
+                returnable = "Terriermon";
+                break;
+            case 238058299608530955: //Lugos
+                returnable = "Terriermon";
+                break;
+            default:
+                index = id%partners.length;
+                returnable = partners[index];
+        }
+        return returnable;
     },
     
     partner: function(message, partnerJSON, tracking, Discord){
@@ -125,36 +189,6 @@ module.exports = {
                 message.reply(partnerEmbed);
                 elite = false;
             }
-        }
-        else if(id == 410833999129214976){
-            partnerEmbed = new Discord.MessageEmbed();
-            partnerEmbed.setDescription("You're partnered to SnowAgumon. You're connected via your D-Ark!");
-            partnerEmbed.setImage("https://digimon.net/cimages/digimon/snowagumon.jpg");
-            message.reply(partnerEmbed);
-        }
-        else if(id == 237764316416180224){ //Saac
-            message.reply("You're partnered to <:terriersip:720917483070160898> & <:lopcoke:774064395893735464>. You're connected via your Digivice!");
-        }
-        else if(id == 269674566408732672){ //jwhorth or joseph
-            message.reply("You're partnered to ZeedMillenniummon. You're connected via your D-3!");
-        }
-        else if(id == 121792981362671618){ //JeremyNZ
-            message.reply("You're partnered to Gaomon. You're connected via your Digivice!");
-        }
-        else if(id == 202786736009379840){ //Kaiiiser/Temperance
-            message.reply("You're partnered to Hackmon. You're connected via your Digivice 01!");
-        }
-        else if(id == 633478293319843871){ //Benjamin
-            message.reply("You're partnered to Agumon. You're connected via your Smartphone Digivice!");
-        }
-        else if(id == 243339038361255937){ //Nahjd
-            message.reply("You're partnered to Solarmon. You're connected via your D-3!");
-        }
-        else if(id == 323661590673096705){ //Numewife
-            message.reply("You're partnered to Terriermon. You're connected via your D-Tector!");
-        }
-        else if(id == 323661590673096705){ //Lugos
-            message.reply("You're partnered to Terriermon. You're connected via your D-Power!");
         }
         else{
             message.reply("Your partnered to " + this.getPartner(id) + ". You're connected via your " + this.getDigivice(id) + "!");

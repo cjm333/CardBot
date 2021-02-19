@@ -19,7 +19,7 @@
     {"append": "gigimon-bt2-001", "name": "Gigimon (BT2-001)", "id": "BT2-001"},
     {"append": "demiveemon-bt2-002", "name": "DemiVeemon (BT2-002)", "id": "BT2-002"},
     {"append": "nyaromon-bt2-003", "name": "Nyaromon (BT2-003)", "id": "BT2-003"},
-    {"append": "argomon-bt2-004", "name": "Argomon (BT2-004)", "id": "BT2-004"},
+    {"append": "argomon-bt2-004", "name": "Argomon (LV. 2, BT2-004)", "id": "BT2-004"},
     {"append": "kapurimon-bt2-005", "name": "Kapurimon (BT2-005)", "id": "BT2-005"},
     {"append": "tsumemon-bt2-006", "name": "Tsumemon (BT2-006)", "id": "BT2-006"},
     {"append": "pagumon-bt2-007", "name": "Pagumon (BT2-007)", "id": "BT2-007"},
@@ -39,11 +39,12 @@
     {"append": "missimon-bt4-005", "name": "Missimon (BT4-005)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-005.png", "faq": "[Your turn] While this Digimon is [D-Brigade] type, it gets +1000 DP."},
     {"append": "xiaomon-bt4-006", "name": "Xiaomon (BT4-006)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-006.png", "faq": "[Your turn] While you have 10 or more cards in your trash, this digimon gains <Retaliation>."},
 
-    {"append": "koromon-bt5-001", "name": "Koromon (BT5-01)", "url": "https://digimon-bucket.s3.amazonaws.com/koromon-bt5-001.jpg", "faq": "[When Attacking] (once per turn) If this Digimon has [Greymon] or [Omegamon] in its name, <Draw 1>"},
-    {"append": "tsunomon-bt5-002", "name": "Tsunomon (BT5-02)", "url": "https://digimon-bucket.s3.amazonaws.com/tsunomon-bt5-002.jpg", "faq": "[Your Turn] If this Digimon has [Garurumon] or [Omegamon] in its name, this Digimon gets +1000DP"},
-    {"append": "pickmon-bt5-003", "name": "Pickmon (BT5-03)", "url": "https://digimon-bucket.s3.amazonaws.com/pickmon-bt5-003.png", "faq": "Inheritable: [When Attacking] If you have 3 or more Digimon, 1 of your opponent's Digimon gets -1000DP for the turn"},
-    {"append": "yokomon-bt5-004", "name": "Yokomon (BT5-04)", "url": "https://digimon-bucket.s3.amazonaws.com/yokomon-bt5-004.jpg", "faq": "Inheritable: [Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, 1 of your Digimon gets +2000 DP for the turn."},
-    {"append": "gigimon-bt5-006", "name": "Gigimon (BT5-06)", "url": "https://digimon-bucket.s3.amazonaws.com/gigimon-bt5-006.jpg", "faq": "[Your Turn] (Once per turn) When another of your Digimon is deleted, this Digimon gets +2000 DP for the turn."}
+    {"append": "koromon-bt5-001", "name": "Koromon (BT5-01)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-001.png", "faq": "Inheritable: [When Attacking] (once per turn) If this Digimon has [Greymon] or [Omegamon] in its name, <Draw 1>"},
+    {"append": "tsunomon-bt5-002", "name": "Tsunomon (BT5-02)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-002.png", "faq": "Inheritable: [Your Turn] If this Digimon has [Garurumon] or [Omegamon] in its name, this Digimon gets +1000DP"},
+    {"append": "pickmon-bt5-003", "name": "Pickmon (BT5-03)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-003.png", "faq": "Inheritable: [When Attacking] If you have 3 or more Digimon, 1 of your opponent's Digimon gets -1000DP for the turn"},
+    {"append": "yokomon-bt5-004", "name": "Yokomon (BT5-04)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-004.png", "faq": "Inheritable: [Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, 1 of your Digimon gets +2000 DP for the turn."},
+    {"append": "tsumemon-bt5-005", "name": "Tsumemon (BT5-05)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-005.png", "faq": "Inheritable: [When Attacking](once per turn) If this Digimon has [Unidentified] in its type, trigger <Draw 1>."},
+    {"append": "gigimon-bt5-006", "name": "Gigimon (BT5-06)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-006.png", "faq": "Inheritable: [Your Turn] (Once per turn) When another of your Digimon is deleted, this Digimon gets +2000 DP for the turn."}
 
   ]
 }
