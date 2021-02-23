@@ -52,7 +52,7 @@ Translated Japanese FAQs:\n \
 NOTE: Bandai's English FAQs may have some issues, so feel free to ask if something seems odd")        
     },
     keyword: function(message){
-        message.channel.send("Blocker: `When the opponent attacks, you may Rest this Active Digimon to become the target of that attack.`\n\n \
+        message.channel.send("Blocker: `When the opponent attacks, you may Rest this Unsuspended Digimon to become the target of that attack.`\n\n \
 Security Attack +/-X: `The number of Security cards checked by this Digimon +/- X. A player does not win the game when attacking directly with a Digimon with 0 Security Attack.`\n\n \
 Recovery +X: `Take X cards from the top of your deck and add them to the top of your Security.`\n\n \
 Piercing: `When this Digimon attacks and destroys an opponent’s Digimon by battle, it performs a Security Check against your opponent’s Security. This Security Check does not count as a direct attack.`\n\n \
@@ -67,8 +67,9 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. February 13th: IVy Leagues, Hosted by LoganIV (TTS, 1.5 Tag Team Format, Bo3 Single Elim)` - <https://challonge.com/Jogress>\n\
-`2. February 27th, 5pm EST: Nightmare Colusseum, Hosted by Nightmare (TTS,  Single Elim, 50min Rounds, Bo3, Cash Prizing)` - <https://challonge.com/8jk2n5e2>")
+`1. February 27th, 5pm EST: Nightmare Colusseum, Hosted by Nightmare (TTS,  Single Elim, 50min Rounds, Bo3, Cash Prizing)` - <https://challonge.com/8jk2n5e2>\n\
+`2. March 6th: IVy Leagues, Hosted by LoganIV (TTS, BT5 Format, Swiss w/ Top Cut, Decklists Due March 4th)` - <https://challonge.com/IvyBT5>\n\
+")
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
@@ -82,7 +83,8 @@ Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effe
     banlist: function(message){
         message.channel.send("***Limited to 1:***       Effective April 1st for English\n\
 Argomon (BT2-047)\n\
-Hidden Potential Discovered!! (BT3-103)")
+Hidden Potential Discovered!! (BT3-103)\n\n\
+Reasonings Described Here: <https://world.digimoncard.com/rule/restriction_card/>")
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \

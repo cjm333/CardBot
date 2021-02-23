@@ -43,7 +43,7 @@
     {"append": "tsunomon-bt5-002", "name": "Tsunomon (BT5-02)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-002.png", "faq": "Inheritable: [Your Turn] If this Digimon has [Garurumon] or [Omegamon] in its name, this Digimon gets +1000DP"},
     {"append": "pickmon-bt5-003", "name": "Pickmon (BT5-03)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-003.png", "faq": "Inheritable: [When Attacking] If you have 3 or more Digimon, 1 of your opponent's Digimon gets -1000DP for the turn"},
     {"append": "yokomon-bt5-004", "name": "Yokomon (BT5-04)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-004.png", "faq": "Inheritable: [Your Turn] When this card is trashed due to activating this Digimon's <Digi-Burst>, 1 of your Digimon gets +2000 DP for the turn."},
-    {"append": "tsumemon-bt5-005", "name": "Tsumemon (BT5-05)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-005.png", "faq": "Inheritable: [When Attacking](once per turn) If this Digimon has [Unidentified] in its type, trigger <Draw 1>."},
+    {"append": "tsumemon-bt5-005", "name": "Tsumemon (BT5-05)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-005.png", "faq": "Inheritable: [When Attacking](once per turn) If this Digimon has [Unidentified] in its type, trigger <Draw 1>.", "bonus": "This card is inspired by Kowloon in the Cyber Sleuth games!"},
     {"append": "gigimon-bt5-006", "name": "Gigimon (BT5-06)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-006.png", "faq": "Inheritable: [Your Turn] (Once per turn) When another of your Digimon is deleted, this Digimon gets +2000 DP for the turn."}
 
   ]
