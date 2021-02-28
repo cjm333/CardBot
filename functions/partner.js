@@ -38,19 +38,19 @@ module.exports = {
     },
 
     getPartner: function(id){
-        returnable = "";
+        returnable = ""; //159
         partners = ["Agumon", "Gabumon", "Gomamon", "Tentomon", "Palmon", "Biyomon", "Patamon", "Salamon", "Betamon", 
         "Guilmon", "Renamon", "Gatomon", "Lopmon", "Terriermon", "Gotsumon", "Kokuwamon", "DemiDevimon", "Monodramon", 
         "FanBeemon", "Guardromon", "MarineAngemon", "Impmon", "Hagurumon", "Shoutmon", "Gumdramon", "Neemon", "Bearmon",
         "Tapirmon", "Veemon", "Hawkmon", "Armadillomon", "Wormmon", "Meicoomon", "Calumon", "Leomon", 
         "Kokomon", "Crabmon", "Airdramon", "Flarerizamon", "Centarumon", "Frigimon", "Tortomon", "Floramon", "Gizamon",
-        "Elecmon", "Syakomon", "Apemon", "Kuwagamon", "Snimon", "Unimon", "Gorillamon", "Locomon", "Mervamon", "Opossummon",
+        "Elecmon", "Syakomon", "Apemon", "Kuwagamon", "Snimon", "Unimon", "Gorillamon", "Locomon", "Mervamon", "Opossummon", 
         "Hackmon", "Cyberdramon", "Gaomon", "Lalamon", "Falcomon", "Kudamon", "PawnChessmon (Black)", "PawnChessmon (White)",
         "Pipimon", "BanchoLeomon", "Zeromaru", "Dorumon", "Argomon", "Keramon", "Kunemon", "Labramon", 
         "BlackAgumon", "ToyAgumon", "Bokomon", "Monmon", "Morphomon", "BlackGabumon", "Muchomon", "Otamamon", "Penguinmon",
         "DemiMeramon", "Phascomon", "Dracmon", "Dracomon", "Psychemon", "Burgermon", "Goblimon", "Gazimon", "Solarmon",
         "SnowAgumon", "Tinkermon", "Vorvomon", "Kamemon", "Lucemon", "Jazamon", "Zubamon", "Chuumon", "Lunamon", "Coronamon", 
-        "Ballistamon", "Dorulumon", "Damemon", "Cutemon", "Chibitortomon", "Starmon and several Pickmons", "Candlemon",
+        "Ballistamon", "Dorulumon", "Damemon", "Cutemon", "Chibitortomon", "Starmon and several Pickmons", "Candlemon", 
         "Dondokomon", "Sparrowmon", "Monitamon", "Dobermon", "Seasarmon", "Gaossmon", "MailBirdramon", "Greymon (Fusion)",
         "Falcomon (Data Squad)", "Agumon X", "Betamon X", "Kokuwamon X", "Kotemon", "Kudamon (Data Squad)", "Aruraumon",
         "Liollmon", "Lopmon X", "Terriermon X", "BlackAgumon X", "Ludomon", "BlackGuilmon", "ModokiBetamon", "Crabmon X",

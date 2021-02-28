@@ -59,17 +59,18 @@ Piercing: `When this Digimon attacks and destroys an opponent’s Digimon by bat
 Draw +X: `Draw x cards from the top of your deck and add them to your hand.`\n\n \
 Jamming: `This Digimon cannot be destroyed in battle against a Security Digimon.`\n\n \
 De-Digivolve X: `Discard X cards from the top of a Digimon. If a Digimon has no Digivolution Sources remaining, or is Lv.3, you may not continue discarding.`\n\n \
-Download -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
+Digisorption -X: `When you would Digivolve into this Digimon, you may rest 1 of your Digimon to reduce the Digivolution Cost by X.`\n\n \
 Reboot: `In the opponent’s Active Phase, make this Digimon Active.`\n\n \
 Retaliation: `When this Digimon is destroyed in battle, destroy the Digimon it was battling.`\n\n \
-Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effect below.`").then(msg => {msg.delete({ timeout: 120000 })}).catch(e => {})
+Digi-Burst X: `Trash X of this Digimon's digivolution cards to activate the effect below.`\n\n\
+Rush: `This Digimon can attack the turn it comes into play.`\n\n\
+Advance: `This Digimon can attack when your opponent has 1 or more memory.`").then(msg => {msg.delete({ timeout: 120000 })}).catch(e => {})
     },
 
     event: function(message){
         message.channel.send("Upcoming Events:\n \
-`1. February 27th, 5pm EST: Nightmare Colusseum, Hosted by Nightmare (TTS,  Single Elim, 50min Rounds, Bo3, Cash Prizing)` - <https://challonge.com/8jk2n5e2>\n\
-`2. March 6th: IVy Leagues, Hosted by LoganIV (TTS, BT5 Format, Swiss w/ Top Cut, Decklists Due March 4th)` - <https://challonge.com/IvyBT5>\n\
-")
+`1. March 6th: IVy Leagues, Hosted by LoganIV (TTS, BT5 Format, Swiss w/ Top Cut, Decklists Due March 4th)` - <https://challonge.com/IvyBT5>\n\
+`2. March 22nd: Escalation Cup, Hosted by dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>")
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
