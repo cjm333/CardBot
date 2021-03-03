@@ -71,8 +71,9 @@ Advance: `This Digimon can attack when your opponent has 1 or more memory.`").th
         message.channel.send("Upcoming Events:\n \
 `1. March 6th: IVy Leagues, Hosted by LoganIV (TTS, BT5 Format, Swiss w/ Top Cut, Decklists Due March 4th)` - <https://challonge.com/IvyBT5>\n\
 `2. March 20th: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>\n\
-`3. March 22nd: Escalation Cup, Hosted by dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
-`4. March 28th: Trash Mountain Championship, Hosted by Plandana (Bo3)` - <https://challonge.com/yi3kj591>")
+`3. March 21st: Chaosmon Circuit, Hosted by jeff (TTS)` - <https://challonge.com/dhlsidfa>\n\
+`4. March 22nd: Escalation Cup, Hosted by DBX & dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
+`5. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>")
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
