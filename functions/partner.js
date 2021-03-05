@@ -30,6 +30,12 @@ module.exports = {
             case "238058299608530955": //Lugos
                 returnable = "D-Power";
                 break;
+            case "239544831305580546": //Raspberry
+                returnable = "Digivice";
+                break;
+            case "256044639335874560": //Bryansempai
+                returnable = "Digivice";
+                break;
             default:
                 index = id%digivices.length;
                 returnable = digivices[index];
@@ -85,6 +91,12 @@ module.exports = {
                 break;
             case "238058299608530955": //Lugos
                 returnable = "Terriermon";
+                break;
+            case "239544831305580546": //Raspberry
+                returnable = "Hackmon";
+                break;
+            case "256044639335874560": //Bryansempai
+                returnable = "Lucemon";
                 break;
             default:
                 index = id%partners.length;
