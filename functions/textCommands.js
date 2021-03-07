@@ -74,7 +74,8 @@ Advance: `This Digimon can attack when your opponent has 1 or more memory.`").th
 `3. March 22nd: Escalation Cup, Hosted by DBX & dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
 `4. March 27th: Nightmare Colosseum 3.0, Hosted by Nightmare (Webcam 1.5, Swiss w/ Top 8)` - <https://challonge.com/5avm4q32>\n\
 `5. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>\n\
-`6. April 3rd: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>")
+`6. April 3rd: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>\n\
+`7. April 10th: Piggles Grand Prix, Hosted by PigKnight.mon (TTS)` - <https://challonge.com/7f358xdh>")
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
