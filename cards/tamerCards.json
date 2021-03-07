@@ -41,6 +41,6 @@
         {"append": "nokia-shiramine-bt5-092", "name": "Nokia Shiramine (BT5-092)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-092.png", "faq": "[On Play] You may play 1 [Agumon] or 1 [Gabumon] from your hand without paying its memory cost.\n[Main] When digivolving one of your Digimon into a Digimon card in your hand with [Greymon], [Garurumon] or [Omnimon] in its name, you may suspend this Tamer to reduce the memory cost of the digivolution by 1."},
         {"append": "tai-kamiya-and-matt-ishida-bt5-093", "name": "Tai Kamiya & Matt Ishida (BT5-093)", "url": "https://en.digimoncard.com/images/cardlist/card/BT5-093.png", "faq": "[Start of Your Turn] If your opponent has a level 6 or higher Digimon in play, gain 2 memory.\n[Your Turn] Your Digimon with [Omnimon] in their name gain <Security Attack+1>.\n[Security] Play this card without paying its memory cost."},
 
-        {"append": "tai-kamiya-v-tamer-012", "name": "Tai Kamiya (V-Tamer, P-012)", "id": "P-012", "faq": "OFFICIAL ERRATA: The last bullet should read \"1 of your Digimon gets +1000 DP for the turn.\""}
+        {"append": "tai-kamiya-v-tamer-012", "name": "Tai Kamiya (V-Tamer, P-012)", "id": "P-012"}
       ]
 }

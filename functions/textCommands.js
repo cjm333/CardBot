@@ -70,12 +70,12 @@ Advance: `This Digimon can attack when your opponent has 1 or more memory.`").th
     event: function(message){
         message.channel.send("Upcoming Events:\n \
 `1. March 6th: IVy Leagues, Hosted by LoganIV (TTS, BT5 Format, Swiss w/ Top Cut, Decklists Due March 4th)` - <https://challonge.com/IvyBT5>\n\
-`2. March 6th: Dev League BT5-1, Hosted by orangeswim (Double Elim, BT5, $6 Entry, 32 Player Max)` - <https://challonge.com/dcdevbt5_1>\n\
-`3. March 21st: Chaosmon Circuit, Hosted by jeff (TTS)` - <https://challonge.com/dhlsidfa>\n\
-`4. March 22nd: Escalation Cup, Hosted by DBX & dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
-`5. March 27th: Nightmare Colosseum 3.0, Hosted by Nightmare (Webcam 1.5, Swiss w/ Top 8)` - <https://challonge.com/5avm4q32>\n\
-`6. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>\n\
-`7. April 13th: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>")
+`2. March 21st: Chaosmon Circuit, Hosted by jeff (TTS)` - <https://challonge.com/dhlsidfa>\n\
+`3. March 22nd: Escalation Cup, Hosted by DBX & dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
+`4. March 27th: Nightmare Colosseum 3.0, Hosted by Nightmare (Webcam 1.5, Swiss w/ Top 8)` - <https://challonge.com/5avm4q32>\n\
+`5. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>\n\
+`6. April 3rd: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>\n\
+`7. March 13th: Dev League BT5-1, Hosted by orangeswim (Double Elim, BT5, $6 Entry, 32 Player Max)` - <https://challonge.com/dcdevbt5_1>")
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
