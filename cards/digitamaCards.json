@@ -34,7 +34,7 @@
 
     {"append": "sakuttomon-bt4-001", "name": "Sakuttomon (BT4-001)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-001.png", "faq": "[When Attacking] (once per turn) When this Digimon is LV7, get Memory +1"},
     {"append": "bukamon-bt4-002", "name": "Bukamon (BT4-002)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-002.png", "faq": "[When Attacking] Discard 1 Evolution Source of 1 of your opponent's LV4 or below Digimon from the bottom"},
-    {"append": "koromon-bt4-003", "name": "Koromon (BT4-003)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-003.png", "faq": "[When Attacking] (once per turn) When you have 3 or less Security, 1 of your opponent's Digimon gets -1000DP for the turn"},
+    {"append": "koromon-bt4-003", "name": "Koromon (BT4-003)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-003.png", "faq": "[When Attacking] (once per turn) If you have 3 or less Security, 1 of your opponent's Digimon gets -1000DP for the turn"},
     {"append": "budmon-bt4-004", "name": "Budmon (BT4-004)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-004.png", "faq": "[Your turn] While this Digimon has <Digi-burst>, it gets +1000 DP."},
     {"append": "missimon-bt4-005", "name": "Missimon (BT4-005)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-005.png", "faq": "[Your turn] While this Digimon is [D-Brigade] type, it gets +1000 DP."},
     {"append": "xiaomon-bt4-006", "name": "Xiaomon (BT4-006)", "url": "https://en.digimoncard.com/images/cardlist/card/BT4-006.png", "faq": "[Your turn] While you have 10 or more cards in your trash, this digimon gains <Retaliation>."},
