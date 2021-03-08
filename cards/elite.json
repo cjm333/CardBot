@@ -32,5 +32,6 @@
         {"name": "Potato (1 Boost)", "id": "762738504500641813", "normal": 5, "fresh": "an Egg", "inTraining": "Budmon", "rookie": "EbiBurgamon", "champion": "Burgamon", "ultimate": "Jyagamon", "mega": ["NoblePumpkinmon"], "digivice": "Digivice iC"},
         {"name": "Mynor (1 Boost)", "id": "152601241455689728", "normal": 3, "fresh": "Mokumon", "inTraining": "Sunmon", "rookie": "Coronamon", "champion": "Firamon", "ultimate": "Flaremon", "mega": ["Apollomon", "GraceNovamon"], "digivice": "Smartphone Digivice"},
         {"name": "Maria/Pekora Usada (2 Boosts)", "id": "223208303541354498", "normal": 3, "fresh": "Relemon", "inTraining": "Viximon", "rookie": "Renamon", "champion": "Kyubimon", "ultimate": "Taomon", "mega": ["Sakuyamon"], "digivice": "D-Power"},
-        {"name": "Ribell", "id": "277928302155530240", "normal": 3, "fresh": "Pipmon", "inTraining": "Tanemon", "rookie": "Palmon", "champion": "Togemon", "ultimate": "Lillymon", "mega": ["BanchoLillymon"], "digivice": "Digivice"}
+        {"name": "Ribell", "id": "277928302155530240", "normal": 3, "fresh": "Pipmon", "inTraining": "Tanemon", "rookie": "Palmon", "champion": "Togemon", "ultimate": "Lillymon", "mega": ["BanchoLillymon"], "digivice": "Digivice"},
+        {"name": "Logan", "id": "285241100703236097", "normal": 3, "fresh": "an Egg", "inTraining": "Nyaromon", "rookie": "Cutemon", "champion": "Unimon", "ultimate": "HippoGryphmon", "mega": ["Zhuqiaomon", "GreatestCutemon"], "digivice": "Digivice"}
     ]}
