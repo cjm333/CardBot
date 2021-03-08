@@ -72,9 +72,9 @@ Advance: `This Digimon can attack when your opponent has 1 or more memory.`").th
 `1. March 13th: Dev League BT5-1, Hosted by orangeswim (Double Elim, BT5, $6 Entry, 32 Player Max)` - <https://challonge.com/dcdevbt5_1>\n\
 `2. March 21st: Chaosmon Circuit, Hosted by jeff (TTS)` - <https://challonge.com/dhlsidfa>\n\
 `3. March 22nd: Escalation Cup, Hosted by DBX & dhyeya336 (TTS, Week Long Event)` - <https://challonge.com/7n8yy0y7>\n\
-`4. March 27th: Nightmare Colosseum 3.0, Hosted by Nightmare (Webcam 1.5, Swiss w/ Top 8)` - <https://challonge.com/5avm4q32>\n\
-`5. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>\n\
-`6. April 3rd: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>\n\
+`4. March 28th: Trash Mountain Championship, Hosted by Plandana (TTS, Bo3)` - <https://challonge.com/yi3kj591>\n\
+`5. April 3rd: Big Byte #10, Hosted by RazeOblivion (1.5 Webcam, Swiss)` - <https://challonge.com/HardModeGamesBB10>\n\
+`6. April 10th: Nightmare Colosseum 3.0, Hosted by Nightmare (Webcam 1.5, Swiss w/ Top 8)` - <https://challonge.com/5avm4q32>\n\
 `7. April 10th: Piggles Grand Prix, Hosted by PigKnight.mon (TTS)` - <https://challonge.com/7f358xdh>")
     },
     release: function(message){
