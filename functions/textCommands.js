@@ -79,12 +79,11 @@ Advance: `This Digimon can attack when your opponent has 1 or more memory.`").th
     },
     release: function(message){
         message.channel.send("Upcoming English Releases:\n\
-`1. Booster 1.5: March 12th (Delayed from February 28th)`\n\
-`2. Premium Pack 01: April 15th`\n\
-`3. Great Legends (BT4): May 28th (Delayed from original)`\n\
-`4. Battle of Omni (BT5): July 23rd (Dealyed from original)`\n\
-`5. WarGreymon Playmat Bundle: August`\n\
-`6. ST4-6: Originally alongside BT4, unsure now with the BT4 delays`")
+`1. Premium Pack 01: April 15th`\n\
+`2. Great Legends (BT4): May 28th (Delayed from original)`\n\
+`3. Battle of Omni (BT5): July 23rd (Dealyed from original)`\n\
+`4. WarGreymon Playmat Bundle: August`\n\
+`5. ST4-6: Originally alongside BT4, unsure now with the BT4 delays`")
     },
     banlist: function(message){
         message.channel.send("***Limited to 1:***       Effective April 1st for English\n\
@@ -94,7 +93,7 @@ Reasonings Described Here: <https://world.digimoncard.com/rule/restriction_card/
     },
     info: function(message){
         message.channel.send("Premium Partner Functionality can be granted in 2 different ways:\n \
-1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord (at least 20 participants)\n \
+1. Achieve Gold Tamer status by winning an online Tournament hosted in this Discord (at least 16 participants)\n \
 2. Become a Server Booster (There are 21 Boosters Currently with 30 Boosts total)\n\n \
 You may also attain a personal partner *without* full line functionality in 2 different ways:\n \
 1. Donate at least $5 to the server's Premium Mee6 fund (20 slots left, $0 of $100 donated)\n \

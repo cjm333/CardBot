@@ -184,13 +184,14 @@ module.exports = {
                 else if(elitePartner == "DoruGreymon"){elitePartner = "doruguremon";}
                 else if(elitePartner.includes("Millenniummon")){elitePartner = elitePartner.replace("Millenniummon", "Millenniumon");}
                 else if(elitePartner.includes("Hackmon")){elitePartner = elitePartner.replace("Hackmon", "Huckmon");}
-                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon" || elitePartner == "Sistermon Noir (Awakened)"){customImage = true;}
+                else if(elitePartner == "an Egg" || elitePartner == "TerrierCrewsmon" || elitePartner == "ModokiBetamon" || elitePartner == "Sistermon Noir (Awakened)" || elitePartner == "GreatestCutemon"){customImage = true;}
                 if(customImage){
                     //if(elitePartner == "TerrierCrewsmon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/crews.png");}
                     if(elitePartner == "an Egg"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/egg.png");}
                     else if(elitePartner == "OmegaNumemon"){partnerEmbed.setImage("https://digimon-bucket.s3.amazonaws.com/OmegaNume.png");}
                     else if(elitePartner == "ModokiBetamon"){partnerEmbed.setImage("https://wikimon.net/images/3/3f/Modokibetamon.jpg");} 
                     else if(elitePartner == "Sistermon Noir (Awakened)"){partnerEmbed.setImage("https://wikimon.net/images/f/f0/Sistermon_noir_awaken.jpg");} 
+                    else if(elitePartner == "GreatestCutemon"){partnerEmbed.setImage("https://wikimon.net/images/4/4b/Greatestcutemon.jpg");} 
  
                 }
                 else{
